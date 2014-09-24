@@ -374,3 +374,7 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+#cv-icon {
+    font-size: 15em;
+    margin-bottom: 30px;
+}
