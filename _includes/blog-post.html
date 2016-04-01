@@ -1,0 +1,8 @@
+<!-- Blog Post section-->
+<section id="blog-post">
+    <div class="container">
+        <h3><span class="colour-primary">{{ page.title }}<span></h3>
+        {% include blog-post-info.html context=page %}
+        {{ content }}
+    </div>
+</section>
