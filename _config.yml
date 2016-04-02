@@ -47,6 +47,7 @@ address:
 credits: 'I am a Web &amp; Mobile developer with a passion to develop code and have fun doing it!'
 
 # Build settings
+exclude: [Rakefile]
 permalink: pretty
 markdown: kramdown
 kramdown:
