@@ -5,8 +5,8 @@ require "bundler/setup"
 require "jekyll"
 
 
-# Change your GitHub reponame
-GITHUB_REPONAME = "mezpahlan/mezpahlan.github.com"
+# GitHub username/reponame
+GITHUB_REPONAME = "mezpahlan/mezpahlan.github.io.git"
 
 
 desc "Generate blog files"
@@ -30,7 +30,7 @@ task :publish => [:generate] do
     system "git add ."
     message = "Auto generated from source branch at #{Time.now}"
     system "git commit -m #{message.inspect}"
-    system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
+    system "git remote add origin https://github.com/#{GITHUB_REPONAME}"
     system "git push origin master --force"
 
     Dir.chdir pwd
