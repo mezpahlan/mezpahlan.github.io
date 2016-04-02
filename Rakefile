@@ -31,7 +31,7 @@ task :publish => [:generate] do
     message = "Auto generated from source branch at #{Time.now}"
     system "git commit -m #{message.inspect}"
     system "git remote add origin https://github.com/#{GITHUB_REPONAME}"
-    system "git push origin master --force"
+    system "git push origin master"
 
     Dir.chdir pwd
   end
