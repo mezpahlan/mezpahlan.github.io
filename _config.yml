@@ -1,7 +1,7 @@
 # Site settings
 title: Mez Pahlan
 email: mez.pahlan@gmail.com
-url: http://localhost:4000
+url: https://mezpahlan.github.io
 description: 'I am a Web &amp; Mobile developer with a passion for Mobile technologies, Agile, DevOps, Continuous Integration, Open Source, Front End Development, and Visual Design.'
 
 # Blog post settings
@@ -47,7 +47,7 @@ address:
 credits: 'I am a Web &amp; Mobile developer with a passion to develop code and have fun doing it!'
 
 # Build settings
-exclude: [Rakefile]
+exclude: [Rakefile, Gemfile, Gemfile.lock]
 permalink: pretty
 markdown: kramdown
 kramdown:
