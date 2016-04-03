@@ -11,7 +11,7 @@ blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-52793867532665146
 blogger_orig_url: http://mezsays.blogspot.com/2011/02/need-to-blog-more.html
 ---
 
-I need to blog more. And with an aim to do that I have downloaded the new Google Blogger client for Android. 
+I need to blog more. And with an aim to do that I have downloaded the new Google Blogger client for Android.
 Stay tuned for some more blogs!
 
 <!-- more -->

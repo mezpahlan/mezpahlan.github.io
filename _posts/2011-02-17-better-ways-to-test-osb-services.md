@@ -29,5 +29,5 @@ So far I have not been able to make this a reality. My two options are limited b
 
 Is there a way of either directly invoking the debug window for a service without using the GUI? Some scripting using ANT would then possibly allow automation using SOAPUI.
 Alternatively is there a way to dynamically change the transport type and output for a proxy service. That way, again, SOAPUI could invoke the service and assert results from the output.
-The first is ideal since you don't need to modify the way you code your service. You can also have different transport mechanisms since these are bypassed by the direct invocation of the service. 
+The first is ideal since you don't need to modify the way you code your service. You can also have different transport mechanisms since these are bypassed by the direct invocation of the service.
 The hunt for proper unit testing in the OSB continues.

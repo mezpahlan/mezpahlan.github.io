@@ -25,7 +25,7 @@ In a large pot (one that is oven safe) add the beef and the ale along with the w
 
 Put in a pre-heated oven at 160 °C and let it slowly cook for 4 hours. About 15 minutes before the end boil the pasta and chop the parsley. Stir the parsley into the pot and serve with the pasta, possibly some nice bread and a good glass of wine.
 
-Enjoy. 
+Enjoy.
 
 <div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-KTZPem1pr14/Uj3p61HfG3I/AAAAAAAAYU8/6jTMRVsrHTU/s1600/IMAG0697.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="362" src="http://4.bp.blogspot.com/-KTZPem1pr14/Uj3p61HfG3I/AAAAAAAAYU8/6jTMRVsrHTU/s640/IMAG0697.jpg" width="640" /></a></div>
                               </div>
