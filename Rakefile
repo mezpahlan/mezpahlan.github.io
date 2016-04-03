@@ -1,14 +1,8 @@
-require "rubygems"
-require "bundler/setup"
-require "jekyll"
-
 desc "Generate blog files"
 task :generate do
   puts "\## Building blog using Jekyll"
-  Jekyll::Site.new(Jekyll.configuration({
-    "source"      => ".",
-    "destination" => "_site"
-  })).process
+  status = system("jekyll build")
+  puts status ? "Success" : "Failed"
 end
 
 desc "Deploy _site/ to master branch"
