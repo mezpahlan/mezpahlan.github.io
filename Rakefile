@@ -13,7 +13,7 @@ task :generate do
 end
 
 desc "Deploy _site/ to master branch"
-task :publish  => [:generate] do
+task :publish do
   puts "\n## Ensure we are in sources branch to begin"
   status = system("git checkout sources")
   puts status ? "Success" : "Failed"
