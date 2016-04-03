@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mez Pahlan</title>
+    <description>I am a Web &amp;amp; Mobile developer with a passion for Mobile technologies, Agile, DevOps, Continuous Integration, Open Source, Front End Development, and Visual Design.</description>
+    <link>https://mezpahlan.github.io/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 03 Apr 2016 17:13:13 +0100</pubDate>
+    <lastBuildDate>Sun, 03 Apr 2016 17:13:13 +0100</lastBuildDate>
+    <generator>Jekyll v3.0.3</generator>
+
+      <item>
+        <title>Deconstructing Tweets</title>
+        <description></description>
+        <pubDate>Mon, 06 Jul 2015 19:25:00 +0100</pubDate>
+        <link>https://mezpahlan.github.io/2015/07/06/deconstructing-tweets/</link>
+        <guid isPermaLink="true">https://mezpahlan.github.io/2015/07/06/deconstructing-tweets/</guid>
+
+        <category>programming</category>
+
+
+      </item>
+
+      <item>
+        <title>The Jive Election 2015</title>
+        <description></description>
+        <pubDate>Sat, 09 May 2015 16:49:00 +0100</pubDate>
+        <link>https://mezpahlan.github.io/2015/05/09/the-jive-election-2015/</link>
+        <guid isPermaLink="true">https://mezpahlan.github.io/2015/05/09/the-jive-election-2015/</guid>
+
+        <category>programming</category>
+
+        <category>politics</category>
+
+
+      </item>
+
+      <item>
+        <title>Bathroom All Done</title>
+        <description></description>
+        <pubDate>Sun, 03 May 2015 19:01:00 +0100</pubDate>
+        <link>https://mezpahlan.github.io/2015/05/03/bathroom-all-done/</link>
+        <guid isPermaLink="true">https://mezpahlan.github.io/2015/05/03/bathroom-all-done/</guid>
+
+        <category>home</category>
+
+
+      </item>
+
+      <item>
+        <title>Roasted Spicy Chicken With Rice</title>
+        <description></description>
+        <pubDate>Sun, 01 Feb 2015 14:32:00 +0000</pubDate>
+        <link>https://mezpahlan.github.io/2015/02/01/roasted-spicy-chicken-with-rice/</link>
+        <guid isPermaLink="true">https://mezpahlan.github.io/2015/02/01/roasted-spicy-chicken-with-rice/</guid>
+
+        <category>food</category>
+
+
+      </item>
+
+      <item>
+        <title>Shopping for a bathroom</title>
+        <description></description>
+        <pubDate>Sun, 25 Jan 2015 17:13:00 +0000</pubDate>
+        <link>https://mezpahlan.github.io/2015/01/25/shopping-for-bathroom/</link>
+        <guid isPermaLink="true">https://mezpahlan.github.io/2015/01/25/shopping-for-bathroom/</guid>
+
+        <category>home</category>
+
+
+      </item>
+
+      <item>
+        <title>Watching TV </title>
+        <description></description>
+        <pubDate>Sun, 18 Jan 2015 12:00:00 +0000</pubDate>
+        <link>https://mezpahlan.github.io/2015/01/18/watching-tv/</link>
+        <guid isPermaLink="true">https://mezpahlan.github.io/2015/01/18/watching-tv/</guid>
+
+        <category>tv</category>
+
+
+      </item>
+
+      <item>
+        <title>Hello 2015!!</title>
+        <description></description>
+        <pubDate>Sun, 04 Jan 2015 14:55:00 +0000</pubDate>
+        <link>https://mezpahlan.github.io/2015/01/04/hello-2015/</link>
+        <guid isPermaLink="true">https://mezpahlan.github.io/2015/01/04/hello-2015/</guid>
+
+        <category>blog</category>
+
+
+      </item>
+
+      <item>
+        <title>Catha&#39;s Seat Design Ideas</title>
+        <description></description>
+        <pubDate>Fri, 27 Sep 2013 11:06:00 +0100</pubDate>
+        <link>https://mezpahlan.github.io/2013/09/27/cathas-seat-design-ideas/</link>
+        <guid isPermaLink="true">https://mezpahlan.github.io/2013/09/27/cathas-seat-design-ideas/</guid>
+
+        <category>programming</category>
+
+        <category>android</category>
+
+
+      </item>
+
+      <item>
+        <title>Slow Cooked Beef Ragu</title>
+        <description></description>
+        <pubDate>Sat, 21 Sep 2013 20:10:00 +0100</pubDate>
+        <link>https://mezpahlan.github.io/2013/09/21/slow-cooked-beef-ragu/</link>
+        <guid isPermaLink="true">https://mezpahlan.github.io/2013/09/21/slow-cooked-beef-ragu/</guid>
+
+        <category>food</category>
+
+
+      </item>
+
+      <item>
+        <title>Chilli Garlic Olive Oil</title>
+        <description></description>
+        <pubDate>Sat, 07 Sep 2013 17:46:00 +0100</pubDate>
+        <link>https://mezpahlan.github.io/2013/09/07/chilli-garlic-olive-oil/</link>
+        <guid isPermaLink="true">https://mezpahlan.github.io/2013/09/07/chilli-garlic-olive-oil/</guid>
+
+        <category>food</category>
+
+
+      </item>
+
+  </channel>
+</rss>
