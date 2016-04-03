@@ -5,11 +5,10 @@ require "jekyll"
 desc "Generate blog files"
 task :generate do
   puts "\## Building blog using Jekyll"
-  status = Jekyll::Site.new(Jekyll.configuration({
+  Jekyll::Site.new(Jekyll.configuration({
     "source"      => ".",
     "destination" => "_site"
   })).process
-  puts status ? "Success" : "Failed"
 end
 
 desc "Deploy _site/ to master branch"
