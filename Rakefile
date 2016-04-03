@@ -7,8 +7,8 @@ end
 
 desc "Deploy _site/ to master branch"
 task :publish do
-  puts "\n## Ensure we are in sources branch to begin"
-  status = system("git checkout sources")
+  puts "\n## Ensure we are in source branch to begin"
+  status = system("git checkout source")
   puts status ? "Success" : "Failed"
 
   puts "\n## Deleting master branch"
@@ -24,7 +24,7 @@ task :publish do
   puts status ? "Success" : "Failed"
 
   puts "\n## Switching back to source branch"
-  status = system("git checkout sources")
+  status = system("git checkout source")
   puts status ? "Success" : "Failed"
 
   puts "\n## Pushing all branches to origin"
