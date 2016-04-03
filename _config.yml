@@ -48,6 +48,7 @@ credits: 'I am a Web &amp; Mobile developer with a passion to develop code and h
 
 # Build settings
 exclude: [Rakefile, Gemfile, Gemfile.lock]
+include: [.nojekyll]
 permalink: pretty
 markdown: kramdown
 kramdown:
