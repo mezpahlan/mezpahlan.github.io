@@ -12,8 +12,6 @@ task :generate do
   puts status ? "Success" : "Failed"
 end
 
-end
-
 desc "Deploy _site/ to master branch"
 task :publish  => [:generate] do
   puts "\n## Ensure we are in sources branch to begin"
