@@ -12,9 +12,11 @@ blogger_orig_url: http://mezsays.blogspot.com/2012/07/end-is-in-sight.html
 
 Here's what's been happening this past month.
 
+{% picture {{ page.id }}/angry-penguin.png alt="Angry Penguin" %}
+
 <!-- more -->
 
-I've been waiting to port my number over from <a href="http://www.o2.co.uk/">O2</a>. Not impressed with the state of affairs around internal number porting that has lead me here. To recap I purchased a second contract on <a href="http://www.t-mobile.co.uk/">T-Mobile</a> with a fancy new phone (<a href="http://www.samsung.com/uk/consumer/mobile-devices/smartphones/android/GT-I9300MBDBTU">Samsung Galaxy S3</a>) because it was cheaper than an upgrade.
+I've been waiting to port my number over from [O2](http://www.o2.co.uk/). Not impressed with the state of affairs around internal number porting that has lead me here. To recap I purchased a second contract on [T-Mobile](http://www.t-mobile.co.uk/) with a fancy new phone ([Samsung Galaxy S3](http://www.samsung.com/uk/consumer/mobile-devices/smartphones/android/GT-I9300MBDBTU)) because it was cheaper than an upgrade.
 
 First off that has to be wrong. I am a loyal customer with a desire to stay on the network for another two years and they can't offer me an upgrade that is cheaper than a brand new customer. It's not just T-Mobile, that was the case with *every* network.
 
@@ -27,5 +29,3 @@ So I started this process and sadly found out that O2 wouldn't give me a porting
 That month has arrived! Today I will be able to port my number back again and really start using my phone. I'll post a review shortly of what I think.
 
 That's the crazy situation we're in.Had a similar experience? Let me know in the comments.
-
-<div class="separator" style="clear: both; text-align: center;"><a href="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Angry_Penguin.svg/500px-Angry_Penguin.svg.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Angry_Penguin.svg/500px-Angry_Penguin.svg.png" /></a></div>
