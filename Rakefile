@@ -1,3 +1,5 @@
+require 'open3'
+
 desc "Generate blog files"
 task :generate do
   puts "## Building blog using Jekyll"
@@ -5,29 +7,41 @@ task :generate do
   puts status ? "Success" : "Failed"
 end
 
-desc "Deploy _site/ to master branch"
+desc "Build and deploy site"
 task :publish do
-  puts "## Ensure we are in source branch to begin"
-  status = system("git checkout source")
-  puts status ? "Success" : "Failed"
+    puts "## Get the latest commit from source branch"
 
-  puts "## Deleting master branch"
-  status = system("git branch -D master")
-  puts status ? "Success" : "Failed"
+    # TODO: better error checking
+    last_commit, stderr, status = Open3.capture3("git rev-parse --short HEAD")
+    puts last_commit ? "Success" : "Failure"
 
-  puts "## Creating new master branch and switching to it"
-  status = system("git checkout -b master")
-  puts status ? "Success" : "Failed"
+    if status
+        puts "Last commit in source branch was #{last_commit}"
+    end
 
-  puts "## Forcing the _site subdirectory to be project root"
-  status = system("git filter-branch --subdirectory-filter _site/ -f")
-  puts status ? "Success" : "Failed"
+    puts "## Building site using Jekyll"
+    stdout, stderr, status = Open3.capture3("jekyll build")
+    puts status ? "Success" : "Failure"
 
-  puts "## Switching back to source branch"
-  status = system("git checkout source")
-  puts status ? "Success" : "Failed"
+    puts "Move into the _site directory"
+    Dir.chdir("_site/")
 
-  puts "## Pushing all branches to origin"
-  status = system("git push --all origin")
-  puts status ? "Success" : "Failed"
+    # TODO: check that we are using the correct branch at this level we should be in `master`
+
+    puts "Stage all the changes"
+    stdout, stderr, status = Open3.capture3("git add -A")
+    puts status ? "Success" : "Failure"
+
+    puts "Commit changes"
+    stdout, stderr, status = Open3.capture3("git commit -m \"Auto built using revision #{last_commit}\"")
+    puts status ? "Success" : "Failure"
+
+    puts "Push changes"
+    stdout, stderr, status = Open3.capture3("git push origin master")
+    puts status ? "Success" : "Failure"
+
+    puts "Move to root folder"
+    Dir.chdir("../")
+
+    puts "Successfully built and pushed to GitHub."
 end
