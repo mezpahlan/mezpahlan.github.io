@@ -14,7 +14,7 @@ Played this about a month ago with my girlfriend. Good fun, especially with beer
 
 <!-- more -->
 
-1. Go to <a href="http://www.youtube.com/">YouTube</a>
+1. Go to [YouTube](https://www.youtube.com/)
 2. Player 1 picks a music video to watch
 3. Player 2 picks another music video that has some connection with the previous music video
 4. Watch the new video 
