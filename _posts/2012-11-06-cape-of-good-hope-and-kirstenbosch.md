@@ -19,45 +19,55 @@ My last blog post aimed to be in the style of American Psycho. Reading it back t
 
 <!-- more -->
 
-*We went to Hout Bay to look and to play,  
-Sipping some coffee there as we lay.  
-We browsed the market selling all sorts of goods,  
-On the magical coach tour around South Africa's hoods.*
+<p class="text-center">
+<i>We went to Hout Bay to look and to play,<br/>
+Sipping some coffee there as we lay.<br/>
+We browsed the market selling all sorts of goods,<br/>
+On the magical coach tour around South Africa's hoods.</i>
+</p>
 
 <figure>
 {% picture {{ page.id }}/cape-of-good-hope.jpg alt="Cape Of Good Hope" class="captioned-picture"%}
 <figcaption>Cape Of Good Hope</figcaption>
 </figure>
 
-*Penguin Sean was excited and playful all day,  
-To rendezvous with his cousins at Betty's Bay.  
-Alas and damn and drat we say,  
-Our coach tour to the penguins was not today!*
+<p class="text-center">
+<i>Penguin Sean was excited and playful all day,<br/>
+To rendezvous with his cousins at Betty's Bay.<br/>
+Alas and damn and drat we say,<br/>
+Our coach tour to the penguins was not today!</i>
+</p>
 
 <figure>
 {% picture {{ page.id }}/sean-falls.jpg alt="Sean falls over" class="captioned-picture"%}
 <figcaption>Sean falls over</figcaption>
 </figure>
 
-*We travelled to Cape Point by the nature reserve,  
-Down by the coast eating jams and preserves.  
-The road was winding but we travelled it right,  
-The food was devine that we ate last night.* 
+<p class="text-center">
+<i>We travelled to Cape Point by the nature reserve,<br/>
+Down by the coast eating jams and preserves.<br/>
+The road was winding but we travelled it right,<br/>
+The food was devine that we ate last night.</i>
+</p>
 
-*Out there was a lighthouse no one was about,  
-They'd moved the house down with a bang and a shout!  
-The old house was high - too high for those ships,  
-That banged on the shore all broken in sticks.*
+<p class="text-center">
+<i>Out there was a lighthouse no one was about,<br/>
+They'd moved the house down with a bang and a shout!<br/>  
+The old house was high - too high for those ships,<br/>
+That banged on the shore all broken in sticks.</i>
+</p>
  
 <figure>
 {% picture {{ page.id }}/cape-point.jpg alt="Cape Point" class="captioned-picture"%}
 <figcaption>Cape Point</figcaption>
 </figure> 
 
-*Kirstenbosch gardens was our final stop,  
-To end the third day with a bang and a pop!  
-Now sleepy and aching from walking all day,  
-We sunk a few cocktails and then hit the hay.*
+<p class="text-center">
+<i>Kirstenbosch gardens was our final stop,<br/>
+To end the third day with a bang and a pop!<br/>
+Now sleepy and aching from walking all day,<br/>
+We sunk a few cocktails and then hit the hay.</i>
+</p>
 
 <figure>
 {% picture {{ page.id }}/sean-bench.jpg alt="Sean sits on a bench" class="captioned-picture"%}
