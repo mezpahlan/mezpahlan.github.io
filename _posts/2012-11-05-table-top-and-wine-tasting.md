@@ -17,6 +17,11 @@ South Africa Day One - Two
 
 We're on holiday in South Africa for two weeks during which I'll try and write a few blog posts about the experience in the style of Patrick Bateman from Bret Easton Ellis' American Psycho.
 
+<figure>
+{% picture {{ page.id }}/table-wine.jpg alt="Table Wine" class="captioned-picture"%}
+<figcaption>Table Wine</figcaption>
+</figure>
+
 <!-- more -->
 
 The day started as the night ended. Dead quiet and lifeless. Even after the many hours sleep I still felt that I needed more. What was I doing? I can only remember brief recollections. Nothing to stitch together to form proper memories. On the Question Time show they were talking about the presidential vote. I sipped a glass of wine and went to bed.
@@ -31,7 +36,7 @@ I decided to purchase a backpack for the trip. I heard a lot about the new Jansp
 The flight was a South African airlines flight that was nice enough. Ample leg room. Normally I'd fly first but for the traditional experience we decided to go super economy plus. Sitting at the back affords the passenger twenty one millimetres extra width on the right hand arm rest. Crucial for that twelve hour flight. I listened to the new Phil Collins album. He really had come a long way since Genesis. I sat through The Amazing Spiderman which I thought was ok and the Muhammad Ali biopic by Michael Mann. He went from this to Transformers? That man is an idiot.
 
 We needed a three hour stop over in Johannesburg before catching a connecting flight to Cape Town. We took Sean the penguin with us who was dressed in a traditional style outfit by The International House Of Mojo. Quite fetching he looked too. I changed into a Marks And Spencer zip up cardigan and put on my Specsavers glasses since my eyes were starting to get sore. 
-<center><img 180="180" height="320" src="https://lh4.googleusercontent.com/-HhZTcPcSups/UJgsq4jcjyI/AAAAAAAAKiM/g9cyu4D42P4/%25255BUNSET%25255D.jpg width=" /></center>
+
 Cape Town is a lovely place. We went to Table Top mountain as soon as we landed. The weather can be a bit hit and miss up there but today was perfect. The cable car up there took only five minutes and was built by a Swiss company. I forget who but one of the bigger ones.
 
 The views from the top were stunning. It is one of seven natural wonders of the modern world. Food too was sublime. I made reservations at the cafe at the top and ordered Ostrich subs for myself and fried Hake for Anne-Marie. She ate about a third of the plate and I finished mine. I can afford to do that because the week before I had done three hundred crunches and spent fifteen minutes on the step machine. We almost lost two old biddies on the mountain as we left for the coach and they were waiting for assistance at the top of the cable car.
@@ -49,5 +54,9 @@ The second vineyard was Solms Delta. This is a very picturesque vineyard that is
 
 We then stopped for lunch in Stelenbosch. Anne-Marie had a Jalapeño and cheese starter and pasta arabiatta for mains. I had battered prawns for starters and chicken tagliatelle for mains. Anne-Marie had a late whilst I had a capaccino. We also stopped off at a camera shop to get new batteries for my camera but even the new ones wouldn't work. I wasn't convinced that she was doing it right so at the next shop I shall enquire again. In the meantime I run the risk of having all my photos over exposed.
 
-The last and final wine tasting for the day was a barrel tasting. This meant that it was a wine expert standing around a barrel whilst we necked the wine. The grounds of this vineyard were lovely and I hope the pictures come out well. 
-<center><img 240="240" height="320" src="https://lh6.googleusercontent.com/-6ukKuIfH5Ds/UJgve1hOzZI/AAAAAAAAKic/0TFwSPO6ylQ/%25255BUNSET%25255D.jpg width=" /></center>
+The last and final wine tasting for the day was a barrel tasting. This meant that it was a wine expert standing around a barrel whilst we necked the wine. The grounds of this vineyard were lovely and I hope the pictures come out well.
+
+<figure>
+{% picture {{ page.id }}/wine-table.jpg alt="Wine Table" class="captioned-picture"%}
+<figcaption>Wine Table</figcaption>
+</figure>
