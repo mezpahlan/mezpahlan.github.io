@@ -14,6 +14,11 @@ blogger_orig_url: http://mezsays.blogspot.com/2012/10/books-and-cheese.html
 
 This weekend I completed two activities. The first was finish reading Frankenstein and the second was to finish a wheel of cheese from Cheddar.
 
+<figure>
+{% picture {{ page.id }}/battersea-park.jpg alt="Battersea Park" class="captioned-picture"%}
+<figcaption>Battersea Park</figcaption>
+</figure>
+
 <!-- more -->
 
 Firstly the book. Frankenstein was an enjoyable read but completely not as I remember. In fact what I remember is the Hollywood tale of Frankenstein and not actually the true source material.
@@ -24,9 +29,4 @@ Nevertheless the talking version of the monster was very interesting. I felt no 
 
 Now the cheese!
 
-
 The cheese was from a gorge in Cheddar and purchase by my friend Tom who is cycling around the UK at the moment and stopped off to share some chat, cheese and port. I'm afraid I can't place the actual variety of cheddar but it has a very strong after taste that to me taste like mustard. Very nice and really yummy melted over some toast!
-
-Here's a nice picture of Battersea Park.
-
-<div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-7sPit9spWS8/UH6KC8OklxI/AAAAAAAAJm4/S6ZDorqCWiE/s1600/C360_2012-10-10-12-41-33.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-7sPit9spWS8/UH6KC8OklxI/AAAAAAAAJm4/S6ZDorqCWiE/s1600/C360_2012-10-10-12-41-33.jpg" height="360" width="640" /></a></div>
