@@ -33,7 +33,7 @@ task :publish do
     puts status ? "Success" : "Failure"
 
     puts "Commit changes"
-    stdout, stderr, status = Open3.capture3("git commit -m \"Auto built upto revision #{last_commit}\"")
+    stdout, stderr, status = Open3.capture3("git commit -m \"Site auto built upto and including revision #{last_commit}\"")
     puts status ? "Success" : "Failure"
 
     puts "Push changes"
