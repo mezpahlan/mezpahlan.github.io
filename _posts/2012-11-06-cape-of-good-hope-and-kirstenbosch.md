@@ -13,7 +13,7 @@ blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-47511034804107403
 blogger_orig_url: http://mezsays.blogspot.com/2012/11/cape-of-good-hope-and-kirstenbosch.html
 ---
 
-South Africa Day Three
+#### South Africa Day Three
 
 My last blog post aimed to be in the style of American Psycho. Reading it back to myself it sounds more like Alan Partridge. So I will try something different this time. I will write this on the style of Dr Seuss.
 
