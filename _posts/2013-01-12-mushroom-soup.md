@@ -11,7 +11,7 @@ blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-80238467504841042
 blogger_orig_url: http://mezsays.blogspot.com/2013/01/mushroom-soup.html
 ---
 
-Of late, I have been subscribed to an interesting food channel on YouTube called  <a href="http://www.youtube.com/user/RecipeWars">RecipeWars</a>. The concept is simple: two chefs head to head, best recipe  wins. Only they don't really win anything it is for funsies. What you  do get is two enthusiastic chefs trying out two recipes (largely from famous US chefs) whilst providing some rather good commentary about the ingredients and what works well. Whilst I would prefer a slightly broader scope in recipe sources -&nbsp; such as those from international chefs - I have enjoyed watching the channel and continue to do so.
+Of late, I have been subscribed to an interesting food channel on YouTube called [RecipeWars](http://www.youtube.com/user/RecipeWars). The concept is simple: two chefs head to head, best recipe  wins. Only they don't really win anything it is for funsies. What you  do get is two enthusiastic chefs trying out two recipes (largely from famous US chefs) whilst providing some rather good commentary about the ingredients and what works well. Whilst I would prefer a slightly broader scope in recipe sources - such as those from international chefs - I have enjoyed watching the channel and continue to do so.
 
 <!-- more -->
 
@@ -19,18 +19,33 @@ Gaining inspiration from this, we decided to make Mushroom Soup. Here's how.
 
 Ingredients:
 
-<ul class="ingredients"><li class="ingredient">30 - 35 grams of dried porcinis </li><li class="ingredient">The remains of a <strike>glass</strike> bottle of red wine </li><li class="ingredient">40 grams of butter </li><li class="ingredient">2 large onions, chopped&nbsp;</li><li class="ingredient">1 bulb of garlic, coarsely chopped </li><li class="ingredient">400 - 500 grams of white mushrooms</li><li class="ingredient">1 leek, white and light green parts only, thinly sliced </li><li class="ingredient">3 heaped tablespoons of flour </li><li class="ingredient">1.5 litres of vegetable stock </li><li class="ingredient">2 sprigs fresh thyme </li><li class="ingredient">100 - 120 millilitres of double cream&nbsp;</li></ul>&nbsp;Intructions:
+* 30 - 35 grams of dried porcinis
+* The remains of a ~~glass~~ bottle of red wine 
+* 40 grams of butter
+* 2 large onions, chopped
+* 1 bulb of garlic, coarsely chopped
+* 400 - 500 grams of white mushrooms
+* 1 leek, white and light green parts only, thinly sliced
+* 3 heaped tablespoons of flour
+* 1.5 litres of vegetable stock
+* 2 sprigs fresh thyme
+* 100 - 120 millilitres of double cream
+
+Intructions:
 
 Take the porcinis and heat them up in a small pan on a gentle heat with the left over wine. The porcini flavour really comes out and mixes with whatever nice wine you had the night before. Once the wine comes to a boil, take off the heat and leave to rest for at least 20 minutes. This will give it time to soak up more flavour.
 
-In a large stock pot put the butter and chopped onions in and start to <span class="st">sauté until the onions start to become translucent. Add to this the garlic and stir in. Don't worry if the garlic is still in large chunks, it will soften and break up as we go.&nbsp;</span>
-<span class="st">
-</span><span class="st">Keeping the pan on a simmering heat, add all the chopped white mushrooms (not the porcinis just yet) and&nbsp; the sliced leek. Stir this in for about 5 - 10 minutes until you start to see all the liquid from the mushrooms run out into the bottom of the stock pan. Finally add the flour and stir in.</span>
-<span class="st">
-</span><span class="st">Now add the vegetable stock and the thyme and leave to simmer for 45 minutes stirring occasionally. </span>
-<span class="st">
-</span><span class="st">Finally add in the double cream and the porcinis that have been left to stand along with the wine sauce. Stir this in to the mixture and leave for 15 minutes. Blend with a hand held blender to your liking. Serve with crusty bread. Enjoy.</span>
-<span class="st">
-</span>
-<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="http://4.bp.blogspot.com/-UjpI4hXQ9q8/UPGYMeLwhAI/AAAAAAAAO7A/PgFRGwYF3K4/s1600/IMG_20130112_162852.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://4.bp.blogspot.com/-UjpI4hXQ9q8/UPGYMeLwhAI/AAAAAAAAO7A/PgFRGwYF3K4/s1600/IMG_20130112_162852.jpg" height="480" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Hmmmm soup</td></tr></tbody></table>
-This recipe was adapted from RecipeWars which in turn adapted it from <a href="http://www.marthasflowers.com/recipe/4639/Cream-of-Porcini-Soup-with-Quail-Eggs">Emerils</a>.
+In a large stock pot put the butter and chopped onions in and start to sauté until the onions start to become translucent. Add to this the garlic and stir in. Don't worry if the garlic is still in large chunks, it will soften and break up as we go.
+
+Keeping the pan on a simmering heat, add all the chopped white mushrooms (not the porcinis just yet) and the sliced leek. Stir this in for about 5 - 10 minutes until you start to see all the liquid from the mushrooms run out into the bottom of the stock pan. Finally add the flour and stir in.
+
+Now add the vegetable stock and the thyme and leave to simmer for 45 minutes stirring occasionally.
+
+Finally add in the double cream and the porcinis that have been left to stand along with the wine sauce. Stir this in to the mixture and leave for 15 minutes. Blend with a hand held blender to your liking. Serve with crusty bread. Enjoy.
+
+<figure>
+{% picture {{ page.id }}/soup.jpg alt="Hmmmm soup" class="captioned-picture"%}
+<figcaption>Hmmmm soup</figcaption>
+</figure>
+
+This recipe was adapted from RecipeWars which in turn adapted it from [Emerils](http://www.marthasflowers.com/recipe/4639/Cream-of-Porcini-Soup-with-Quail-Eggs).
