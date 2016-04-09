@@ -11,8 +11,6 @@ blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-64227793580694824
 blogger_orig_url: http://mezsays.blogspot.com/2015/02/roasted-spicy-chicken-with-rice.html
 ---
 
-### Roasted Spicy Chicken With Rice
-
 I spotted this recipe for [spicy chicken wings](http://www.munchkintime.com/oven-baked-chicken-wings/) on Google+ and thought I would give it a go. I wanted to put my own spin on it which is why I opted for chicken legs instead of wings and modified some of the ingredients. I also didn't want to buy thirty chicken wings! The recipe does use ketchup but bear with me, it's not that bad.
 
 <figure>
