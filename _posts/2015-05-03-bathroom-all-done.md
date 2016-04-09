@@ -39,7 +39,7 @@ Here's some more pictures.
 </figure>
 
 <figure>
-{% picture {{ page.id }}/REPLACE.ME alt="Finished shaving" class="captioned-picture"%}
+{% picture {{ page.id }}/sink.jpg alt="Finished shaving" class="captioned-picture"%}
 <figcaption>Finished shaving</figcaption>
 </figure>
 
