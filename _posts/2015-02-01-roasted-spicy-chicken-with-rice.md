@@ -21,6 +21,7 @@ I spotted this recipe for [spicy chicken wings](http://www.munchkintime.com/oven
 </figure>
 
 <!-- more -->
+
 Preparation time: How quickly can you chop garlic? 10 minutes.
 
 Cooking time: Depending on chicken used around 40 minutes .
