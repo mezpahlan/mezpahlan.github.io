@@ -11,13 +11,30 @@ blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-22422805441621430
 blogger_orig_url: http://mezsays.blogspot.com/2013/09/slow-cooked-beef-ragu.html
 ---
 
-Set this up in the morning / afternoon and it will be lovely just in time for dinner! Adapted from this <a href="http://www.bbcgoodfood.com/recipes/1774640/slowcooked-ox-cheek-ragu" target="_blank">BBC Good Food</a> recipe. 
+Set this up in the morning / afternoon and it will be lovely just in time for dinner! Adapted from this [BBC Good Food](http://www.bbcgoodfood.com/recipes/1774640/slowcooked-ox-cheek-ragu) recipe.
+
+<figure>
+{% picture {{ page.id }}/beef-ragu.jpg alt="Beef Ragu" class="captioned-picture"%}
+<figcaption>Beef Ragu</figcaption>
+</figure>
 
 <!-- more -->
 
-Ingredients:
-<div class="ingredient-lists separator-serated tab-content">                                         <ul class="unstyled"><li class="" itemprop="ingredients">olive oil</li><li class="" itemprop="ingredients">~500g diced cuts of beef</li><li class="" itemprop="ingredients">half onion, diced</li><li class="" itemprop="ingredients">several garlic cloves, crushed</li><li class="" itemprop="ingredients">several red chillies, chopped and finely diced</li><li class="" itemprop="ingredients">400g chopped tomatoes</li><li class="" itemprop="ingredients">300ml dark brown ale</li><li class="" itemprop="ingredients">200ml water </li><li class="" itemprop="ingredients">1 bay leaf</li><li class="" itemprop="ingredients">300g pappardelle, or any flat pasta</li><li class="" itemprop="ingredients">small bunch flat-leaf parsley, chopped</li></ul>
-Method:
+#### Ingredients:
+
+* olive oil
+* ~500g diced cuts of beef
+* half onion, diced
+* several garlic cloves, crushed
+* several red chillies, chopped and finely diced
+* 400g chopped tomatoes
+* 300ml dark brown ale
+* 200ml water
+* 1 bay leaf
+* 300g pappardelle, or any flat pasta
+* small bunch flat-leaf parsley, chopped
+
+#### Method:
 
 In a pan add the olive oil and onions and gently heat. Prepare the garlic and chillies and add and continue to cook until the colour changes to almost brown but not burnt.
 
@@ -26,6 +43,3 @@ In a large pot (one that is oven safe) add the beef and the ale along with the w
 Put in a pre-heated oven at 160 °C and let it slowly cook for 4 hours. About 15 minutes before the end boil the pasta and chop the parsley. Stir the parsley into the pot and serve with the pasta, possibly some nice bread and a good glass of wine.
 
 Enjoy.
-
-<div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-KTZPem1pr14/Uj3p61HfG3I/AAAAAAAAYU8/6jTMRVsrHTU/s1600/IMAG0697.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="362" src="http://4.bp.blogspot.com/-KTZPem1pr14/Uj3p61HfG3I/AAAAAAAAYU8/6jTMRVsrHTU/s640/IMAG0697.jpg" width="640" /></a></div>
-                              </div>
