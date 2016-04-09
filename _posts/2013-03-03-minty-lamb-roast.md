@@ -13,24 +13,29 @@ blogger_orig_url: http://mezsays.blogspot.com/2013/03/minty-lamb-roast.html
 
 I used to cook something similar to this whilst at university. It lasts at least two meals even with these measures and there is enough left over for a tasty sandwich too! It was so tasty, in fact, that I used to finish most of it in one. That's probably why went up a trouser size!
 
+<figure>
+{% picture {{ page.id }}/roast.jpg alt="Lamb roast" class="captioned-picture"%}
+<figcaption>Lamb roast</figcaption>
+</figure>
+
 <!-- more -->
 
 Ingredients:
 
-~1 kg lamb. On the bone is better, but you can do without if you want.
-20 g butter.
-Fresh mint.
-A handful of garlic cloves.
-Salt and pepper to taste.
-Roast potatoes.
-Some red wine.
-Some flour.
+* ~1 kg lamb. On the bone is better, but you can do without if you want.
+* 20 g butter.
+* Fresh mint.
+* A handful of garlic cloves.
+* Salt and pepper to taste.
+* Roast potatoes.
+* Some red wine.
+* Some flour.
 
 Method:
 
 The great thing about this recipe is that most of the ingredient measures are off the cuff. Add in as much or as little as you want. That way you can customise it just to you taste.
 
- In a bowl mix the butter with the salt and pepper until smooth and paste like. Separately peel the garlic and run them through a grater. This way they come out fine and the tasty garlic juice comes out. Chop the mint into fine slices capturing the juice. Add this to the butter and mix well.
+In a bowl mix the butter with the salt and pepper until smooth and paste like. Separately peel the garlic and run them through a grater. This way they come out fine and the tasty garlic juice comes out. Chop the mint into fine slices capturing the juice. Add this to the butter and mix well.
 
 Pre heat an oven to 200 °C and whilst you're doing that stab your lamb all over with 1 cm knife incisions. Then take your garlic mint butter paste and spread all over with your hands making sure you stick some in the incisions that you've just made. When this cooks it will flavour the lamb and give it a great taste. If you have any left over then shove it in the centre of the lamb. Place this in a roasting tray and cover with foil for twenty minutes.
 
@@ -45,7 +50,3 @@ After a 15 minute rest outside the oven, the potatoes that are still in the oven
 After all that your meal is ready to serve. Cut the lamb into a slices and serve with the roasted potatoes and the gravy. I *suppose* you should also have some vegetables too.
 
 Enjoy.
-
-<div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-O8c_Ssso7wk/UTOU0SozV2I/AAAAAAAAP1M/91Vu5BqdmYo/s1600/IMG_20130303_165552.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="480" src="http://3.bp.blogspot.com/-O8c_Ssso7wk/UTOU0SozV2I/AAAAAAAAP1M/91Vu5BqdmYo/s640/IMG_20130303_165552.jpg" width="640" /></a></div>
-
-
