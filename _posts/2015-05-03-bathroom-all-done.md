@@ -24,10 +24,10 @@ This week we put the final touches to the bathroom remodel. Here's the final (al
 
 Left to do, in order of affordability:
 
-1) Lights on the ceiling need pushing back and covers placed over them.
-2) A new mirror needs purchasing. The one you see is the old mirror from the old bathroom.
-3) Some shelving / boxes to pack away bathroom items that are currently in any convenient space.
-4) The fancy towel radiator moved to the back wall. 
+1. Lights on the ceiling need pushing back and covers placed over them.
+2. A new mirror needs purchasing. The one you see is the old mirror from the old bathroom.
+3. Some shelving / boxes to pack away bathroom items that are currently in any convenient space.
+4. The fancy towel radiator moved to the back wall. 
 
 But we'll get around to that in due course.
 
