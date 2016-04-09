@@ -31,7 +31,7 @@ Whilst we haven't finalised our choices I think we are steering towards a look t
 
 Classic looks with a low level cistern as a compromise to a high level that we think looks nice but would look out of place in our new bathroom. 
 
-The basin and an underneath cabinet:
+#### The basin and an underneath cabinet:
 
 <figure>
 {% picture {{ page.id }}/sink-cabinet.jpg alt="Sink cabinet" class="captioned-picture"%}
