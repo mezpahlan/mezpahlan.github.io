@@ -1,4 +1,5 @@
 # mezpahlan.github.io
+
 About me website!
 
 This site is built on the fabulous blog aware static website generator [Jekyll](https://jekyllrb.com/). It uses custom plugins and hence is not generated on Github itself, however is still hosted there. In order to do this cleanly I have followed Drew Silcock's guide for [Custom Jekyll plugins with Github](https://drewsilcock.co.uk/custom-jekyll-plugins). I have also based my Rakefile on his post. Thanks Drew!
@@ -6,10 +7,12 @@ This site is built on the fabulous blog aware static website generator [Jekyll](
 The theme is a modified version of the [Bootstap Freelancer theme rewritten for Jekyll](https://github.com/jeromelachaud/freelancer-theme).
 
 ## Still to do
-- [ ] Complete initial port of all blog posts to markdown
+
+- [x] Complete initial port of all blog posts to markdown
+- [ ] Add paging in for blog index
 - [ ] Write custom Jekyll plugin for responsive picture formatting with figure support
 - [ ] Apply cutsom Jekyll plugin to this blog
 - [ ] Sort out CSS site wide
 - [ ] Add new item to portolio...... this site!!
 - [ ] Add new section for Physics uni archive
-- [ ] Harden the Rakefile to include better output and error handling....... maybe split into more granular tasks?
+- [ ] Harden the Rakefile to maybe split into more granular tasks?
