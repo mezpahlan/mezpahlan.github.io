@@ -6,5 +6,6 @@ group :jekyll_plugins do
   gem 'jekyll-picture-tag'
   gem 'jekyll-youtube'
   gem 'jekyll-gist'
+  gem 'jekyll-paginate'
   gem 'rouge'
 end

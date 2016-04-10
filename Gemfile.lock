@@ -140,6 +140,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-gist
+  jekyll-paginate
   jekyll-picture-tag
   jekyll-youtube
   rouge

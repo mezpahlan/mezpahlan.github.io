@@ -1,3 +1,6 @@
+# Plugins
+gems: [jekyll-paginate]
+
 # Site settings
 title: Mez Pahlan
 email: mez.pahlan@gmail.com
@@ -6,6 +9,8 @@ description: 'I am a Web &amp; Mobile developer with a passion for Mobile techno
 
 # Blog post settings
 excerpt_separator: <!-- more -->
+paginate: 10
+paginate_path: '/blog/page:num/'
 
 # Collection settings
 collections:

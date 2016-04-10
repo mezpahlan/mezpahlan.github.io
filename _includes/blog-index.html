@@ -1,15 +1,12 @@
 <!-- Blog Index Section -->
-<section id="blog-index">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>Posts</h2>
-                <hr class="star-primary">
-            </div>
-        </div>
+
+<section class="container flex-vertical-container flex-body-main">
+
+    <!-- This loops through the paginated posts -->
+    <div class="flex-vertical-container">
         <div class="row">
           <ul class="list-unstyled">
-            {% for post in site.posts %}
+            {% for post in paginator.posts %}
             <li>
                 <h3><span class="colour-primary"><a href="{{ post.url }}">{{ post.title }}</a></span></h3>
                 {% include blog-post-info.html context=post %}
@@ -20,4 +17,31 @@
         </ul>
         </div>
     </div>
+
+    <!-- Pagination links -->
+    {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Previous</a>
+      {% else %}
+        <span>&laquo; Previous</span>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <em>{{ page }}</em>
+        {% elsif page == 1 %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+        {% else %}
+          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+      {% else %}
+        <span>Next &raquo;</span>
+      {% endif %}
+    </div>
+    {% endif %}
 </section>
