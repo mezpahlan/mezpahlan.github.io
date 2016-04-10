@@ -116,7 +116,7 @@ figure > picture {
   min-width: 0;
 }
 
-figure > picture> img {
+figure > picture > img {
   max-width: 100%; /*or width: 100%; if so the above line won't be required */
   height: auto;
   marging-bottom: 0;
