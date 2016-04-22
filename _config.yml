@@ -16,6 +16,17 @@ paginate_path: '/blog/page:num/'
 collections:
   - portfolio
 
+# Default front matter
+defaults:
+  -
+    scope:
+      path: '_posts'
+      type: 'posts'
+    values:
+      layout: 'blog'
+      author: 'Mez Pahlan'
+      comments: true
+
 # Colour settings (hex-codes without the leading hash-tag)
 color:
   primary: 18bc9c #80B3FF
