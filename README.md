@@ -10,7 +10,9 @@ The theme is a modified version of the [Bootstap Freelancer theme rewritten for 
 
 - [x] Complete initial port of all blog posts to markdown
 - [x] Add paging in for blog index
-- [ ] Add comments
+- [x] Add comments
+- [ ] Make site HTTPS only
+- [ ] Custom CNAME
 - [ ] Figure out a workflow. From drafts to published
 - [ ] Write custom Jekyll plugin for responsive picture formatting with figure support
 - [ ] Apply cutsom Jekyll plugin to this blog
