@@ -3,12 +3,10 @@ layout: blog
 title: What have i been doing?
 date: '2010-04-26T20:58:00.006+01:00'
 author: Mez Pahlan
+disqus_identifier: 1266b72a-a604-41e6-9f09-e455be95594c
 tags:
 - android
 - politics
-modified_time: '2012-06-13T14:28:43.485+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-7939144687235516220
-blogger_orig_url: http://mezsays.blogspot.com/2010/04/what-have-i-been-doing.html
 ---
 
 Well....

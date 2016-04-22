@@ -3,13 +3,10 @@ layout: blog
 title: I'm off
 date: '2012-06-13T13:20:00.000+01:00'
 author: Mez Pahlan
+disqus_identifier: eebdef76-0c1c-454e-ae99-f4ab059844a2
 tags:
 - ireland
 - holidays
-modified_time: '2012-06-13T14:52:17.538+01:00'
-thumbnail: http://1.bp.blogspot.com/--eplnRpqH5g/T9iCsbjyjNI/AAAAAAAAFPo/W_G3dnsGqMs/s72-c/IMAG0222.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-2801861291250785502
-blogger_orig_url: http://mezsays.blogspot.com/2012/06/right-im-off-to-ireland-for-wedding-and.html
 ---
 
 

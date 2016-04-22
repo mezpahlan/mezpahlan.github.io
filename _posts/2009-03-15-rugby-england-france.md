@@ -3,13 +3,10 @@ layout: blog
 title: Rugby England France
 date: '2009-03-15T16:44:00.001Z'
 author: Mez Pahlan
+disqus_identifier: 4b938f91-4804-4bbc-9329-f8fa86ce813a
 tags:
 - rugby
-modified_time: '2012-06-13T13:25:02.069+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-5796169237553961593
-blogger_orig_url: http://mezsays.blogspot.com/2009/03/rugby-england-fance.html
 ---
-
 {% picture {{ page.id }}/rugby-fans.jpg alt="Englad rugby fans" %}
 
 <!-- more -->

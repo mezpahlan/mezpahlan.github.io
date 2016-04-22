@@ -3,11 +3,9 @@ layout: blog
 title: Update on the droid picture project
 date: '2010-09-27T23:40:00.001+01:00'
 author: Mez Pahlan
+disqus_identifier: 792bf2fe-5575-4be8-a774-196743b9f5a4
 tags:
 - android
-modified_time: '2012-06-13T14:40:41.089+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-285111234343121989
-blogger_orig_url: http://mezsays.blogspot.com/2010/09/update-on-droid-picture-project.html
 ---
 
 

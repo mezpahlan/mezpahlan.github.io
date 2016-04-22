@@ -3,13 +3,11 @@ layout: blog
 title: Start of the 4 day holiday weekend
 date: '2009-04-10T23:47:00.007+01:00'
 author: Mez Pahlan
+disqus_identifier: 25a4c6f2-680c-4ce7-bb01-b9040dc682fb
 tags:
 - bank holiday
 - music
 - ubuntu
-modified_time: '2012-06-13T13:51:22.153+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-372999439793564543
-blogger_orig_url: http://mezsays.blogspot.com/2009/04/start-of-4-day-holiday-weekend.html
 ---
 
 So Britain is in the midst of a four day Easter holiday season. The roads are jam packed out of London, Hammersmith is burning down and I've done nothing all day but each fried chicken and watched television.

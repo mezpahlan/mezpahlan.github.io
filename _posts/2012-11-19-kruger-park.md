@@ -3,11 +3,11 @@ layout: blog
 title: Kruger Park
 date: '2012-11-19T00:00:00.000Z'
 author: Mez Pahlan
+disqus_identifier: fa834c03-b251-4dfb-ba71-be27c2d78c0b
 tags:
 - south africa
 - holidays
 ---
-
 Kruger Park South Africa
 
 The day starts early since we have a seven hour drive to Kruger from Johannesburg. For the first part I mostly sleep whilst drooling over Anne-Marie because my mouth was hanging open.

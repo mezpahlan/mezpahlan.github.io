@@ -3,12 +3,10 @@ layout: blog
 title: Porting nightmare
 date: '2012-06-23T21:05:00.001+01:00'
 author: Mez Pahlan
+disqus_identifier: f8bb6bfe-3534-4621-bfb2-e7d0650a7c0e
 tags:
 - unhappiness
 - phones
-modified_time: '2012-06-23T21:05:59.746+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-8906235713395694138
-blogger_orig_url: http://mezsays.blogspot.com/2012/06/porting-nightmare.html
 ---
 
 Here in the UK we are allowed to port our mobile phone number to another provider when we leave. This means that you can keep the same number but switch contracts to a different provider. However you can't do this from within the same provider.

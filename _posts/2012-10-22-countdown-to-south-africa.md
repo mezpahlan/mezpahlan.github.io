@@ -3,12 +3,10 @@ layout: blog
 title: 'Countdown to South Africa '
 date: '2012-10-22T14:34:00.001+01:00'
 author: Mez Pahlan
+disqus_identifier: aef6669d-8fad-4254-8f27-bd7791129ebf
 tags:
 - south africa
 - holidays
-modified_time: '2012-10-22T14:34:37.695+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-4135806139739700155
-blogger_orig_url: http://mezsays.blogspot.com/2012/10/countdown-to-south-africa.html
 ---
 
 Only a few weeks to go until we travel to South Africa for a two week holiday and nothing but sun!

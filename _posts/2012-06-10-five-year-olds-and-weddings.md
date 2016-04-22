@@ -3,12 +3,9 @@ layout: blog
 title: Five year olds and weddings
 date: '2012-06-10T19:34:00.002+01:00'
 author: Mez Pahlan
+disqus_identifier: 93eb2602-abc5-4524-9bfe-fe8c61ab8c61
 tags:
 - bristol
-modified_time: '2012-06-13T14:52:05.751+01:00'
-thumbnail: http://4.bp.blogspot.com/-5_EaeGpkLdg/T9TodP0IGDI/AAAAAAAAFMU/WiXv7Jus4r8/s72-c/C360_2012-06-09-08-59-17_org.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-8184195059002698194
-blogger_orig_url: http://mezsays.blogspot.com/2012/06/five-year-olds-and-weddings_10.html
 ---
 
 Next week I'm off to Ireland for a few days to attend a wedding. I thought I had a suitable suit to wear but this turned out not to be the case. I merely had a black pair of shoes. I don't think I even have suitable socks. Unless I try out the Jacko look and go with white socks and black shoes? Somehow I don't think my girlfriend would be too impressed. So this weekend I was ordered to buy a suit.

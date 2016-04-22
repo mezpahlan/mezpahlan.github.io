@@ -3,11 +3,9 @@ layout: blog
 title: A quick poem
 date: '2010-09-15T22:35:00.003+01:00'
 author: Mez Pahlan
+disqus_identifier: 0265fc4a-76f4-44f9-abdb-b0ad3de54f61
 tags:
 - poem
-modified_time: '2012-06-13T14:37:57.634+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-6317929809993907484
-blogger_orig_url: http://mezsays.blogspot.com/2010/09/quick-poem.html
 ---
 
 Really quick now:

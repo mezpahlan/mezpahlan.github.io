@@ -3,13 +3,10 @@ layout: blog
 title: Not much been going down
 date: '2010-06-08T22:38:00.002+01:00'
 author: Mez Pahlan
+disqus_identifier: 7ae7989e-5a26-44a9-9fb4-2ae772e2b9e9
 tags:
 - music
 - android
-modified_time: '2012-06-13T14:35:03.675+01:00'
-thumbnail: http://farm5.static.flickr.com/4005/4677026945_7be4a2e984_t.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-5020723750958329329
-blogger_orig_url: http://mezsays.blogspot.com/2010/06/not-much-been-going-down.html
 ---
 
 What have I been doing recently?

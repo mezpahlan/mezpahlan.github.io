@@ -3,12 +3,10 @@ layout: blog
 title: Digital economy bill
 date: '2010-04-07T22:52:00.003+01:00'
 author: Mez Pahlan
+disqus_identifier: a00b161e-e543-4f8c-a1da-fd85030fa153
 tags:
 - programming
 - politics
-modified_time: '2012-06-13T14:27:55.114+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-6323294486666782240
-blogger_orig_url: http://mezsays.blogspot.com/2010/04/digital-economy-bill.html
 ---
 
 [http://en.wikipedia.org/wiki/Digital_Economy_Bill](http://en.wikipedia.org/wiki/Digital_Economy_Bill)

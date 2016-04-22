@@ -3,11 +3,9 @@ layout: blog
 title: Fully back on the 64
 date: '2010-02-19T23:34:00.004Z'
 author: Mez Pahlan
+disqus_identifier: bf13ac6f-bcdf-4a33-be26-57f189c7270d
 tags:
 - ubuntu
-modified_time: '2012-06-13T14:26:19.899+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-7485621830125737161
-blogger_orig_url: http://mezsays.blogspot.com/2010/02/fully-back-on-64.html
 ---
 
 A while back I heaped praise on the [Ubuntuzilla](http://sourceforge.net/apps/mediawiki/ubuntuzilla/index.php?title=Main_Page) project for providing me a way to watch all Flash content without the need to wrap 32 bit plugins. This was extremely useful to me but I knew that it would always be a temporary thing.

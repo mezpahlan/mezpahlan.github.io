@@ -3,13 +3,10 @@ layout: blog
 title: Dublin trip
 date: '2012-04-15T13:36:00.001+01:00'
 author: Mez Pahlan
+disqus_identifier: 95855012-d350-4db8-8771-db37bb21417d
 tags:
 - ireland
 - holidays
-modified_time: '2012-06-13T14:50:51.500+01:00'
-thumbnail: http://1.bp.blogspot.com/-P7LU22ZbRzc/T5LozCxmcnI/AAAAAAAACA0/GrwwRpuP_l4/s72-c/IMAG0204.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-3807746800784902920
-blogger_orig_url: http://mezsays.blogspot.com/2012/04/dublin-trip.html
 ---
 
 Took the train from Foxford to Dublin on Friday morning which took three and a half hours but meant that we avoided the insanity of the [Titanic celebrations](www.mayo-titanic.com) in Lahardane.

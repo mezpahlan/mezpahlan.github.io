@@ -3,13 +3,10 @@ layout: blog
 title: This is a blog
 date: '2009-03-15T21:46:00.001Z'
 author: Mez Pahlan
+disqus_identifier: 208bc5b9-6b6a-47f3-889d-3d116e4231bd
 tags:
 - funny
-modified_time: '2012-06-13T14:53:58.948+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-4957101702455136194
-blogger_orig_url: http://mezsays.blogspot.com/2009/03/this-is-blog.html
 ---
-
 {% picture {{ page.id }}/porridge.jpg alt="porridge" %}
 
 <!-- more -->

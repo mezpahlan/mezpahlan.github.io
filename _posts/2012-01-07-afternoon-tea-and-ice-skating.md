@@ -3,12 +3,9 @@ layout: blog
 title: Afternoon tea and ice skating
 date: '2012-01-07T19:08:00.001Z'
 author: Mez Pahlan
+disqus_identifier: 36c1f20b-e097-4dbf-a81d-1d2a97c79b7f
 tags:
 - london
-modified_time: '2012-06-13T14:49:16.324+01:00'
-thumbnail: http://2.bp.blogspot.com/-BS8sVe56sd8/TwlfdIYMjqI/AAAAAAAABFo/ObkVGwo1R18/s72-c/C360_2012-01-0713-29-00.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-3146733611846498631
-blogger_orig_url: http://mezsays.blogspot.com/2012/01/afternoon-tea-and-ice-skating.html
 ---
 
 Today we went to have afternoon tea at the [Washington Mayfair Hotel](http://www.washington-mayfair.co.uk/). Nice place and lovely atmosphere but I don't think I'd come here again. Staff are friendly enough and at £25 a head for afternoon tea including a cocktail, the price isn't bad. What spoiled it is the poor quality of the food and drinks. Tasted like it was pre packed and not made up fresh.

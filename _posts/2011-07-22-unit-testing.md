@@ -3,11 +3,9 @@ layout: blog
 title: Unit Testing
 date: '2011-07-22T17:35:00.000+01:00'
 author: Mez Pahlan
+disqus_identifier: 955360ee-cf98-41d4-9713-de2f1215b5c7
 tags:
 - programming
-modified_time: '2012-06-13T14:46:28.996+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-3429311600519862184
-blogger_orig_url: http://mezsays.blogspot.com/2011/07/unit-testing.html
 ---
 
 Hello again!

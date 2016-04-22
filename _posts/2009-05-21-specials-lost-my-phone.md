@@ -3,11 +3,9 @@ layout: blog
 title: Specials lost my phone :(
 date: '2009-05-21T08:35:00.003+01:00'
 author: Mez Pahlan
+disqus_identifier: 5a73075f-aab9-41ee-bb35-5d556a48329d
 tags:
 - music
-modified_time: '2012-06-13T13:53:50.458+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-6901072844460633279
-blogger_orig_url: http://mezsays.blogspot.com/2009/05/specials-lost-my-phone.html
 ---
 
 Last Saturday I went to see one of the all time most awesome ska bands in the world ever.... The Specials!!

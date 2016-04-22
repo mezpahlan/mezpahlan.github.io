@@ -3,12 +3,10 @@ layout: blog
 title: Mass Renaming & Restoring USB Drives
 date: '2013-01-10T16:27:00.002Z'
 author: Mez Pahlan
+disqus_identifier: a176a907-2b31-4d78-8cf5-43cb6f01f494
 tags:
 - programming
 - ubuntu
-modified_time: '2013-01-10T16:27:37.389Z'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-1416522405795249244
-blogger_orig_url: http://mezsays.blogspot.com/2013/01/mass-renaming-restoring-usb-drives.html
 ---
 
 I recently had to rename a lot of files in directory as well as fix a broken USB drive. I reckon I'll need to use this again at some point so here are the tips. Both for me and for you!

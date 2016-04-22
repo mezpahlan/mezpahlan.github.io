@@ -3,13 +3,10 @@ layout: blog
 title: Easter in Ireland
 date: '2012-04-08T16:58:00.001+01:00'
 author: Mez Pahlan
+disqus_identifier: c997610c-9d99-45d9-8a43-32aecd6c9192
 tags:
 - ireland
 - holidays
-modified_time: '2012-06-13T14:50:16.015+01:00'
-thumbnail: http://lh6.ggpht.com/-seVu4VaYCYc/T4G5Or9uBwI/AAAAAAAAB2w/a5SxHxxcvmM/s72-c/C360_2012-04-0811-47-33.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-427933422764948192
-blogger_orig_url: http://mezsays.blogspot.com/2012/04/easter-in-ireland.html
 ---
 
 Easter has begun Ireland with the eating of chocolate eggs.

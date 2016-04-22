@@ -3,11 +3,9 @@ layout: blog
 title: Secret Cinema
 date: '2009-05-04T12:53:00.004+01:00'
 author: Mez Pahlan
+disqus_identifier: fbf018c9-096e-4730-b9ac-a8e348e9cce3
 tags:
 - movies
-modified_time: '2012-06-13T13:50:30.159+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-8719828215537185519
-blogger_orig_url: http://mezsays.blogspot.com/2009/05/secret-cinema.html
 ---
 
 Idea is you pay for a cinema ticket for a screening that you have no clue as to what it is.

@@ -3,13 +3,10 @@ layout: blog
 title: 'Lemon Drizzle Cake '
 date: '2013-02-24T09:48:00.001Z'
 author: Mez Pahlan
+disqus_identifier: fb0e20db-06c5-46db-ba0c-9db0e2032ff8
 tags:
 - food
-modified_time: '2013-02-24T10:16:52.692Z'
-thumbnail: https://lh3.googleusercontent.com/-ydDKds2vfmo/USlGnEt1fiI/AAAAAAAAPjw/Xq76dsMvGZY/s72-c/IMG_20130223_204419.jpg
   width=
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-5609177016396564339
-blogger_orig_url: http://mezsays.blogspot.com/2013/02/lemon-drizzle-cake.html
 ---
 
 Lemon drizzle cake is something that I have wanted to bake for a while but have never got around to doing. I'm glad that I gave it a go because it is one of the simplest things to make and very tasty!  

@@ -3,13 +3,10 @@ layout: blog
 title: Three Days South Africa
 date: '2012-11-17T17:39:00.003Z'
 author: Mez Pahlan
+disqus_identifier: 389a7c59-e59d-4ad8-b3e4-802925cb0d55
 tags:
 - south africa
 - holidays
-modified_time: '2012-11-17T17:39:57.256Z'
-thumbnail: http://2.bp.blogspot.com/-04rycOHAptM/UKe7CqO4b4I/AAAAAAAALss/pD_O9LV5whM/s72-c/IMG_20121109_171034.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-7934700133508582384
-blogger_orig_url: http://mezsays.blogspot.com/2012/11/three-days-south-africa.html
 ---
 
 Week two and I'll just keep things brief. As we move through the Western Cape into the Eastern and then up into the Northern Cape the Internet availability at hotels and restaurants gets sparser and sparser.

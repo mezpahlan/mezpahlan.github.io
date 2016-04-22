@@ -3,11 +3,9 @@ layout: blog
 title: Samsung Galaxy S3
 date: '2012-07-22T14:55:00.001+01:00'
 author: Mez Pahlan
+disqus_identifier: fa3df521-ea60-48af-b8d7-1f4f7d6b9537
 tags:
 - android
-modified_time: '2012-07-22T14:55:15.120+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-2369319248438099738
-blogger_orig_url: http://mezsays.blogspot.com/2012/07/samsung-galaxy-s3.html
 ---
 
 Here are my thoughts on the [Samsung Galaxy S3](http://www.samsung.com/uk/consumer/mobile-devices/smartphones/android/GT-I9300MBDBTU) after about a months worth of use.

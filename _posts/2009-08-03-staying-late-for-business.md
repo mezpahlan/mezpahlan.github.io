@@ -3,11 +3,9 @@ layout: blog
 title: Staying late for business
 date: '2009-08-03T20:18:00.003+01:00'
 author: Mez Pahlan
+disqus_identifier: 11115009-dd85-47b5-9ca3-1a31ba820001
 tags:
 - photography
-modified_time: '2012-06-13T14:06:53.555+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-6482777243597246102
-blogger_orig_url: http://mezsays.blogspot.com/2009/08/staying-late-for-business.html
 ---
 
 Staying in hotels ain't all its cracked up to be.

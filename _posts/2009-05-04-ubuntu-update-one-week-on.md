@@ -3,11 +3,9 @@ layout: blog
 title: Ubuntu update one week on
 date: '2009-05-04T13:38:00.003+01:00'
 author: Mez Pahlan
+disqus_identifier: 6802eedb-2a54-4769-bff4-1e9bb152600b
 tags:
 - ubuntu
-modified_time: '2012-06-13T13:51:05.060+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-2354608992550794151
-blogger_orig_url: http://mezsays.blogspot.com/2009/05/ubuntu-update-one-week-on.html
 ---
 
 After about a week or so of using the new Ubuntu release Jaunty, I'll give my opinion on it.

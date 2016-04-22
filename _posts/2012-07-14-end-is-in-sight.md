@@ -3,11 +3,9 @@ layout: blog
 title: The end is in sight
 date: '2012-07-14T18:24:00.000+01:00'
 author: Mez Pahlan
+disqus_identifier: 3d62da0a-b9c3-4792-930f-c4e71d54b853
 tags:
 - phones
-modified_time: '2012-07-14T18:24:27.793+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-8346174946543894299
-blogger_orig_url: http://mezsays.blogspot.com/2012/07/end-is-in-sight.html
 ---
 
 Here's what's been happening this past month.

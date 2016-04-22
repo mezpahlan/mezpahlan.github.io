@@ -3,11 +3,9 @@ layout: blog
 title: Shopping for a bathroom
 date: '2015-01-25T17:13:00.000Z'
 author: Mez Pahlan
+disqus_identifier: be12b5e8-1bac-41e4-ba63-0ba99236c2c3
 tags:
 - home
-modified_time: '2015-01-25T17:13:31.261Z'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-8053236109771723987
-blogger_orig_url: http://mezsays.blogspot.com/2015/01/shopping-for-bathroom.html
 ---
 
 One of the exciting events to happen this year is that we are buying our first house. We are moving just down the road in Bristol to a three bedroom terraced house. The house itself is a Victorian house that has been recently renovated so needs minimal work once we move in.

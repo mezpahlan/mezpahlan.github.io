@@ -3,13 +3,11 @@ layout: blog
 title: Snowboarding in Oslo
 date: '2011-03-06T22:40:00.001Z'
 author: Mez Pahlan
+disqus_identifier: a261caeb-1f97-4112-a3db-831903b3797c
 tags:
 - snowboarding
 - norway
 - holidays
-modified_time: '2013-02-16T16:31:34.524Z'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-8964461487878735571
-blogger_orig_url: http://mezsays.blogspot.com/2011/03/snowboarding-in-oslo.html
 ---
 
 Hello!

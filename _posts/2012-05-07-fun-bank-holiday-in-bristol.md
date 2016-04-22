@@ -3,13 +3,10 @@ layout: blog
 title: Fun Bank Holiday in Bristol
 date: '2012-05-07T14:06:00.001+01:00'
 author: Mez Pahlan
+disqus_identifier: 500fac2f-43d9-4818-95a3-0bfae2cddb3b
 tags:
 - bank holiday
 - bristol
-modified_time: '2012-06-13T14:51:07.450+01:00'
-thumbnail: http://lh3.ggpht.com/-7uLxk2sgZl8/T6fI3czOFTI/AAAAAAAAEeU/zZHT4QoDy_U/s72-c/C360_2012-05-05-23-26-40.png
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-8852863923747219085
-blogger_orig_url: http://mezsays.blogspot.com/2012/05/fun-bank-holiday-in-bristol.html
 ---
 
 For the May Bank holiday, we spent the time in Bristol.

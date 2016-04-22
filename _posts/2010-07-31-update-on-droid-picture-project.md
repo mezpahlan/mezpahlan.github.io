@@ -3,12 +3,10 @@ layout: blog
 title: Update on the droid picture project
 date: '2010-07-31T20:33:00.003+01:00'
 author: Mez Pahlan
+disqus_identifier: eab6dd8e-3643-4809-94bc-882db78e5429
 tags:
 - programming
 - android
-modified_time: '2012-06-13T14:36:46.725+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-4620237157461719169
-blogger_orig_url: http://mezsays.blogspot.com/2010/07/update-on-droid-picture-project.html
 ---
 
 It's going well. I still can't program for shit though. I need to learn how to make more effective use of the android documentation though.

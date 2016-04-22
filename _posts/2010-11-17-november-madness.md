@@ -3,11 +3,9 @@ layout: blog
 title: November madness
 date: '2010-11-17T10:04:00.003Z'
 author: Mez Pahlan
+disqus_identifier: 357bbfac-f5f1-4424-ba91-5dbe2cbfab42
 tags:
 - charity
-modified_time: '2012-06-13T14:41:08.209+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-6510877743796269417
-blogger_orig_url: http://mezsays.blogspot.com/2010/11/november-madness.html
 ---
 
 

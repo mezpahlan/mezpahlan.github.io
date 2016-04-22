@@ -3,11 +3,9 @@ layout: blog
 title: Nine Inch Nails and Jane's Addiction
 date: '2009-07-17T09:07:00.003+01:00'
 author: Mez Pahlan
+disqus_identifier: 90995328-5066-4625-8de9-13d251b27f87
 tags:
 - music
-modified_time: '2012-06-13T14:01:00.673+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-1127728290320356500
-blogger_orig_url: http://mezsays.blogspot.com/2009/07/nine-inch-nails-and-janes-addiction.html
 ---
 
 Wednesday was fantastic! I saw two childhood favourite bands, Nine Inch Nails (for the first time) and Jane's Addiction (for the second time but the first with the original line up).

@@ -3,12 +3,9 @@ layout: blog
 title: Slow Cooked Beef Ragu
 date: '2013-09-21T20:10:00.000+01:00'
 author: Mez Pahlan
+disqus_identifier: d45ccf0c-2ae8-475d-a9a0-d0bb7f989b2a
 tags:
 - food
-modified_time: '2013-09-21T20:10:58.970+01:00'
-thumbnail: http://4.bp.blogspot.com/-KTZPem1pr14/Uj3p61HfG3I/AAAAAAAAYU8/6jTMRVsrHTU/s72-c/IMAG0697.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-2242280544162143081
-blogger_orig_url: http://mezsays.blogspot.com/2013/09/slow-cooked-beef-ragu.html
 ---
 
 Set this up in the morning / afternoon and it will be lovely just in time for dinner! Adapted from this [BBC Good Food](http://www.bbcgoodfood.com/recipes/1774640/slowcooked-ox-cheek-ragu) recipe.

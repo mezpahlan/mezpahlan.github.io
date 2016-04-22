@@ -3,12 +3,9 @@ layout: blog
 title: Minty lamb roast
 date: '2013-03-03T18:24:00.000Z'
 author: Mez Pahlan
+disqus_identifier: 19ecb563-bf4f-439a-9c0d-09b85564bc8e
 tags:
 - food
-modified_time: '2013-03-03T18:24:06.250Z'
-thumbnail: http://3.bp.blogspot.com/-O8c_Ssso7wk/UTOU0SozV2I/AAAAAAAAP1M/91Vu5BqdmYo/s72-c/IMG_20130303_165552.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-6178763816919012759
-blogger_orig_url: http://mezsays.blogspot.com/2013/03/minty-lamb-roast.html
 ---
 
 I used to cook something similar to this whilst at university. It lasts at least two meals even with these measures and there is enough left over for a tasty sandwich too! It was so tasty, in fact, that I used to finish most of it in one. That's probably why went up a trouser size!

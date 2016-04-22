@@ -3,11 +3,9 @@ layout: blog
 title: Election night
 date: '2010-05-05T19:36:00.003+01:00'
 author: Mez Pahlan
+disqus_identifier: 1ffc57e0-532a-4033-9e8f-fca2f33784ad
 tags:
 - politics
-modified_time: '2012-06-13T14:33:16.022+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-8811516301367486895
-blogger_orig_url: http://mezsays.blogspot.com/2010/05/election-night.html
 ---
 
 I sort of agree with Puff Daddy's Vote Or Die campaign. I also agree with voter apathy. Strange contradictions?

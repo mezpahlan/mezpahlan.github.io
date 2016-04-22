@@ -3,11 +3,9 @@ layout: blog
 title: Beta testing karma
 date: '2009-10-10T22:37:00.005+01:00'
 author: Mez Pahlan
+disqus_identifier: 0b746b0d-53ec-47a5-a7ec-30b2c39fcd2f
 tags:
 - ubuntu
-modified_time: '2012-06-13T14:17:19.707+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-4679741487131499961
-blogger_orig_url: http://mezsays.blogspot.com/2009/10/beta-testing-karma.html
 ---
 
 I've not checked in for a long time but let me briefly let you know what I've been up to.

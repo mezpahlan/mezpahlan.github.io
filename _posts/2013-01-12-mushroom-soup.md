@@ -3,12 +3,9 @@ layout: blog
 title: Mushroom Soup
 date: '2013-01-12T17:42:00.003Z'
 author: Mez Pahlan
+disqus_identifier: ff7dfd6b-24e4-4352-ba17-a13221a392c1
 tags:
 - food
-modified_time: '2013-01-12T17:45:10.820Z'
-thumbnail: http://4.bp.blogspot.com/-UjpI4hXQ9q8/UPGYMeLwhAI/AAAAAAAAO7A/PgFRGwYF3K4/s72-c/IMG_20130112_162852.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-8023846750484104268
-blogger_orig_url: http://mezsays.blogspot.com/2013/01/mushroom-soup.html
 ---
 
 Of late, I have been subscribed to an interesting food channel on YouTube called [RecipeWars](http://www.youtube.com/user/RecipeWars). The concept is simple: two chefs head to head, best recipe  wins. Only they don't really win anything it is for funsies. What you  do get is two enthusiastic chefs trying out two recipes (largely from famous US chefs) whilst providing some rather good commentary about the ingredients and what works well. Whilst I would prefer a slightly broader scope in recipe sources - such as those from international chefs - I have enjoyed watching the channel and continue to do so.

@@ -3,11 +3,9 @@ layout: blog
 title: Sky at night
 date: '2009-03-19T22:13:00.005Z'
 author: Mez Pahlan
+disqus_identifier: 4d6806de-465c-439d-8b8d-684f871d507e
 tags:
 - science
-modified_time: '2012-06-13T14:54:21.197+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-1922162621980174507
-blogger_orig_url: http://mezsays.blogspot.com/2009/03/sky-at-night.html
 ---
 
 I'm looking at the sky.

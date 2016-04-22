@@ -3,11 +3,9 @@ layout: blog
 title: Revitalised by the gym
 date: '2009-04-08T22:37:00.005+01:00'
 author: Mez Pahlan
+disqus_identifier: f185026f-8c72-47d0-a6fb-d885fd5aaa77
 tags:
 - ubuntu
-modified_time: '2012-06-13T13:35:02.829+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-6436146878040109673
-blogger_orig_url: http://mezsays.blogspot.com/2009/04/revitalised-by-gym.html
 ---
 
 Go to the gym everyone. It feels good. Plus there are beautiful people there!

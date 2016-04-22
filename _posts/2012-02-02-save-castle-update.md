@@ -3,12 +3,10 @@ layout: blog
 title: 'Save The Castle: Update'
 date: '2012-02-02T18:22:00.001Z'
 author: Mez Pahlan
+disqus_identifier: 7cb241f7-0002-43a2-9bd9-f6b69dba86af
 tags:
 - london
 - the castle
-modified_time: '2012-06-10T19:43:02.543+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-6092665618155492662
-blogger_orig_url: http://mezsays.blogspot.com/2012/02/save-castle-update.html
 ---
 
 The #savethecastle now has a [website](http://www.savethecastlebattersea.co.uk/) where you can keep in touch with the latest news.

@@ -3,12 +3,10 @@ layout: blog
 title: Gin gin gin gin gin
 date: '2009-04-15T22:39:00.010+01:00'
 author: Mez Pahlan
+disqus_identifier: ff5cbc18-6e1c-46a0-ba15-c9e3b4faa3ef
 tags:
 - tv
 - ubuntu
-modified_time: '2012-06-13T13:46:07.680+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-2232825748084554418
-blogger_orig_url: http://mezsays.blogspot.com/2009/04/gin-gin-gin-gin-gin.html
 ---
 
 7 days to go till a new version of Ubuntu is released!! That's my geekness done.

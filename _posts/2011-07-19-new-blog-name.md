@@ -3,12 +3,9 @@ layout: blog
 title: New blog name
 date: '2011-07-19T19:12:00.001+01:00'
 author: Mez Pahlan
+disqus_identifier: 2afde63c-e1c2-40c2-baa7-c3dddddabd7d
 tags:
 - blog
-modified_time: '2012-10-07T13:07:18.996+01:00'
-thumbnail: http://lh4.ggpht.com/-w4aOD9UkOSY/TiXJH5A7kiI/AAAAAAAAAcs/o9sVW4h07bY/s72-c/1300982184854.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-5278804697938817747
-blogger_orig_url: http://mezsays.blogspot.com/2011/07/new-blog-name.html
 ---
 
 I'm thinking about changing the name of my blog. Big move - maybe? But I'm pretty sure I can do that with the Blogger engine. I guess the only thing to worry about is updating people's links. But no one reads this blog anyway so what's the problem?

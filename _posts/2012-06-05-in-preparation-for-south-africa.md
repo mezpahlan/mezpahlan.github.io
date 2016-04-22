@@ -3,12 +3,10 @@ layout: blog
 title: In preparation for South Africa
 date: '2012-06-05T18:03:00.004+01:00'
 author: Mez Pahlan
+disqus_identifier: 9a4dd9da-348f-457c-b6cd-e42ace0a78d6
 tags:
 - south africa
 - holidays
-modified_time: '2012-06-05T18:03:58.260+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-1349103161638434961
-blogger_orig_url: http://mezsays.blogspot.com/2012/06/in-preparation-for-south-africa.html
 ---
 
 Come Autumn time, we will be taking a trip for two weeks around South Africa. This will be the first time I have visited South Africa as well as Africa itself. I have a few friends from South Africa who always rave about it and many others who have visited there and have recommended holidays there. This year I'm going to see it for myself!

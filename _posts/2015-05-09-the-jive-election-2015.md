@@ -3,13 +3,10 @@ layout: blog
 title: The Jive Election 2015
 date: '2015-05-09T16:49:00.002+01:00'
 author: Mez Pahlan
+disqus_identifier: 2ec4d7e1-30f6-461c-99cb-93fd4de0f4b2
 tags:
 - programming
 - politics
-modified_time: '2015-05-09T16:53:24.545+01:00'
-thumbnail: https://img.youtube.com/vi/RrZlWw8Di10/default.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-1375279771667240728
-blogger_orig_url: http://mezsays.blogspot.com/2015/05/the-jive-election-2015.html
 ---
 
 Throughout March and April of 2015 I have been busy working on a pet project with my friend Ricky Shelton. The idea was simple. Make the politicians running in the 2015 UK General Election more electable by having them speak Jive.

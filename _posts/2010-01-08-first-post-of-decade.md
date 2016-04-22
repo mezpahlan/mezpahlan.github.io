@@ -3,11 +3,9 @@ layout: blog
 title: First post of the decade!
 date: '2010-01-08T18:16:00.004Z'
 author: Mez Pahlan
+disqus_identifier: 6df7a959-ce6a-4979-a845-62319a650d73
 tags:
 - ubuntu
-modified_time: '2012-06-13T14:21:45.122+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-3422893886651889308
-blogger_orig_url: http://mezsays.blogspot.com/2010/01/first-post-of-decade.html
 ---
 
 Wow! First post of the decade, blah blah blah blah how cool etc etc.

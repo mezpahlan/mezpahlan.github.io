@@ -3,12 +3,9 @@ layout: blog
 title: Hmmmm Steak
 date: '2012-02-12T13:02:00.000Z'
 author: Mez Pahlan
+disqus_identifier: 79003c50-c3f4-4750-b66b-f843c2b96883
 tags:
 - food
-modified_time: '2012-06-13T14:49:42.624+01:00'
-thumbnail: http://2.bp.blogspot.com/-KKqAIYPcqM8/Tze1OdIXM8I/AAAAAAAABZc/n2leG6Bg2Gs/s72-c/IMAG0096.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-4933849616383979635
-blogger_orig_url: http://mezsays.blogspot.com/2012/02/hmmmm-steak.html
 ---
 
 Yesterday I was hungry so I chanced my arm at cooking a steak. I've never tried cooking a steak before and didn't really know what I was doing when I started but here is what I did. For record, I followed the cooking suggestions on the back of the steak packet and didn't just wing it!

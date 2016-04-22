@@ -3,14 +3,11 @@ layout: blog
 title: 'Andorra snow '
 date: '2013-02-07T07:58:00.001Z'
 author: Mez Pahlan
+disqus_identifier: 79cc86ec-e029-4004-ada6-77400e9f378a
 tags:
 - snowboarding
 - holidays
 - andorra
-modified_time: '2013-02-16T16:32:03.404Z'
-thumbnail: http://lh5.ggpht.com/-YHVso13xOss/URK5_eqxx9I/AAAAAAAAPRY/59MnS6o7_xI/s72-c/IMG_20130205_105405.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-7551687857993487351
-blogger_orig_url: http://mezsays.blogspot.com/2013/02/andorra-snow.html
 ---
 
 This week I'm with my girlfriend and her best friend for some snow fun in Andorra. Half way through the trip and I can say with confidence that we are loving it! I have another trip with friends from work later on in March so wanted to use this trip to perfect my technique on the snowboard. I also wanted to get my girlfriend interested in snow holidays since they are the highlight of my year and I would love if she came to more of them with me.

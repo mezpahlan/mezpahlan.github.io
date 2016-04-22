@@ -3,13 +3,10 @@ layout: blog
 title: 'Books And Cheese'
 date: '2012-10-17T11:36:00.001+01:00'
 author: Mez Pahlan
+disqus_identifier: 94881f78-afb0-4081-9ca9-92ec506feb82
 tags:
 - books
 - food
-modified_time: '2012-10-17T11:36:29.662+01:00'
-thumbnail: http://4.bp.blogspot.com/-7sPit9spWS8/UH6KC8OklxI/AAAAAAAAJm4/S6ZDorqCWiE/s72-c/C360_2012-10-10-12-41-33.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-8060792205486443356
-blogger_orig_url: http://mezsays.blogspot.com/2012/10/books-and-cheese.html
 ---
 
 This weekend I completed two activities. The first was finish reading Frankenstein and the second was to finish a wheel of cheese from Cheddar.

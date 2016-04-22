@@ -3,14 +3,11 @@ layout: blog
 title: 'South Africa Days Four To Six '
 date: '2012-11-09T16:20:00.001Z'
 author: Mez Pahlan
+disqus_identifier: 10d5df99-0654-46f9-95da-365bbabb7463
 tags:
 - south africa
 - holidays
-modified_time: '2012-11-09T16:48:14.767Z'
-thumbnail: https://lh6.googleusercontent.com/-hZDm5rx8V7E/UJ0yz-Ul0dI/AAAAAAAAKkI/toz8tFaVcRw/s72-c/%25255BUNSET%25255D.jpg
   width=
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-5566014946362957948
-blogger_orig_url: http://mezsays.blogspot.com/2012/11/south-africa-days-four-to-six.html
 ---
 
 #### South Africa Day Four 

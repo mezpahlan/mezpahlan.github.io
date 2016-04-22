@@ -3,11 +3,9 @@ layout: blog
 title: December quick check in
 date: '2010-12-12T18:45:00.003Z'
 author: Mez Pahlan
+disqus_identifier: 93c5eb50-e8fb-4b7a-a00d-ff1298e54475
 tags:
 - music
-modified_time: '2012-06-13T14:41:47.113+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-2285636904961996915
-blogger_orig_url: http://mezsays.blogspot.com/2010/12/december-quick-check-in.html
 ---
 
 Haven't been blogging here for a while because I much prefer Twitter.... sorry. Will try and summarise stuff every now and again though.

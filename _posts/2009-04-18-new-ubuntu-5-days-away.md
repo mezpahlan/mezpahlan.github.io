@@ -3,11 +3,9 @@ layout: blog
 title: New Ubuntu 5 days away
 date: '2009-04-18T23:56:00.002+01:00'
 author: Mez Pahlan
+disqus_identifier: 37ea26d7-29da-45c7-b870-f500c7161aee
 tags:
 - ubuntu
-modified_time: '2012-06-13T13:48:16.041+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-8362270729443810727
-blogger_orig_url: http://mezsays.blogspot.com/2009/04/new-ubuntu-5-days-away.html
 ---
 
 The new Ubuntu is only 5 days away. I can't wait. It has been a year since I started my trip down Linux lane and am enjoying it more and more.

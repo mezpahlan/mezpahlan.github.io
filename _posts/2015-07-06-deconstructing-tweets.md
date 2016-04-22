@@ -3,12 +3,9 @@ layout: blog
 title: Deconstructing Tweets
 date: '2015-07-06T19:25:00.000+01:00'
 author: Mez Pahlan
+disqus_identifier: 19dc824f-1a00-46b0-8670-a27d5cb304e7
 tags:
 - programming
-modified_time: '2015-07-07T19:35:23.471+01:00'
-thumbnail: http://4.bp.blogspot.com/-uAw0W3AWcY4/VU4oWO4Tj9I/AAAAAAAAhiE/6jJZXssb7cc/s72-c/jive-elections-05.png
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-5381100861684095378
-blogger_orig_url: http://mezsays.blogspot.com/2015/07/deconstructing-tweets.html
 ---
 
 As part of my personal project for Spring, and to coincide with the UK 2015 General Election, I decided to create some bots that mirrored the main party candidates and translated their tweets to Jive. They are still running so you can find them on Twitter: [Ed Jiveaband](https://twitter.com/edjiveaband), [Nick Jivegg](https://twitter.com/nickjivegg), [David Jiveron](https://twitter.com/davidjiveron).

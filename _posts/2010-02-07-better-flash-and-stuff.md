@@ -3,11 +3,9 @@ layout: blog
 title: Better flash and stuff...
 date: '2010-02-07T18:00:00.004Z'
 author: Mez Pahlan
+disqus_identifier: 20b7ff3a-94a7-4df0-96f4-11a7eb6e8d59
 tags:
 - programming
-modified_time: '2012-06-13T14:23:53.742+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-2186471445186074302
-blogger_orig_url: http://mezsays.blogspot.com/2010/02/better-flash-and-stuff.html
 ---
 
 Not much happening with me at the moment.  I went to an art gallery and took some photos. If they come out nicely I shall post some of them!

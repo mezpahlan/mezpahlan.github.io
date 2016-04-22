@@ -3,11 +3,9 @@ layout: blog
 title: Channel 4 catch up available on Linux!!
 date: '2009-04-13T00:27:00.003+01:00'
 author: Mez Pahlan
+disqus_identifier: 4d20c5d8-d935-4852-b5b3-5071ed9768d4
 tags:
 - tv
-modified_time: '2012-06-13T13:39:08.417+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-8889581483344206952
-blogger_orig_url: http://mezsays.blogspot.com/2009/04/channel-4-catch-up-available-on-linux.html
 ---
 
 OMG!!

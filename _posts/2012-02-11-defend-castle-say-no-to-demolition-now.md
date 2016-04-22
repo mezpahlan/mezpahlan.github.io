@@ -3,13 +3,10 @@ layout: blog
 title: Defend The Castle! Say NO to the demolition! Now in easy cut and paste format!
 date: '2012-02-11T10:17:00.003Z'
 author: Mez Pahlan
+disqus_identifier: bbb1c409-c2a8-4afa-acf9-e14f30e34318
 tags:
 - london
 - the castle
-modified_time: '2012-06-10T19:42:25.278+01:00'
-thumbnail: http://3.bp.blogspot.com/-lvkUTVToCjc/TzY48TgAYaI/AAAAAAAABZE/dBlJJ6LTkO8/s72-c/IMAG0094-1.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-6189855454896673087
-blogger_orig_url: http://mezsays.blogspot.com/2012/02/defend-castle-say-no-to-demolition-now.html
 ---
 
 Hi everyone! You can use this to easily draft your objections to the planned demolition of the greatest pub in Battersea, The Castle! You can find this information and more on the [Save The Castle](http://www.savethecastlebattersea.co.uk/) website as well as on flyers and cards in The Castle.

@@ -3,11 +3,9 @@ layout: blog
 title: Overworked and underpaid
 date: '2009-06-17T22:19:00.003+01:00'
 author: Mez Pahlan
+disqus_identifier: 4342af69-0463-4ede-8794-25c278c56110
 tags:
 - super 8
-modified_time: '2012-06-13T13:58:55.865+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-8518625103892386766
-blogger_orig_url: http://mezsays.blogspot.com/2009/06/overworked-and-underpaid.html
 ---
 
 What the title says. Not impressed. I am finding myself falling asleep on the train. And not just because I am tired, but tactically now. I don't get enough sleep so I use the train time to fall asleep.

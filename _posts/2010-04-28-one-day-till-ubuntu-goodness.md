@@ -3,11 +3,9 @@ layout: blog
 title: One day till Ubuntu goodness!
 date: '2010-04-28T21:21:00.003+01:00'
 author: Mez Pahlan
+disqus_identifier: a45411ea-5957-40d6-a191-696b5490fc8d
 tags:
 - ubuntu
-modified_time: '2012-06-13T14:31:42.382+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-3927344360361729062
-blogger_orig_url: http://mezsays.blogspot.com/2010/04/one-day-till-ubuntu-goodness.html
 ---
 
 Lucid Lynx Ubuntu 10.04 is the new Ubuntu due out in a day.

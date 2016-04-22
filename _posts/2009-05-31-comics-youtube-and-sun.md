@@ -3,12 +3,10 @@ layout: blog
 title: Comics Youtube and sun
 date: '2009-05-31T00:26:00.003+01:00'
 author: Mez Pahlan
+disqus_identifier: 587b7dd1-7e53-4c29-9d1e-f7133ad373f4
 tags:
 - comics
 - movies
-modified_time: '2012-06-13T13:57:54.319+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-4588235676274169444
-blogger_orig_url: http://mezsays.blogspot.com/2009/05/comics-youtube-and-sun.html
 ---
 
 Today was kind of weird. I spent the whole day indoors but sun bathing sitting up against the window. Got about 3 good hours of just lazing about next to the window topless watching Xmen evolution on youtube. Marvel have put them all up to watch for free.

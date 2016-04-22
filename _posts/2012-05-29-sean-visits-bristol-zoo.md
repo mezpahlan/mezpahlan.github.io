@@ -3,12 +3,9 @@ layout: blog
 title: Sean Visits Bristol Zoo
 date: '2012-05-29T15:31:00.002+01:00'
 author: Mez Pahlan
+disqus_identifier: 7c32f841-680a-4920-920b-be14bd9ab4b9
 tags:
 - bristol
-modified_time: '2012-06-13T14:51:18.538+01:00'
-thumbnail: http://1.bp.blogspot.com/-5ZDQMCRn8Fw/T8TSzqmtLbI/AAAAAAAAE7s/L9Aeov81TQE/s72-c/C360_2012-05-26-09-04-01.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-3263281759905521758
-blogger_orig_url: http://mezsays.blogspot.com/2012/05/sean-visits-bristol-zoo.html
 ---
 
 This weekend we took our favourite little penguin, Sean, to Bristol Zoo. It was incredibly hot this weekend in the U.K. so it was a good chance to get out and about. I think Sean liked it too!

@@ -3,13 +3,10 @@ layout: blog
 title: Wedding day
 date: '2012-06-18T09:50:00.001+01:00'
 author: Mez Pahlan
+disqus_identifier: c9a3beb9-12b7-4b81-ae7d-48d8debda070
 tags:
 - ireland
 - holidays
-modified_time: '2012-06-18T09:50:37.588+01:00'
-thumbnail: http://4.bp.blogspot.com/-aiE0L0D5-Qc/T97rLm77tPI/AAAAAAAAFT4/ADUQBeCU8oA/s72-c/IMAG0225.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-914658638855922934
-blogger_orig_url: http://mezsays.blogspot.com/2012/06/wedding-day.html
 ---
 
 Today is wedding day.

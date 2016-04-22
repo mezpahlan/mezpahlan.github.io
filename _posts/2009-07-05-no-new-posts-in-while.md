@@ -3,13 +3,11 @@ layout: blog
 title: No new posts in a while
 date: '2009-07-05T22:38:00.007+01:00'
 author: Mez Pahlan
+disqus_identifier: edfc7321-2d83-4535-bbec-8581dbb0e39a
 tags:
 - comics
 - music
 - ubuntu
-modified_time: '2012-06-13T13:59:57.475+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-7994788127358714560
-blogger_orig_url: http://mezsays.blogspot.com/2009/07/no-new-posts-in-while.html
 ---
 
 So what have I been doing since I last posted here?

@@ -3,11 +3,9 @@ layout: blog
 title: What film scanner
 date: '2010-01-30T22:18:00.003Z'
 author: Mez Pahlan
+disqus_identifier: fef8c487-4129-427b-831b-2b730ec65c24
 tags:
 - photography
-modified_time: '2012-06-13T14:22:51.090+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-7266227293779225725
-blogger_orig_url: http://mezsays.blogspot.com/2010/01/what-film-scanner.html
 ---
 
 I am in need of a film scanner to scan my film negatives.

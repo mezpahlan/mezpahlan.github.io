@@ -3,11 +3,9 @@ layout: blog
 title: Better ways to test OSB services
 date: '2011-02-17T09:23:00.001Z'
 author: Mez Pahlan
+disqus_identifier: 242e17b9-e007-448e-a1d5-6c58c1ee9d89
 tags:
 - programming
-modified_time: '2012-06-13T14:43:11.589+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-459616089103520377
-blogger_orig_url: http://mezsays.blogspot.com/2011/02/better-ways-to-test-osb-services.html
 ---
 
 This week I have been trying to find out more about how to unit test Oracle Service Bus services in a way that lends itself to automation and continuous integration.

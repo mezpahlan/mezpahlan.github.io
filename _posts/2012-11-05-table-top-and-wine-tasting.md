@@ -3,14 +3,11 @@ layout: blog
 title: Table Top And Wine Tasting
 date: '2012-11-05T21:10:00.001Z'
 author: Mez Pahlan
+disqus_identifier: a48ee9c6-844f-44a2-b686-761da277b1a0
 tags:
 - south africa
 - holidays
-modified_time: '2012-11-17T14:41:33.659Z'
-thumbnail: https://lh4.googleusercontent.com/-HhZTcPcSups/UJgsq4jcjyI/AAAAAAAAKiM/g9cyu4D42P4/s72-c/%25255BUNSET%25255D.jpg
   width=
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-5808026455149135841
-blogger_orig_url: http://mezsays.blogspot.com/2012/11/table-top-and-wine-tasting.html
 ---
 
 #### South Africa Day One - Two

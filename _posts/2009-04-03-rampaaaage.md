@@ -3,12 +3,10 @@ layout: blog
 title: Rampaaaage
 date: '2009-04-03T15:48:00.003+01:00'
 author: Mez Pahlan
+disqus_identifier: d1fedf9e-63a5-48b3-9085-10aec8e3679a
 tags:
 - london
 - madonna
-modified_time: '2012-06-13T13:33:14.714+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-2555083607296543262
-blogger_orig_url: http://mezsays.blogspot.com/2009/04/rampaaaage.html
 ---
 
 Last night I rampaged through London.

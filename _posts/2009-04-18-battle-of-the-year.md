@@ -3,13 +3,10 @@ layout: blog
 title: Battle Of The Year
 date: '2009-04-18T23:46:00.004+01:00'
 author: Mez Pahlan
+disqus_identifier: 0f948662-6efa-4628-b9a2-506a38623ab0
 tags:
 - break dance
 - music
-modified_time: '2012-06-13T13:46:49.005+01:00'
-thumbnail: http://3.bp.blogspot.com/_-D8cGLRnyMM/SepZqoRURtI/AAAAAAAAAK8/PWCemuwWpAE/s72-c/DSC00076.JPG
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-8029780444819668357
-blogger_orig_url: http://mezsays.blogspot.com/2009/04/battle-of-year.html
 ---
 
 Here are some pictures from battle of the year. A break dancing competition that was held in Angel.

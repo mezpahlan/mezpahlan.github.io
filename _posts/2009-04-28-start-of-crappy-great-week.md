@@ -3,11 +3,9 @@ layout: blog
 title: Start of a crappy great week
 date: '2009-04-28T23:11:00.004+01:00'
 author: Mez Pahlan
+disqus_identifier: 21161925-07dc-4571-ba48-ba012cc430b6
 tags:
 - bank holiday
-modified_time: '2012-06-13T13:49:31.229+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-5862704558095372522
-blogger_orig_url: http://mezsays.blogspot.com/2009/04/start-of-crappy-great-week.html
 ---
 
 So this week starting off crap. Rain, rain and more rain. Stuck in the office well past everyone else. District line suspended. More rain. FUCK!!

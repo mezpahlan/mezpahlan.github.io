@@ -3,12 +3,9 @@ layout: blog
 title: Mozzarella bruschetta with courgette
 date: '2013-02-16T16:28:00.000Z'
 author: Mez Pahlan
+disqus_identifier: 4d0c9c02-f919-4112-8e26-19752851edbc
 tags:
 - food
-modified_time: '2013-02-16T16:32:11.307Z'
-thumbnail: http://3.bp.blogspot.com/-pPScNXI3vn0/UR1y3xCli0I/AAAAAAAAPdU/LqaacE1GO3Q/s72-c/IMG_20130214_192144.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-1251945081100377069
-blogger_orig_url: http://mezsays.blogspot.com/2013/02/mozzarella-bruschetta-with-courgette.html
 ---
 
 Here's a nice, filling and tasty starter that could easily substitute as a main. A different take on the tomato bruschetta starter. We modified this from a [BBC recipe](http://www.bbc.co.uk/food/recipes/buffalomozzarellabru_93627) that we cooked for Valentine's Day. It's veggie friendly too!!

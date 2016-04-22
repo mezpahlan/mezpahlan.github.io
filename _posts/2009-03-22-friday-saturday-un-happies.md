@@ -3,12 +3,9 @@ layout: blog
 title: Friday Saturday un happies
 date: '2009-03-22T21:37:00.005Z'
 author: Mez Pahlan
+disqus_identifier: d0c0e86b-42ed-4cc5-84e5-3b72d6a77e25
 tags:
 - unhappiness
-modified_time: '2012-06-13T13:30:00.327+01:00'
-thumbnail: http://1.bp.blogspot.com/_-D8cGLRnyMM/Scav5xEVxlI/AAAAAAAAAJc/NbPVAi0vQco/s72-c/sway.JPG
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-5545885073237447022
-blogger_orig_url: http://mezsays.blogspot.com/2009/03/friday-saturday-un-happies.html
 ---
 
 {% picture {{ page.id}}/sway.jpg alt="Sway is a shitty night club in London" %}

@@ -3,15 +3,11 @@ layout: blog
 title: Some phone pics
 date: '2009-03-16T08:29:00.008Z'
 author: Mez Pahlan
+disqus_identifier: 07d4a154-3125-45fe-9648-eb878674998b
 tags:
 - photography
 - phones
-modified_time: '2012-06-13T13:27:37.777+01:00'
-thumbnail: http://1.bp.blogspot.com/_-D8cGLRnyMM/Sb4ObwzRHDI/AAAAAAAAAJM/eCFldT_jirE/s72-c/smoke+me+a+kipper.JPG
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-9022346567891044249
-blogger_orig_url: http://mezsays.blogspot.com/2009/03/some-phone-picz.html
 ---
-
 Some pictures from my phone.
 
 {% picture {{ page.id }}/smoke-me-a-kipper.jpg alt="Smoke me a kipper" %}

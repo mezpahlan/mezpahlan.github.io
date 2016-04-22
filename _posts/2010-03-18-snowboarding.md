@@ -3,13 +3,11 @@ layout: blog
 title: Snowboarding
 date: '2010-03-18T22:35:00.003Z'
 author: Mez Pahlan
+disqus_identifier: 2e1cb52c-3da9-4912-a90f-733fae07c0b2
 tags:
 - snowboarding
 - holidays
 - france
-modified_time: '2012-06-13T14:44:06.872+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-6190075637924193216
-blogger_orig_url: http://mezsays.blogspot.com/2010/03/snowboarding.html
 ---
 
 I leave for France on Saturday for some snowboarding action. I can't wait!

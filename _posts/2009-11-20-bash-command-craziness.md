@@ -3,11 +3,9 @@ layout: blog
 title: Bash command craziness!
 date: '2009-11-20T21:24:00.009Z'
 author: Mez Pahlan
+disqus_identifier: 3e58ed17-f398-464e-9e0f-6b4acef3199e
 tags:
 - programming
-modified_time: '2012-06-13T14:20:13.902+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-2392550798260224020
-blogger_orig_url: http://mezsays.blogspot.com/2009/11/bash-command-craziness.html
 ---
 
 I had the following problem yesterday and it has taken me about 24 hours to work it out. The problem is as follows.

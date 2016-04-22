@@ -3,13 +3,10 @@ layout: blog
 title: Crashing around the tube
 date: '2009-03-16T20:17:00.003Z'
 author: Mez Pahlan
+disqus_identifier: b8794d9b-b885-4911-93e3-41049a59f3e7
 tags:
 - london
-modified_time: '2012-06-13T14:55:29.785+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-1999933227751474914
-blogger_orig_url: http://mezsays.blogspot.com/2009/03/crashing-around-tube.html
 ---
-
 I crashed into 3 people on my tube journey today.
 
 <!-- more -->

@@ -3,13 +3,10 @@ layout: blog
 title: Catha's Seat Design Ideas
 date: '2013-09-27T11:06:00.000+01:00'
 author: Mez Pahlan
+disqus_identifier: 91b412ef-63ab-4dcc-8be2-73fb8cb2aad1
 tags:
 - programming
 - android
-modified_time: '2013-09-27T11:12:36.810+01:00'
-thumbnail: http://1.bp.blogspot.com/-awaYrWb1HRg/UkVWEzc1-CI/AAAAAAAAYVQ/igmHncU8Nx8/s72-c/start_activity.png
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-8182716696434218486
-blogger_orig_url: http://mezsays.blogspot.com/2013/09/cathas-seat-design-ideas.html
 ---
 
 A good friend of mine, [Nick](http://nickandscottgobiking.blogspot.co.uk/), is organising the construction of a bicycle seat on route 18 of the Cycle Network to complete the work started by his mother, Catha. You can read more about it on the [Catha's Seat](http://www.cathas-seat.org/) website.

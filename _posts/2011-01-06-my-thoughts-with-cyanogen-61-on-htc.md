@@ -3,11 +3,9 @@ layout: blog
 title: My thoughts with Cyanogen 6.1 on the HTC Desire
 date: '2011-01-06T00:31:00.002Z'
 author: Mez Pahlan
+disqus_identifier: ae5163c2-345e-4e71-a9da-5be2757636d7
 tags:
 - android
-modified_time: '2012-06-13T14:42:09.305+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-2066259448349287775
-blogger_orig_url: http://mezsays.blogspot.com/2011/01/my-thoughts-with-cyanogen-61-on-htc.html
 ---
 
 For about a month I have been trying out the 6.1 release of the popular cyanogen custom roms on my HTC Desire. My first thoughts were that it was incredible. The amazing ease with which you could modify the settings to the n th degree was an eye opening experience. I loved how anything I wanted could be customised. And I mean anything. From the colour of the battery icon to the tool bar to the fact that you could make the phone vibrate slightly when your call has been answered. Or the way that you can change how your Launcher looks and how if you want you can have root access to the file system. 

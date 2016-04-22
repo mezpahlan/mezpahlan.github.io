@@ -3,13 +3,10 @@ layout: blog
 title: Save The Castle
 date: '2012-01-22T22:34:00.001Z'
 author: Mez Pahlan
+disqus_identifier: 60b1534b-2f99-42e6-ac45-bae939447cea
 tags:
 - london
 - the castle
-modified_time: '2012-06-10T19:43:29.344+01:00'
-thumbnail: http://lh3.ggpht.com/-GoQk-LoyMhA/TxyO5HI6f1I/AAAAAAAABRA/KdijoUV81Jk/s72-c/IMAG0239.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-15537607322254584
-blogger_orig_url: http://mezsays.blogspot.com/2012/01/save-castle.html
 ---
 
 Sad news has reached us. Our beloved Castle has just learned that a planning application has been sent to the council to knock it down and build apartments and a parking lot!

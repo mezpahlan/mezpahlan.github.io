@@ -3,14 +3,11 @@ layout: blog
 title: 'Cape Of Good Hope And Kirstenbosch Gardens '
 date: '2012-11-06T18:46:00.001Z'
 author: Mez Pahlan
+disqus_identifier: 70f24e29-fe70-41f8-be34-647e648eb9d6
 tags:
 - south africa
 - holidays
-modified_time: '2013-01-10T16:49:42.331Z'
-thumbnail: https://lh6.googleusercontent.com/-3CnAASuzk0s/UJlg59x19FI/AAAAAAAAKjY/SH-HHm8_sm8/s72-c/%25255BUNSET%25255D.jpg
   width=
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-4751103480410740359
-blogger_orig_url: http://mezsays.blogspot.com/2012/11/cape-of-good-hope-and-kirstenbosch.html
 ---
 
 #### South Africa Day Three

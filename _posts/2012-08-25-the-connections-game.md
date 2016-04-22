@@ -3,11 +3,9 @@ layout: blog
 title: The Connections Game
 date: '2012-08-25T17:11:00.002+01:00'
 author: Mez Pahlan
+disqus_identifier: 26d42a36-a956-4226-a595-0ff353269124
 tags:
 - music
-modified_time: '2012-09-25T09:43:42.414+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-8475364204962149294
-blogger_orig_url: http://mezsays.blogspot.com/2012/08/the-connections-game.html
 ---
 
 Played this about a month ago with my girlfriend. Good fun, especially with beer!

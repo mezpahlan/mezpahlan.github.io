@@ -3,11 +3,9 @@ layout: blog
 title: Life Beyond Measure
 date: '2009-07-30T21:41:00.003+01:00'
 author: Mez Pahlan
+disqus_identifier: b1f90e7a-75e4-4ce0-966b-e1045a7074e9
 tags:
 - books
-modified_time: '2012-06-13T14:05:45.171+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-2198177474549064037
-blogger_orig_url: http://mezsays.blogspot.com/2009/07/life-beyond-measure.html
 ---
 
 I've just finished reading my first book in a year! For the last year I have been encaptivated and excited in a child like trance by comics and graphic novel that I've come to love and yearn to dive deeper into a world of geekdom.

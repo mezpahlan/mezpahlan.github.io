@@ -3,12 +3,9 @@ layout: blog
 title: Coffee Cake
 date: '2013-04-08T15:20:00.000+01:00'
 author: Mez Pahlan
+disqus_identifier: 2117f79e-6895-4b95-bbe1-bc418c89ee22
 tags:
 - food
-modified_time: '2013-04-08T15:20:06.577+01:00'
-thumbnail: http://2.bp.blogspot.com/-s0VD8kc_KPM/UWLQykiJ91I/AAAAAAAARsQ/keK9CK4_8ss/s72-c/IMG-20130408-WA0001.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-3816042673741754260
-blogger_orig_url: http://mezsays.blogspot.com/2013/04/coffee-cake.html
 ---
 
 Back on the cake making! This time with a sugar filled coffee cake that is easy peasy to make. I would leave this for special occasions since the ingredients are rather rich and on the excessive side. Makes for a great cake!

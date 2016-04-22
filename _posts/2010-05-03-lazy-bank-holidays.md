@@ -3,13 +3,11 @@ layout: blog
 title: Lazy bank holidays
 date: '2010-05-03T22:43:00.002+01:00'
 author: Mez Pahlan
+disqus_identifier: 41a5f5e3-967b-48bd-8388-5855957f84fa
 tags:
 - bank holiday
 - books
 - politics
-modified_time: '2012-06-13T14:32:35.133+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-6923792015949523008
-blogger_orig_url: http://mezsays.blogspot.com/2010/05/lazy-bank-holidays.html
 ---
 
 Today was a pretty lazy day. And that is a good thing.

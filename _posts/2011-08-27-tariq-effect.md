@@ -3,14 +3,12 @@ layout: blog
 title: The Tariq Effect
 date: '2011-08-27T23:53:00.000+01:00'
 author: Mez Pahlan
+disqus_identifier: 91220520-71fe-4fda-957f-4d52ccd562df
 tags:
 - contractor
 - IT projects
 - siebel
 - consulting
-modified_time: '2012-06-13T14:47:51.724+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-2923500380184590100
-blogger_orig_url: http://mezsays.blogspot.com/2011/08/tariq-effect.html
 ---
 
 Picture the scenario: You're working on a high profile account work millions of Pounds in charge of a team of skilled developers all working to create the client's next generation system. You have to interface with different teams throughout the project as is the nature with any large delivery project. Teams such as Business Analyst team, Rules team, Business Process Management team and a CRM team. All teams are working harmoniously with each other. Sure they have issues and blockers and sometimes your code needs a rethink but nothing out of the ordinary considering the project is of a fair size.

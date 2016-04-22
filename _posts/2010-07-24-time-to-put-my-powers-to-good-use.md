@@ -3,12 +3,10 @@ layout: blog
 title: Time to put my powers to good use
 date: '2010-07-24T20:47:00.005+01:00'
 author: Mez Pahlan
+disqus_identifier: 6c804d07-f02c-4755-b007-4d53967a7738
 tags:
 - android
 - ubuntu
-modified_time: '2012-06-13T14:36:22.403+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-1513448689879124553
-blogger_orig_url: http://mezsays.blogspot.com/2010/07/time-to-put-my-powers-to-good-use.html
 ---
 
 But first..... I need to get some powers.

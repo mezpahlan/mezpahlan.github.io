@@ -3,11 +3,9 @@ layout: blog
 title: 'Currys And Why The High Street Should Die '
 date: '2013-08-26T20:23:00.000+01:00'
 author: Mez Pahlan
+disqus_identifier: bc08225c-338d-44db-9b83-9d8a48314294
 tags:
 - unhappiness
-modified_time: '2013-08-26T20:23:43.798+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-6627389740897113696
-blogger_orig_url: http://mezsays.blogspot.com/2013/08/currys-and-why-high-street-should-die.html
 ---
 
 I recently bought a new camera to play with ([Fuji X-E1](http://www.fujifilm.com/products/digital_cameras/x/fujifilm_x_e1/)) from the long standing high street retailer in the UK, Currys. I bought the accessories (a camera bag, a lens, memory cards, and a spare battery) from the online retailer [Amazon](http://www.amazon.co.uk/). I vowed never to use one of them again. Ever.

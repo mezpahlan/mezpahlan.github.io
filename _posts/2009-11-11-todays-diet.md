@@ -3,11 +3,9 @@ layout: blog
 title: Today's diet
 date: '2009-11-11T22:03:00.003Z'
 author: Mez Pahlan
+disqus_identifier: 39ccc78c-260a-4d51-9017-f542e9ceca72
 tags:
 - food
-modified_time: '2012-06-13T14:19:03.102+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-1440409658954095904
-blogger_orig_url: http://mezsays.blogspot.com/2009/11/todays-diet.html
 ---
 
 Today I mostly had:

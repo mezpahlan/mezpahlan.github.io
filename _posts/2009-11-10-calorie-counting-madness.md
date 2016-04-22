@@ -3,11 +3,9 @@ layout: blog
 title: Calorie counting madness
 date: '2009-11-10T16:12:00.003Z'
 author: Mez Pahlan
+disqus_identifier: 4a3291fc-dd54-49f7-be9a-0e21553455d7
 tags:
 - food
-modified_time: '2012-06-13T14:18:42.678+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-7265003550404250256
-blogger_orig_url: http://mezsays.blogspot.com/2009/11/calorie-counting-madness.html
 ---
 
 On with this new diet and here are my results so far.....

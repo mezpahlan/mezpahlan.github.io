@@ -3,13 +3,10 @@ layout: blog
 title: Masa Bristol - A great sushi place
 date: '2012-01-01T16:37:00.001Z'
 author: Mez Pahlan
+disqus_identifier: bc219786-6ca3-4b4f-ae8e-ec8c52c822d3
 tags:
 - bristol
 - food
-modified_time: '2012-06-13T14:48:59.866+01:00'
-thumbnail: http://2.bp.blogspot.com/-eVhNy_PI0GY/TwCL0qG3t4I/AAAAAAAABDg/dHmbG3-Lrvw/s72-c/C360_2012-01-0114-48-01.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-3776808955363401586
-blogger_orig_url: http://mezsays.blogspot.com/2012/01/masa-bristol-great-sushi-place.html
 ---
 
 Happy New Year to all.

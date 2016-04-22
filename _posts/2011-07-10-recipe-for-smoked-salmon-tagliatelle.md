@@ -3,12 +3,9 @@ layout: blog
 title: Recipe for Smoked Salmon Tagliatelle
 date: '2011-07-10T18:48:00.008+01:00'
 author: Mez Pahlan
+disqus_identifier: 39d3bda8-8864-4ca8-bbe5-5ce6ec02333d
 tags:
 - food
-modified_time: '2012-06-13T14:44:52.259+01:00'
-thumbnail: http://1.bp.blogspot.com/-0l_-4Os3paM/ThnxB3ySlSI/AAAAAAAAAVw/PxBENaQjiPU/s72-c/C360_2011-07-10%2B19-14-01.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-6354053388978491226
-blogger_orig_url: http://mezsays.blogspot.com/2011/07/recipe-for-smoked-salmon-tagliatelle.html
 ---
 
 Ingredients:

@@ -3,14 +3,11 @@ layout: blog
 title: Snowboarding Tignes
 date: '2012-03-05T12:41:00.000Z'
 author: Mez Pahlan
+disqus_identifier: 054728ee-45ca-46a2-aec7-f8c6cd3b6d1b
 tags:
 - snowboarding
 - holidays
 - france
-modified_time: '2013-02-16T16:31:48.499Z'
-thumbnail: http://1.bp.blogspot.com/-HtmKBzeY2-I/T1S0O7QiPmI/AAAAAAAABr8/BBFzM2DlCow/s72-c/C360_2012-02-2712-17-41.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-986831095636374602
-blogger_orig_url: http://mezsays.blogspot.com/2012/03/snowboarding-tignes.html
 ---
 
 This week I'm in Tignes, France snowboarding with some friends from work.

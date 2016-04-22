@@ -3,11 +3,9 @@ layout: blog
 title: I'm With You
 date: '2011-09-04T14:01:00.000+01:00'
 author: Mez Pahlan
+disqus_identifier: b39f85d8-5525-46f8-bdf3-673906cdb194
 tags:
 - music
-modified_time: '2012-06-13T14:48:04.305+01:00'
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-6861917919719770464
-blogger_orig_url: http://mezsays.blogspot.com/2011/09/im-with-you.html
 ---
 
 I have the new Red Hot Chili Peppers album, I'm With You, and I've been listening to it on repeat for a week.

@@ -3,14 +3,11 @@ layout: blog
 title: Gits Everywhere
 date: '2013-07-18T12:44:00.001+01:00'
 author: Mez Pahlan
+disqus_identifier: 17208ac4-ca15-4e9b-a883-a26842ab1547
 tags:
 - learning
 - programming
 - android
-modified_time: '2013-07-18T12:44:37.806+01:00'
-thumbnail: http://2.bp.blogspot.com/-zgWBeuczxZw/Uee66xgXGZI/AAAAAAAAU3M/srX4zHV2BwY/s72-c/Screenshot+from+2013-07-18+10:48:40.png
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-3933361424352693001
-blogger_orig_url: http://mezsays.blogspot.com/2013/07/gits-everywhere.html
 ---
 
 Another long break between blog posts. Mostly out of laziness but also because I am trying to learn and teach myself Android programming. Here's a short post about how I'm getting along.

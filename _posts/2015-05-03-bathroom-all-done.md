@@ -3,12 +3,9 @@ layout: blog
 title: Bathroom All Done
 date: '2015-05-03T19:01:00.000+01:00'
 author: Mez Pahlan
+disqus_identifier: eb36ff8d-ea52-4414-b615-3bcc6ee0003e
 tags:
 - home
-modified_time: '2015-05-03T19:01:02.282+01:00'
-thumbnail: http://2.bp.blogspot.com/-vV4yLc-u6Io/VUZgPoxrmCI/AAAAAAAAhfo/0aY2u1dAkJI/s72-c/IMAG0638.jpg
-blogger_id: tag:blogger.com,1999:blog-7057712950286438970.post-610621843752656057
-blogger_orig_url: http://mezsays.blogspot.com/2015/05/bathroom-all-done.html
 ---
 
 At last!! Almost............
