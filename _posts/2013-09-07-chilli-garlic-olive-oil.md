@@ -8,7 +8,7 @@ tags:
 - food
 ---
 
-<div class="separator" style="clear: both; text-align: left;">Inspired by our Italian friend Fran, I'm going to share a nice way to restock your olive oil. It is just regular olive oil but with a kick of chilli! Goes great over pasta and fish but you can use it where ever you would use olive oil. It is also very easy to make. The longer you leave it in the cupboard the better it gets.
+Inspired by our Italian friend Fran, I'm going to share a nice way to restock your olive oil. It is just regular olive oil but with a kick of chilli! Goes great over pasta and fish but you can use it where ever you would use olive oil. It is also very easy to make. The longer you leave it in the cupboard the better it gets.
 
 <figure>
 {% picture {{ page.id }}/chilli.jpg alt="Chilli" class="captioned-picture"%}
