@@ -38,7 +38,7 @@ task :publish do
     end
 
     puts "## Building site using Jekyll"
-    stdout, stderr, status = Open3.capture3("jekyll build")
+    stdout, stderr, status = Open3.capture3("bundle exec jekyll build")
     exit_code = /exit (\d+)/.match(status.to_s)[1].to_i
     if exit_code == 0 && !stdout.nil?
         puts "Success"
