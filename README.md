@@ -11,6 +11,7 @@ The theme is a modified version of the [Bootstap Freelancer theme rewritten for 
 - [x] Complete initial port of all blog posts to markdown
 - [x] Add paging in for blog index
 - [x] Add comments
+- [ ] Write down details of how to use this overly complicated workflow. F***ing Ruby.
 - [ ] Add category filtering
 - [ ] Make site HTTPS only
 - [ ] Custom CNAME
