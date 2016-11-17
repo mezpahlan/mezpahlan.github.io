@@ -11,6 +11,7 @@ The theme is a modified version of the [Bootstap Freelancer theme rewritten for 
 - [x] Complete initial port of all blog posts to markdown
 - [x] Add paging in for blog index
 - [x] Add comments
+- [ ] Add new item to portolio...... this site!!
 - [ ] Write down details of how to use this overly complicated workflow. F***ing Ruby.
 - [ ] Add category filtering
 - [ ] Make site HTTPS only
@@ -19,6 +20,5 @@ The theme is a modified version of the [Bootstap Freelancer theme rewritten for 
 - [ ] Write custom Jekyll plugin for responsive picture formatting with figure support
 - [ ] Apply cutsom Jekyll plugin to this blog
 - [ ] Sort out CSS site wide
-- [ ] Add new item to portolio...... this site!!
 - [ ] Add new section for Physics uni archive
 - [ ] Harden the Rakefile to maybe split into more granular tasks?
