@@ -2,9 +2,9 @@ require 'open3'
 
 desc "Generate blog files"
 task :generate do
-  puts "## Building blog using Jekyll"
-  status = system("jekyll build")
-  exit_code = /exit (\d+)/.match(status.to_s)[1].to_i
+    puts "## Building site using Jekyll"
+    stdout, stderr, status = Open3.capture3("bundle exec jekyll build")
+    exit_code = /exit (\d+)/.match(status.to_s)[1].to_i
     if exit_code == 0 && !stdout.nil?
         puts "Success"
     elsif exit_code > 0 && !stderr.nil?
@@ -37,14 +37,7 @@ task :publish do
         abort stderr
     end
 
-    puts "## Building site using Jekyll"
-    stdout, stderr, status = Open3.capture3("bundle exec jekyll build")
-    exit_code = /exit (\d+)/.match(status.to_s)[1].to_i
-    if exit_code == 0 && !stdout.nil?
-        puts "Success"
-    elsif exit_code > 0 && !stderr.nil?
-        abort stderr
-    end
+    Rake::Task["generate"].execute
 
     puts "Move into the local master branch"
     Dir.chdir("_site/")
