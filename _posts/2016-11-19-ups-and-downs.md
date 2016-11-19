@@ -10,7 +10,10 @@ tags:
 
 I've had a lot of ups and downs over the past few months........ I joined a trampolining centre!
 
-![freedog](https://freedog.com/files/logo-3.jpg)
+<figure>
+{% picture {{ page.id }}/freedog.png alt="Freedog" class="captioned-picture"%}
+<figcaption>The laughing jumping free dog</figcaption>
+</figure>
 
 <!-- more -->
 
