@@ -10,7 +10,7 @@ tags:
 
 I've had a lot of ups and downs over the past few months........ I joined a trampolining centre!
 
-![freedog](http://freedog.com/files/logo-3.jpg)
+![freedog](https://freedog.com/files/logo-3.jpg)
 
 <!-- more -->
 
