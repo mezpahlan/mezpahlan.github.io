@@ -4,8 +4,6 @@
         <h3><span class="colour-primary">{{ page.title }}<span></h3>
         {% include blog-post-info.html context=page %}
         {{ content }}
-        {% if site.github %}
         {% include disqus-comments.html %}
-        {% endif %}
     </div>
 </section>
