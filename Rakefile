@@ -39,9 +39,6 @@ desc "Publishes a single draft from the drafts folder to the posts folder"
 def publish_single_draft(draft_name)
     puts "## Publishing #{draft_name}"
 
-    # create uuid for disqus
-    insert_disqus_id(draft_name)
-
     # create timestamp
     time = Time.now
 
@@ -93,19 +90,28 @@ end
 
 desc "Create draft blog post"
 task :draft, [:draft_name] do |t, args|
+    draft_name = args[:draft_name].to_s.strip
     puts "## Create draft blog post"
     draft_dir = "_drafts"
     Dir.mkdir(draft_dir) unless File.exists?(draft_dir)
-    if args[:draft_name].to_s.strip.empty?
+    if draft_name.empty?
         puts "Draft name cannot be empty."
         puts "Syntax: rake draft[\"<draft_name>\"]"
     else
-        filename = args[:draft_name].to_s.strip.downcase.gsub(/\s/,"-")+".md"
+        filename = draft_name.downcase.gsub(/\s/,"-")+".md"
         outfile = "_drafts/" + filename
-        contents = File.open("_post-template.md") do |f| f.read.gsub(/title:.+/, "title: " + args[:draft_name]) end
+
+        # copy over template post
+        contents = File.open("_post-template.md") do |f| f.read.gsub(/title:.+/, "title: " + draft_name) end
         IO.write(outfile, contents)
+
+        # Update permissions mode
         File.chmod(0664, outfile)
-        puts "## " + filename + " created successfully."
+
+        # create uuid for disqus
+        insert_disqus_id(outfile)
+
+        puts "## #{filename} created successfully."
     end
 end
 
