@@ -1,28 +1,79 @@
 require 'open3'
+require 'fileutils'
+require 'securerandom'
 
-desc "Update timestamp for drafts"
-task :update_draft_timestamp do
-    puts "Move into the draft directory"
-    Dir.chdir("_drafts/")
+desc "Inserts a Disqu identifier"
+def insert_disqus_id(draft_name)
+    puts "## Creating Disqus id for #{draft_name}"
+    uuid = SecureRandom.uuid
+    contents = File.open(draft_name) do |f| f.read.gsub(/disqus_identifier:.+/, "disqus_identifier: " + uuid) end
+    IO.write(draft_name, contents)
+end
 
+desc "Renames a single draft filename with timestamp"
+def update_draft_filename_with_timestamp(draft_name, time)
+    puts "## Rename #{draft_name} using timestamp"
+    timestamp = time.strftime("%Y-%m-%d-")
+    new_filename = timestamp + draft_name
+    File.rename(draft_name, new_filename)
+    return new_filename
+end
+
+desc "Updates a single draft's internal timestamp"
+def update_single_draft_timestamp(draft_name, time)
+    puts "## Update timestamp for: " + draft_name
+    timestamp = time.strftime("'%Y-%m-%dT%H:%M:%S.%LZ'")
+    contents = File.open(draft_name) do |f| f.read.gsub(/date:.+/, "date: " + timestamp) end
+    IO.write(draft_name, contents)
+end
+
+desc "Update internal timestamp for all drafts"
+def update_all_drafts_timestamp
+    puts "## Publishing all drafts"
     Dir.glob("*.md").each do |draft|
-        puts "Update timestamp for: " + draft
-        outfile = draft
-        time = Time.now
-        timestamp = time.strftime("'%Y-%m-%dT%H:%M:%S.%LZ'")
-        contents = File.open(draft) do |f| f.read.gsub(/date:.+/, "date: " + timestamp) end
-        IO.write(outfile, contents)
+       update_single_draft_timestamp(draft, Time.now)
     end
+end
 
-    puts "Move into the root directory"
-    Dir.chdir("../")
+desc "Publishes a single draft from the drafts folder to the posts folder"
+def publish_single_draft(draft_name)
+    puts "## Publishing #{draft_name}"
+
+    # create uuid for disqus
+    insert_disqus_id(draft_name)
+
+    # create timestamp
+    time = Time.now
+
+    # use this to update the internal timestamp in post
+    update_single_draft_timestamp(draft_name, time)
+
+    # use this to modify the file name
+    new_filename = update_draft_filename_with_timestamp(draft_name, time)
+
+    # move new file to posts folder
+    puts "## Moving #{new_filename} to posts folder"
+    FileUtils.mv(new_filename, "../_posts/#{new_filename}")
+end
+
+desc "Publishes all drafts in the draft folder to the posts folder"
+def publish_all_drafts
+    puts "## Publishing all drafts"
+    Dir.glob("*.md").each do |draft|
+       publish_single_draft(draft)
+    end
 end
 
 desc "Build site with drafts"
 task :build do
-    puts "## Building site using Jekyll including drafts"
-    Rake::Task["update_draft_timestamp"].execute
+    puts "## Entering drafts directory"
+    Dir.chdir("_drafts/")
+    update_all_drafts_timestamp()
 
+    puts "## Entering root directory"
+    Dir.chdir("../")
+
+    puts "## Building site including drafts"
     stdout, stderr, status = Open3.capture3("bundle exec jekyll build --drafts")
     exit_code = /exit (\d+)/.match(status.to_s)[1].to_i
     if exit_code == 0 && !stdout.nil?
@@ -42,7 +93,7 @@ end
 
 desc "Create draft blog post"
 task :draft, [:draft_name] do |t, args|
-    puts "## Create draft blog"
+    puts "## Create draft blog post"
     draft_dir = "_drafts"
     Dir.mkdir(draft_dir) unless File.exists?(draft_dir)
     if args[:draft_name].to_s.strip.empty?
@@ -56,6 +107,19 @@ task :draft, [:draft_name] do |t, args|
         File.chmod(0664, outfile)
         puts "## " + filename + " created successfully."
     end
+end
+
+desc "Publish draft blog post"
+task :publish_draft, [:draft_name] do |t, args|
+    draft_name = args[:draft_name].to_s.strip
+    draft_dir = "_drafts"
+    Dir.chdir(draft_dir)
+    if draft_name.to_s.strip.empty?
+        publish_all_drafts()
+    else
+       publish_single_draft(draft_name)
+    end
+    Dir.chdir("../")
 end
 
 desc "Generate blog files"
