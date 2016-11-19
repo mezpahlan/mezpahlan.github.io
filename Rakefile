@@ -71,7 +71,7 @@ task :generate do
 end
 
 desc "Build and deploy site"
-task :publish do
+task :deploy do
     puts "Check for any unpushed changes in source branch"
     stdout, stderr, status = Open3.capture3("git rev-list --count origin/source..HEAD")
     exit_code = /exit (\d+)/.match(status.to_s)[1].to_i
