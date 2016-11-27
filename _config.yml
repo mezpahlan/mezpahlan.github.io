@@ -119,8 +119,9 @@ picture:
 
 # Jekyll Archive settings
 jekyll-archives:
-  enabled: [tag]
+  enabled:
+    - tags
   layouts:
     tag: tag-archive
   permalinks:
-    tag: '/tag/:name/'
+    tag: '/blog/tag/:name/'
