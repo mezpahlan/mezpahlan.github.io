@@ -14,7 +14,7 @@ The theme is a modified version of the [Bootstap Freelancer theme rewritten for 
 - [x] Add new item to portolio...... this site!!
 - [x] Add two Android projects to portfolio.
 - [ ] Write down details of how to use this overly complicated workflow. F***ing Ruby.
-- [ ] Add category filtering
+- [x] Add category filtering
 - [ ] Make site HTTPS only
 - [ ] Custom CNAME
 - [ ] Figure out a workflow. From drafts to published
