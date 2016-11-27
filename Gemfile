@@ -7,5 +7,6 @@ group :jekyll_plugins do
   gem 'jekyll-youtube'
   gem 'jekyll-gist'
   gem 'jekyll-paginate'
+  gem 'jekyll-archives'
   gem 'rouge'
 end

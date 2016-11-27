@@ -1,6 +1,3 @@
-# Plugins
-gems: [jekyll-paginate]
-
 # Site settings
 title: Mez Pahlan
 email: mez.pahlan@gmail.com
@@ -119,3 +116,11 @@ picture:
       source_default:
         width: 250
         height: 250
+
+# Jekyll Archive settings
+jekyll-archives:
+  enabled: [tag]
+  layouts:
+    tag: tag-archive
+  permalinks:
+    tag: '/tag/:name/'
