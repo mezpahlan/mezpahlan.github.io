@@ -8,10 +8,16 @@ tags:
 - tv
 ---
 I've been watching two programmes recently about robots and specifically about the artificial intelligence of robots: [Humans](https://www.channel4.com/programmes/humans) on Channel 4 and [Westworld](https://www.hbo.com/westworld) on HBO.
+<figure>
+{% picture {{ page.id }}/humans-c4.png alt="Humans on Channel 4" class="captioned-picture"%}
+<figcaption>Humans on Channel 4</figcaption>
+</figure>
 
-{% picture {{ page.id }}/humans-c4.png alt="Humans on Channel 4" %}
+<figure>
+{% picture {{ page.id }}/westworld-hbo.png alt="Westworld on HBO" class="captioned-picture"%}
+<figcaption>Westworld on HBO</figcaption>
+</figure>
 
-{% picture {{ page.id }}/westworld-hbo.png alt="Wetworld on HBO" %}
 <!-- more -->
 Both are fascinating in their own ways and touch upon the nature of artificial intelligence and what happens when this intelligence is so good that it can mimic real life and real feeling.
 
@@ -25,4 +31,7 @@ The first few episodes shows this off as we are introduced to the main cast and 
 
 This isn't surprising when you think about who makes the show. Jonathan Nolan and JJ Abrams. It certainly has the feeling of watching [Lost](https://en.wikipedia.org/wiki/Lost_%28TV_series%29) again. Although I hope it doesn't drag on for 8 seasons where in the end we find out that it was that damned labrador's dream.
 
-{% picture {{ page.id }}/stupid-dogs-dream.png alt="Stupid dog's dream" %}
+<figure>
+{% picture {{ page.id }}/stupid-dogs-dream.png alt="Stupid dog's dream" class="captioned-picture"%}
+<figcaption>Stupid dog's dream</figcaption>
+</figure>
