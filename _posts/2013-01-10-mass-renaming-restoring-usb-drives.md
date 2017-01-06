@@ -12,7 +12,7 @@ tags:
 I recently had to rename a lot of files in directory as well as fix a broken USB drive. I reckon I'll need to use this again at some point so here are the tips. Both for me and for you!
 
 <figure>
-{% picture {{ page.id }}/rename.jpg alt="Coulommiers lait cru" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/rename.jpg alt="Coulommiers lait cru" class="captioned-picture"%}
 <figcaption>Coulommiers lait cru</figcaption>
 </figure>
 

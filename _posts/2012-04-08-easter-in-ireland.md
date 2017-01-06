@@ -11,7 +11,7 @@ tags:
 
 Easter has begun Ireland with the eating of chocolate eggs.
 
-{% picture {{ page.id }}/easter.jpg alt="Easter" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/easter.jpg alt="Easter" %}
 
 <!-- more -->
 

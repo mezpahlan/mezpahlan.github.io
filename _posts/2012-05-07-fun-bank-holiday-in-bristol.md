@@ -11,7 +11,7 @@ tags:
 
 For the May Bank holiday, we spent the time in Bristol.
 
-{% picture {{ page.id }}/bank-holiday.jpg alt="Bank Holiday In Bristol" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/bank-holiday.jpg alt="Bank Holiday In Bristol" %}
 
 <!-- more -->
 

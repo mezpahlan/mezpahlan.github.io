@@ -10,7 +10,7 @@ tags:
 
 As promised. Stuff I've been doing:
 
-{% picture {{ page.id }}/ilford.jpg alt="Ilford XP2 ISO 400" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/ilford.jpg alt="Ilford XP2 ISO 400" %}
 
 I know it is only one. I will try and upload some more later
 

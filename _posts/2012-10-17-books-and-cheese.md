@@ -12,7 +12,7 @@ tags:
 This weekend I completed two activities. The first was finish reading Frankenstein and the second was to finish a wheel of cheese from Cheddar.
 
 <figure>
-{% picture {{ page.id }}/battersea-park.jpg alt="Battersea Park" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/battersea-park.jpg alt="Battersea Park" class="captioned-picture"%}
 <figcaption>Battersea Park</figcaption>
 </figure>
 

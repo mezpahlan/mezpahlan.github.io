@@ -10,6 +10,6 @@ tags:
 
 The best thing to happen all month.
 
-{% picture {{ page.id }}/ratm.jpg alt="Rage Against The Machine" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/ratm.jpg alt="Rage Against The Machine" %}
 
 <!-- more -->

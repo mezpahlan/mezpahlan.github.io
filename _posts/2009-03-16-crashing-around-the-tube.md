@@ -21,4 +21,4 @@ I'm not this mean normally.
 
 Here are some pictures of something fluffy.
 
-{% picture {{ page.id}}/bunny.jpg alt="Fluffy bunny" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/bunny.jpg alt="Fluffy bunny" %}

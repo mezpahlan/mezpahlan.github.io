@@ -10,13 +10,13 @@ tags:
 
 Thursday night saw me and my old lab partner go see Stereophonics at the Royal Albert Hall.
 
-{% picture {{ page.id}}/stereophonics-3.jpg alt="Stereophonics 3" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/stereophonics-3.jpg alt="Stereophonics 3" %}
 
 <!-- more -->
 
-{% picture {{ page.id}}/stereophonics-2.jpg alt="Stereophonics 2" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/stereophonics-2.jpg alt="Stereophonics 2" %}
 
-{% picture {{ page.id}}/stereophonics-1.jpg alt="Stereophonics 1" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/stereophonics-1.jpg alt="Stereophonics 1" %}
 
 Quite simply was amazing. That boy Kelly's voice is awesome.
 

@@ -13,7 +13,7 @@ tags:
 
 Picture the scenario: You're working on a high profile account work millions of Pounds in charge of a team of skilled developers all working to create the client's next generation system. You have to interface with different teams throughout the project as is the nature with any large delivery project. Teams such as Business Analyst team, Rules team, Business Process Management team and a CRM team. All teams are working harmoniously with each other. Sure they have issues and blockers and sometimes your code needs a rethink but nothing out of the ordinary considering the project is of a fair size.
 
-{% picture {{ page.id }}/evil-joe.jpg alt="Evil" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/evil-joe.jpg alt="Evil" %}
 
 <!-- more -->
 

@@ -11,7 +11,7 @@ tags:
 
 What have I been doing recently?
 
-{% picture {{ page.id }}/nothing.jpg alt="Nothing" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/nothing.jpg alt="Nothing" %}
 
 <!-- more -->
 

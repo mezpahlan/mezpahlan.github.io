@@ -14,6 +14,6 @@ Considering it is a beta still, it is pretty good. I have to reset up my plugins
 
 The one thing I'd like to see from Firefox now is speed. Speed to start and speed to roam.
 
-{% picture {{ page.id }}/chrome.jpg alt="Chrome" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/chrome.jpg alt="Chrome" %}
 
 <!-- more -->

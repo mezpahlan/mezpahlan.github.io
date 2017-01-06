@@ -17,4 +17,4 @@ Tonight I will rest and catch up of many hours of TV.
 
 Good news is that child stealing wench madonna has been denied adoption rights. I am pleased. Thief. Not likely she will try and stay in Malawi for 18 months to qualify either. Most likely a change in the law will happen allowing her not to have to stay in the country for that length of time before she can steal another child, followed by the changing of money across hands.
 
-{% picture {{ page.id}}/orphans.jpg alt="Madonna steals children" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/orphans.jpg alt="Madonna steals children" %}

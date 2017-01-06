@@ -14,7 +14,7 @@ Well....
 
 I have one of these! And boy is it sweet.
 
-{% picture {{ page.id }}/htc-desire.jpg alt="HTC Desire" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/htc-desire.jpg alt="HTC Desire" %}
 
 <!-- more -->
 
@@ -50,4 +50,4 @@ It is like fantasy football except with the politicians. Politicians will vie fo
 
 Too complicated? Isn't this the same game of fantasy football played out every day by thousands..... nay, millions! of Britons?
 
-{% picture {{ page.id }}/libdem.jpg alt="Liberal Democrats" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/libdem.jpg alt="Liberal Democrats" %}

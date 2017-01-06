@@ -29,21 +29,21 @@ In the evening we went for elephant rides at a local elephant sanctuary. The hea
 This brought an end to the South African adventure. We had leaving drinks with the rest of the group and bid our farewells. Tomorrow we would be on an eleven hour flight back to London. But first there was a seven hour coach ride back to Johannesburg!
 
 <figure>
-{% picture {{ page.id }}/sean.jpg alt="Penguin Sean" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/sean.jpg alt="Penguin Sean" class="captioned-picture"%}
 <figcaption>Penguin Sean</figcaption>
 </figure>
 
 <figure>
-{% picture {{ page.id }}/elephant.jpg alt="Elephant" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/elephant.jpg alt="Elephant" class="captioned-picture"%}
 <figcaption>Elephant</figcaption>
 </figure>
 
 <figure>
-{% picture {{ page.id }}/elephant-roar.jpg alt="Elephant roar" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/elephant-roar.jpg alt="Elephant roar" class="captioned-picture"%}
 <figcaption>Elephant roar</figcaption>
 </figure>
 
 <figure>
-{% picture {{ page.id }}/kruger.jpg alt="Kruger" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/kruger.jpg alt="Kruger" class="captioned-picture"%}
 <figcaption>Kruger</figcaption>
 </figure>

@@ -10,28 +10,28 @@ tags:
 ---
 Some pictures from my phone.
 
-{% picture {{ page.id }}/smoke-me-a-kipper.jpg alt="Smoke me a kipper" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/smoke-me-a-kipper.jpg alt="Smoke me a kipper" %}
 
 Smoke me a kipper, I'll be back for breakfast
 
 <!-- more -->
 
-{% picture {{ page.id }}/henry-8.jpg alt="Henry the eigth" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/henry-8.jpg alt="Henry the eigth" %}
 
 Henry VII
 
-{% picture {{ page.id }}/ghost-hands.jpg alt="Ghost hands" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/ghost-hands.jpg alt="Ghost hands" %}
 
 Ghost hands at Elephant &amp; Castle or someone having sex next to the lifts?
 
-{% picture {{ page.id }}/easy-hotel-2.jpg alt="Easy Hotel" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/easy-hotel-2.jpg alt="Easy Hotel" %}
 
 The Easy Hotel @ Heathrow
 
-{% picture {{ page.id }}/easy-hotel-1.jpg alt="Easy Hotel Bed" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/easy-hotel-1.jpg alt="Easy Hotel Bed" %}
 
 The Easy Bed @ Heathrow
 
-{% picture {{ page.id }}/daffodils.jpg alt="Daffodils" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/daffodils.jpg alt="Daffodils" %}
 
 Lovely Daffodils @ Work

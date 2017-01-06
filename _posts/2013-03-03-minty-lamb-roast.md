@@ -11,7 +11,7 @@ tags:
 I used to cook something similar to this whilst at university. It lasts at least two meals even with these measures and there is enough left over for a tasty sandwich too! It was so tasty, in fact, that I used to finish most of it in one. That's probably why went up a trouser size!
 
 <figure>
-{% picture {{ page.id }}/roast.jpg alt="Lamb roast" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/roast.jpg alt="Lamb roast" class="captioned-picture"%}
 <figcaption>Lamb roast</figcaption>
 </figure>
 

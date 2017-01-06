@@ -24,7 +24,7 @@ On the magical coach tour around South Africa's hoods.</i>
 </p>
 
 <figure>
-{% picture {{ page.id }}/cape-of-good-hope.jpg alt="Cape Of Good Hope" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/cape-of-good-hope.jpg alt="Cape Of Good Hope" class="captioned-picture"%}
 <figcaption>Cape Of Good Hope</figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ Our coach tour to the penguins was not today!</i>
 </p>
 
 <figure>
-{% picture {{ page.id }}/sean-falls.jpg alt="Sean falls over" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/sean-falls.jpg alt="Sean falls over" class="captioned-picture"%}
 <figcaption>Sean falls over</figcaption>
 </figure>
 
@@ -55,7 +55,7 @@ That banged on the shore all broken in sticks.</i>
 </p>
  
 <figure>
-{% picture {{ page.id }}/cape-point.jpg alt="Cape Point" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/cape-point.jpg alt="Cape Point" class="captioned-picture"%}
 <figcaption>Cape Point</figcaption>
 </figure> 
 
@@ -67,6 +67,6 @@ We sunk a few cocktails and then hit the hay.</i>
 </p>
 
 <figure>
-{% picture {{ page.id }}/sean-bench.jpg alt="Sean sits on a bench" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/sean-bench.jpg alt="Sean sits on a bench" class="captioned-picture"%}
 <figcaption>Sean sits on a bench</figcaption>
 </figure>

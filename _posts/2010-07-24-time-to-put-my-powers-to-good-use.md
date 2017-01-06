@@ -11,7 +11,7 @@ tags:
 
 But first..... I need to get some powers.
 
-{% picture {{ page.id }}/android.jpg alt="Android" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/android.jpg alt="Android" %}
 
 <!-- more -->
 

@@ -15,7 +15,7 @@ tags:
 We're on holiday in South Africa for two weeks during which I'll try and write a few blog posts about the experience in the style of Patrick Bateman from Bret Easton Ellis' American Psycho.
 
 <figure>
-{% picture {{ page.id }}/table-wine.jpg alt="Sean enjoying the aeroplane entertainment" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/table-wine.jpg alt="Sean enjoying the aeroplane entertainment" class="captioned-picture"%}
 <figcaption>Sean enjoying the aeroplane entertainment</figcaption>
 </figure>
 
@@ -54,6 +54,6 @@ We then stopped for lunch in Stelenbosch. Anne-Marie had a Jalapeño and cheese 
 The last and final wine tasting for the day was a barrel tasting. This meant that it was a wine expert standing around a barrel whilst we necked the wine. The grounds of this vineyard were lovely and I hope the pictures come out well.
 
 <figure>
-{% picture {{ page.id }}/wine-table.jpg alt="Sean at a vineyard" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/wine-table.jpg alt="Sean at a vineyard" class="captioned-picture"%}
 <figcaption>Sean at a vineyard</figcaption>
 </figure>

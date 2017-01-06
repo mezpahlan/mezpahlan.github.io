@@ -16,6 +16,6 @@ So......
 
 Wasted.....
 
-{% picture {{ page.id }}/wasted.jpg alt="Wasted at work" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/wasted.jpg alt="Wasted at work" %}
 
 <!-- more -->

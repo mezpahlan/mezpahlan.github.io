@@ -19,7 +19,7 @@ Total = 1762 C
 Recommended daily allowance = 2500 C  
 Difference = 738 C  
 
-{% picture {{ page.id }}/chick.jpg alt="Chick On Sand" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/chick.jpg alt="Chick On Sand" %}
 
 <!-- more -->
 

@@ -12,13 +12,13 @@ tags:
 Happy New Year to all.
 
 To celebrate, I've just eaten some excellent sushi at [Masa](http://www.masajapaneserestaurant.com/) in Bristol. Really nice and cozy and some wonderful cooking too!
-{% picture {{ page.id }}/sushi1.jpg alt="Sushi" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/sushi1.jpg alt="Sushi" %}
 
 <!-- more -->
 
 We had: snow crab dumplings, yellow tail and jalapeños sashimi, a bento box, tempura. We finished with a cheesecake (it is new year's day!) and drank traditional Japanese beverages: Whiskey and beer.
 I recommend it thoroughly if you are in the area.
 
-{% picture {{ page.id }}/sushi2.jpg alt="Sushi" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/sushi2.jpg alt="Sushi" %}
 
-{% picture {{ page.id }}/sushi3.png alt="Sushi" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/sushi3.png alt="Sushi" %}

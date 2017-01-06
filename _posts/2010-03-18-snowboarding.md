@@ -12,7 +12,7 @@ tags:
 
 I leave for France on Saturday for some snowboarding action. I can't wait!
 
-{% picture {{ page.id }}/snowboarding.jpg alt="Snowboarding" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/snowboarding.jpg alt="Snowboarding" %}
 
 <!-- more -->
 

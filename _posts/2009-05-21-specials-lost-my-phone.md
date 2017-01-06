@@ -14,5 +14,5 @@ It was an amazing gig at Brixton Acedemy where they pretty much played all their
 
 However....... because of all the skanking my phone must have fallen out of my pocket and I am now not the proud owner of a Sony Ericcson W350i. It is horrible! Eeeeew! I have to put up with it until March when I can leave my contract and get an Android phone. Good news is by then they will be even better than the Google phone 2.
 
-{% picture {{ page.id }}/ska.png alt="Ska" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/ska.png alt="Ska" %}
 <!-- more -->

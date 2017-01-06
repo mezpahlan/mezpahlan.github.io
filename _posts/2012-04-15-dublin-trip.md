@@ -11,7 +11,7 @@ tags:
 
 Took the train from Foxford to Dublin on Friday morning which took three and a half hours but meant that we avoided the insanity of the [Titanic celebrations](www.mayo-titanic.com) in Lahardane.
 
-{% picture {{ page.id }}/dublin1.jpg alt="Dublin" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/dublin1.jpg alt="Dublin" %}
 
 <!-- more -->
 
@@ -41,4 +41,4 @@ The next morning we went to another museum but this time one that centred around
 
 All in all I enjoyed my time in Dublin and would love to come back some other time to explore other parts of the city.
 
-{% picture {{ page.id }}/dublin2.jpg alt="Dublin" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/dublin2.jpg alt="Dublin" %}

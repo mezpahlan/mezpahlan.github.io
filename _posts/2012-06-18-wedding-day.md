@@ -13,7 +13,7 @@ Today is wedding day.
 
 Now, I don't know if you've been to a wedding where you don't know anyone but it is quite fun. You can people watch to your heart's content and no one says anything.
 
-{% picture {{ page.id }}/wedding-day.jpg alt="Wedding Day" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/wedding-day.jpg alt="Wedding Day" %}
 
 <!-- more -->
 

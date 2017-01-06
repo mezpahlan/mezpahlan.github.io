@@ -20,14 +20,14 @@ We came up with the crazy idea at a very slow and depressing day at work one day
 Here is the former leader of the Labour Party, [Ed Miliband](https://twitter.com/ed_miliband), saying, "Thanks", for a hard fought campaign.
 
 <figure>
-{% picture {{ page.id }}/ed.png alt="Ed Miliband" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/ed.png alt="Ed Miliband" class="captioned-picture"%}
 <figcaption>Ed Miliband</figcaption>
 </figure>
 
 And here is his Jive counterpart, [Ed Jiveaband](https://twitter.com/edjiveaband), saying the same.
 
 <figure>
-{% picture {{ page.id }}/ed-jive.png alt="Ed Jiveaband" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/ed-jive.png alt="Ed Jiveaband" class="captioned-picture"%}
 <figcaption>REPLACE_ME</figcaption>
 </figure>
 
@@ -38,28 +38,28 @@ Here are some of my favourites from the other candidates.
 [David Cameron](https://twitter.com/david_cameron) wishing the new royal baby well.
 
 <figure>
-{% picture {{ page.id }}/dave.png alt="David Cameron" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/dave.png alt="David Cameron" class="captioned-picture"%}
 <figcaption>David Cameron</figcaption>
 </figure>
 
 And his Jive counterpart, [David Jiveron](https://twitter.com/DavidJiveron), wishing the same.
 
 <figure>
-{% picture {{ page.id }}/dave-jive.png alt="David Jiveron" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/dave-jive.png alt="David Jiveron" class="captioned-picture"%}
 <figcaption>David Jiveron</figcaption>
 </figure>
 
 Finally old [Cleggers](https://twitter.com/nick_clegg) after being flashed by an overexcited student.
 
 <figure>
-{% picture {{ page.id }}/nick.png alt="Cleggers" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/nick.png alt="Cleggers" class="captioned-picture"%}
 <figcaption>Cleggers</figcaption>
 </figure>
 
 And [Nick Jivegg](https://twitter.com/nickjivegg)'s response.
 
 <figure>
-{% picture {{ page.id }}/nick-jive.png alt="Nick Jivegg" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/nick-jive.png alt="Nick Jivegg" class="captioned-picture"%}
 <figcaption>Nick Jivegg</figcaption>
 </figure>
 

@@ -23,7 +23,7 @@ Whilst we haven't finalised our choices I think we are steering towards a look t
 #### The toilet pan and cistern:
 
 <figure>
-{% picture {{ page.id }}/toilet.jpg alt="Toilet" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/toilet.jpg alt="Toilet" class="captioned-picture"%}
 <figcaption>Toilet</figcaption>
 </figure>
 
@@ -32,7 +32,7 @@ Classic looks with a low level cistern as a compromise to a high level that we t
 #### The basin and an underneath cabinet:
 
 <figure>
-{% picture {{ page.id }}/sink-cabinet.jpg alt="Sink cabinet" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/sink-cabinet.jpg alt="Sink cabinet" class="captioned-picture"%}
 <figcaption>Sink cabinet</figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ The only change is colour and the basin we require has three tap holes for the f
 #### Taps for basin:
 
 <figure>
-{% picture {{ page.id }}/taps.jpg alt="Taps" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/taps.jpg alt="Taps" class="captioned-picture"%}
 <figcaption>Taps</figcaption>
 </figure>
 
@@ -50,7 +50,7 @@ These do not technically match the range that the other two items come from but 
 #### Shower:
 
 <figure>
-{% picture {{ page.id }}/shower.jpg alt="Shower" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/shower.jpg alt="Shower" class="captioned-picture"%}
 <figcaption>Shower</figcaption>
 </figure>
 
@@ -63,7 +63,7 @@ To save some cash we might only tile the splash areas around the sink and the sh
 #### Bathroom heating:
 
 <figure>
-{% picture {{ page.id }}/heater.jpg alt="Heater" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/heater.jpg alt="Heater" class="captioned-picture"%}
 <figcaption>Heater</figcaption>
 </figure>
 

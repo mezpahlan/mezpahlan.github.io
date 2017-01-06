@@ -10,7 +10,7 @@ tags:
 
 On with this new diet and here are my results so far.....
 
-{% picture {{ page.id }}/swallow.png alt="Swallow Food" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/swallow.png alt="Swallow Food" %}
 
 <!-- more -->
 

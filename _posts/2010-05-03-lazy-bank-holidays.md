@@ -12,7 +12,7 @@ tags:
 
 Today was a pretty lazy day. And that is a good thing.
 
-{% picture {{ page.id }}/android.jpg alt="Android" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/android.jpg alt="Android" %}
 
 <!-- more -->
 

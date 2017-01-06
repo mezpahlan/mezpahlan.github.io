@@ -12,7 +12,7 @@ Hello again!
 
 I wanted to share with everyone the importance of the V model approach to testing. I've seen a lot of places (and people) who don't understand this approach so this is my way of explaining it.
 
-{% picture {{ page.id }}/v-model.png alt="V Model of testing" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/v-model.png alt="V Model of testing" %}
 
 <!-- more -->
 

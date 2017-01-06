@@ -11,7 +11,7 @@ tags:
 
 Hi everyone! You can use this to easily draft your objections to the planned demolition of the greatest pub in Battersea, The Castle! You can find this information and more on the [Save The Castle](http://www.savethecastlebattersea.co.uk/) website as well as on flyers and cards in The Castle.
 
-{% picture {{ page.id }}/defend.jpg alt="Defend The Castle" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/defend.jpg alt="Defend The Castle" %}
 
 <!-- more -->
 

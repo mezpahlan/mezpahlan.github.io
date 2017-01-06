@@ -10,6 +10,6 @@ tags:
 
 Today I have taken a whole day off work to drink with the west country folk in their hovel of ale and cider and country folk music. Big beers, even bigger girls and about a thousand drunkards. Love it.
 
-{% picture {{ page.id }}/beer.jpg alt="Great British Beer Festival" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/beer.jpg alt="Great British Beer Festival" %}
 
 <!-- more -->

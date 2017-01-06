@@ -20,4 +20,4 @@ To see the International Space Station.
 
 But shitty clouds make it impossible :(
 
-{% picture {{ page.id }}/iss.jpg alt="International Space Station" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/iss.jpg alt="International Space Station" %}

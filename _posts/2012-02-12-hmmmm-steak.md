@@ -10,7 +10,7 @@ tags:
 
 Yesterday I was hungry so I chanced my arm at cooking a steak. I've never tried cooking a steak before and didn't really know what I was doing when I started but here is what I did. For record, I followed the cooking suggestions on the back of the steak packet and didn't just wing it!
 
-{% picture {{ page.id }}/steak.jpg alt="Steak" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/steak.jpg alt="Steak" %}
 
 <!-- more -->
 

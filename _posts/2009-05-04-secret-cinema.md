@@ -22,4 +22,4 @@ Having said that I didn't enjoy the film. I thought it was rather boring. Watchi
 
 I'll still go to another secret cinema though.
 
-{% picture {{ page.id }}/secret-cinema.jpg alt="Secret Cinema" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/secret-cinema.jpg alt="Secret Cinema" %}

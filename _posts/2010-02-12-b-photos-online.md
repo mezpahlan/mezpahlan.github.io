@@ -12,6 +12,6 @@ I told you I'd get something up.
 
 I hope this works! Click on the image to enjoy.
 
-[{% picture {{ page.id }}/bw.jpg %}](https://goo.gl/photos/GSKaJBsYDaBKL2Du8)
+[{% picture {{ page.id | remove_first: "/blog/" }}/bw.jpg %}](https://goo.gl/photos/GSKaJBsYDaBKL2Du8)
 
 <!-- more -->

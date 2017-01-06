@@ -22,4 +22,4 @@ I created a new Doom t-shirt. All I can say until it gets printed is that it is 
 
 I also downloaded the new (well not so new apparently) Cure album 4-13 Dream. There are some good tracks on it, but not liking the new shred metal guitaring that they are doing in their last two albums. I like the Cure when the guitars were all heavily chorused and the songs were quite blatantly about love and not about wanting to slash your wrists.
 
-{% picture {{ page.id }}/zebra.jpg alt="Zebra" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/zebra.jpg alt="Zebra" %}

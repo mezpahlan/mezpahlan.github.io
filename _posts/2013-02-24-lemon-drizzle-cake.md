@@ -11,7 +11,7 @@ tags:
 Lemon drizzle cake is something that I have wanted to bake for a while but have never got around to doing. I'm glad that I gave it a go because it is one of the simplest things to make and very tasty!  
 
 <figure>
-{% picture {{ page.id }}/lemon-cake.jpg alt="Lemon drizzle cake" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/lemon-cake.jpg alt="Lemon drizzle cake" class="captioned-picture"%}
 <figcaption>Lemon drizzle cake</figcaption>
 </figure>
 

@@ -7,7 +7,7 @@ disqus_identifier: 4b938f91-4804-4bbc-9329-f8fa86ce813a
 tags:
 - rugby
 ---
-{% picture {{ page.id }}/rugby-fans.jpg alt="Englad rugby fans" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/rugby-fans.jpg alt="Englad rugby fans" %}
 
 <!-- more -->
 

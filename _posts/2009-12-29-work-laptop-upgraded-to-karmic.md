@@ -10,10 +10,10 @@ tags:
 
 I upgraded my work laptop to the IBM Ubuntu reeeeeemix. I'm very impressed with the ease Ubuntu can be customised and how well that works with installations/ upgrades. Fantastic stuff.
 
-{% picture {{ page.id }}/koala.jpg alt="Karmix Koala" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/koala.jpg alt="Karmix Koala" %}
 
 <!-- more -->
 
 Now my home PC is a beta ahead of my work laptop. Fine.
 
-{% picture {{ page.id }}/lynx.jpg alt="Lucid Lynx" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/lynx.jpg alt="Lucid Lynx" %}

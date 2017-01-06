@@ -12,7 +12,7 @@ Loving this right now
 
 [RageMaker](http://www.ragemaker.net/)
 
-{% picture {{ page.id }}/rage.png alt="RageMaker Meme" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/rage.png alt="RageMaker Meme" %}
 
 <!-- more -->
 

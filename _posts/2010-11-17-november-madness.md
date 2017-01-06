@@ -13,7 +13,7 @@ Wow
 
 Lots to write about but really can't be bothered at the moment.
 
-{% picture {{ page.id }}/moustaches.jpg alt="Moustaches" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/moustaches.jpg alt="Moustaches" %}
 
 <!-- more -->
 

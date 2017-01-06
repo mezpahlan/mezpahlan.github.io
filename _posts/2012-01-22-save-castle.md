@@ -13,7 +13,7 @@ Sad news has reached us. Our beloved Castle has just learned that a planning app
 
 Go to [http://www.wandsworth.gov.uk/info/1023/planning_advice_and_guidance/364/find_a_planning_application](http://www.wandsworth.gov.uk/info/1023/planning_advice_and_guidance/364/find_a_planning_application) and search for application number 2012/0229 to protest and keep track of the application.
 
-{% picture {{ page.id }}/save-the-castle.jpg alt="Save The Castle" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/save-the-castle.jpg alt="Save The Castle" %}
 
 <!-- more -->
 

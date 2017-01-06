@@ -11,7 +11,7 @@ tags:
 Back on the cake making! This time with a sugar filled coffee cake that is easy peasy to make. I would leave this for special occasions since the ingredients are rather rich and on the excessive side. Makes for a great cake!
 
 <figure>
-{% picture {{ page.id }}/coffee-cake.jpg alt="Sorry about the blurry picture. It was so yummy we couldn't wait to eat it!" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/coffee-cake.jpg alt="Sorry about the blurry picture. It was so yummy we couldn't wait to eat it!" class="captioned-picture"%}
 <figcaption>Sorry about the blurry picture. It was so yummy we couldn't wait to eat it!</figcaption>
 </figure>
 

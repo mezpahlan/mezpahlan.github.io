@@ -18,7 +18,7 @@ Week two and I'll just keep things brief. As we move through the Western Cape in
 We spend a final night in the Garden Route with a stop off at Knysna where we sample oysters for the first time on the holiday. Large and fresh the oysters are served up with Tabasco sauce and broken pepper corns. I prefer them this way since it takes the edge off the salty brine water which I'm not too keen on.
 
 <figure>
-{% picture {{ page.id }}/garden-route.jpg alt="Garden Route" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/garden-route.jpg alt="Garden Route" class="captioned-picture"%}
 <figcaption>Garden Route</figcaption>
 </figure>
 
@@ -29,7 +29,7 @@ We also found time to take a dip in the pool which was one of the best so far on
 We drove down to Tsitsikamma and took some more tourist spots in. This day was the start of a lot of driving but the scenery was still good and the food as ever was lovely. Tsitsikamma had a nature trail that we walked whilst waiting for our food. The trail started and stopped at the restaurant so that worked out nicely!
 
 <figure>
-{% picture {{ page.id }}/anne-marie.jpg alt="Tsitsikamma" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/anne-marie.jpg alt="Tsitsikamma" class="captioned-picture"%}
 <figcaption>Tsitsikamma</figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ Port Elizabeth was our final stop before getting on a plane to Johannesburg the 
 Today we travel to Johannesburg and take a tour of Soweto. Soweto is a shortening of South Western Townships. It has quickly thrived into a city with the city of Johannesburg. We visited the old home of Nelson Mandela and had lunch at a local Soweto restaurant called Chez Alina. Let me tell you the food and the people are incredible! Well recommended for a visit. We were then treated to a traditional Zulu dance and waved goodbye to the township. 
 
 <figure>
-{% picture {{ page.id }}/zulu-dance.jpg alt="Zulu Dance" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/zulu-dance.jpg alt="Zulu Dance" class="captioned-picture"%}
 <figcaption>Zulu Dance</figcaption>
 </figure>
 

@@ -10,7 +10,7 @@ tags:
 
 I had the following problem yesterday and it has taken me about 24 hours to work it out. The problem is as follows.
 
-{% picture {{ page.id }}/basher.png alt="Pingus The Basher" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/basher.png alt="Pingus The Basher" %}
 
 <!-- more -->
 

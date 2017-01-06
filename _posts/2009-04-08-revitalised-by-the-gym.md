@@ -27,4 +27,4 @@ Things I am still waiting on:
 
 1. A fucking fix to stop libflashplayer.so 64 bit randomly crashing and killing Firefox. This is driving me nuts!! About 50% of the web is inaccessible! Ahhhhhhhhhhhhhhhhh!
 
-{% picture {{ page.id }}/the-beautiful-rosine.jpg alt="The Beautiful Rosine" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/the-beautiful-rosine.jpg alt="The Beautiful Rosine" %}

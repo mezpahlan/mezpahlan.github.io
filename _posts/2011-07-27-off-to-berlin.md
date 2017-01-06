@@ -11,7 +11,7 @@ tags:
 
 I'm off to Berlin for the weekend for a good friend's stag do.
 
-{% picture {{ page.id }}/berlin.png alt="Berlin" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/berlin.png alt="Berlin" %}
 
 <!-- more -->
 

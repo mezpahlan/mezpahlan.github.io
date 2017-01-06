@@ -12,6 +12,6 @@ This programme is awesome! Kind of like Peep Show with 6th formers. Exactly how 
 
 Season 2 on air now!
 
-{% picture {{ page.id }}/friend.jpg alt="The Inbetweeners" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/friend.jpg alt="The Inbetweeners" %}
 
 <!-- more -->

@@ -8,7 +8,7 @@ tags:
 - unhappiness
 ---
 
-{% picture {{ page.id}}/sway.jpg alt="Sway is a shitty night club in London" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/sway.jpg alt="Sway is a shitty night club in London" %}
 
 Sway.
 

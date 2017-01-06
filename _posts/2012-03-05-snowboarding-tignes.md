@@ -12,7 +12,7 @@ tags:
 
 This week I'm in Tignes, France snowboarding with some friends from work.
 
-{% picture {{ page.id }}/tignes1.jpg alt="Snowboarding In Tignes" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/tignes1.jpg alt="Snowboarding In Tignes" %}
 
 <!-- more -->
 
@@ -26,14 +26,14 @@ By the end of the week I managed to increase my speed on my toe edge and gain mo
 
 All in all, I loved the trip and would like to go again.
 
-{% picture {{ page.id }}/tignes2.jpg alt="Snowboarding In Tignes" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/tignes2.jpg alt="Snowboarding In Tignes" %}
 
-{% picture {{ page.id }}/tignes3.jpg alt="Snowboarding In Tignes" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/tignes3.jpg alt="Snowboarding In Tignes" %}
 
-{% picture {{ page.id }}/tignes4.jpg alt="Snowboarding In Tignes" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/tignes4.jpg alt="Snowboarding In Tignes" %}
 
-{% picture {{ page.id }}/tignes5.jpg alt="Snowboarding In Tignes" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/tignes5.jpg alt="Snowboarding In Tignes" %}
 
-{% picture {{ page.id }}/tignes6.jpg alt="Snowboarding In Tignes" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/tignes6.jpg alt="Snowboarding In Tignes" %}
 
-{% picture {{ page.id }}/tignes7.jpg alt="Snowboarding In Tignes" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/tignes7.jpg alt="Snowboarding In Tignes" %}

@@ -14,6 +14,6 @@ And I did that for free. The only expense was a blank CD for the boot disc and a
 
 How much would that have cost the MiCroShit way? Don't even try to guess.......
 
-{% picture {{ page.id }}/tux.png alt="Tux" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/tux.png alt="Tux" %}
 
 <!-- more -->

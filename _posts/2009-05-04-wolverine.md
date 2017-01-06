@@ -16,4 +16,4 @@ Bloody fantastic. Hugh Jackman I take my hat off to you. I don't have a hat so I
 
 Liev Schreiber was awesome as Sabertooth (or Victor in the film since he isn't yet Sabertooth). So was Jackman and the rest of the cast. Reminded me of how good Spiderman was.
 
-{% picture {{ page.id }}/wolverine.jpg alt="Wolverine" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/wolverine.jpg alt="Wolverine" %}

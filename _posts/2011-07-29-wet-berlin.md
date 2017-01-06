@@ -11,7 +11,7 @@ tags:
 
 Berlin is lovely, but very wet. I blame the best man for organising some of the worst weather for a stag do ever.
 
-{% picture {{ page.id }}/wet-berlin.png alt="Wet Berlin" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/wet-berlin.png alt="Wet Berlin" %}
 
 <!-- more -->
 

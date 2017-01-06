@@ -19,4 +19,4 @@ I feel like doing a round of gin. No three rounds! No a whole bottle. Screw it I
 
 Reminds me of a time I got so wasted on Malibu that I fell into a girls lap. Face first. Don't worry....... she didn't mind. I also proceeded to fall off a bass amp. Break my glasses onto my nose and lock myself in a toilet. Hahahaha those were the days!
 
-{% picture {{ page.id }}/womans-holy-war.jpg alt="Womans holy war" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/womans-holy-war.jpg alt="Womans holy war" %}

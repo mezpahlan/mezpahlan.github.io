@@ -16,7 +16,7 @@ Writing in the style of Dr Seuss was difficult and challenging. I don't think I'
 Table Top mountain from the north side STOP Quick coffee on the beach STOP Penguin colony at Betty's Bay STOP Sean met his cousins STOP Got on famously STOP
 
 <figure>
-{% picture {{ page.id }}/penguins.jpg alt="Penguins" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/penguins.jpg alt="Penguins" class="captioned-picture"%}
 <figcaption>Penguins</figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ Hermanus for lunch STOP Fish and chips and a tuna toastie STOP Aniston Spa hotel
 Visiting a mission settlement called Elim STOP Small farming town where the land is owned by the church STOP Ate a local desert called milk cake with coffee STOP Lovely STOP 
 
 <figure>
-{% picture {{ page.id }}/cake.jpg alt="Cake" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/cake.jpg alt="Cake" class="captioned-picture"%}
 <figcaption>Cake</figcaption>
 </figure>
 
@@ -38,6 +38,6 @@ Next was the southern most tip of Africa STOP Agulhas STOP Went up the lighthous
 Left the hotel and took a very long road journey to Heildelberg STOP We lunched at Mossel Bay on the way to Knysna STOP The K is silent STOP Saw some ostriches on a farm STOP Brazil is the biggest importer of ostrich feathers STOP Had Kudo Biltong STOP Very nice STOP On the way to Knysna we had lunch at a seaside town called Mossel Bay STOP I ate another cheese burger and Anne-Marie had Thai fish cakes STOP Some people were surfing off the coast STOP Anne-Marie dipped her foot in the Indian Ocean STOP
 
 <figure>
-{% picture {{ page.id }}/anne-marie.jpg alt="Anne-Marie" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/anne-marie.jpg alt="Anne-Marie" class="captioned-picture"%}
 <figcaption>Anne-Marie</figcaption>
 </figure>

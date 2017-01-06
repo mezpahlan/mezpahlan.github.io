@@ -12,7 +12,7 @@ tags:
 A good friend of mine, [Nick](http://nickandscottgobiking.blogspot.co.uk/), is organising the construction of a bicycle seat on route 18 of the Cycle Network to complete the work started by his mother, Catha. You can read more about it on the [Catha's Seat](http://www.cathas-seat.org/) website.
 
 <figure>
-{% picture {{ page.id }}/start_activity.png alt="Start Activity" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/start_activity.png alt="Start Activity" class="captioned-picture"%}
 <figcaption>Start Activity</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ The app will start on a welcome page with an image of Catha's Seat in the surrou
 2. Pressing the Go button takes you to the next screen - the map.
 
  <figure>
-{% picture {{ page.id }}/map_activity.png alt="Map Activity" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/map_activity.png alt="Map Activity" class="captioned-picture"%}
 <figcaption>Map Activity</figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ The app will start on a welcome page with an image of Catha's Seat in the surrou
 3. The route will lead to a marker for Catha's Seat.
 
  <figure>
-{% picture {{ page.id }}/directions_activity.png alt="Directions Activity" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/directions_activity.png alt="Directions Activity" class="captioned-picture"%}
 <figcaption>Directions Activity</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ The app will start on a welcome page with an image of Catha's Seat in the surrou
  The user can interact with the different app screens by swiping left and right any time after an initial query has been performed.
 
  <figure>
- {% picture {{ page.id }}/interaction.png alt="Interaction" class="captioned-picture"%}
+ {% picture {{ page.id | remove_first: "/blog/" }}/interaction.png alt="Interaction" class="captioned-picture"%}
  <figcaption>Interaction</figcaption>
  </figure>
 

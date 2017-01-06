@@ -7,7 +7,7 @@ disqus_identifier: 208bc5b9-6b6a-47f3-889d-3d116e4231bd
 tags:
 - funny
 ---
-{% picture {{ page.id }}/porridge.jpg alt="porridge" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/porridge.jpg alt="porridge" %}
 
 <!-- more -->
 

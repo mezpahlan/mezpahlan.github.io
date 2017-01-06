@@ -12,7 +12,7 @@ tags:
 Only a few weeks to go until we travel to South Africa for a two week holiday and nothing but sun!
 
 <figure>
-{% picture {{ page.id }}/penguins.jpg alt="Penguins at Boulder's Beach, South Africa" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/penguins.jpg alt="Penguins at Boulder's Beach, South Africa" class="captioned-picture"%}
 <figcaption>Penguins at Boulder's Beach, South Africa</figcaption>
 </figure>
 
@@ -21,7 +21,7 @@ Only a few weeks to go until we travel to South Africa for a two week holiday an
 Ok there will be more than just sun. There will also be (in no particular order) wine, trekking, cycles, penguins, beaches, pools, wine, penguins, safari, wine, fine food and penguins.
 
 <figure>
-{% picture {{ page.id }}/wine.png alt="Glass of wine" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/wine.png alt="Glass of wine" class="captioned-picture"%}
 <figcaption>Glass of wine</figcaption>
 </figure>
 

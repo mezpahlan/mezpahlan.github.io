@@ -11,7 +11,7 @@ tags:
 As part of my personal project for Spring, and to coincide with the UK 2015 General Election, I decided to create some bots that mirrored the main party candidates and translated their tweets to Jive. They are still running so you can find them on Twitter: [Ed Jiveaband](https://twitter.com/edjiveaband), [Nick Jivegg](https://twitter.com/nickjivegg), [David Jiveron](https://twitter.com/davidjiveron).
 
 <figure>
-{% picture {{ page.id }}/deconstructing.png alt="Deconstructing Tweets" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/deconstructing.png alt="Deconstructing Tweets" class="captioned-picture"%}
 <figcaption>Deconstructing Tweets</figcaption>
 </figure>
 
@@ -66,6 +66,6 @@ The gist above shows how we can substring the original input string until we rea
 Phew!! Finally. So that's how I tackle the Tweet Entity problem problem. Maybe next time I'll write about how I overcame the 140 Twitter character problem.
 
 <figure>
-{% picture {{ page.id }}/tweet-entities.png alt="Tweet Entities" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/tweet-entities.png alt="Tweet Entities" class="captioned-picture"%}
 <figcaption>Tweet Entities</figcaption>
 </figure>

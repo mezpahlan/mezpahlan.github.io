@@ -11,7 +11,7 @@ tags:
 Here's a nice, filling and tasty starter that could easily substitute as a main. A different take on the tomato bruschetta starter. We modified this from a [BBC recipe](http://www.bbc.co.uk/food/recipes/buffalomozzarellabru_93627) that we cooked for Valentine's Day. It's veggie friendly too!!
 
 <figure>
-{% picture {{ page.id }}/food.jpg alt="Mozzarella bruschetta with courgette" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/food.jpg alt="Mozzarella bruschetta with courgette" class="captioned-picture"%}
 <figcaption>Mozzarella bruschetta with courgette</figcaption>
 </figure>
 

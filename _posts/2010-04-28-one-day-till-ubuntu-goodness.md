@@ -10,7 +10,7 @@ tags:
 
 Lucid Lynx Ubuntu 10.04 is the new Ubuntu due out in a day.
 
-{% picture {{ page.id }}/lynx.jpg alt="Lydekker Lynx" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/lynx.jpg alt="Lydekker Lynx" %}
 
 <!-- more -->
 

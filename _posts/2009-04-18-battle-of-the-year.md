@@ -11,13 +11,13 @@ tags:
 
 Here are some pictures from battle of the year. A break dancing competition that was held in Angel.
 
-{% picture {{ page.id }}/battle-1.jpg alt="Battle of the year 1" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/battle-1.jpg alt="Battle of the year 1" %}
 
 <!-- more -->
 
-{% picture {{ page.id }}/battle-2.jpg alt="Battle of the year 2" %}
-{% picture {{ page.id }}/battle-3.jpg alt="Battle of the year 3" %}
-{% picture {{ page.id }}/battle-4.jpg alt="Battle of the year 4" %}
-{% picture {{ page.id }}/battle-5.jpg alt="Battle of the year 5" %}
-{% picture {{ page.id }}/battle-6.jpg alt="Battle of the year 6" %}
-{% picture {{ page.id }}/battle-7.jpg alt="Battle of the year 7" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/battle-2.jpg alt="Battle of the year 2" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/battle-3.jpg alt="Battle of the year 3" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/battle-4.jpg alt="Battle of the year 4" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/battle-5.jpg alt="Battle of the year 5" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/battle-6.jpg alt="Battle of the year 6" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/battle-7.jpg alt="Battle of the year 7" %}

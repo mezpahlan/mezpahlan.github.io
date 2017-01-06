@@ -11,7 +11,7 @@ tags:
 A while back I heaped praise on the [Ubuntuzilla](http://sourceforge.net/apps/mediawiki/ubuntuzilla/index.php?title=Main_Page) project for providing me a way to watch all Flash content without the need to wrap 32 bit plugins. This was extremely useful to me but I knew that it would always be a temporary thing.
 
 
-{% picture {{ page.id }}/flash.jpg alt="Xenon flash" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/flash.jpg alt="Xenon flash" %}
 
 <!-- more -->
 

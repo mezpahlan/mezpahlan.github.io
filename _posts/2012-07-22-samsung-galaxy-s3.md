@@ -11,7 +11,7 @@ tags:
 Here are my thoughts on the [Samsung Galaxy S3](http://www.samsung.com/uk/consumer/mobile-devices/smartphones/android/GT-I9300MBDBTU) after about a months worth of use.
 
 <figure>
-{% picture {{ page.id }}/s3-thoughts.jpg alt="Samsung Galaxy S3" class="captioned-picture"%}
+{% picture {{ page.id | remove_first: "/blog/" }}/s3-thoughts.jpg alt="Samsung Galaxy S3" class="captioned-picture"%}
 <figcaption>Samsung Galaxy S3</figcaption>
 </figure>
 

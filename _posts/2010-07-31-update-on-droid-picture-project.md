@@ -11,7 +11,7 @@ tags:
 
 It's going well. I still can't program for shit though. I need to learn how to make more effective use of the android documentation though.
 
-{% picture {{ page.id }}/big-picture.jpg alt="Big Picture" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/big-picture.jpg alt="Big Picture" %}
 
 <!-- more -->
 

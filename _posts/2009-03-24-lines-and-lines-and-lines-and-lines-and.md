@@ -12,6 +12,6 @@ I can't find myself on Google Street View.
 
 Shocking! I swear I saw the car whilst walking about.
 
-{% picture {{ page.id }}/edward-and-tubbs.jpg alt="A local shop" %}
+{% picture {{ page.id | remove_first: "/blog/" }}/edward-and-tubbs.jpg alt="A local shop" %}
 
 <!-- more -->
