@@ -22,6 +22,7 @@ defaults:
     values:
       layout: 'blog'
       author: 'Mez Pahlan'
+      category: 'blog'
       comments: true
 
 # Colour settings (hex-codes without the leading hash-tag)
