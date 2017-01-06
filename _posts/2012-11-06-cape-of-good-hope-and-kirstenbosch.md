@@ -7,7 +7,6 @@ disqus_identifier: 70f24e29-fe70-41f8-be34-647e648eb9d6
 tags:
 - south africa
 - holidays
-  width=
 ---
 
 #### South Africa Day Three
@@ -53,11 +52,11 @@ They'd moved the house down with a bang and a shout!<br/>
 The old house was high - too high for those ships,<br/>
 That banged on the shore all broken in sticks.</i>
 </p>
- 
+
 <figure>
 {% picture {{ page.id | remove_first: "/blog/" }}/cape-point.jpg alt="Cape Point" class="captioned-picture"%}
 <figcaption>Cape Point</figcaption>
-</figure> 
+</figure>
 
 <p class="text-center">
 <i>Kirstenbosch gardens was our final stop,<br/>
