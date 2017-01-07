@@ -108,7 +108,7 @@ figure,
     margin: 20px 0;
 }
 
-.tag-list {
+.tag-list ul {
   list-style-type: none;
   padding-left: 0;
 }
