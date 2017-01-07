@@ -108,6 +108,10 @@ figure,
     margin: 20px 0;
 }
 
+.tag-list {
+    flex: 1 auto;
+}
+
 .tag-list ul {
   list-style-type: none;
   padding-left: 0;
@@ -135,7 +139,6 @@ figure,
 }
 
 .flex-body-main {
-    order: 2;
     flex: 2;
 }
 
