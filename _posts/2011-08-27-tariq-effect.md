@@ -6,7 +6,6 @@ author: Mez Pahlan
 disqus_identifier: 91220520-71fe-4fda-957f-4d52ccd562df
 tags:
 - contractor
-- IT projects
 - siebel
 - consulting
 ---
