@@ -108,6 +108,22 @@ figure,
     margin: 20px 0;
 }
 
+.tag-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+
+.flex-horizontal-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-horizontal-container div {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .flex-vertical-container {
   display: flex;
   flex-direction: column;
