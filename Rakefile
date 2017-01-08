@@ -83,9 +83,7 @@ end
 desc "Serve site"
 task :serve do
     Rake::Task["build"].execute
-    puts "Listening on 127.0.0.1:4000"
-    puts "Press Ctrl + C to stop"
-    Open3.capture3("bundle exec jekyll serve --drafts")
+    exec("bundle exec jekyll serve --drafts")
 end
 
 desc "Create draft blog post"
