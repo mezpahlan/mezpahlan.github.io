@@ -134,6 +134,12 @@ figure,
     }
 }
 
+@media (min-width: 1440px) {
+    #blog-post-index {
+        padding: 0 240px;
+    }
+}
+
 .flex-horizontal-container {
     display: flex;
     flex-direction: row;
