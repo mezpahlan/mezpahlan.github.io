@@ -108,15 +108,20 @@ figure,
     margin: 20px 0;
 }
 
-.tag-list {
+#tag-list {
     flex: 1 auto;
 }
 
-.tag-list ul {
+#tag-list ul {
   list-style-type: none;
   padding-left: 0;
 }
 
+#blog-post-index {
+    flex: 2 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 .flex-horizontal-container {
     display: flex;

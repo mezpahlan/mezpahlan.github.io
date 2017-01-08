@@ -1,6 +1,6 @@
 <!-- Blog Index Section -->
 <section class="flex-horizontal-container">
-    <div class="tag-list">
+    <div id="tag-list">
         <h3>Tags</h3>
         <ul>
             {% assign sorted_tags = (site.tags | sort) %}
@@ -11,7 +11,7 @@
         </ul>
     </div>
 
-    <div>
+    <div id="blog-post-index">
         <!-- This loops through the paginated posts -->
         <div>
             <div class="row">
