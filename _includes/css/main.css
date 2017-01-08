@@ -119,8 +119,7 @@ figure,
 
 #blog-post-index {
     flex: 2 auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0 30px;
 }
 
 .flex-horizontal-container {
@@ -129,8 +128,7 @@ figure,
 }
 
 .flex-horizontal-container div {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
 }
 
 .flex-vertical-container {
