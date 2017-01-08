@@ -2,7 +2,7 @@ require 'open3'
 require 'fileutils'
 require 'securerandom'
 
-desc "Inserts a Disqu identifier"
+desc "Inserts a Disqus identifier"
 def insert_disqus_id(draft_name)
     puts "## Creating Disqus id for #{draft_name}"
     uuid = SecureRandom.uuid
