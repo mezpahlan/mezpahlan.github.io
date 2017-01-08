@@ -119,7 +119,19 @@ figure,
 
 #blog-post-index {
     flex: 2 auto;
-    padding: 0 30px;
+    padding: 0;
+}
+
+@media (min-width: 992px) {
+    #blog-post-index {
+        padding: 0 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #blog-post-index {
+        padding: 0 120px;
+    }
 }
 
 .flex-horizontal-container {
