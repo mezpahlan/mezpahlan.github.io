@@ -146,7 +146,12 @@ task :deploy do
     if exit_code == 0 && !stdout.nil? && stdout.to_i > 0
         puts "Push changes to sources branch"
         stdout, stderr, status = Open3.capture3("git push origin source")
-        puts status ? "Success" : "Failure"
+        exit_code = /exit (\d+)/.match(status.to_s)[1].to_i
+        if exit_code == 0 && !stdout.nil?
+            puts "Success"
+        elsif exit_code > 0 && !stderr.nil?
+            abort stderr
+        end
     elsif exit_code == 0 && !stdout.nil? && stdout.to_i == 0
         puts "Local and Remote branch in sync"
     elsif exit_code > 0 && !stderr.nil?
