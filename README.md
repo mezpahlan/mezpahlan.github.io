@@ -15,9 +15,9 @@ The theme is a modified version of the [Bootstap Freelancer theme rewritten for 
 - [x] Add two Android projects to portfolio.
 - [x] Write down details of how to use this overly complicated workflow. F***ing Ruby.
 - [x] Add category filtering
+- [x] Figure out a workflow. From drafts to published
 - [ ] Make site HTTPS only
 - [ ] Custom CNAME
-- [ ] Figure out a workflow. From drafts to published
 - [ ] Write custom Jekyll plugin for responsive picture formatting with figure support
 - [ ] Apply cutsom Jekyll plugin to this blog
 - [ ] Sort out CSS site wide
