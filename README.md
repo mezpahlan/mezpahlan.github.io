@@ -21,5 +21,6 @@ The theme is a modified version of the [Bootstap Freelancer theme rewritten for 
 - [ ] Write custom Jekyll plugin for responsive picture formatting with figure support
 - [ ] Apply cutsom Jekyll plugin to this blog
 - [ ] Sort out CSS site wide
+- [ ] Switch to Bootstap 4
 - [ ] Add new section for Physics uni archive
 - [ ] Harden the Rakefile to maybe split into more granular tasks?
