@@ -6,7 +6,7 @@
             {% assign sorted_tags = (site.tags | sort) %}
             {% for tag in sorted_tags %}
             {% assign slugified_tag = (tag | first | slugify) %}
-            <li><a class="tag-list__link" href="{{ site.url | append: "/blog/tag/" | append: slugified_tag }}">{{ tag | first }} ({{ tag | last | size }})</a></li>
+            <li><a class="tag-list__link" href="{{ "/blog/tag/" | append: slugified_tag }}">{{ tag | first }} ({{ tag | last | size }})</a></li>
             {% endfor %}
         </ul>
     </div>
