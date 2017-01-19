@@ -19,7 +19,7 @@
                   {% for post in paginator.posts %}
                   <li>
                       <h3><span class="colour-primary"><a href="{{ post.url }}">{{ post.title }}</a></span></h3>
-                      {% include blog-post-info.html context=post %}
+                      {% include blog/post-info.html context=post %}
                       {{ post.excerpt }}
                       <hr class="star-secondary">
                   </li>

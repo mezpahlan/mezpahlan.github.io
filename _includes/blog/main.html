@@ -2,8 +2,8 @@
 <section id="blog-post">
     <div class="container">
         <h3><span class="colour-primary">{{ page.title }}<span></h3>
-        {% include blog-post-info.html context=page %}
+        {% include blog/post-info.html context=page %}
         {{ content }}
-        {% include disqus-comments.html %}
+        {% include blog/disqus-comments.html %}
     </div>
 </section>
