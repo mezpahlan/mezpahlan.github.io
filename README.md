@@ -16,7 +16,7 @@ The theme is a modified version of the [Bootstap Freelancer theme rewritten for 
 - [x] Write down details of how to use this overly complicated workflow. F***ing Ruby.
 - [x] Add category filtering
 - [x] Figure out a workflow. From drafts to published
-- [ ] Make site HTTPS only
+- [x] Make site HTTPS only
 - [ ] Custom CNAME
 - [ ] Write custom Jekyll plugin for responsive picture formatting with figure support
 - [ ] Apply cutsom Jekyll plugin to this blog
