@@ -115,7 +115,7 @@ end
 
 desc "Publish draft blog post"
 task :publish_draft, [:draft_name] do |t, args|
-    draft_name = args[:draft_name].to_s.strip+".md"
+    draft_name = args[:draft_name].to_s.strip.downcase.gsub(/\s/,"-")+".md"
     draft_dir = "_drafts"
     Dir.chdir(draft_dir)
     if draft_name.to_s.strip.empty?
