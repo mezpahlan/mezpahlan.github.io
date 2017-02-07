@@ -11,42 +11,30 @@ def insert_disqus_id(draft_name)
 end
 
 desc "Renames a single draft filename with timestamp"
-def update_draft_filename_with_timestamp(draft_name, time)
+def update_draft_filename_with_timestamp(draft_name)
+    # Read date property in draft
+    file_timestamp_prefix = File.open(draft_name) do |f| f.read.match(/date:\s'([^T]+)T/) {|m| m[1] + "-"} end
+
     puts "## Rename #{draft_name} using timestamp"
-    timestamp = time.strftime("%Y-%m-%d-")
-    new_filename = timestamp + draft_name
+    new_filename = file_timestamp_prefix + draft_name
     File.rename(draft_name, new_filename)
     return new_filename
 end
 
 desc "Updates a single draft's internal timestamp"
 def update_single_draft_timestamp(draft_name, time)
-    puts "## Update timestamp for: " + draft_name
+    puts "## Update timestamp for: #{draft_name}"
     timestamp = time.strftime("'%Y-%m-%dT%H:%M:%S.%LZ'")
     contents = File.open(draft_name) do |f| f.read.gsub(/date:.+/, "date: " + timestamp) end
     IO.write(draft_name, contents)
-end
-
-desc "Update internal timestamp for all drafts"
-def update_all_drafts_timestamp
-    puts "## Publishing all drafts"
-    Dir.glob("*.md").each do |draft|
-       update_single_draft_timestamp(draft, Time.now)
-    end
 end
 
 desc "Publishes a single draft from the drafts folder to the posts folder"
 def publish_single_draft(draft_name)
     puts "## Publishing #{draft_name}"
 
-    # create timestamp
-    time = Time.now
-
-    # use this to update the internal timestamp in post
-    update_single_draft_timestamp(draft_name, time)
-
-    # use this to modify the file name
-    new_filename = update_draft_filename_with_timestamp(draft_name, time)
+    # modify the file name with the timestamp from post
+    new_filename = update_draft_filename_with_timestamp(draft_name)
 
     # move new file to posts folder
     puts "## Moving #{new_filename} to posts folder"
@@ -63,13 +51,6 @@ end
 
 desc "Build site with drafts"
 task :build do
-    puts "## Entering drafts directory"
-    Dir.chdir("_drafts/")
-    update_all_drafts_timestamp()
-
-    puts "## Entering root directory"
-    Dir.chdir("../")
-
     puts "## Building site including drafts"
     stdout, stderr, status = Open3.capture3("bundle exec jekyll build --drafts")
     exit_code = /exit (\d+)/.match(status.to_s)[1].to_i
@@ -110,6 +91,9 @@ task :draft, [:draft_name] do |t, args|
 
         # create uuid for disqus
         insert_disqus_id(outfile)
+
+        # create timestamps for posts
+        update_single_draft_timestamp(outfile, Time.now)
 
         puts "## #{filename} created successfully."
     end
