@@ -63,7 +63,6 @@ end
 
 desc "Serve site"
 task :serve do
-    Rake::Task["build"].execute
     exec("bundle exec jekyll serve --drafts")
 end
 
