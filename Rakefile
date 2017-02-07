@@ -89,14 +89,17 @@ end
 desc "Create draft blog post"
 task :draft, [:draft_name] do |t, args|
     draft_name = args[:draft_name].to_s.strip
-    puts "## Create draft blog post"
-    draft_dir = "_drafts"
-    Dir.mkdir(draft_dir) unless File.exists?(draft_dir)
     if draft_name.empty?
         puts "Draft name cannot be empty."
         puts "Syntax: rake draft[\"<draft_name>\"]"
     else
         filename = draft_name.downcase.gsub(/\s/,"-")+".md"
+        draft_dir = "_drafts"
+        
+        puts "## Create draft blog post: #{filename}"
+
+        Dir.mkdir(draft_dir) unless File.exists?(draft_dir)
+
         outfile = "_drafts/" + filename
 
         # copy over template post
