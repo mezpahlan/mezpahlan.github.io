@@ -95,12 +95,11 @@ task :draft, [:draft_name] do |t, args|
     else
         filename = draft_name.downcase.gsub(/\s/,"-")+".md"
         draft_dir = "_drafts"
-        
+        outfile = File.join(draft_dir, filename)
+
         puts "## Create draft blog post: #{filename}"
 
         Dir.mkdir(draft_dir) unless File.exists?(draft_dir)
-
-        outfile = draft_dir + "/" + filename
 
         # copy over template post
         contents = File.open("_post-template.md") do |f| f.read.gsub(/title:.+/, "title: " + draft_name) end
