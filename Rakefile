@@ -100,7 +100,7 @@ task :draft, [:draft_name] do |t, args|
 
         Dir.mkdir(draft_dir) unless File.exists?(draft_dir)
 
-        outfile = "_drafts/" + filename
+        outfile = draft_dir + "/" + filename
 
         # copy over template post
         contents = File.open("_post-template.md") do |f| f.read.gsub(/title:.+/, "title: " + draft_name) end
