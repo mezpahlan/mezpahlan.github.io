@@ -13,7 +13,10 @@ tags:
 
 Read up on that.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/westminister.jpg alt="Westminster Palace" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/westminister.jpg" }}
+    alt: "Westminster Palace"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

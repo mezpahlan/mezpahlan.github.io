@@ -11,10 +11,10 @@ tags:
 
 This weekend I completed two activities. The first was finish reading Frankenstein and the second was to finish a wheel of cheese from Cheddar.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/battersea-park.jpg alt="Battersea Park" class="captioned-picture"%}
-<figcaption>Battersea Park</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/battersea-park.jpg" }}
+    alt: "Battersea Park"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

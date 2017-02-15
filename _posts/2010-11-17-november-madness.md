@@ -13,7 +13,10 @@ Wow
 
 Lots to write about but really can't be bothered at the moment.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/moustaches.jpg alt="Moustaches" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/moustaches.jpg" }}
+    alt: "Moustaches"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

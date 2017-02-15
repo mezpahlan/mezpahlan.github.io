@@ -30,4 +30,7 @@ Wolverine Origins the comic book series. Started off a bit poo at first but is a
 
 Drum and bass for some reason? Don't know why but am enjoying streaming random drum and bass.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/face.jpg alt="Face" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/face.jpg" }}
+    alt: "Face"
+{% endresponsive_image_block %}

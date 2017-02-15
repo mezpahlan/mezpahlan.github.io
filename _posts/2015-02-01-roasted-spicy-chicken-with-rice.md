@@ -10,10 +10,10 @@ tags:
 
 I spotted this recipe for [spicy chicken wings](http://www.munchkintime.com/oven-baked-chicken-wings/) on Google+ and thought I would give it a go. I wanted to put my own spin on it which is why I opted for chicken legs instead of wings and modified some of the ingredients. I also didn't want to buy thirty chicken wings! The recipe does use ketchup but bear with me, it's not that bad.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/chicken.jpg alt="Chicken" class="captioned-picture"%}
-<figcaption>Chicken</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/chicken.jpg" }}
+    alt: "Chicken"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

@@ -11,7 +11,10 @@ tags:
 
 What have I been doing recently?
 
-{% picture {{ page.id | remove_first: "/blog/" }}/nothing.jpg alt="Nothing" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/nothing.jpg" }}
+    alt: "Nothing"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

@@ -22,37 +22,37 @@ Whilst we haven't finalised our choices I think we are steering towards a look t
 
 #### The toilet pan and cistern:
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/toilet.jpg alt="Toilet" class="captioned-picture"%}
-<figcaption>Toilet</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/toilet.jpg" }}
+    alt: "Toilet"
+{% endresponsive_image_block %}
 
-Classic looks with a low level cistern as a compromise to a high level that we think looks nice but would look out of place in our new bathroom. 
+Classic looks with a low level cistern as a compromise to a high level that we think looks nice but would look out of place in our new bathroom.
 
 #### The basin and an underneath cabinet:
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/sink-cabinet.jpg alt="Sink cabinet" class="captioned-picture"%}
-<figcaption>Sink cabinet</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/sink-cabinet.jpg" }}
+    alt: "Sink cabinet"
+{% endresponsive_image_block %}
 
 The only change is colour and the basin we require has three tap holes for the following.
 
 #### Taps for basin:
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/taps.jpg alt="Taps" class="captioned-picture"%}
-<figcaption>Taps</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/taps.jpg" }}
+    alt: "Taps"
+{% endresponsive_image_block %}
 
 These do not technically match the range that the other two items come from but they look so good!!
 
 #### Shower:
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/shower.jpg alt="Shower" class="captioned-picture"%}
-<figcaption>Shower</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/shower.jpg" }}
+    alt: "Shower"
+{% endresponsive_image_block %}
 
 We are only considering a shower. A bath would not fit in the new bathroom. The final shower enclosure is still yet to be decided but the shower tray might look something similar to this black slate tray.
 
@@ -62,10 +62,10 @@ To save some cash we might only tile the splash areas around the sink and the sh
 
 #### Bathroom heating:
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/heater.jpg alt="Heater" class="captioned-picture"%}
-<figcaption>Heater</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/heater.jpg" }}
+    alt: "Heater"
+{% endresponsive_image_block %}
 
 This looks pretty swish and doubles as both a radiator and a towel rail.
 

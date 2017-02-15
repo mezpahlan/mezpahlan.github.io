@@ -10,10 +10,10 @@ tags:
 
 As part of my personal project for Spring, and to coincide with the UK 2015 General Election, I decided to create some bots that mirrored the main party candidates and translated their tweets to Jive. They are still running so you can find them on Twitter: [Ed Jiveaband](https://twitter.com/edjiveaband), [Nick Jivegg](https://twitter.com/nickjivegg), [David Jiveron](https://twitter.com/davidjiveron).
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/deconstructing.png alt="Deconstructing Tweets" class="captioned-picture"%}
-<figcaption>Deconstructing Tweets</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/deconstructing.png" }}
+    alt: "Deconstructing Tweets"
+{% endresponsive_image_block %}
 
 One of the more interesting problems that I faced was how to prevent special Tweet Entities being erroneously translated by the Jive translator. You may be asking what is a Tweet Entity? Let me explain about them first and then go on to explain how I can tackle such a problem.
 
@@ -35,7 +35,7 @@ Here's an example:
 
 The input string has 11 characters. The hashtag entity **starts** at character 7 and **ends** at character 11.
 
-Suppose the translation service comes back with the following string. 
+Suppose the translation service comes back with the following string.
 
 {% gist mezpahlan/a083576ba1c6fc0682d8 %}
 
@@ -57,7 +57,7 @@ There is a few things happening in the above gist. First you'll notice that I cr
 
 Notice that I've implemented a comparable interface which allows me to sort the resulting list based on the start position of the entity. This becomes important because after I've extracted all the entities into a List of Entities they might not be in order.
 
-Putting it all together I have an ordered List of Entities. So now what? 
+Putting it all together I have an ordered List of Entities. So now what?
 
 {% gist mezpahlan/d91ea8f585a154543565 %}
 
@@ -65,7 +65,7 @@ The gist above shows how we can substring the original input string until we rea
 
 Phew!! Finally. So that's how I tackle the Tweet Entity problem problem. Maybe next time I'll write about how I overcame the 140 Twitter character problem.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/tweet-entities.png alt="Tweet Entities" class="captioned-picture"%}
-<figcaption>Tweet Entities</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/tweet-entities.png" }}
+    alt: "Tweet Entities"
+{% endresponsive_image_block %}

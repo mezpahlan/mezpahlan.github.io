@@ -10,7 +10,10 @@ tags:
 
 I had the following problem yesterday and it has taken me about 24 hours to work it out. The problem is as follows.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/basher.png alt="Pingus The Basher" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/basher.png" }}
+    alt: "Pingus The Basher"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

@@ -10,7 +10,10 @@ tags:
 
 Haven't been blogging here for a while because I much prefer Twitter.... sorry. Will try and summarise stuff every now and again though.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/spotify.png alt="Spotify" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/spotify.png" }}
+    alt: "Spotify"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

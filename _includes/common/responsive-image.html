@@ -1,0 +1,12 @@
+<figure>
+    <picture>
+        {% for i in resized reversed %}
+            {% if forloop.last == true %}
+                <img srcset="/{{ i.path }}">
+            {% else %}
+                <source srcset="/{{ i.path }}" media="(min-width: {{ i.width }}px)">
+            {% endif %}
+        {% endfor %}
+    </picture>
+    <figcaption>{{ alt }}</figcaption>
+</figure>

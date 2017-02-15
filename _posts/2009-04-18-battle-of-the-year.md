@@ -11,13 +11,34 @@ tags:
 
 Here are some pictures from battle of the year. A break dancing competition that was held in Angel.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/battle-1.jpg alt="Battle of the year 1" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/battle-1.jpg" }}
+    alt: "Battle of the year 1"
+{% endresponsive_image_block %}
 
 <!-- more -->
 
-{% picture {{ page.id | remove_first: "/blog/" }}/battle-2.jpg alt="Battle of the year 2" %}
-{% picture {{ page.id | remove_first: "/blog/" }}/battle-3.jpg alt="Battle of the year 3" %}
-{% picture {{ page.id | remove_first: "/blog/" }}/battle-4.jpg alt="Battle of the year 4" %}
-{% picture {{ page.id | remove_first: "/blog/" }}/battle-5.jpg alt="Battle of the year 5" %}
-{% picture {{ page.id | remove_first: "/blog/" }}/battle-6.jpg alt="Battle of the year 6" %}
-{% picture {{ page.id | remove_first: "/blog/" }}/battle-7.jpg alt="Battle of the year 7" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/battle-2.jpg" }}
+    alt: "Battle of the year 2"
+{% endresponsive_image_block %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/battle-3.jpg" }}
+    alt: "Battle of the year 3"
+{% endresponsive_image_block %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/battle-4.jpg" }}
+    alt: "Battle of the year 4"
+{% endresponsive_image_block %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/battle-5.jpg" }}
+    alt: "Battle of the year 5"
+{% endresponsive_image_block %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/battle-6.jpg" }}
+    alt: "Battle of the year 6"
+{% endresponsive_image_block %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/battle-7.jpg" }}
+    alt: "Battle of the year 7"
+{% endresponsive_image_block %}

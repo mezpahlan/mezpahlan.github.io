@@ -10,7 +10,10 @@ tags:
 
 I've just finished reading my first book in a year! For the last year I have been encaptivated and excited in a child like trance by comics and graphic novel that I've come to love and yearn to dive deeper into a world of geekdom.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/sidney.jpg alt="Sidney Poitier" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/sidney.jpg" }}
+    alt: "Sidney Poitier"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

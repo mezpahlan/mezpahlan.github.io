@@ -8,7 +8,11 @@ tags:
 - unhappiness
 ---
 
-{% picture {{ page.id | remove_first: "/blog/" }}/sway.jpg alt="Sway is a shitty night club in London" %}
+{% responsive_image_block %}
+    path: assets/images/fullsize/blog/2009/03/22/friday-saturday-un-happies/sway.jpg
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/sway.jpg" }}
+    alt: "Sway is a shitty night club in London"
+{% endresponsive_image_block %}
 
 Sway.
 

@@ -12,14 +12,14 @@ tags:
 
 This week I'm with my girlfriend and her best friend for some snow fun in Andorra. Half way through the trip and I can say with confidence that we are loving it! I have another trip with friends from work later on in March so wanted to use this trip to perfect my technique on the snowboard. I also wanted to get my girlfriend interested in snow holidays since they are the highlight of my year and I would love if she came to more of them with me.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/andorra1.jpg alt="Andorra" class="captioned-picture"%}
-<figcaption>Andorra</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/andorra1.jpg" }}
+    alt: "Andorra"
+{% endresponsive_image_block %}
 
 <!-- more -->
 
-For this trip I have purchased new bindings and a helmet camera. I haven't tried out the helmet camera yet because I am shit scared of it getting damaged, but I will do later on when the weather is a bit better. The bindings are Flow and they are amazing. I am having a bit of trouble fine tuning them for my foot, but so far they are great and I feel a lot better in them. 
+For this trip I have purchased new bindings and a helmet camera. I haven't tried out the helmet camera yet because I am shit scared of it getting damaged, but I will do later on when the weather is a bit better. The bindings are Flow and they are amazing. I am having a bit of trouble fine tuning them for my foot, but so far they are great and I feel a lot better in them.
 
 The runs around this part of Andorra are incredible. We are staying half way between Soldeu and El Tarter. The resort is one of the best I have been to and a quite a bit cheaper than the French ones. If you have doubts about Andorra then release them from your mind! This place is great!
 
@@ -27,17 +27,17 @@ Hopefully I will get a chance to demo my camera in the next day or two and if I 
 
 Anyway, back to the wine.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/mez.jpg alt="Me in Andorra" class="captioned-picture"%}
-<figcaption>Me in Andorra</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/mez.jpg" }}
+    alt: "Me in Andorra"
+{% endresponsive_image_block %}
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/helen-anne-marie.jpg alt="Helen and Anne-Marie in Andorra" class="captioned-picture"%}
-<figcaption>Helen and Anne-Marie in Andorra</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/helen-anne-marie.jpg" }}
+    alt: "Helen and Anne-Marie in Andorra"
+{% endresponsive_image_block %}
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/anne-marie.jpg alt="Anne-Marie in Andorra" class="captioned-picture"%}
-<figcaption>Anne-Marie in Andorra</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/anne-marie.jpg" }}
+    alt: "Anne-Marie in Andorra"
+{% endresponsive_image_block %}

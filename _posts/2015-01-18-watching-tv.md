@@ -8,7 +8,7 @@ tags:
 - tv
 ---
 
-I have become very addicted to streaming video and TV series in particular. [Netflix](https://www.netflix.com/) has been my go to choice for this. Although I also still enjoy *traditional *methods.
+I have become very addicted to streaming video and TV series in particular. [Netflix](https://www.netflix.com/) has been my go to choice for this. Although I also still enjoy *traditional* methods.
 
 <!-- more -->
 
@@ -25,4 +25,4 @@ Here's a list of shows I've been watching. Any recommendations for something I m
 * House Of Cards
 * Game Of Thrones
 
-It certainly takes the boredom out of the weekends!! 
+It certainly takes the boredom out of the weekends!!

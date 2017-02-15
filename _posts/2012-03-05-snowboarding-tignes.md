@@ -12,7 +12,10 @@ tags:
 
 This week I'm in Tignes, France snowboarding with some friends from work.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/tignes1.jpg alt="Snowboarding In Tignes" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/tignes1.jpg" }}
+    alt: "Snowboarding In Tignes"
+{% endresponsive_image_block %}
 
 <!-- more -->
 
@@ -26,14 +29,32 @@ By the end of the week I managed to increase my speed on my toe edge and gain mo
 
 All in all, I loved the trip and would like to go again.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/tignes2.jpg alt="Snowboarding In Tignes" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/tignes2.jpg" }}
+    alt: "Snowboarding In Tignes"
+{% endresponsive_image_block %}
 
-{% picture {{ page.id | remove_first: "/blog/" }}/tignes3.jpg alt="Snowboarding In Tignes" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/tignes3.jpg" }}
+    alt: "Snowboarding In Tignes"
+{% endresponsive_image_block %}
 
-{% picture {{ page.id | remove_first: "/blog/" }}/tignes4.jpg alt="Snowboarding In Tignes" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/tignes4.jpg" }}
+    alt: "Snowboarding In Tignes"
+{% endresponsive_image_block %}
 
-{% picture {{ page.id | remove_first: "/blog/" }}/tignes5.jpg alt="Snowboarding In Tignes" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/tignes5.jpg" }}
+    alt: "Snowboarding In Tignes"
+{% endresponsive_image_block %}
 
-{% picture {{ page.id | remove_first: "/blog/" }}/tignes6.jpg alt="Snowboarding In Tignes" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/tignes6.jpg" }}
+    alt: "Snowboarding In Tignes"
+{% endresponsive_image_block %}
 
-{% picture {{ page.id | remove_first: "/blog/" }}/tignes7.jpg alt="Snowboarding In Tignes" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/tignes7.jpg" }}
+    alt: "Snowboarding In Tignes"
+{% endresponsive_image_block %}

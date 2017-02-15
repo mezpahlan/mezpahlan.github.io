@@ -16,6 +16,9 @@ So......
 
 Wasted.....
 
-{% picture {{ page.id | remove_first: "/blog/" }}/wasted.jpg alt="Wasted at work" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/wasted.jpg" }}
+    alt: "Wasted at work"
+{% endresponsive_image_block %}
 
 <!-- more -->

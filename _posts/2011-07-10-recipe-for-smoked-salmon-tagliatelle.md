@@ -37,6 +37,9 @@ Drain tagliatelle and mix with the bowl of whisk with butter and a glass of whit
 
 Enjoy!
 
-{% picture {{ page.id | remove_first: "/blog/" }}/good-food.jpg alt="Tagliatelle" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/good-food.jpg" }}
+    alt: "Tagliatelle"
+{% endresponsive_image_block %}
 
 <!-- more -->

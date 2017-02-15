@@ -16,8 +16,11 @@ At night.
 
 To see the International Space Station.
 
-<a href="http://spaceflight.nasa.gov/realdata/sightings/cities/view.cgi?country=United_Kingdom&amp;region=England&amp;city=London">Spot the station</a>  
+[Spot the station]  (http://spaceflight.nasa.gov/realdata/sightings/cities/view.cgi?country=United_Kingdom&amp;region=England&amp;city=London)
 
 But shitty clouds make it impossible :(
 
-{% picture {{ page.id | remove_first: "/blog/" }}/iss.jpg alt="International Space Station" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/iss.jpg" }}
+    alt: "International Space Station"
+{% endresponsive_image_block %}

@@ -14,6 +14,9 @@ OMG!!
 
 Go Channel 4!!
 
-{% picture {{ page.id | remove_first: "/blog/" }}/catch-up.jpg alt="Catch Up" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/catch-up.jpg" }}
+    alt: "Catch Up"
+{% endresponsive_image_block %}
 
 <!-- more -->

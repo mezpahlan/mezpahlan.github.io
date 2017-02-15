@@ -22,28 +22,28 @@ We spotted the following animals on our two game drives in Kruger: lions, zebra,
 
 We were intending to go on a hot air balloon ride the next day but that got cancelled owing to bad weather. This was a blessing in disguise since the balloon ride would have woken is up at two in the morning and cost close to three hundred pounds each. So we saved a bit of money and had a nice lie in.
 
-Instead we had a late breakfast and sat by the observation deck where we didn't really observe any animals aside from old retired Americans. 
+Instead we had a late breakfast and sat by the observation deck where we didn't really observe any animals aside from old retired Americans.
 
 In the evening we went for elephant rides at a local elephant sanctuary. The head of the sanctuary explained how the elephant numbers are way too many for this part of Kruger. We saw the damage that was done to the bush by the elephants when we were on our game drives. They systematically rip the bark off the trees and push the trees to the ground when they are done. Bark is crucial for their digestion. The remaining trees, now stripped of their protective bark, easily catch fire in the African heat. This causes much damage as you can imagine! He went on to explain that some groups want to control the elephant numbers by destroying them. This of course was not acceptable. His sanctuary tries to re home them by giving them a new purpose. Some are trained as sniffer elephants for narcotics and explosives. Others are trained to help clear land mines by smelling the metals and explosives. Some are relocated to different countries.
 
 This brought an end to the South African adventure. We had leaving drinks with the rest of the group and bid our farewells. Tomorrow we would be on an eleven hour flight back to London. But first there was a seven hour coach ride back to Johannesburg!
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/sean.jpg alt="Penguin Sean" class="captioned-picture"%}
-<figcaption>Penguin Sean</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/sean.jpg" }}
+    alt: "Penguin Sean"
+{% endresponsive_image_block %}
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/elephant.jpg alt="Elephant" class="captioned-picture"%}
-<figcaption>Elephant</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/elephant.jpg" }}
+    alt: "Elephant"
+{% endresponsive_image_block %}
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/elephant-roar.jpg alt="Elephant roar" class="captioned-picture"%}
-<figcaption>Elephant roar</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/elephant-roar.jpg" }}
+    alt: "Elephant roar"
+{% endresponsive_image_block %}
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/kruger.jpg alt="Kruger" class="captioned-picture"%}
-<figcaption>Kruger</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/kruger.jpg" }}
+    alt: "Kruger"
+{% endresponsive_image_block %}

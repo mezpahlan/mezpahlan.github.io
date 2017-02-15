@@ -11,7 +11,10 @@ tags:
 
 It's going well. I still can't program for shit though. I need to learn how to make more effective use of the android documentation though.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/big-picture.jpg alt="Big Picture" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/big-picture.jpg" }}
+    alt: "Big Picture"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

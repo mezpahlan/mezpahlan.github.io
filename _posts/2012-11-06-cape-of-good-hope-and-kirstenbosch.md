@@ -22,10 +22,10 @@ We browsed the market selling all sorts of goods,<br/>
 On the magical coach tour around South Africa's hoods.</i>
 </p>
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/cape-of-good-hope.jpg alt="Cape Of Good Hope" class="captioned-picture"%}
-<figcaption>Cape Of Good Hope</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/cape-of-good-hope.jpg" }}
+    alt: "Cape Of Good Hope"
+{% endresponsive_image_block %}
 
 <p class="text-center">
 <i>Penguin Sean was excited and playful all day,<br/>
@@ -34,10 +34,10 @@ Alas and damn and drat we say,<br/>
 Our coach tour to the penguins was not today!</i>
 </p>
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/sean-falls.jpg alt="Sean falls over" class="captioned-picture"%}
-<figcaption>Sean falls over</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/sean-falls.jpg" }}
+    alt: "Sean falls over"
+{% endresponsive_image_block %}
 
 <p class="text-center">
 <i>We travelled to Cape Point by the nature reserve,<br/>
@@ -53,10 +53,10 @@ The old house was high - too high for those ships,<br/>
 That banged on the shore all broken in sticks.</i>
 </p>
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/cape-point.jpg alt="Cape Point" class="captioned-picture"%}
-<figcaption>Cape Point</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/cape-point.jpg" }}
+    alt: "Cape Point"
+{% endresponsive_image_block %}
 
 <p class="text-center">
 <i>Kirstenbosch gardens was our final stop,<br/>
@@ -65,7 +65,7 @@ Now sleepy and aching from walking all day,<br/>
 We sunk a few cocktails and then hit the hay.</i>
 </p>
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/sean-bench.jpg alt="Sean sits on a bench" class="captioned-picture"%}
-<figcaption>Sean sits on a bench</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/sean-bench.jpg" }}
+    alt: "Sean sits on a bench"
+{% endresponsive_image_block %}

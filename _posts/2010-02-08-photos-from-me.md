@@ -10,7 +10,10 @@ tags:
 
 As promised. Stuff I've been doing:
 
-{% picture {{ page.id | remove_first: "/blog/" }}/ilford.jpg alt="Ilford XP2 ISO 400" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/ilford.jpg" }}
+    alt: "Ilford XP2 ISO 400"
+{% endresponsive_image_block %}
 
 I know it is only one. I will try and upload some more later
 

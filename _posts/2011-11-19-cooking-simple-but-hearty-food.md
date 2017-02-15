@@ -14,6 +14,9 @@ I am following this food blog.
 
 Made a lovely recipe from it. No fuss no hassle. Good food. See if you can spot which one I made.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/food.png alt="Simple Food" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/food.png" }}
+    alt: "Simple Food"
+{% endresponsive_image_block %}
 
 <!-- more -->

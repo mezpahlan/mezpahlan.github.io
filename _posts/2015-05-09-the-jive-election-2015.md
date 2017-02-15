@@ -19,17 +19,17 @@ We came up with the crazy idea at a very slow and depressing day at work one day
 
 Here is the former leader of the Labour Party, [Ed Miliband](https://twitter.com/ed_miliband), saying, "Thanks", for a hard fought campaign.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/ed.png alt="Ed Miliband" class="captioned-picture"%}
-<figcaption>Ed Miliband</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/ed.png" }}
+    alt: "Ed Miliband"
+{% endresponsive_image_block %}
 
 And here is his Jive counterpart, [Ed Jiveaband](https://twitter.com/edjiveaband), saying the same.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/ed-jive.png alt="Ed Jiveaband" class="captioned-picture"%}
-<figcaption>REPLACE_ME</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/ed-jive.png" }}
+    alt: "Ed Jiveaband"
+{% endresponsive_image_block %}
 
 OK, so 3 retweets is not quite up there with 2.7 thousand but I'll take that anyway!
 
@@ -37,31 +37,31 @@ Here are some of my favourites from the other candidates.
 
 [David Cameron](https://twitter.com/david_cameron) wishing the new royal baby well.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/dave.png alt="David Cameron" class="captioned-picture"%}
-<figcaption>David Cameron</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/dave.png" }}
+    alt: "David Cameron"
+{% endresponsive_image_block %}
 
 And his Jive counterpart, [David Jiveron](https://twitter.com/DavidJiveron), wishing the same.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/dave-jive.png alt="David Jiveron" class="captioned-picture"%}
-<figcaption>David Jiveron</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/dave-jive.png" }}
+    alt: "David Jiveron"
+{% endresponsive_image_block %}
 
 Finally old [Cleggers](https://twitter.com/nick_clegg) after being flashed by an overexcited student.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/nick.png alt="Cleggers" class="captioned-picture"%}
-<figcaption>Cleggers</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/nick.png" }}
+    alt: "Cleggers"
+{% endresponsive_image_block %}
 
 And [Nick Jivegg](https://twitter.com/nickjivegg)'s response.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/nick-jive.png alt="Nick Jivegg" class="captioned-picture"%}
-<figcaption>Nick Jivegg</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/nick-jive.png" }}
+    alt: "Nick Jivegg"
+{% endresponsive_image_block %}
 
 At some point I will follow this up with a post on how we made this with some technical details. But if you want to check it out yourself it is on Github under my [Jive Campaign](https://github.com/mezpahlan/jivecampaign) repository.
 

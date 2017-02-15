@@ -17,6 +17,9 @@ Next year I am planning to get away at least once for a spot of snowboarding, bu
 Whether I complete all of that is another story.
 See you all in the new year!
 
-{% picture {{ page.id | remove_first: "/blog/" }}/christmas.png alt="Christmas" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/christmas.png" }}
+    alt: "Christmas"
+{% endresponsive_image_block %}
 
 <!-- more -->

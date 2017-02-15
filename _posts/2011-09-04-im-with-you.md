@@ -10,7 +10,10 @@ tags:
 
 I have the new Red Hot Chili Peppers album, I'm With You, and I've been listening to it on repeat for a week.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/josh.jpg alt="Josh Klinghoffer" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/josh.jpg" }}
+    alt: "Josh Klinghoffer"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

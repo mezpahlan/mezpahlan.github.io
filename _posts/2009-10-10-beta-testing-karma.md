@@ -12,7 +12,10 @@ I've not checked in for a long time but let me briefly let you know what I've be
 
 I'm testing the new Ubuntu release of Karmic Koala. It is in beta now and should be released at the end of October. Unfortunately I'm away on holiday in Thailand when it comes out so I wanted to have a little play around before I went. And I've already raised three bug reports on [Launchpad](https://launchpad.net/) already. Minor difficulties but overall it is an improvement.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/countdown.png alt="Ubuntu 9.10 Countdown" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/countdown.png" }}
+    alt: "Ubuntu 9.10 Countdown"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

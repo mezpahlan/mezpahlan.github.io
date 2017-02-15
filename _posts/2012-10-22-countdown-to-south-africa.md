@@ -11,19 +11,19 @@ tags:
 
 Only a few weeks to go until we travel to South Africa for a two week holiday and nothing but sun!
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/penguins.jpg alt="Penguins at Boulder's Beach, South Africa" class="captioned-picture"%}
-<figcaption>Penguins at Boulder's Beach, South Africa</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/penguins.jpg" }}
+    alt: "Penguins at Boulder's Beach, South Africa"
+{% endresponsive_image_block %}
 
 <!-- more -->
 
 Ok there will be more than just sun. There will also be (in no particular order) wine, trekking, cycles, penguins, beaches, pools, wine, penguins, safari, wine, fine food and penguins.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/wine.png alt="Glass of wine" class="captioned-picture"%}
-<figcaption>Glass of wine</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/wine.png" }}
+    alt: "Glass of wine"
+{% endresponsive_image_block %}
 
 The theme is definitely wine and penguins! Although I can't wait to see the rest of the country which I hear is lovely!
 

@@ -12,6 +12,9 @@ Sat at home working. Overtime. Double pay rate mind you.
 
 Waiting for shopping to be delivered.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/xray.png alt="Xray" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/xray.png" }}
+    alt: "Xray"
+{% endresponsive_image_block %}
 
 <!-- more -->

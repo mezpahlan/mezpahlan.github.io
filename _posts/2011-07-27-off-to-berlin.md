@@ -11,7 +11,10 @@ tags:
 
 I'm off to Berlin for the weekend for a good friend's stag do.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/berlin.png alt="Berlin" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/berlin.png" }}
+    alt: "Berlin"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

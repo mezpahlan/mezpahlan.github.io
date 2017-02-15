@@ -12,6 +12,9 @@ tags:
 
 Comedy from Australia. Comes highly recommended. By me!
 
-{% picture {{ page.id | remove_first: "/blog/" }}/chasers.jpg alt="Julian Morrow" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/chasers.jpg" }}
+    alt: "Julian Morrow"
+{% endresponsive_image_block %}
 
 <!-- more -->

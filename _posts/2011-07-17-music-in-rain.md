@@ -10,7 +10,10 @@ tags:
 
 Band practice kicks off again with a trip back to Beit Hall at Imperial College.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/music.jpg alt="Music In The Rain" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/music.jpg" }}
+    alt: "Music In The Rain"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

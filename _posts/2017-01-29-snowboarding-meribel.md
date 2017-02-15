@@ -9,10 +9,10 @@ tags:
 ---
 Last week I went to Méribel in France for some snowboarding with friends.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/meribel.png alt="Méribel en Les Trois Vallées" class="captioned-picture"%}
-<figcaption>Méribel en Les Trois Vallées</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/meribel.png" }}
+    alt: "Méribel en Les Trois Vallées"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

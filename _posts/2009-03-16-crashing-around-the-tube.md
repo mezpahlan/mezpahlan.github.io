@@ -21,4 +21,7 @@ I'm not this mean normally.
 
 Here are some pictures of something fluffy.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/bunny.jpg alt="Fluffy bunny" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/bunny.jpg" }}
+    alt: "Fluffy bunny"
+{% endresponsive_image_block %}

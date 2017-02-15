@@ -12,6 +12,9 @@ Friday saw us visit the Kensington Roof Gardens for a friends birthday. Fantasti
 
 I don't remember how we all got home such was the brilliance of the night. I'm a bit out of it today though, as you can probably tell.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/roof.jpg alt="Kensington Roof Gardens" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/roof.jpg" }}
+    alt: "Kensington Roof Gardens"
+{% endresponsive_image_block %}
 
 <!-- more -->

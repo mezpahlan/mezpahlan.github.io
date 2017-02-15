@@ -10,7 +10,10 @@ tags:
 
 Not much happening with me at the moment.  I went to an art gallery and took some photos. If they come out nicely I shall post some of them!
 
-{% picture {{ page.id | remove_first: "/blog/" }}/hanimd.jpg alt="Hanimd" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/hanimd.jpg" }}
+    alt: "Hanimd"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

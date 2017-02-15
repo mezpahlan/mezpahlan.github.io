@@ -25,6 +25,9 @@ I was chatting to my friend over the email communicator and I typed out this poe
 
 Hope you like it!
 
-{% picture {{ page.id | remove_first: "/blog/" }}/science.jpg alt="Computer at the Science Museum" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/science.jpg" }}
+    alt: "Computer at the Science Museum"
+{% endresponsive_image_block %}
 
 <!-- more -->

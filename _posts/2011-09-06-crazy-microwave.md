@@ -10,7 +10,10 @@ tags:
 
 We have a crazy microwave at home that seems to count in the hundreds?! Not regular time but in hundreds. Cool you may think, the microwave is compliant with metric time! But no. Only the first hundred is observed after that it reverts to regular sixty second time.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/microwave.jpg alt="Crazy Microwave" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/microwave.jpg" }}
+    alt: "Crazy Microwave"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

@@ -13,6 +13,9 @@ I'm in Thailand for a two week holiday! Hurrah! Its been very good so far. Very 
 
 Unfortunately today has been rained off, but I don't mind so much it forces me to detox from all the gin. Hmmmmm gin.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/thailand.png alt="Map Of Thailand" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/thailand.png" }}
+    alt: "Map Of Thailand"
+{% endresponsive_image_block %}
 
 <!-- more -->

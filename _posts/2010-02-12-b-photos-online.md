@@ -12,6 +12,9 @@ I told you I'd get something up.
 
 I hope this works! Click on the image to enjoy.
 
-[{% picture {{ page.id | remove_first: "/blog/" }}/bw.jpg %}](https://goo.gl/photos/GSKaJBsYDaBKL2Du8)
+[{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/bw.jpg" }}
+    alt: "Black & White"
+{% endresponsive_image_block %}](https://goo.gl/photos/GSKaJBsYDaBKL2Du8)
 
 <!-- more -->

@@ -19,4 +19,7 @@ I've set my self a target of downloading every single disney movie since the 193
 
 I also finished reading Wolverine: Origin the comic book. Very good I liked it a lot but it took me less than half a day to complete. I want something like Watchmen that lasted weeks. Still a brilliant comic.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/quarrel.jpg alt="The Quarrel Of Slop And Susannah" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/quarrel.jpg" }}
+    alt: "The Quarrel Of Slop And Susannah"
+{% endresponsive_image_block %}

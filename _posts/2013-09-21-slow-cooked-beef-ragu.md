@@ -10,10 +10,10 @@ tags:
 
 Set this up in the morning / afternoon and it will be lovely just in time for dinner! Adapted from this [BBC Good Food](http://www.bbcgoodfood.com/recipes/1774640/slowcooked-ox-cheek-ragu) recipe.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/beef-ragu.jpg alt="Beef Ragu" class="captioned-picture"%}
-<figcaption>Beef Ragu</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/beef-ragu.jpg" }}
+    alt: "Beef Ragu"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

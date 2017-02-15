@@ -14,4 +14,7 @@ This is the country house where I am being trained to sell to clients by structu
 
 What I want to know is when we learn how to hypnotise women into bed like those emails promised!!!
 
-{% picture {{ page.id | remove_first: "/blog/" }}/warbrook.jpg alt="Warbrook" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/warbrook.jpg" }}
+    alt: "Warbrook"
+{% endresponsive_image_block %}

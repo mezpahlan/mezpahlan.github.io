@@ -69,54 +69,17 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-# Jekyll Picture Tag settings
-picture:
-  source: 'assets/images/_fullsize'
-  output: 'generated'
-  markup: 'picture'
-  presets:
-    # Full width pictures
-    default:
-      ppi: [1, 1.5]
-      attr:
-        class: blog-picture-full
-        itemprop: image
-      source_lrg:
-        media: '(min-width: 40em)'
-        width: 700
-      source_med:
-        media: '(min-width: 30em)'
-        width: 450
-      source_default:
-        width: 350
-        height: 200
-    # Half width pictures
-    half:
-      ppi: [1, 1.5]
-      attr:
-        data-location: '{{location}}'
-        data-active: nil
-      source_lrg:
-        media: '(min-width: 40em)'
-        width: 400
-      source_med:
-        media: '(min-width: 30em)'
-        width: 250
-      source_default:
-        width: 350
-    # Self-set resolution sources. Useful if you don't want a 1:1 image size to dppx ratio.
-    gallery:
-      source_wide_hi:
-        media: '(min-width: 40em) and (min-resolution: 1.5dppx)'
-        width: 900
-        height: 600
-      source_wide:
-        media: '(min-width: 40em)'
-        width: 600
-        height: 400
-      source_default:
-        width: 250
-        height: 250
+# Jekyll Responsive Image settings
+responsive_image:
+  template: _includes/common/responsive-image.html
+  sizes:
+    - width: 480  # [Required] How wide the resized image will be.
+      quality: 80 # [Optional] Overrides default_quality for this size.
+    - width: 800
+    - width: 1400
+      quality: 90
+  base_path: assets/images/_fullsize
+  output_path_format: assets/images/%{dirname}/%{filename}-%{width}x%{height}.%{extension}
 
 # Jekyll Archive settings
 jekyll-archives:

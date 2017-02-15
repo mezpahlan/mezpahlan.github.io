@@ -17,7 +17,7 @@ Gaining inspiration from this, we decided to make Mushroom Soup. Here's how.
 Ingredients:
 
 * 30 - 35 grams of dried porcinis
-* The remains of a ~~glass~~ bottle of red wine 
+* The remains of a ~~glass~~ bottle of red wine
 * 40 grams of butter
 * 2 large onions, chopped
 * 1 bulb of garlic, coarsely chopped
@@ -40,9 +40,9 @@ Now add the vegetable stock and the thyme and leave to simmer for 45 minutes sti
 
 Finally add in the double cream and the porcinis that have been left to stand along with the wine sauce. Stir this in to the mixture and leave for 15 minutes. Blend with a hand held blender to your liking. Serve with crusty bread. Enjoy.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/soup.jpg alt="Hmmmm soup" class="captioned-picture"%}
-<figcaption>Hmmmm soup</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/soup.jpg" }}
+    alt: "Hmmmm soup"
+{% endresponsive_image_block %}
 
 This recipe was adapted from RecipeWars which in turn adapted it from [Emerils](http://www.marthasflowers.com/recipe/4639/Cream-of-Porcini-Soup-with-Quail-Eggs).

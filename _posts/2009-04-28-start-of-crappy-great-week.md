@@ -22,4 +22,7 @@ Some good news work wise. I finally have a date I can leave this project and go 
 
 The gym was the icing on the cake. Roll on Wednesday and the bank holiday!
 
-{% picture {{ page.id | remove_first: "/blog/" }}/fish-n-chips.jpg alt="Fish and chips" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/fish-n-chips.jpg" }}
+    alt: "Fish and chips"
+{% endresponsive_image_block %}

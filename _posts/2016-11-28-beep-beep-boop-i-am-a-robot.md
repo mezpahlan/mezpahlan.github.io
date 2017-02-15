@@ -8,15 +8,15 @@ tags:
 - tv
 ---
 I've been watching two programmes recently about robots and specifically about the artificial intelligence of robots: [Humans](https://www.channel4.com/programmes/humans) on Channel 4 and [Westworld](https://www.hbo.com/westworld) on HBO.
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/humans-c4.png alt="Humans on Channel 4" class="captioned-picture"%}
-<figcaption>Humans on Channel 4</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/humans-c4.png" }}
+    alt: "Humans on Channel 4"
+{% endresponsive_image_block %}
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/westworld-hbo.png alt="Westworld on HBO" class="captioned-picture"%}
-<figcaption>Westworld on HBO</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/westworld-hbo.png" }}
+    alt: "Westworld on HBO"
+{% endresponsive_image_block %}
 
 <!-- more -->
 Both are fascinating in their own ways and touch upon the nature of artificial intelligence and what happens when this intelligence is so good that it can mimic real life and real feeling.
@@ -31,7 +31,7 @@ The first few episodes shows this off as we are introduced to the main cast and 
 
 This isn't surprising when you think about who makes the show. Jonathan Nolan and JJ Abrams. It certainly has the feeling of watching [Lost](https://en.wikipedia.org/wiki/Lost_%28TV_series%29) again. Although I hope it doesn't drag on for 8 seasons where in the end we find out that it was that damned labrador's dream.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/stupid-dogs-dream.png alt="Stupid dog's dream" class="captioned-picture"%}
-<figcaption>Stupid dog's dream</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/stupid-dogs-dream.png" }}
+    alt: "Stupid dog's dream"
+{% endresponsive_image_block %}

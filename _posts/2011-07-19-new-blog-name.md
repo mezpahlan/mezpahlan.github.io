@@ -10,7 +10,10 @@ tags:
 
 I'm thinking about changing the name of my blog. Big move - maybe? But I'm pretty sure I can do that with the Blogger engine. I guess the only thing to worry about is updating people's links. But no one reads this blog anyway so what's the problem?
 
-{% picture {{ page.id | remove_first: "/blog/" }}/haters.jpg alt="Haters Gonna Hate" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/haters.jpg" }}
+    alt: "Haters Gonna Hate"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

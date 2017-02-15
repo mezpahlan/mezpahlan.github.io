@@ -17,14 +17,23 @@ I'll talk more about it later on in the year, I'm sure, but for now I wanted to 
 
 First up is the [Fuji X-100](http://www.finepix-x100.com/). I always wanted a decent digital camera and have been learning how to properly use a film SLR for about six years. I feel now is the time to capture some brilliant photography on a digital format and this just looks the part! Quite decent reviews too (once you've upgraded the firmware).
 
-{% picture {{ page.id | remove_first: "/blog/" }}/x100.jpg alt="Fuji X-100" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/x100.jpg" }}
+    alt: "Fuji X-100"
+{% endresponsive_image_block %}
 
 Next up is a tablet of some sorts. I haven't got into the whole tablet craze just yet, but I think the [Asus Transformer Infinity](http://eee.asus.com/eeepad/transformer-infinity/features/) has worn me down. This I could probably do without, but it would be nice to take a laptop around on holiday and this might just fit the bill without the excess weight of a laptop. If nothing else, it will be nice to waste some time on the flight or the coach with one of these?
 
-{% picture {{ page.id | remove_first: "/blog/" }}/transformer.jpg alt="Asus Transformer" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/transformer.jpg" }}
+    alt: "Asus Transformer"
+{% endresponsive_image_block %}
 
 Lastly is an upgrade to my phone. I've been using the HTC Desire for over two years now and it has served me well. But the poor camera and the ever waning battery life is starting to take its toll on me. Not to mention that feel I am missing out without the very latest software version of Android which isn't coming to the phone. In its place I'm going for the [Samsung Galaxy S3](http://www.samsung.com/uk/consumer/mobile-devices/smartphones/android/GT-I9300MBDBTU). Hopefully this should last another fine two years again. From the reviews this is the best phone out there.......... so far.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/galaxy-s3.jpg alt="Samsung Galaxy S3" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/galaxy-s3.jpg" }}
+    alt: "Samsung Galaxy S3"
+{% endresponsive_image_block %}
 
 Anyways, all of this gadgetry is really just to capture every little bit of the South Africa holiday as I can. I want to share all this with as many people as possible and finding an easy way to do that is key. Hopefully I'll get you show you some great pictures and blog posts!

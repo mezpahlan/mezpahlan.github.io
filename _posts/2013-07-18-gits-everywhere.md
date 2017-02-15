@@ -12,10 +12,10 @@ tags:
 
 Another long break between blog posts. Mostly out of laziness but also because I am trying to learn and teach myself Android programming. Here's a short post about how I'm getting along.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/android-penguins.jpg alt="Android Penguins" class="captioned-picture"%}
-<figcaption>Android Penguins</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/android-penguins.jpg" }}
+    alt: "Android Penguins"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

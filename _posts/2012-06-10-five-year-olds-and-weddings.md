@@ -10,7 +10,10 @@ tags:
 
 Next week I'm off to Ireland for a few days to attend a wedding. I thought I had a suitable suit to wear but this turned out not to be the case. I merely had a black pair of shoes. I don't think I even have suitable socks. Unless I try out the Jacko look and go with white socks and black shoes? Somehow I don't think my girlfriend would be too impressed. So this weekend I was ordered to buy a suit.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/wedding1.jpg alt="Five year olds and weddings" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/wedding1.jpg" }}
+    alt: "Five year olds and weddings"
+{% endresponsive_image_block %}
 
 <!-- more -->
 
@@ -22,10 +25,22 @@ Whilst on our quest for a suit and shoes we walked all the way over to Clifton. 
 
 Food wise I tried my hand at meatballs and spaghetti. One small pack of beef, chop half an onion, a whole garlic chopped, two eggs, some olive oil, salt and pepper all in a bowl and mix. Leave it in the fridge for half an hour then form into small balls. Fry until golden on both sides then put into tomato sauce that has been cooking separately. Add some chilli to taste and serve with spaghetti. Lovely.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/wedding2.jpg alt="Five year olds and weddings" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/wedding2.jpg" }}
+    alt: "Five year olds and weddings"
+{% endresponsive_image_block %}
 
-{% picture {{ page.id | remove_first: "/blog/" }}/wedding3.jpg alt="Five year olds and weddings" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/wedding3.jpg" }}
+    alt: "Five year olds and weddings"
+{% endresponsive_image_block %}
 
-{% picture {{ page.id | remove_first: "/blog/" }}/wedding4.jpg alt="Five year olds and weddings" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/wedding4.jpg" }}
+    alt: "Five year olds and weddings"
+{% endresponsive_image_block %}
 
-{% picture {{ page.id | remove_first: "/blog/" }}/wedding5.jpg alt="Five year olds and weddings" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/wedding5.jpg" }}
+    alt: "Five year olds and weddings"
+{% endresponsive_image_block %}

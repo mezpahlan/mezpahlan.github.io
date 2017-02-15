@@ -11,6 +11,9 @@ tags:
 I can't find Sin City Book 2 aaaaaaaaaanywhere? Is it out of print? Does it even exist?
 
 
-{% picture {{ page.id | remove_first: "/blog/" }}/sin-city.jpg alt="Sin City book 2" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/sin-city.jpg" }}
+    alt: "Sin City book 2"
+{% endresponsive_image_block %}
 
 <!-- more -->

@@ -12,7 +12,10 @@ I sort of agree with Puff Daddy's Vote Or Die campaign. I also agree with voter 
 
 I don't believe so.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/vote-or-die.jpg alt="Vote Or Die" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/vote-or-die.jpg" }}
+    alt: "Vote Or Die"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

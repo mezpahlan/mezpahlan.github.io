@@ -14,4 +14,7 @@ I've just seen Public Enemies with Johnny Depp, Christian Bale and that French c
 
 My verdict: about 6 out of 10. Don't go see this film on a date. Don't go see it with friends. Don't go see it unless you like the 1930's.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/mugshot.jpg alt="Mughshot" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/mugshot.jpg" }}
+    alt: "Mughshot"
+{% endresponsive_image_block %}

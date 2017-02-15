@@ -10,7 +10,10 @@ tags:
 
 Staying in hotels ain't all its cracked up to be.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/leica.jpg alt="Leica M6" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/leica.jpg" }}
+    alt: "Leica M6"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

@@ -13,7 +13,10 @@ Wow! First post of the decade, blah blah blah blah how cool etc etc.
 Right now this is mostly for my amusement but may be useful to someone else too.
 
 
-{% picture {{ page.id | remove_first: "/blog/" }}/alpha.jpg alt="Alpha Compositing" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/alpha.jpg" }}
+    alt: "Alpha Compositing"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

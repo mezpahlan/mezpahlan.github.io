@@ -10,10 +10,10 @@ tags:
 
 Here are my thoughts on the [Samsung Galaxy S3](http://www.samsung.com/uk/consumer/mobile-devices/smartphones/android/GT-I9300MBDBTU) after about a months worth of use.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/s3-thoughts.jpg alt="Samsung Galaxy S3" class="captioned-picture"%}
-<figcaption>Samsung Galaxy S3</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/s3-thoughts.jpg" }}
+    alt: "Samsung Galaxy S3"
+{% endresponsive_image_block %}
 
 <!-- more -->
 
@@ -25,7 +25,7 @@ Here are my thoughts on the [Samsung Galaxy S3](http://www.samsung.com/uk/consum
 
 ### The bad bits:
 
-1. Touchwiz skin for Android 
+1. Touchwiz skin for Android
 
 ### Thoughts:
 

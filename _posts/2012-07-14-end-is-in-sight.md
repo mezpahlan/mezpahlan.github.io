@@ -10,7 +10,10 @@ tags:
 
 Here's what's been happening this past month.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/angry-penguin.png alt="Angry Penguin" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/angry-penguin.png" }}
+    alt: "Angry Penguin"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

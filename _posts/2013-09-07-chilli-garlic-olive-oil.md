@@ -10,10 +10,10 @@ tags:
 
 Inspired by our Italian friend Fran, I'm going to share a nice way to restock your olive oil. It is just regular olive oil but with a kick of chilli! Goes great over pasta and fish but you can use it where ever you would use olive oil. It is also very easy to make. The longer you leave it in the cupboard the better it gets.
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/chilli.jpg alt="Chilli" class="captioned-picture"%}
-<figcaption>Chilli</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/chilli.jpg" }}
+    alt: "Chilli"
+{% endresponsive_image_block %}
 
 <!-- more -->
 
@@ -25,11 +25,11 @@ Inspired by our Italian friend Fran, I'm going to share a nice way to restock yo
 * Chilli seeds
 * Garlic
 
-#### Preparation: 
+#### Preparation:
 
 * Chop the chillies and garlic and stuff into the empty olive oil bottle. Pour in some chilli seeds to taste. Fill to the top with replacement olive oil. Shake. Done!
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/garlic.jpg alt="Garlic" class="captioned-picture"%}
-<figcaption>Garlic</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/garlic.jpg" }}
+    alt: "Garlic"
+{% endresponsive_image_block %}

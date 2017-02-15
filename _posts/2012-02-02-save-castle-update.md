@@ -11,7 +11,10 @@ tags:
 
 The #savethecastle now has a [website](http://www.savethecastlebattersea.co.uk/) where you can keep in touch with the latest news.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/castle.png alt="Save The Castle" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/castle.png" }}
+    alt: "Save The Castle"
+{% endresponsive_image_block %}
 
 <!-- more -->
 

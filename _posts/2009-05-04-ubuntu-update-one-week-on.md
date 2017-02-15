@@ -22,4 +22,7 @@ Amarok: Upgraded to version 2 and then 2.1beta soon after. 2 was horrible. Fucki
 
 U or K: Ubuntu. I don't like having programs look shit when they don't need to. Like Firefox. So Ubuntu for now until Mozilla release a QT port of Firefox. Then we'll see.
 
-{% picture {{ page.id | remove_first: "/blog/" }}/ubuntu.jpg alt="Ubuntu" %}
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/ubuntu.jpg" }}
+    alt: "Ubuntu"
+{% endresponsive_image_block %}

@@ -35,14 +35,16 @@ rake draft[<draft_name>]
 
 This will produce a draft post in the `_drafts` folder. From here start typing. Include your TAGS.
 
-If you want to include pictures use the following format to have automatically responsive pictures with captions. Place the source image in the following folder `assets/images/_fullsize/<post year>/<post month>/<post day>/<post name dash separated>`
+If you want to include pictures use the following format to have automatically responsive pictures with captions. Place the source image in the following folder `assets/images/fullsize/<post year>/<post month>/<post day>/<post name dash separated>`
 
+{% raw %}
 ```markdown
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/<picturefile> alt="<picture caption>" class="captioned-picture"%}
-<figcaption><picture caption></figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/<image-filename>" }}
+    alt: "<picture-caption>"
+{% endresponsive_image_block %}
 ```
+{% endraw %}
 
 NOTE: You need to create the source image directory structure yourself. This is not supported at present.
 

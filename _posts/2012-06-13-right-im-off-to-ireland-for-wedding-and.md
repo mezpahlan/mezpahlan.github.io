@@ -12,10 +12,10 @@ tags:
 
 Right, I'm off to Ireland for a wedding and a five year old's birthday. Still more excited about the birthday party than the wedding since I don't know anyone at the wedding and there will be a BBQ at the party. Who can win over a BBQ? Exactly!
 
-<figure>
-{% picture {{ page.id | remove_first: "/blog/" }}/off.jpg alt="Not the Turtle blimp" class="captioned-picture"%}
-<figcaption>Not the Turtle blimp</figcaption>
-</figure>
+{% responsive_image_block %}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/off.jpg" }}
+    alt: "Not the Turtle blimp"
+{% endresponsive_image_block %}
 
 <!-- more -->
 
