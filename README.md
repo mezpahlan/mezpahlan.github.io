@@ -18,7 +18,7 @@ The theme is a modified version of the [Bootstap Freelancer theme rewritten for 
 - [x] Figure out a workflow. From drafts to published
 - [x] Make site HTTPS only
 - [ ] Custom CNAME
-- [ ] Swap jekyll-picture-tag for jekyll-responsive-image where we can set a template for the output html
+- [x] Swap jekyll-picture-tag for jekyll-responsive-image where we can set a template for the output html
 - [ ] Sort out CSS site wide
 - [ ] Switch to Bootstap 4
 - [ ] Add new section for Physics uni archive
