@@ -2,22 +2,12 @@ require 'open3'
 require 'fileutils'
 require 'securerandom'
 require './_rake_modules/draft_utils'
-
-desc "Build site with drafts"
-task :build do
-    puts "## Building site including drafts"
-    stdout, stderr, status = Open3.capture3("bundle exec jekyll build --drafts")
-    exit_code = /exit (\d+)/.match(status.to_s)[1].to_i
-    if exit_code == 0 && !stdout.nil?
-        puts "Success"
-    elsif exit_code > 0 && !stderr.nil?
-        abort stderr
-    end
-end
+require './_rake_modules/jekyll_utils'
+require './_rake_modules/github_utils'
 
 desc "Serve site"
 task :serve do
-    exec("bundle exec jekyll serve --drafts")
+    JeykllUtils.serve_site_with_drafts()
 end
 
 desc "Create draft blog post"
@@ -56,88 +46,35 @@ desc "Publish draft blog post"
 task :publish_draft, [:draft_name] do |t, args|
     draft_name = args[:draft_name].to_s.strip.downcase.gsub(/\s/,"-")+".md"
     draft_dir = "_drafts"
-    Dir.chdir(draft_dir)
-    DraftUtils.publish_single_draft(draft_name)
-    Dir.chdir("../")
-end
 
-desc "Generate blog files"
-task :generate do
-    puts "## Building site using Jekyll"
-    stdout, stderr, status = Open3.capture3("bundle exec jekyll build")
-    exit_code = /exit (\d+)/.match(status.to_s)[1].to_i
-    if exit_code == 0 && !stdout.nil?
-        puts "Success"
-    elsif exit_code > 0 && !stderr.nil?
-        abort stderr
-    end
+    Dir.chdir(draft_dir)
+
+    DraftUtils.publish_single_draft(draft_name)
+
+    Dir.chdir("../")
 end
 
 desc "Build and deploy site"
 task :deploy do
-    puts "Check for any unpushed changes in source branch"
-    stdout, stderr, status = Open3.capture3("git rev-list --count origin/source..HEAD")
-    exit_code = /exit (\d+)/.match(status.to_s)[1].to_i
-    if exit_code == 0 && !stdout.nil? && stdout.to_i > 0
-        puts "Push changes to sources branch"
-        stdout, stderr, status = Open3.capture3("git push origin source")
-        exit_code = /exit (\d+)/.match(status.to_s)[1].to_i
-        if exit_code == 0 && !stdout.nil?
-            puts "Success"
-        elsif exit_code > 0 && !stderr.nil?
-            abort stderr
-        end
-    elsif exit_code == 0 && !stdout.nil? && stdout.to_i == 0
-        puts "Local and Remote branch in sync"
-    elsif exit_code > 0 && !stderr.nil?
-        abort stderr
-    end
+    GithubUtils.sync()
 
-    puts "## Get the latest commit from source branch"
-    last_commit, stderr, status = Open3.capture3("git rev-parse --short HEAD")
-    exit_code = /exit (\d+)/.match(status.to_s)[1].to_i
-    if exit_code == 0 && !stdout.nil?
-        puts "Last commit in local source branch was #{last_commit}"
-    elsif exit_code > 0 && !stderr.nil?
-        abort stderr
-    end
+    last_commit = GithubUtils.last_commit()
 
-    Rake::Task["generate"].execute
+    JeykllUtils.build_site()
 
-    puts "Move into the local master branch"
+    puts "## Move into the local master branch"
     Dir.chdir("_site/")
 
-    # TODO: check that we are using the correct branch at this level we should be in `master`
+    GithubUtils.stage_all()
 
-    puts "Stage all the changes in local master branch"
-    stdout, stderr, status = Open3.capture3("git add -A")
-    exit_code = /exit (\d+)/.match(status.to_s)[1].to_i
-    if exit_code == 0 && !stdout.nil?
-        puts "Success"
-    elsif exit_code > 0 && !stderr.nil?
-        abort stderr
-    end
+    commit_msg = "Site auto built upto and including revision #{last_commit}"
+    GithubUtils.commit(commit_msg)
 
-    puts "Commit changes in local master branch"
-    stdout, stderr, status = Open3.capture3("git commit -m \"Site auto built upto and including revision #{last_commit}\"")
-    exit_code = /exit (\d+)/.match(status.to_s)[1].to_i
-    if exit_code == 0 && !stdout.nil?
-        puts "Success"
-    elsif exit_code > 0 && !stderr.nil?
-        abort stderr
-    end
+    branch = "master"
+    GithubUtils.push(branch)
 
-    puts "Push changes to master branch"
-    stdout, stderr, status = Open3.capture3("git push origin master")
-    exit_code = /exit (\d+)/.match(status.to_s)[1].to_i
-    if exit_code == 0 && !stdout.nil?
-        puts "Success"
-    elsif exit_code > 0 && !stderr.nil?
-        abort stderr
-    end
-
-    puts "Move to local source branch"
+    puts "## Move to local source branch"
     Dir.chdir("../")
 
-    puts "Successfully built and pushed to GitHub."
+    puts "## Successfully built and pushed to GitHub."
 end
