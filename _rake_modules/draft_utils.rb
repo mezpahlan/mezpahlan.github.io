@@ -3,6 +3,32 @@ require 'securerandom'
 
 module DraftUtils
 
+    # Creates a draft given an identifier
+    def self.create_draft(draft_name)
+        filename = draft_name.downcase.gsub(/\s/,"-")+".md"
+        draft_dir = "_drafts"
+        outfile = File.join(draft_dir, filename)
+
+        puts "## Create draft blog post: #{filename}"
+
+        Dir.mkdir(draft_dir) unless File.exists?(draft_dir)
+
+        # copy over template post
+        contents = File.open("_post-template.md") do |f| f.read.gsub(/title:.+/, "title: " + draft_name) end
+        IO.write(outfile, contents)
+
+        # Update permissions mode
+        File.chmod(0664, outfile)
+
+        # create uuid for disqus
+        insert_disqus_id(outfile)
+
+        # create timestamps for posts
+        update_single_draft_timestamp(outfile, Time.now)
+
+        puts "## #{filename} created successfully."
+    end
+
     # Inserts a Disqus identifier
     def self.insert_disqus_id(draft_name)
         puts "## Creating Disqus id for #{draft_name}"
@@ -44,6 +70,8 @@ module DraftUtils
 
     class << self
         private :update_draft_filename_with_timestamp
+        private :insert_disqus_id
+        private :update_single_draft_timestamp
     end
 
 end
