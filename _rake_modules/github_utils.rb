@@ -24,10 +24,10 @@ module GithubUtils
         exit_code = /exit (\d+)/.match(status.to_s)[1].to_i
         if exit_code == 0 && !last_commit.nil?
             puts "## Last commit in local source branch was #{last_commit}"
+            return last_commit
         elsif exit_code > 0 && !stderr.nil?
             abort stderr
         end
-        :last_commit
     end
 
     # Push changes to Github, if any
