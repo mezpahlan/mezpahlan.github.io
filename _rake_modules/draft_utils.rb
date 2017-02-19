@@ -26,6 +26,9 @@ module DraftUtils
         # create timestamps for posts
         update_single_draft_timestamp(outfile, Time.now)
 
+        # create image asset folders pre-emtively
+        create_image_folder(outfile)
+
         puts "## #{filename} created successfully."
     end
 
@@ -55,6 +58,9 @@ module DraftUtils
         # move new file to posts folder
         puts "## Moving #{new_filename} to posts folder"
         FileUtils.mv(new_filename, "../_posts/#{new_filename}")
+
+        # clean unused image folder
+        clean_unused_image_folder(new_filename)
     end
 
     # Renames a single draft filename with timestamp
@@ -68,10 +74,35 @@ module DraftUtils
         return new_filename
     end
 
+    # Creates an image folder given a blog post
+    def self.create_image_folder(draft_name)
+        image_dir = File.open(draft_name) do |f| f.read.match(/date:\s'([^T]+)T/) {|m| "assets/images/_fullsize/blog/" + m[1].gsub(/-/,"/") + draft_name.gsub(/_drafts|\.md/,"")} end
+        FileUtils.makedirs(image_dir)
+        puts "## Created image directory  #{image_dir} for post"
+    end
+
+    # Cleans up an image directory if no images have been unused
+    def self.clean_unused_image_folder(draft_name)
+        image_dir = "../assets/images/_fullsize/blog/" + draft_name.sub(/-/, "/").sub(/-/, "/").sub(/-/, "/").sub(/\.md/, "")
+        puts "## Attempting to clean #{image_dir}"
+        recursive_delete_if_empty(image_dir)
+    end
+
+    def self.recursive_delete_if_empty(dir_name)
+        if Dir["#{dir_name}/*"].empty?
+            FileUtils.remove_dir(dir_name)
+            # try again on the parent directory
+            recursive_delete_if_empty(File.expand_path("..", dir_name))
+        end
+    end
+
     class << self
         private :update_draft_filename_with_timestamp
         private :insert_disqus_id
         private :update_single_draft_timestamp
+        private :create_image_folder
+        private :clean_unused_image_folder
+        private :recursive_delete_if_empty
     end
 
 end
