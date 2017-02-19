@@ -23,6 +23,6 @@ The theme is a modified version of the [Bootstap Freelancer theme rewritten for 
 - [ ] Switch to Bootstap 4
 - [ ] Add new section for Physics uni archive
 - [x] Harden the Rakefile to maybe split into more granular tasks?
-- [x] Configure images to be served from localhost as well as production
+- [ ] Configure images to be served from localhost as well as production
 - [x] Auto create image folder on draft creation
 - [x] Auto delete image folder if post uses no images
