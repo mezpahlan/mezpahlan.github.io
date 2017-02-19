@@ -23,4 +23,4 @@ The second major change was to switch the use of one responsive image Jekyll plu
 
 Now that these changes are out of the way I feel I can start to improve the look and load time of the site. I want to look to removing unnecessary network calls and make better use of Bootstrap. I have a lot more divs that I actually need at the moment in my markup which isn't great for page load and usability especially on a mobile device.
 
-Whilst these change won't be obvious to the end user they will allow me to update the site in a more clean fashion in the future.
+Whilst these changes won't be obvious to the end user they will allow me to update the site in a more clean fashion in the future.
