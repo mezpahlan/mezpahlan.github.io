@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 3
+modal-id: 1
 title: Jive Election
 img: jive-circle.png
 alt: image-jive
