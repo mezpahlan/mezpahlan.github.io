@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/hubertron/video-tag
+  revision: 3393a297cb9d1aeb3fe69295837b4954a1e57c87
+  specs:
+    octopress-video-tag (1.1.2)
+      jekyll (>= 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -208,6 +215,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-responsive-image
   jekyll-youtube
+  octopress-video-tag!
   rouge
 
 BUNDLED WITH

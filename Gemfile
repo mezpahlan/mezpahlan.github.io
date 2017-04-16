@@ -9,4 +9,5 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-archives'
   gem 'rouge'
+  gem 'octopress-video-tag', :git => "https://github.com/hubertron/video-tag"
 end
