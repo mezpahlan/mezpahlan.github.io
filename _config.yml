@@ -8,6 +8,7 @@ description: 'I am a Web &amp; Mobile developer with a passion for Mobile techno
 excerpt_separator: <!-- more -->
 paginate: 10
 paginate_path: '/blog/page:num/'
+future: true
 
 # Collection settings
 collections:
