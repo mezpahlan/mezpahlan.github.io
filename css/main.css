@@ -167,6 +167,11 @@ figure,
     margin: auto;
 }
 
+video.embedded-video {
+    display: block;
+    margin: auto;
+}
+
 figure {
   display: flex;
   flex-direction: column;
