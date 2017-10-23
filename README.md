@@ -26,3 +26,4 @@ The theme is a modified version of the [Bootstap Freelancer theme rewritten for 
 - [ ] Configure images to be served from localhost as well as production
 - [x] Auto create image folder on draft creation
 - [x] Auto delete image folder if post uses no images
+- [ ] Add instructions for installing rake on freshly installed systems
