@@ -1,4 +1,15 @@
+# Compiled site
 _site
+
+# Drafts
 _drafts
-.rake_tasks~
+
+# Full size images pre site compilation
 assets/images/blog
+
+# Terminal guff
+.rake_tasks~
+
+# Bundler files
+_vendor
+.bundle
