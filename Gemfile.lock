@@ -138,6 +138,11 @@ GEM
       jekyll (~> 3.3)
     jekyll-theme-hacker (0.0.4)
       jekyll (~> 3.3)
+    jekyll-theme-hydeout (3.5.1)
+      jekyll (~> 3.4)
+      jekyll-feed (~> 0.6)
+      jekyll-gist (~> 1.4)
+      jekyll-paginate (~> 1.1)
     jekyll-theme-leap-day (0.0.4)
       jekyll (~> 3.3)
     jekyll-theme-merlot (0.0.4)
@@ -214,9 +219,10 @@ DEPENDENCIES
   jekyll-gist
   jekyll-paginate
   jekyll-responsive-image
+  jekyll-theme-hydeout (~> 3.4)
   jekyll-youtube
   octopress-video-tag!
   rouge
 
 BUNDLED WITH
-   1.13.6
+   1.14.6
