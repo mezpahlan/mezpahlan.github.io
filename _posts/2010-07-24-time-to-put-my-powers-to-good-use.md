@@ -4,6 +4,7 @@ title: Time to put my powers to good use
 date: '2010-07-24T20:47:00.005+01:00'
 author: Mez Pahlan
 disqus_identifier: 6c804d07-f02c-4755-b007-4d53967a7738
+category: android
 tags:
 - android
 - ubuntu
@@ -12,7 +13,7 @@ tags:
 But first..... I need to get some powers.
 
 {% responsive_image_block %}
-    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/android.jpg" }}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | remove_first: "#excerpt" | append: "/android.jpg" }}
     alt: "Android"
 {% endresponsive_image_block %}
 

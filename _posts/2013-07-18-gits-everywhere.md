@@ -4,6 +4,7 @@ title: Gits Everywhere
 date: '2013-07-18T12:44:00.001+01:00'
 author: Mez Pahlan
 disqus_identifier: 17208ac4-ca15-4e9b-a883-a26842ab1547
+category: android
 tags:
 - learning
 - programming
@@ -13,7 +14,7 @@ tags:
 Another long break between blog posts. Mostly out of laziness but also because I am trying to learn and teach myself Android programming. Here's a short post about how I'm getting along.
 
 {% responsive_image_block %}
-    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/android-penguins.jpg" }}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | remove_first: "#excerpt" | append: "/android-penguins.jpg" }}
     alt: "Android Penguins"
 {% endresponsive_image_block %}
 

@@ -4,6 +4,7 @@ title: Catha's Seat Design Ideas
 date: '2013-09-27T11:06:00.000+01:00'
 author: Mez Pahlan
 disqus_identifier: 91b412ef-63ab-4dcc-8be2-73fb8cb2aad1
+category: android
 tags:
 - programming
 - android
@@ -12,7 +13,7 @@ tags:
 A good friend of mine, [Nick](http://nickandscottgobiking.blogspot.co.uk/), is organising the construction of a bicycle seat on route 18 of the Cycle Network to complete the work started by his mother, Catha. You can read more about it on the [Catha's Seat](http://www.cathas-seat.org/) website.
 
 {% responsive_image_block %}
-    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/start_activity.png" }}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | remove_first: "#excerpt" | append: "/start_activity.png" }}
     alt: "Start Activity"
 {% endresponsive_image_block %}
 
@@ -30,7 +31,7 @@ The app will start on a welcome page with an image of Catha's Seat in the surrou
 2. Pressing the Go button takes you to the next screen - the map.
 
  {% responsive_image_block %}
-    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/map_activity.png" }}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | remove_first: "#excerpt" | append: "/map_activity.png" }}
     alt: "Map Activity"
 {% endresponsive_image_block %}
 
@@ -39,7 +40,7 @@ The app will start on a welcome page with an image of Catha's Seat in the surrou
 3. The route will lead to a marker for Catha's Seat.
 
  {% responsive_image_block %}
-    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/directions_activity.png" }}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | remove_first: "#excerpt" | append: "/directions_activity.png" }}
     alt: "Directions Activity"
 {% endresponsive_image_block %}
 
@@ -51,7 +52,7 @@ The app will start on a welcome page with an image of Catha's Seat in the surrou
  The user can interact with the different app screens by swiping left and right any time after an initial query has been performed.
 
 {% responsive_image_block %}
-    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/interaction.png" }}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | remove_first: "#excerpt" | append: "/interaction.png" }}
     alt: "Interaction"
 {% endresponsive_image_block %}
 

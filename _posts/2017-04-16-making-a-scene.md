@@ -4,6 +4,7 @@ title: Making A Scene
 date: '2017-04-16T12:26:14.000Z'
 author: Mez Pahlan
 disqus_identifier: 48f3730d-bcc4-42b3-a16d-4e4fb2d7b7ab
+category: android
 tags:
 - android
 - programming
@@ -25,7 +26,7 @@ So let's get into the code!
 The basic idea is as follows
 
 {% responsive_image_block %}
-    path: {{ site.responsive_image.base_path | append: page.id | remove_first: "#excerpt" | append: "/transitions-diagram.png" }}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | remove_first: "#excerpt" | append: "/transitions-diagram.png" }}
     alt: "Relationships in the transitions framework"
 {% endresponsive_image_block %}
 
