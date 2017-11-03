@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: One day till Ubuntu goodness!
 date: '2010-04-28T21:21:00.003+01:00'
 author: Mez Pahlan

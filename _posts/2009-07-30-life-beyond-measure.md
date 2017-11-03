@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Life Beyond Measure
 date: '2009-07-30T21:41:00.003+01:00'
 author: Mez Pahlan

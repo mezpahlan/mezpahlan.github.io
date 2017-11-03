@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Today's diet
 date: '2009-11-11T22:03:00.003Z'
 author: Mez Pahlan

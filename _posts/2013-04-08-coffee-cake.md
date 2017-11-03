@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Coffee Cake
 date: '2013-04-08T15:20:00.000+01:00'
 author: Mez Pahlan

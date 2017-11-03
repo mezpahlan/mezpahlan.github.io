@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Kensington Roof Gardens
 date: '2009-08-01T22:50:00.002+01:00'
 author: Mez Pahlan

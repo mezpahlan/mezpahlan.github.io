@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Wolverine
 date: '2009-05-04T13:55:00.002+01:00'
 author: Mez Pahlan

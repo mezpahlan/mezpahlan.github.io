@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: 'Andorra snow '
 date: '2013-02-07T07:58:00.001Z'
 author: Mez Pahlan

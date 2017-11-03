@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Where is Sin City book 2?
 date: '2010-03-17T17:14:00.002Z'
 author: Mez Pahlan

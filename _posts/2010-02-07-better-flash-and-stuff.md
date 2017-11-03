@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Better flash and stuff...
 date: '2010-02-07T18:00:00.004Z'
 author: Mez Pahlan

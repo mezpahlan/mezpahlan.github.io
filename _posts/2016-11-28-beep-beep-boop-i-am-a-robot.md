@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Beep Beep Boop I Am A Robot
 date: '2016-11-28T22:48:12.625Z'
 author: Mez Pahlan

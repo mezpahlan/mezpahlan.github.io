@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Unit Testing
 date: '2011-07-22T17:35:00.000+01:00'
 author: Mez Pahlan

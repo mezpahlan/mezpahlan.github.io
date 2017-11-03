@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Secret Cinema
 date: '2009-05-04T12:53:00.004+01:00'
 author: Mez Pahlan

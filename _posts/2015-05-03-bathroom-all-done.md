@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Bathroom All Done
 date: '2015-05-03T19:01:00.000+01:00'
 author: Mez Pahlan

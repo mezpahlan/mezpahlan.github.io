@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Mushroom Soup
 date: '2013-01-12T17:42:00.003Z'
 author: Mez Pahlan

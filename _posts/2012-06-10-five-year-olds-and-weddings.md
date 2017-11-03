@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Five year olds and weddings
 date: '2012-06-10T19:34:00.002+01:00'
 author: Mez Pahlan

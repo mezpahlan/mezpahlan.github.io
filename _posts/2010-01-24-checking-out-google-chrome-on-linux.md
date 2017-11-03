@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Checking out google chrome on linux
 date: '2010-01-24T13:24:00.004Z'
 author: Mez Pahlan

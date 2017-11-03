@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Not much been going down
 date: '2010-06-08T22:38:00.002+01:00'
 author: Mez Pahlan

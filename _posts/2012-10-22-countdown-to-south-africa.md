@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: 'Countdown to South Africa '
 date: '2012-10-22T14:34:00.001+01:00'
 author: Mez Pahlan

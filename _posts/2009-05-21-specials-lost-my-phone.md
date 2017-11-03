@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Specials lost my phone :(
 date: '2009-05-21T08:35:00.003+01:00'
 author: Mez Pahlan

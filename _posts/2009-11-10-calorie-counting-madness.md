@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Calorie counting madness
 date: '2009-11-10T16:12:00.003Z'
 author: Mez Pahlan

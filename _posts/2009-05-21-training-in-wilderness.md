@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Training in the wilderness
 date: '2009-05-21T08:36:00.003+01:00'
 author: Mez Pahlan

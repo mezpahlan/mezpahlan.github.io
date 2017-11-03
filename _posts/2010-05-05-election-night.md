@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Election night
 date: '2010-05-05T19:36:00.003+01:00'
 author: Mez Pahlan

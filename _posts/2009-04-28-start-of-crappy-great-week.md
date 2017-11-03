@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Start of a crappy great week
 date: '2009-04-28T23:11:00.004+01:00'
 author: Mez Pahlan

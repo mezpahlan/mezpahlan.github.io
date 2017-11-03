@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: The end is in sight
 date: '2012-07-14T18:24:00.000+01:00'
 author: Mez Pahlan

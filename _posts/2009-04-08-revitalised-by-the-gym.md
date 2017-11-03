@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Revitalised by the gym
 date: '2009-04-08T22:37:00.005+01:00'
 author: Mez Pahlan

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Making A Scene
 date: '2017-04-16T12:26:14.000Z'
 author: Mez Pahlan

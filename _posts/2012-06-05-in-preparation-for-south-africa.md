@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: In preparation for South Africa
 date: '2012-06-05T18:03:00.004+01:00'
 author: Mez Pahlan

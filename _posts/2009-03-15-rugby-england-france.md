@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Rugby England France
 date: '2009-03-15T16:44:00.001Z'
 author: Mez Pahlan

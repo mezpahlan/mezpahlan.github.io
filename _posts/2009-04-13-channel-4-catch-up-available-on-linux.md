@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Channel 4 catch up available on Linux!!
 date: '2009-04-13T00:27:00.003+01:00'
 author: Mez Pahlan

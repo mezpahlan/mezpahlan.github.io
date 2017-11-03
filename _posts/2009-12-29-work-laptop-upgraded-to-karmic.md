@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Work laptop upgraded to Karmic
 date: '2009-12-29T17:58:00.002Z'
 author: Mez Pahlan

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Getting involved in testing Firefox 4
 date: '2010-07-14T20:49:00.003+01:00'
 author: Mez Pahlan

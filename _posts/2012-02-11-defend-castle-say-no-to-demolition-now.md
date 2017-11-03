@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Defend The Castle! Say NO to the demolition! Now in easy cut and paste format!
 date: '2012-02-11T10:17:00.003Z'
 author: Mez Pahlan

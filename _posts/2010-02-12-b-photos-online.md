@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: B&W photos online
 date: '2010-02-12T08:33:00.001Z'
 author: Mez Pahlan

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Nine Inch Nails and Jane's Addiction
 date: '2009-07-17T09:07:00.003+01:00'
 author: Mez Pahlan

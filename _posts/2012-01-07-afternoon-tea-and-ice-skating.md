@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Afternoon tea and ice skating
 date: '2012-01-07T19:08:00.001Z'
 author: Mez Pahlan

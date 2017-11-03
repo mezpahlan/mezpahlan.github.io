@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Chasers' War On Everything
 date: '2009-07-25T20:14:00.002+01:00'
 author: Mez Pahlan

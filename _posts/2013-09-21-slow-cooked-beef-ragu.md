@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Slow Cooked Beef Ragu
 date: '2013-09-21T20:10:00.000+01:00'
 author: Mez Pahlan

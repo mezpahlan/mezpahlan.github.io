@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Ubuntu update one week on
 date: '2009-05-04T13:38:00.003+01:00'
 author: Mez Pahlan

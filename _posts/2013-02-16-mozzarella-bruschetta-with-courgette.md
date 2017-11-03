@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Mozzarella bruschetta with courgette
 date: '2013-02-16T16:28:00.000Z'
 author: Mez Pahlan

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Rampaaaage
 date: '2009-04-03T15:48:00.003+01:00'
 author: Mez Pahlan

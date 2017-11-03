@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Better ways to test OSB services
 date: '2011-02-17T09:23:00.001Z'
 author: Mez Pahlan

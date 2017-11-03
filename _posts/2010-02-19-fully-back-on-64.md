@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Fully back on the 64
 date: '2010-02-19T23:34:00.004Z'
 author: Mez Pahlan

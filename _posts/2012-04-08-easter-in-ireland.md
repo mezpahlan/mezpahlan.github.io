@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Easter in Ireland
 date: '2012-04-08T16:58:00.001+01:00'
 author: Mez Pahlan

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Overworked and underpaid
 date: '2009-06-17T22:19:00.003+01:00'
 author: Mez Pahlan

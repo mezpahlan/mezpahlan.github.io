@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Off to Berlin
 date: '2011-07-27T22:29:00.001+01:00'
 author: Mez Pahlan

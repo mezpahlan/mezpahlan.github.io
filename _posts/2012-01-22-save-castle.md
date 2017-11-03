@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Save The Castle
 date: '2012-01-22T22:34:00.001Z'
 author: Mez Pahlan

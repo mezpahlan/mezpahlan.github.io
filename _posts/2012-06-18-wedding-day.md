@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Wedding day
 date: '2012-06-18T09:50:00.001+01:00'
 author: Mez Pahlan

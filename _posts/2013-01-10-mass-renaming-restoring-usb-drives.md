@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Mass Renaming & Restoring USB Drives
 date: '2013-01-10T16:27:00.002Z'
 author: Mez Pahlan

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Ups And Downs
 date: '2016-11-19T17:32:29.603Z'
 author: Mez Pahlan

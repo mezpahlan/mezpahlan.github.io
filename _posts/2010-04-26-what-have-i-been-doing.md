@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: What have i been doing?
 date: '2010-04-26T20:58:00.006+01:00'
 author: Mez Pahlan

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Great British beer Festival
 date: '2009-08-07T10:38:00.003+01:00'
 author: Mez Pahlan

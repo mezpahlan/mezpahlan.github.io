@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Recipe for Smoked Salmon Tagliatelle
 date: '2011-07-10T18:48:00.008+01:00'
 author: Mez Pahlan

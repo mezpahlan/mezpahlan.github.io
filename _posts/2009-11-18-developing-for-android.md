@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Developing for Android
 date: '2009-11-18T20:19:00.003Z'
 author: Mez Pahlan

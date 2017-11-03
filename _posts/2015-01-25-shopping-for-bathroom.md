@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Shopping for a bathroom
 date: '2015-01-25T17:13:00.000Z'
 author: Mez Pahlan

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: 'Currys And Why The High Street Should Die '
 date: '2013-08-26T20:23:00.000+01:00'
 author: Mez Pahlan

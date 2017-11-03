@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Porting nightmare
 date: '2012-06-23T21:05:00.001+01:00'
 author: Mez Pahlan

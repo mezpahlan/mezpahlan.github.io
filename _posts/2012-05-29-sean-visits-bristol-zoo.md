@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Sean Visits Bristol Zoo
 date: '2012-05-29T15:31:00.002+01:00'
 author: Mez Pahlan

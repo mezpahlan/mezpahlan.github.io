@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Staying late for business
 date: '2009-08-03T20:18:00.003+01:00'
 author: Mez Pahlan

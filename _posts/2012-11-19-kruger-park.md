@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Kruger Park
 date: '2012-11-19T00:00:00.000Z'
 author: Mez Pahlan

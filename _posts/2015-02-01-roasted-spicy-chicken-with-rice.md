@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Roasted Spicy Chicken With Rice
 date: '2015-02-01T14:32:00.002Z'
 author: Mez Pahlan

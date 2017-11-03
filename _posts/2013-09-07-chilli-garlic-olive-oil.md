@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Chilli Garlic Olive Oil
 date: '2013-09-07T17:46:00.005+01:00'
 author: Mez Pahlan

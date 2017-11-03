@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Samsung Galaxy S3
 date: '2012-07-22T14:55:00.001+01:00'
 author: Mez Pahlan

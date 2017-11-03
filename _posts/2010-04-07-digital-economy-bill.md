@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Digital economy bill
 date: '2010-04-07T22:52:00.003+01:00'
 author: Mez Pahlan

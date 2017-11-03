@@ -4,8 +4,8 @@ _site
 # Drafts
 _drafts
 
-# Full size images pre site compilation
-assets/images/blog
+# Optimised images pre site compilation
+assets/images/optimised
 
 # Terminal guff
 .rake_tasks~

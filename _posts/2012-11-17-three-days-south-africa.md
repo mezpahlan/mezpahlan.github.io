@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Three Days South Africa
 date: '2012-11-17T17:39:00.003Z'
 author: Mez Pahlan

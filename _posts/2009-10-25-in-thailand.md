@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: In Thailand
 date: '2009-10-25T05:47:00.002Z'
 author: Mez Pahlan

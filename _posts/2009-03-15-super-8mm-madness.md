@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Super 8mm Madness
 date: '2009-03-15T17:15:00.004Z'
 author: Mez Pahlan

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Deconstructing Tweets
 date: '2015-07-06T19:25:00.000+01:00'
 author: Mez Pahlan

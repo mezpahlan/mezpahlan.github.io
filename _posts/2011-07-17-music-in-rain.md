@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Music in the rain
 date: '2011-07-17T13:20:00.002+01:00'
 author: Mez Pahlan

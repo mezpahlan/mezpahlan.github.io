@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: End Of The Year
 date: '2016-12-31T00:27:28.946Z'
 author: Mez Pahlan

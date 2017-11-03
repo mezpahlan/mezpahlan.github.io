@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Catha's Seat Design Ideas
 date: '2013-09-27T11:06:00.000+01:00'
 author: Mez Pahlan

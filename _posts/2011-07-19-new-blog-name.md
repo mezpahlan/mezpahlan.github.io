@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: New blog name
 date: '2011-07-19T19:12:00.001+01:00'
 author: Mez Pahlan

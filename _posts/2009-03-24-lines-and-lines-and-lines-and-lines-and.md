@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Lines and lines and lines and lines and lines and lines and lines and lines.....
 date: '2009-03-24T08:44:00.002Z'
 author: Mez Pahlan

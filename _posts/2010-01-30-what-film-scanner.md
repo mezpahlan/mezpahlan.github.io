@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: What film scanner
 date: '2010-01-30T22:18:00.003Z'
 author: Mez Pahlan

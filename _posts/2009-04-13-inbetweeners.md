@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: The Inbetweeners
 date: '2009-04-13T16:21:00.004+01:00'
 author: Mez Pahlan

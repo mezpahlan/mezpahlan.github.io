@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Public Enemy
 date: '2009-07-19T23:07:00.005+01:00'
 author: Mez Pahlan

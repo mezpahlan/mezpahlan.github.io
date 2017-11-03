@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: November madness
 date: '2010-11-17T10:04:00.003Z'
 author: Mez Pahlan

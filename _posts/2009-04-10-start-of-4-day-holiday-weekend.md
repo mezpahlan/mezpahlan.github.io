@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Start of the 4 day holiday weekend
 date: '2009-04-10T23:47:00.007+01:00'
 author: Mez Pahlan

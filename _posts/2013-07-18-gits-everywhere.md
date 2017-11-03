@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Gits Everywhere
 date: '2013-07-18T12:44:00.001+01:00'
 author: Mez Pahlan

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Wet Berlin
 date: '2011-07-29T17:52:00.001+01:00'
 author: Mez Pahlan

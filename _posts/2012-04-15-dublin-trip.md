@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Dublin trip
 date: '2012-04-15T13:36:00.001+01:00'
 author: Mez Pahlan

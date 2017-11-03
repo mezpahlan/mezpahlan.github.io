@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Bash command craziness!
 date: '2009-11-20T21:24:00.009Z'
 author: Mez Pahlan

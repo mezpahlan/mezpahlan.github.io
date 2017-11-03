@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Linux to the rescue
 date: '2009-05-11T18:19:00.002+01:00'
 author: Mez Pahlan

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Christmas holidays
 date: '2011-12-25T19:00:00.001Z'
 author: Mez Pahlan

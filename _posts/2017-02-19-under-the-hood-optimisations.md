@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Under The Hood Optimisations
 date: '2017-02-19T19:02:17.763Z'
 author: Mez Pahlan

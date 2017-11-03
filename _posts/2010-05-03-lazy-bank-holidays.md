@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Lazy bank holidays
 date: '2010-05-03T22:43:00.002+01:00'
 author: Mez Pahlan

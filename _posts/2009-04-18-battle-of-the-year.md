@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Battle Of The Year
 date: '2009-04-18T23:46:00.004+01:00'
 author: Mez Pahlan

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: 'Watching TV '
 date: '2015-01-18T12:00:00.002Z'
 author: Mez Pahlan

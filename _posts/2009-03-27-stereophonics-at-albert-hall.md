@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Stereophonics at the Albert Hall
 date: '2009-03-27T12:19:00.003Z'
 author: Mez Pahlan

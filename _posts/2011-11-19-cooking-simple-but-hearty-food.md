@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Cooking simple but hearty food
 date: '2011-11-19T15:25:00.001Z'
 author: Mez Pahlan

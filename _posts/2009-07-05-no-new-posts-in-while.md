@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: No new posts in a while
 date: '2009-07-05T22:38:00.007+01:00'
 author: Mez Pahlan

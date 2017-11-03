@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: I'm With You
 date: '2011-09-04T14:01:00.000+01:00'
 author: Mez Pahlan

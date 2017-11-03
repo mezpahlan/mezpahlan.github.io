@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: 'Lemon Drizzle Cake '
 date: '2013-02-24T09:48:00.001Z'
 author: Mez Pahlan

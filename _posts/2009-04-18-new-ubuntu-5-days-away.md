@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: New Ubuntu 5 days away
 date: '2009-04-18T23:56:00.002+01:00'
 author: Mez Pahlan

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: The Jive Election 2015
 date: '2015-05-09T16:49:00.002+01:00'
 author: Mez Pahlan

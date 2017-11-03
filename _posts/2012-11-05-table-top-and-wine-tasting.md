@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Table Top And Wine Tasting
 date: '2012-11-05T21:10:00.001Z'
 author: Mez Pahlan

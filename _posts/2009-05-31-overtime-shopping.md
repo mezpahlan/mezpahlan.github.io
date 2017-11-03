@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Overtime shopping
 date: '2009-05-31T11:52:00.004+01:00'
 author: Mez Pahlan

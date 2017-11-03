@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Beta testing karma
 date: '2009-10-10T22:37:00.005+01:00'
 author: Mez Pahlan

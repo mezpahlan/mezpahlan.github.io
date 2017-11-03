@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Comics Youtube and sun
 date: '2009-05-31T00:26:00.003+01:00'
 author: Mez Pahlan

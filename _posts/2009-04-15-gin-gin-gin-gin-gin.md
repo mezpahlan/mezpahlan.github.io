@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Gin gin gin gin gin
 date: '2009-04-15T22:39:00.010+01:00'
 author: Mez Pahlan

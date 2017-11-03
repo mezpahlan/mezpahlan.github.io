@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Friday Saturday un happies
 date: '2009-03-22T21:37:00.005Z'
 author: Mez Pahlan

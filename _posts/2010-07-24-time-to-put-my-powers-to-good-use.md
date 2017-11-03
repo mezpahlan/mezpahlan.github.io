@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Time to put my powers to good use
 date: '2010-07-24T20:47:00.005+01:00'
 author: Mez Pahlan

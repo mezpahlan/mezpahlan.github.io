@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: I have Android
 date: '2010-04-15T00:28:00.001+01:00'
 author: Mez Pahlan

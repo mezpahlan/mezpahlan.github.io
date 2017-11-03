@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: My Review Of The Film Silence
 date: '2017-01-08T14:30:36.733Z'
 author: Mez Pahlan

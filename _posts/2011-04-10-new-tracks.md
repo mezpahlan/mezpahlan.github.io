@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: New tracks
 date: '2011-04-10T10:02:00.001+01:00'
 author: Mez Pahlan

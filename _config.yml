@@ -1,74 +1,70 @@
 # Site settings
-title: Mez Pahlan
+title: Mez Says
+tagline: 'Bits and bobs that I get up to'
+description: 'I am a Web &amp; Mobile developer with a passion for Mobile technologies, Agile, DevOps, Continuous Integration, Open Source, Front End Development, and Visual Design.'
 email: mez.pahlan@gmail.com
 url: https://mezpahlan.github.io
-description: 'I am a Web &amp; Mobile developer with a passion for Mobile technologies, Agile, DevOps, Continuous Integration, Open Source, Front End Development, and Visual Design.'
+baseurl: # the optional subpath of your site, e.g. "/blog"
+         # NB: This applies to all pages in your Jekyll site.
+         # If you want to move just the blog index pages but keep
+         # other pages at root, see the paginate_path and
+         # sidebar_blog_link below.
+theme: jekyll-theme-hydeout
 
 # Blog post settings
 excerpt_separator: <!-- more -->
-paginate: 10
-paginate_path: '/blog/page:num/'
-future: true
-
-# Collection settings
-collections:
-  - portfolio
 
 # Default front matter
-defaults:
-  -
-    scope:
-      path: '_posts'
-      type: 'posts'
-    values:
-      layout: 'blog'
-      author: 'Mez Pahlan'
-      category: 'blog'
-      comments: true
-
-# Colour settings (hex-codes without the leading hash-tag)
-color:
-  primary: 18bc9c #80B3FF
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-
-# Footer settings
-footer:
-  copyright: Mez Pahlan
-
-# Contact settings
-contact:
-  location: Location
-  social: Around the Web
-  credits: About Mez
+# defaults:
+#   -
+#     scope:
+#       path: '_posts'
+#       type: 'posts'
+#     values:
+#       layout: 'blog'
+#       author: 'Mez Pahlan'
+#       category: 'blog'
+#       comments: true
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: google-plus
     url: https://www.google.com/+MezPahlan
+    icon: google-plus.svg
   - title: twitter
     url: https://twitter.com/mezpahlan
+    icon: twitter.svg
   - title: linkedin
     url: https://www.linkedin.com/in/mezpahlan
-  - title: github-alt
+    icon: linkedin.svg
+  - title: github
     url: https://github.com/mezpahlan
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Bristol
-  - line: UK
-
-# Credits content
-credits: 'I am a Web &amp; Mobile developer with a passion to develop code and have fun doing it!'
+    icon: github.svg
 
 # Build settings
 exclude: [Rakefile, Gemfile, Gemfile.lock, WORKFLOW]
 include: [.nojekyll]
 permalink: pretty
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+highlighter: rouge
+
+# Pagination
+paginate: 10
+paginate_path: '/page:num' # Or '/blog/page:num' if you want to move your index pages
+future: true
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+# Custom vars
+sidebar_home_link:  true
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
 
 # Jekyll Responsive Image settings
 responsive_image:
@@ -80,13 +76,4 @@ responsive_image:
     - width: 1400
       quality: 90
   base_path: assets/images/_fullsize
-  output_path_format: assets/images/%{dirname}/%{filename}-%{width}x%{height}.%{extension}
-
-# Jekyll Archive settings
-jekyll-archives:
-  enabled:
-    - tags
-  layouts:
-    tag: tag-archive
-  permalinks:
-    tag: '/blog/tag/:name/'
+  output_path_format: assets/images/_optimised/%{dirname}/%{filename}-%{width}x%{height}.%{extension}

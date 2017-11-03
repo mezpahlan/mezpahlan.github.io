@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Update on the droid picture project
 date: '2010-07-31T20:33:00.003+01:00'
 author: Mez Pahlan

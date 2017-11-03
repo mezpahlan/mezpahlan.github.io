@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Snowboarding in Oslo
 date: '2011-03-06T22:40:00.001Z'
 author: Mez Pahlan

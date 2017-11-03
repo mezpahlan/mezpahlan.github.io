@@ -1,0 +1,13 @@
+{% for node in site.social %}
+<a id="{{ node.title | lowercase }}-link"
+   class="icon"
+   title="{{ node.title }}"
+   {% if node.aria-label != null %}
+     aria-label="{{ node.aria-label | lowercase }}"
+   {% else %}
+     aria-label="{{ node.title | lowercase}}"
+   {% endif %}
+   href="{{ node.url }}">
+  {% include svg/{{ node.icon }} %}
+</a>
+{% endfor %}

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: First post of the decade!
 date: '2010-01-08T18:16:00.004Z'
 author: Mez Pahlan

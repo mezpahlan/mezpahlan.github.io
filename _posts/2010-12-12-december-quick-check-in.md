@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: December quick check in
 date: '2010-12-12T18:45:00.003Z'
 author: Mez Pahlan

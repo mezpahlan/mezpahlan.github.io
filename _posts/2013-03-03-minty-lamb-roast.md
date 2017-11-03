@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Minty lamb roast
 date: '2013-03-03T18:24:00.000Z'
 author: Mez Pahlan

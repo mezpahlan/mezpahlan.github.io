@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: 'Cape Of Good Hope And Kirstenbosch Gardens '
 date: '2012-11-06T18:46:00.001Z'
 author: Mez Pahlan

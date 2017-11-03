@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Wasted at work
 date: '2009-03-18T08:46:00.002Z'
 author: Mez Pahlan

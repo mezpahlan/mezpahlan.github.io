@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Sky at night
 date: '2009-03-19T22:13:00.005Z'
 author: Mez Pahlan

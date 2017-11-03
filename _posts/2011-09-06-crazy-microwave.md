@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Crazy microwave
 date: '2011-09-06T20:38:00.002+01:00'
 author: Mez Pahlan

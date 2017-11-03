@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Snowboarding
 date: '2010-03-18T22:35:00.003Z'
 author: Mez Pahlan

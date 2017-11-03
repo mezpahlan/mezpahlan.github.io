@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Need to blog more
 date: '2011-02-13T19:55:00.001Z'
 author: Mez Pahlan

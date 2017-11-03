@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Fun Bank Holiday in Bristol
 date: '2012-05-07T14:06:00.001+01:00'
 author: Mez Pahlan

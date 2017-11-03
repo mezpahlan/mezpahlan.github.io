@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: The Tariq Effect
 date: '2011-08-27T23:53:00.000+01:00'
 author: Mez Pahlan

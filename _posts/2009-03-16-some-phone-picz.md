@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Some phone pics
 date: '2009-03-16T08:29:00.008Z'
 author: Mez Pahlan

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: My thoughts with Cyanogen 6.1 on the HTC Desire
 date: '2011-01-06T00:31:00.002Z'
 author: Mez Pahlan

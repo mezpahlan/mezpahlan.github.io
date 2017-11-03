@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: 'Books And Cheese'
 date: '2012-10-17T11:36:00.001+01:00'
 author: Mez Pahlan

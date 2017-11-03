@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Snowboarding Meribel
 date: '2017-01-29T17:48:04.309Z'
 author: Mez Pahlan

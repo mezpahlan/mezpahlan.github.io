@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: The Connections Game
 date: '2012-08-25T17:11:00.002+01:00'
 author: Mez Pahlan

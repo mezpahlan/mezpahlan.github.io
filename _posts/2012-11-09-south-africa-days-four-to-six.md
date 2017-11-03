@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: 'South Africa Days Four To Six '
 date: '2012-11-09T16:20:00.001Z'
 author: Mez Pahlan

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Snowboarding Tignes
 date: '2012-03-05T12:41:00.000Z'
 author: Mez Pahlan

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: A quick poem
 date: '2010-09-15T22:35:00.003+01:00'
 author: Mez Pahlan

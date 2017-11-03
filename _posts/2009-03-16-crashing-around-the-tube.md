@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Crashing around the tube
 date: '2009-03-16T20:17:00.003Z'
 author: Mez Pahlan

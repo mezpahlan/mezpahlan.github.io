@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Hmmmm Steak
 date: '2012-02-12T13:02:00.000Z'
 author: Mez Pahlan

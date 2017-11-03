@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Masa Bristol - A great sushi place
 date: '2012-01-01T16:37:00.001Z'
 author: Mez Pahlan
