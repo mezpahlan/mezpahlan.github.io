@@ -76,14 +76,14 @@ module DraftUtils
 
     # Creates an image folder given a blog post
     def self.create_image_folder(draft_name)
-        image_dir = File.open(draft_name) do |f| f.read.match(/date:\s'([^T]+)T/) {|m| "assets/images/_fullsize/blog/" + m[1].gsub(/-/,"/") + draft_name.gsub(/_drafts|\.md/,"")} end
+        image_dir = File.open(draft_name) do |f| f.read.match(/date:\s'([^T]+)T/) {|m| "_fullsize/" + m[1].gsub(/-/,"/") + draft_name.gsub(/_drafts|\.md/,"")} end
         FileUtils.makedirs(image_dir)
         puts "## Created image directory  #{image_dir} for post"
     end
 
     # Cleans up an image directory if no images have been unused
     def self.clean_unused_image_folder(draft_name)
-        image_dir = "../assets/images/_fullsize/blog/" + draft_name.sub(/-/, "/").sub(/-/, "/").sub(/-/, "/").sub(/\.md/, "")
+        image_dir = "../_fullsize/" + draft_name.sub(/-/, "/").sub(/-/, "/").sub(/-/, "/").sub(/\.md/, "")
         puts "## Attempting to clean #{image_dir}"
         recursive_delete_if_empty(image_dir)
     end
