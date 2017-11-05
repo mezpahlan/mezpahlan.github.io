@@ -1,6 +1,19 @@
 ---
 # Jekyll needs front matter... even for SCSS files
 ---
-
+// Sidebar width
 $sidebar-width: 20rem;
+
+// Responsive images
+figure {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+figcaption {
+    font-size: .8rem;
+}
+
 @import "hydeout";
