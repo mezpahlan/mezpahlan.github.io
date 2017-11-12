@@ -8,22 +8,8 @@ The theme is called [Hydeout](https://fongandrew.github.io/hydeout/).
 
 ## Still to do
 
-- [x] Complete initial port of all blog posts to markdown
-- [x] Add paging in for blog index
-- [x] Add comments
-- [x] Add new item to portolio...... this site!!
-- [x] Add two Android projects to portfolio.
-- [x] Write down details of how to use this overly complicated workflow. F***ing Ruby.
-- [x] Add category filtering
-- [x] Figure out a workflow. From drafts to published
-- [x] Make site HTTPS only
+- [ ] Add porfolio section
 - [ ] Custom CNAME
-- [x] Swap jekyll-picture-tag for jekyll-responsive-image where we can set a template for the output html
-- [ ] Sort out CSS site wide
-- [ ] Switch to Bootstap 4
 - [ ] Add new section for Physics uni archive
-- [x] Harden the Rakefile to maybe split into more granular tasks?
 - [ ] Configure images to be served from localhost as well as production
-- [x] Auto create image folder on draft creation
-- [x] Auto delete image folder if post uses no images
 - [ ] Add instructions for installing rake on freshly installed systems
