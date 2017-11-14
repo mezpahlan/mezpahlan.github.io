@@ -16,4 +16,11 @@ figcaption {
     font-size: .8rem;
 }
 
+// HTML5 videos
+video {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+}
+
 @import "hydeout";
