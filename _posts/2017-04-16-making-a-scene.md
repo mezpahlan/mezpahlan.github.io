@@ -26,7 +26,7 @@ So let's get into the code!
 The basic idea is as follows
 
 {% responsive_image_block %}
-    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | remove_first: "#excerpt" | append: "/transitions-diagram.png" }}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | replace_first: "//", "/" | remove_first: "#excerpt" | append: "/transitions-diagram.png" }}
     alt: "Relationships in the transitions framework"
 {% endresponsive_image_block %}
 

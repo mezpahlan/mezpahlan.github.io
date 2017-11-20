@@ -14,7 +14,7 @@ tags:
 Another long break between blog posts. Mostly out of laziness but also because I am trying to learn and teach myself Android programming. Here's a short post about how I'm getting along.
 
 {% responsive_image_block %}
-    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | remove_first: "#excerpt" | append: "/android-penguins.jpg" }}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | replace_first: "//", "/" | remove_first: "#excerpt" | append: "/android-penguins.jpg" }}
     alt: "Android Penguins"
 {% endresponsive_image_block %}
 

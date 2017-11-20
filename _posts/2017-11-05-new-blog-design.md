@@ -9,7 +9,7 @@ tags:
 ---
 
 {% responsive_image_block %}
-    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | remove_first: "#excerpt" | append: "/doctor-jekyll-and-mister-hyde.png" }}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | replace_first: "//", "/" | remove_first: "#excerpt" | append: "/doctor-jekyll-and-mister-hyde.png" }}
     alt: "Who's a pretty boy?"
 {% endresponsive_image_block %}
 

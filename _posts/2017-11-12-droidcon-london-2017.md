@@ -11,7 +11,7 @@ tags:
 A little late but here is my write up on Droidcon London 2017!
 
 {% responsive_image_block %}
-    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | replace_first: "//", "/" | remove_first: "#excerpt" | append: "/droids-landing.jpg" }}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | replace_first: "//", "/" | replace_first: "//", "/" | remove_first: "#excerpt" | append: "/droids-landing.jpg" }}
     alt: "Left a bit.... right a bit"
 {% endresponsive_image_block %}
 
@@ -89,7 +89,7 @@ This talk focussed on what it takes to be a successful library developer. I had 
 * Version your library honestly. If it is in alpha..... say so.
 
 {% responsive_image_block %}
-    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | remove_first: "#excerpt" | append: "/droidcon-2017.jpg" }}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | replace_first: "//", "/" | remove_first: "#excerpt" | append: "/droidcon-2017.jpg" }}
     alt: "Under his eye"
 {% endresponsive_image_block %}
 
@@ -143,7 +143,7 @@ The lessons they found that were common amongst their successful projects were:
 Another talk by Britt, this time on how to manage your app's downtime.
 
 {% responsive_image_block %}
-    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | remove_first: "#excerpt" | append: "/sleeping-apps.jpg" }}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | replace_first: "//", "/" | remove_first: "#excerpt" | append: "/sleeping-apps.jpg" }}
     alt: "Whilst your app gently sleeps"
 {% endresponsive_image_block %}
 
@@ -157,7 +157,7 @@ Using notifications correctly can enhance your user's experience even when they 
 The final keynote for the conference was given by Android luminary [Jake Wharton](https://twitter.com/JakeWharton). I'm a big fan of Jake, his libraries, and his talks. However I can not do justice trying to paraphrase one of his talks. I think I did better than usual in that I understood up until 20 minutes in this time!
 
 {% responsive_image_block %}
-    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | remove_first: "#excerpt" | append: "/bytecode.jpg" }}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | replace_first: "//", "/" | remove_first: "#excerpt" | append: "/bytecode.jpg" }}
     alt: "Nom nom nom..... hmmm bytecode"
 {% endresponsive_image_block %}
 

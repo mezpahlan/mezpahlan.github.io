@@ -13,7 +13,7 @@ tags:
 But first..... I need to get some powers.
 
 {% responsive_image_block %}
-    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | remove_first: "#excerpt" | append: "/android.jpg" }}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | replace_first: "//", "/" | remove_first: "#excerpt" | append: "/android.jpg" }}
     alt: "Android"
 {% endresponsive_image_block %}
 
