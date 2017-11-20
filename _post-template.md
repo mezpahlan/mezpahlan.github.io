@@ -14,6 +14,6 @@ TEXT HERE
 <!-- more -->
 
 {% responsive_image_block %}
-    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | remove_first: "#excerpt" | append: "/IMAGE_FILENAME" }}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | replace_first: "//", "/" | remove_first: "#excerpt" | append: "/IMAGE_FILENAME" }}
     alt: "IMAGE ALT TEXT"
 {% endresponsive_image_block %}
