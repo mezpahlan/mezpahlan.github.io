@@ -11,7 +11,7 @@ tags:
 A little late but here is my write up on Droidcon London 2017!
 
 {% responsive_image_block %}
-    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | remove_first: "#excerpt" | append: "/droids-landing.jpg" }}
+    path: {{ site.responsive_image.base_path | append: page.id | remove_first: page.category | replace_first: "//", "/" | remove_first: "#excerpt" | append: "/droids-landing.jpg" }}
     alt: "Left a bit.... right a bit"
 {% endresponsive_image_block %}
 
