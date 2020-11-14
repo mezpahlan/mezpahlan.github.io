@@ -2,14 +2,18 @@
 
 About me website!
 
-This site is built on the fabulous blog aware static website generator [Jekyll](https://jekyllrb.com/). It uses custom plugins and hence is not generated on Github itself, however is still hosted there. In order to do this cleanly I have followed Drew Silcock's guide for [Custom Jekyll plugins with Github](https://drewsilcock.co.uk/custom-jekyll-plugins). I have also based my Rakefile on his post. Thanks Drew!
+This site is built using [Hugo](https://gohugo.io/) and hosted on Github Pages. 
 
-The theme is called [Hydeout](https://fongandrew.github.io/hydeout/).
+The theme is a port of the original Hyde Jekyll theme also called [Hyde](https://github.com/spf13/hyde/). However I have customised it ever so slightly.
+
+## Deploy
+
+To deploy do the following:
+
+1. Commit your changes in the `main` branch.
+2. Run `$ ./deploy.sh`
 
 ## Still to do
 
 - [ ] Add porfolio section
 - [ ] Custom CNAME
-- [ ] Add new section for Physics uni archive
-- [ ] Configure images to be served from localhost as well as production
-- [ ] Add instructions for installing rake on freshly installed systems
