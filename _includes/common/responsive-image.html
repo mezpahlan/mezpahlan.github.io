@@ -1,9 +1,0 @@
-<figure>
-    <picture>
-        {% for i in resized reversed %}
-            <source media="(min-width: {{ i.width }}px)" srcset="/{{ i.path }}">
-        {% endfor %}
-        <img src="/{{ path }}">
-    </picture>
-    <figcaption>{{ alt }}</figcaption>
-</figure>

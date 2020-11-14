@@ -1,0 +1,15 @@
+baseURL = "https://mezpahlan.github.io"
+disablePathToLower = true
+languageCode = "en-us"
+title = "Mez Says"
+theme = "hyde"
+
+[params]
+  description = "Android Developer based in Bristol, UK. Bits and bobs that I get up to."
+
+[Menus]
+  main = [
+      { Weight = 4, Name = "twitter", URL = "https://twitter.com/mezpahlan" },
+      { Weight = 5, Name = "linkedin", URL = "https://www.linkedin.com/in/mezpahlan" },
+      { Weight = 6, Name = "github", URL = "https://github.com/mezpahlan" }
+  ]
