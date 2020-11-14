@@ -1,4 +1,4 @@
-baseURL = "https://mezpahlan.github.io"
+baseURL = "https://mezpahlan.github.io/"
 disablePathToLower = true
 languageCode = "en-us"
 title = "Mez Says"
