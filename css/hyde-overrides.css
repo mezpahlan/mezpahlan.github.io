@@ -1,0 +1,84 @@
+/*
+ * Overrides for CSS from the hyde theme.
+ */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden auto;
+}
+
+@media (min-width: 58rem) {
+  body {
+    flex-direction: row;
+    overflow-y: auto;
+  }
+}
+
+.sidebar {
+    flex: 0 0 auto;
+    padding: 2rem 1rem;
+    color: rgba(255,255,255,.5);
+    background-color: #202020;
+    background-image: linear-gradient(to bottom, #323232, #202020);
+    overflow-y: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  max-width: none;
+  overflow-y: auto;
+}
+
+a svg, .icon svg {
+  height: 1em;
+}
+
+.sidebar nav > .icon {
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0 0.25em;
+}
+
+.sidebar-about h1 {
+    color: #fff;
+    margin-top: 0;
+    font-family: "Abril Fatface", serif;
+    font-size: 3.25rem;
+    font-weight: normal;
+}
+
+#sidebar-nav-links a {
+  font-weight: bold;
+}
+
+#sidebar-icon-links {
+  max-width: 100%;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+@media (min-width: 58rem) {
+  #sidebar-icon-links {
+    margin-left: -0.25em; 
+    justify-content: flex-start; 
+  } 
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+figure figcaption {
+  font-size: .8rem;
+}

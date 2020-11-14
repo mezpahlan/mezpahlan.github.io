@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>learning on Mez Says</title>
+    <link>https://mezpahlan.github.io/tags/learning/</link>
+    <description>Recent content in learning on Mez Says</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jul 2013 12:44:00 +0000</lastBuildDate><atom:link href="https://mezpahlan.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gits Everywhere</title>
+      <link>https://mezpahlan.github.io/blog/2013/07/18/gits-everywhere/</link>
+      <pubDate>Thu, 18 Jul 2013 12:44:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2013/07/18/gits-everywhere/</guid>
+      <description>&lt;p&gt;Another long break between blog posts. Mostly out of laziness but also because I am trying to learn and teach myself Android programming. Here&amp;rsquo;s a short post about how I&amp;rsquo;m getting along.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+
+
+
+
+
+
+&lt;img 
+  
+  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
+  
+  srcset=&#39;
+  
+    /blog/2013/07/18/gits-everywhere/android-penguins_hua5d7e7d448ba025bab0118e0b7d3a396_241952_500x0_resize_q75_box.jpg 500w
+  
+  
+  
+  &#39;
+  src=&#34;https://mezpahlan.github.io/blog/2013/07/18/gits-everywhere/android-penguins.jpg&#34; 
+  
+  alt=&#34;&#34;
+  
+&gt;
+
+    &lt;figcaption&gt;Android Penguins&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Training in the wilderness</title>
+      <link>https://mezpahlan.github.io/blog/2009/05/21/training-in-wilderness/</link>
+      <pubDate>Thu, 21 May 2009 08:36:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2009/05/21/training-in-wilderness/</guid>
+      <description>&lt;p&gt;This is the country house where I am being trained to sell to clients by structuring and developing my sales pitch.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

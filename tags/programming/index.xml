@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on Mez Says</title>
+    <link>https://mezpahlan.github.io/tags/programming/</link>
+    <description>Recent content in programming on Mez Says</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Apr 2017 12:26:14 +0000</lastBuildDate><atom:link href="https://mezpahlan.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making A Scene</title>
+      <link>https://mezpahlan.github.io/blog/2017/04/16/making-a-scene/</link>
+      <pubDate>Sun, 16 Apr 2017 12:26:14 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2017/04/16/making-a-scene/</guid>
+      <description>&lt;p&gt;For the past few weeks I&amp;rsquo;ve been taking a brief detour into the &lt;a href=&#34;https://developer.android.com/reference/android/support/transition/package-summary.html&#34;&gt;Transitions&lt;/a&gt; framework in Android. I&amp;rsquo;ve building a success screen that initially shows a full screen image and text and later transitions into a summary of your transaction.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/KZ5WGGNSVjw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This post documents some of the things I&amp;rsquo;ve learned whilst working on this.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Deconstructing Tweets</title>
+      <link>https://mezpahlan.github.io/blog/2015/07/06/deconstructing-tweets/</link>
+      <pubDate>Mon, 06 Jul 2015 19:25:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2015/07/06/deconstructing-tweets/</guid>
+      <description>&lt;p&gt;As part of my personal project for Spring, and to coincide with the UK 2015 General Election, I decided to create some bots that mirrored the main party candidates and translated their tweets to Jive. They are still running so you can find them on Twitter: &lt;a href=&#34;https://twitter.com/edjiveaband&#34;&gt;Ed Jiveaband&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/nickjivegg&#34;&gt;Nick Jivegg&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/davidjiveron&#34;&gt;David Jiveron&lt;/a&gt;.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+
+
+
+
+
+
+&lt;img 
+  
+  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
+  
+  srcset=&#39;
+  
+    /blog/2015/07/06/deconstructing-tweets/deconstructing_hu4bc902ea1200feb53c4479b815cc2f4a_659800_500x0_resize_box_2.png 500w
+  
+  
+  
+  &#39;
+  src=&#34;https://mezpahlan.github.io/blog/2015/07/06/deconstructing-tweets/deconstructing.png&#34; 
+  
+  alt=&#34;&#34;
+  
+&gt;
+
+    &lt;figcaption&gt;Deconstructing Tweets&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;One of the more interesting problems that I faced was how to prevent special Tweet Entities being erroneously translated by the Jive translator. You may be asking what is a Tweet Entity? Let me explain about them first and then go on to explain how I can tackle such a problem.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Jive Election 2015</title>
+      <link>https://mezpahlan.github.io/blog/2015/05/09/the-jive-election-2015/</link>
+      <pubDate>Sat, 09 May 2015 16:49:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2015/05/09/the-jive-election-2015/</guid>
+      <description>&lt;p&gt;Throughout March and April of 2015 I have been busy working on a pet project with my friend Ricky Shelton. The idea was simple. Make the politicians running in the 2015 UK General Election more electable by having them speak Jive.&lt;/p&gt;
+&lt;p&gt;{&amp;lt; youtube &amp;ldquo;RrZlWw8Di10&amp;rdquo; &amp;gt;}&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Catha&#39;s Seat Design Ideas</title>
+      <link>https://mezpahlan.github.io/blog/2013/09/27/cathas-seat-design-ideas/</link>
+      <pubDate>Fri, 27 Sep 2013 11:06:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2013/09/27/cathas-seat-design-ideas/</guid>
+      <description>&lt;p&gt;A good friend of mine, &lt;a href=&#34;http://nickandscottgobiking.blogspot.co.uk/&#34;&gt;Nick&lt;/a&gt;, is organising the construction of a bicycle seat on route 18 of the Cycle Network to complete the work started by his mother, Catha. You can read more about it on the &lt;a href=&#34;http://www.cathas-seat.org/&#34;&gt;Catha&amp;rsquo;s Seat&lt;/a&gt; website.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+
+
+
+
+
+
+&lt;img 
+  
+  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
+  
+  srcset=&#39;
+  
+    /blog/2013/09/27/cathas-seat-design-ideas/start_activity_hue1e8cf2a01a3a76ce62135d5da70be7c_39661_500x0_resize_box_2.png 500w
+  
+  
+  
+  &#39;
+  src=&#34;https://mezpahlan.github.io/blog/2013/09/27/cathas-seat-design-ideas/start_activity.png&#34; 
+  
+  alt=&#34;&#34;
+  
+&gt;
+
+    &lt;figcaption&gt;Start Activity&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gits Everywhere</title>
+      <link>https://mezpahlan.github.io/blog/2013/07/18/gits-everywhere/</link>
+      <pubDate>Thu, 18 Jul 2013 12:44:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2013/07/18/gits-everywhere/</guid>
+      <description>&lt;p&gt;Another long break between blog posts. Mostly out of laziness but also because I am trying to learn and teach myself Android programming. Here&amp;rsquo;s a short post about how I&amp;rsquo;m getting along.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+
+
+
+
+
+
+&lt;img 
+  
+  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
+  
+  srcset=&#39;
+  
+    /blog/2013/07/18/gits-everywhere/android-penguins_hua5d7e7d448ba025bab0118e0b7d3a396_241952_500x0_resize_q75_box.jpg 500w
+  
+  
+  
+  &#39;
+  src=&#34;https://mezpahlan.github.io/blog/2013/07/18/gits-everywhere/android-penguins.jpg&#34; 
+  
+  alt=&#34;&#34;
+  
+&gt;
+
+    &lt;figcaption&gt;Android Penguins&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mass Renaming &amp; Restoring USB Drives</title>
+      <link>https://mezpahlan.github.io/blog/2013/01/10/mass-renaming-restoring-usb-drives/</link>
+      <pubDate>Thu, 10 Jan 2013 16:27:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2013/01/10/mass-renaming-restoring-usb-drives/</guid>
+      <description>&lt;p&gt;I recently had to rename a lot of files in directory as well as fix a broken USB drive. I reckon I&amp;rsquo;ll need to use this again at some point so here are the tips. Both for me and for you!&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+
+
+
+
+
+
+&lt;img 
+  
+  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
+  
+  srcset=&#39;
+  
+    /blog/2013/01/10/mass-renaming-restoring-usb-drives/rename_hucf967c33f389130ab619766a81118218_55726_500x0_resize_q75_box.jpg 500w
+  
+  
+  
+  &#39;
+  src=&#34;https://mezpahlan.github.io/blog/2013/01/10/mass-renaming-restoring-usb-drives/rename.jpg&#34; 
+  
+  alt=&#34;&#34;
+  
+&gt;
+
+    &lt;figcaption&gt;Coulommiers lait cru&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Unit Testing</title>
+      <link>https://mezpahlan.github.io/blog/2011/07/22/unit-testing/</link>
+      <pubDate>Fri, 22 Jul 2011 17:35:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2011/07/22/unit-testing/</guid>
+      <description>&lt;p&gt;Hello again!&lt;/p&gt;
+&lt;p&gt;I wanted to share with everyone the importance of the V model approach to testing. I&amp;rsquo;ve seen a lot of places (and people) who don&amp;rsquo;t understand this approach so this is my way of explaining it.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+
+
+
+
+
+
+&lt;img 
+  
+  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
+  
+  srcset=&#39;
+  
+    /blog/2011/07/22/unit-testing/v-model_huad7a9589df50e882dfd16b3520a832d1_65372_500x0_resize_box_2.png 500w
+  
+  
+  
+  &#39;
+  src=&#34;https://mezpahlan.github.io/blog/2011/07/22/unit-testing/v-model.png&#34; 
+  
+  alt=&#34;&#34;
+  
+&gt;
+
+    &lt;figcaption&gt;V Model of testing&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Better ways to test OSB services</title>
+      <link>https://mezpahlan.github.io/blog/2011/02/17/better-ways-to-test-osb-services/</link>
+      <pubDate>Thu, 17 Feb 2011 09:23:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2011/02/17/better-ways-to-test-osb-services/</guid>
+      <description>&lt;p&gt;This week I have been trying to find out more about how to unit test Oracle Service Bus services in a way that lends itself to automation and continuous integration.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Update on the droid picture project</title>
+      <link>https://mezpahlan.github.io/blog/2010/07/31/update-on-droid-picture-project/</link>
+      <pubDate>Sat, 31 Jul 2010 20:33:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2010/07/31/update-on-droid-picture-project/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s going well. I still can&amp;rsquo;t program for shit though. I need to learn how to make more effective use of the android documentation though.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+
+
+
+
+
+
+&lt;img 
+  
+  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
+  
+  srcset=&#39;
+  
+    /blog/2010/07/31/update-on-droid-picture-project/big-picture_huaadc97d0b81ae0b6abca13ce43da0545_448774_500x0_resize_q75_box.jpg 500w
+  
+  
+    , /blog/2010/07/31/update-on-droid-picture-project/big-picture_huaadc97d0b81ae0b6abca13ce43da0545_448774_800x0_resize_q75_box.jpg 800w
+  
+  
+  &#39;
+  src=&#34;https://mezpahlan.github.io/blog/2010/07/31/update-on-droid-picture-project/big-picture.jpg&#34; 
+  
+  alt=&#34;&#34;
+  
+&gt;
+
+    &lt;figcaption&gt;Big Picture&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Digital economy bill</title>
+      <link>https://mezpahlan.github.io/blog/2010/04/07/digital-economy-bill/</link>
+      <pubDate>Wed, 07 Apr 2010 22:52:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2010/04/07/digital-economy-bill/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Digital_Economy_Bill&#34;&gt;http://en.wikipedia.org/wiki/Digital_Economy_Bill&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Read up on that.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+
+
+
+
+
+
+&lt;img 
+  
+  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
+  
+  srcset=&#39;
+  
+    /blog/2010/04/07/digital-economy-bill/westminister_hueb578658875f889571a3241497ac0f7e_243767_500x0_resize_q75_box.jpg 500w
+  
+  
+    , /blog/2010/04/07/digital-economy-bill/westminister_hueb578658875f889571a3241497ac0f7e_243767_800x0_resize_q75_box.jpg 800w
+  
+  
+  &#39;
+  src=&#34;https://mezpahlan.github.io/blog/2010/04/07/digital-economy-bill/westminister.jpg&#34; 
+  
+  alt=&#34;&#34;
+  
+&gt;
+
+    &lt;figcaption&gt;Westminster Palace&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Better flash and stuff...</title>
+      <link>https://mezpahlan.github.io/blog/2010/02/07/better-flash-and-stuff/</link>
+      <pubDate>Sun, 07 Feb 2010 18:00:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2010/02/07/better-flash-and-stuff/</guid>
+      <description>&lt;p&gt;Not much happening with me at the moment.  I went to an art gallery and took some photos. If they come out nicely I shall post some of them!&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+
+
+
+
+
+
+&lt;img 
+  
+  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
+  
+  srcset=&#39;
+  
+    /blog/2010/02/07/better-flash-and-stuff/hanimd_hu88aeb191b0f3eaddaf3dacd2feda4c18_140910_500x0_resize_q75_box.jpg 500w
+  
+  
+    , /blog/2010/02/07/better-flash-and-stuff/hanimd_hu88aeb191b0f3eaddaf3dacd2feda4c18_140910_800x0_resize_q75_box.jpg 800w
+  
+  
+  &#39;
+  src=&#34;https://mezpahlan.github.io/blog/2010/02/07/better-flash-and-stuff/hanimd.jpg&#34; 
+  
+  alt=&#34;&#34;
+  
+&gt;
+
+    &lt;figcaption&gt;Hanimd&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bash command craziness!</title>
+      <link>https://mezpahlan.github.io/blog/2009/11/20/bash-command-craziness/</link>
+      <pubDate>Fri, 20 Nov 2009 21:24:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2009/11/20/bash-command-craziness/</guid>
+      <description>&lt;p&gt;I had the following problem yesterday and it has taken me about 24 hours to work it out. The problem is as follows.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+
+
+
+
+
+
+&lt;img 
+  
+  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
+  
+  srcset=&#39;
+  
+  
+  
+  &#39;
+  src=&#34;https://mezpahlan.github.io/blog/2009/11/20/bash-command-craziness/basher.png&#34; 
+  
+  alt=&#34;&#34;
+  
+&gt;
+
+    &lt;figcaption&gt;Pingus The Basher&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
