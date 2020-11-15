@@ -82,3 +82,15 @@ figure {
 figure figcaption {
   font-size: .8rem;
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-inline-start: 40px;
+  padding-inline-end: 40px;
+}
+
+.pagination .page-item {
+  margin-right: 1em;
+}
