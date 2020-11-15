@@ -54,9 +54,9 @@
 </aside>
     <main class="content container">
     <div class="post">
-  <h1>Better ways to test OSB services</h1>
-  <time datetime=2011-02-17T09:23:00Z class="post-date">Thu, Feb 17, 2011</time>
-  <p>This week I have been trying to find out more about how to unit test Oracle Service Bus services in a way that lends itself to automation and continuous integration.</p>
+  <h1>Better ways to test OSB services</h1><time datetime="2011-02-17T09:23:00Z" class="post-date">Thu, Feb 17, 2011
+    
+</time><p>This week I have been trying to find out more about how to unit test Oracle Service Bus services in a way that lends itself to automation and continuous integration.</p>
 <p>Currently the best way to achieve this is to run long integration tests in this way using SOAPUI as a test driver and stub. Whilst this is the accepted solution for testing OSB services it does mean that some of the subtly of unit testing is lost. Your system becomes a black box and is tested as such. For some that is OK. But it always unsettled me.</p>
 <p>The tooling for Oracle Service (workshop for Weblogic) does indeed provide a way to unit test your services whilst you are debugging and building them. But you can&rsquo;t automate this. I see this as a serious shortfall in building robust services. You have to put faith in the fact that you can&rsquo;t &lsquo;see&rsquo; what a single service is doing when you chain three or four together and run an integration tests through them.</p>
 <p>They could be doing all sorts of logic that you don&rsquo;t have access to as long as it comes out with the correct value at the end. That is no way to test.</p>
