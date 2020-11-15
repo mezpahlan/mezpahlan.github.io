@@ -19,4 +19,4 @@ Two of my favourite bands in one place. Quality.
 
 I took this video for you.
 
-{< youtube "F6majLCuXyc" >}
+{{< youtube "F6majLCuXyc" >}}
