@@ -1,9 +1,10 @@
 baseURL = "https://mezpahlan.github.io/"
 disablePathToLower = true
-languageCode = "en-us"
+languageCode = "en-gb"
 title = "Mez Says"
 theme = "hyde"
 Paginate = 7
+disqusShortname = "mezpahlan"
 
 [params]
   description = "Android Developer based in Bristol, UK. Bits and bobs that I get up to."
