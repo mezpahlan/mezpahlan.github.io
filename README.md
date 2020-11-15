@@ -15,7 +15,6 @@ To deploy do the following:
 
 ## Still to do
 
-- [ ] Fix pagination
 - [ ] Fix tags
 - [ ] Fix RSS feed
 - [ ] Add specific Android section

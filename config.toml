@@ -3,6 +3,7 @@ disablePathToLower = true
 languageCode = "en-us"
 title = "Mez Says"
 theme = "hyde"
+Paginate = 7
 
 [params]
   description = "Android Developer based in Bristol, UK. Bits and bobs that I get up to."
