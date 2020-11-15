@@ -35,7 +35,7 @@ cd ../
 git add .
 
 # Commit changes.
-git commit -m "$(git rev-parse --short HEAD)"
+git commit -m "Update submodule: $(git rev-parse --short HEAD)"
 
 # Push sources.
 git push
