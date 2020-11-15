@@ -17,6 +17,5 @@ To deploy do the following:
 
 - [ ] Fix tags
 - [ ] Fix RSS feed
-- [ ] Add specific Android section
 - [ ] Add porfolio section
 - [ ] Custom CNAME
