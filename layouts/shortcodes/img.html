@@ -3,7 +3,7 @@
 
 {{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
 {{/* set the sizes attribute to (min-width: 58em) 1200px, 100vw unless overridden in shortcode */}}
-{{/* punish those that are not on a modern broswer by providing the highest resolution image available.  */}}
+{{/* punish those that are not on a modern browser by providing the highest resolution image available.  */}}
 
 <img 
   {{ with .Get "sizes" }}
@@ -27,7 +27,5 @@
   src="{{ $src.RelPermalink }}" 
   {{ with .Get "alt" }}
   alt="{{.}}"
-  {{ else }}
-  alt=""
   {{ end }}
 >
