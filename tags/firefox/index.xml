@@ -36,16 +36,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/01/24/checking-out-google-chrome-on-linux/chrome.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -71,22 +67,18 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_500x0_resize_box_2.png 500w
+    /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_500x0_resize_box_2.png 1x
   
   
-    , /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_800x0_resize_box_2.png 800w
+    , /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_800x0_resize_box_2.png 1.6x
   
   
-    , /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_1200x0_resize_box_2.png 1200w
+    , /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_1200x0_resize_box_2.png 2.4x
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/08/12/why-64/firefox.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 

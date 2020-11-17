@@ -25,24 +25,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2017/02/06/snacking/saucisson-whisky_huf7244afc2e51771dd03455e3a24497c5_4800062_500x0_resize_box_2.png 500w
+    /blog/2017/02/06/snacking/saucisson-whisky_huf7244afc2e51771dd03455e3a24497c5_4800062_500x0_resize_box_2.png 1x
   
   
-    , /blog/2017/02/06/snacking/saucisson-whisky_huf7244afc2e51771dd03455e3a24497c5_4800062_800x0_resize_box_2.png 800w
+    , /blog/2017/02/06/snacking/saucisson-whisky_huf7244afc2e51771dd03455e3a24497c5_4800062_800x0_resize_box_2.png 1.6x
   
   
-    , /blog/2017/02/06/snacking/saucisson-whisky_huf7244afc2e51771dd03455e3a24497c5_4800062_1200x0_resize_box_2.png 1200w
+    , /blog/2017/02/06/snacking/saucisson-whisky_huf7244afc2e51771dd03455e3a24497c5_4800062_1200x0_resize_box_2.png 2.4x
   
   
-    , /blog/2017/02/06/snacking/saucisson-whisky_huf7244afc2e51771dd03455e3a24497c5_4800062_1500x0_resize_box_2.png 1500w 
+    , /blog/2017/02/06/snacking/saucisson-whisky_huf7244afc2e51771dd03455e3a24497c5_4800062_1500x0_resize_box_2.png 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2017/02/06/snacking/saucisson-whisky.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -59,24 +55,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2017/02/06/snacking/orange-cake_hu76d2659a6cbebf6477e0a6af5880ff81_5998257_500x0_resize_box_2.png 500w
+    /blog/2017/02/06/snacking/orange-cake_hu76d2659a6cbebf6477e0a6af5880ff81_5998257_500x0_resize_box_2.png 1x
   
   
-    , /blog/2017/02/06/snacking/orange-cake_hu76d2659a6cbebf6477e0a6af5880ff81_5998257_800x0_resize_box_2.png 800w
+    , /blog/2017/02/06/snacking/orange-cake_hu76d2659a6cbebf6477e0a6af5880ff81_5998257_800x0_resize_box_2.png 1.6x
   
   
-    , /blog/2017/02/06/snacking/orange-cake_hu76d2659a6cbebf6477e0a6af5880ff81_5998257_1200x0_resize_box_2.png 1200w
+    , /blog/2017/02/06/snacking/orange-cake_hu76d2659a6cbebf6477e0a6af5880ff81_5998257_1200x0_resize_box_2.png 2.4x
   
   
-    , /blog/2017/02/06/snacking/orange-cake_hu76d2659a6cbebf6477e0a6af5880ff81_5998257_1500x0_resize_box_2.png 1500w 
+    , /blog/2017/02/06/snacking/orange-cake_hu76d2659a6cbebf6477e0a6af5880ff81_5998257_1500x0_resize_box_2.png 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2017/02/06/snacking/orange-cake.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -102,24 +94,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2015/02/01/roasted-spicy-chicken-with-rice/chicken_hud8eb843c6682a1a1f8dfd60888db6000_203454_500x0_resize_q75_box.jpg 500w
+    /blog/2015/02/01/roasted-spicy-chicken-with-rice/chicken_hud8eb843c6682a1a1f8dfd60888db6000_203454_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2015/02/01/roasted-spicy-chicken-with-rice/chicken_hud8eb843c6682a1a1f8dfd60888db6000_203454_800x0_resize_q75_box.jpg 800w
+    , /blog/2015/02/01/roasted-spicy-chicken-with-rice/chicken_hud8eb843c6682a1a1f8dfd60888db6000_203454_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2015/02/01/roasted-spicy-chicken-with-rice/chicken_hud8eb843c6682a1a1f8dfd60888db6000_203454_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2015/02/01/roasted-spicy-chicken-with-rice/chicken_hud8eb843c6682a1a1f8dfd60888db6000_203454_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2015/02/01/roasted-spicy-chicken-with-rice/chicken_hud8eb843c6682a1a1f8dfd60888db6000_203454_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2015/02/01/roasted-spicy-chicken-with-rice/chicken_hud8eb843c6682a1a1f8dfd60888db6000_203454_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2015/02/01/roasted-spicy-chicken-with-rice/chicken.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -145,24 +133,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/09/21/slow-cooked-beef-ragu/beef-ragu_hu4ca2e47236740eef681dceac64248e5d_255281_500x0_resize_q75_box.jpg 500w
+    /blog/2013/09/21/slow-cooked-beef-ragu/beef-ragu_hu4ca2e47236740eef681dceac64248e5d_255281_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2013/09/21/slow-cooked-beef-ragu/beef-ragu_hu4ca2e47236740eef681dceac64248e5d_255281_800x0_resize_q75_box.jpg 800w
+    , /blog/2013/09/21/slow-cooked-beef-ragu/beef-ragu_hu4ca2e47236740eef681dceac64248e5d_255281_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2013/09/21/slow-cooked-beef-ragu/beef-ragu_hu4ca2e47236740eef681dceac64248e5d_255281_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2013/09/21/slow-cooked-beef-ragu/beef-ragu_hu4ca2e47236740eef681dceac64248e5d_255281_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2013/09/21/slow-cooked-beef-ragu/beef-ragu_hu4ca2e47236740eef681dceac64248e5d_255281_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2013/09/21/slow-cooked-beef-ragu/beef-ragu_hu4ca2e47236740eef681dceac64248e5d_255281_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/09/21/slow-cooked-beef-ragu/beef-ragu.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -188,24 +172,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/09/07/chilli-garlic-olive-oil/chilli_huf6bf84f15f8aac7feab8f6d83f146d00_228384_500x0_resize_q75_box.jpg 500w
+    /blog/2013/09/07/chilli-garlic-olive-oil/chilli_huf6bf84f15f8aac7feab8f6d83f146d00_228384_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2013/09/07/chilli-garlic-olive-oil/chilli_huf6bf84f15f8aac7feab8f6d83f146d00_228384_800x0_resize_q75_box.jpg 800w
+    , /blog/2013/09/07/chilli-garlic-olive-oil/chilli_huf6bf84f15f8aac7feab8f6d83f146d00_228384_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2013/09/07/chilli-garlic-olive-oil/chilli_huf6bf84f15f8aac7feab8f6d83f146d00_228384_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2013/09/07/chilli-garlic-olive-oil/chilli_huf6bf84f15f8aac7feab8f6d83f146d00_228384_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2013/09/07/chilli-garlic-olive-oil/chilli_huf6bf84f15f8aac7feab8f6d83f146d00_228384_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2013/09/07/chilli-garlic-olive-oil/chilli_huf6bf84f15f8aac7feab8f6d83f146d00_228384_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/09/07/chilli-garlic-olive-oil/chilli.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -231,24 +211,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/04/08/coffee-cake/coffee-cake_hubc5ba993c4cfd51165ed178003cb3428_38857_500x0_resize_q75_box.jpg 500w
+    /blog/2013/04/08/coffee-cake/coffee-cake_hubc5ba993c4cfd51165ed178003cb3428_38857_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2013/04/08/coffee-cake/coffee-cake_hubc5ba993c4cfd51165ed178003cb3428_38857_800x0_resize_q75_box.jpg 800w
+    , /blog/2013/04/08/coffee-cake/coffee-cake_hubc5ba993c4cfd51165ed178003cb3428_38857_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/04/08/coffee-cake/coffee-cake.jpg&#34; 
   
-  alt=&#34;&#34;
-  
 &gt;
 
-    &lt;figcaption&gt;Sorry about the blurry picture. It was so yummy we couldn&amp;#39;t wait to eat it!&lt;/figcaption&gt;
+    &lt;figcaption&gt;Sorry about the blurry picture. It was so yummy we couldn&amp;rsquo;t wait to eat it!&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
     </item>
     
@@ -270,24 +246,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/03/03/minty-lamb-roast/roast_hu78c56a4b3d24903ef5753b7c68db9866_305855_500x0_resize_q75_box.jpg 500w
+    /blog/2013/03/03/minty-lamb-roast/roast_hu78c56a4b3d24903ef5753b7c68db9866_305855_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2013/03/03/minty-lamb-roast/roast_hu78c56a4b3d24903ef5753b7c68db9866_305855_800x0_resize_q75_box.jpg 800w
+    , /blog/2013/03/03/minty-lamb-roast/roast_hu78c56a4b3d24903ef5753b7c68db9866_305855_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2013/03/03/minty-lamb-roast/roast_hu78c56a4b3d24903ef5753b7c68db9866_305855_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2013/03/03/minty-lamb-roast/roast_hu78c56a4b3d24903ef5753b7c68db9866_305855_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2013/03/03/minty-lamb-roast/roast_hu78c56a4b3d24903ef5753b7c68db9866_305855_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2013/03/03/minty-lamb-roast/roast_hu78c56a4b3d24903ef5753b7c68db9866_305855_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/03/03/minty-lamb-roast/roast.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -313,16 +285,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/02/24/lemon-drizzle-cake/lemon-cake.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -348,24 +316,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/02/16/mozzarella-bruschetta-with-courgette/food_hu61a0d282e044b2206518abaf1b59f886_295379_500x0_resize_q75_box.jpg 500w
+    /blog/2013/02/16/mozzarella-bruschetta-with-courgette/food_hu61a0d282e044b2206518abaf1b59f886_295379_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2013/02/16/mozzarella-bruschetta-with-courgette/food_hu61a0d282e044b2206518abaf1b59f886_295379_800x0_resize_q75_box.jpg 800w
+    , /blog/2013/02/16/mozzarella-bruschetta-with-courgette/food_hu61a0d282e044b2206518abaf1b59f886_295379_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2013/02/16/mozzarella-bruschetta-with-courgette/food_hu61a0d282e044b2206518abaf1b59f886_295379_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2013/02/16/mozzarella-bruschetta-with-courgette/food_hu61a0d282e044b2206518abaf1b59f886_295379_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2013/02/16/mozzarella-bruschetta-with-courgette/food_hu61a0d282e044b2206518abaf1b59f886_295379_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2013/02/16/mozzarella-bruschetta-with-courgette/food_hu61a0d282e044b2206518abaf1b59f886_295379_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/02/16/mozzarella-bruschetta-with-courgette/food.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -400,24 +364,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/10/17/books-and-cheese/battersea-park_hud81b4a9bcba1c4b503967a1e2d4d6493_457172_500x0_resize_q75_box.jpg 500w
+    /blog/2012/10/17/books-and-cheese/battersea-park_hud81b4a9bcba1c4b503967a1e2d4d6493_457172_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2012/10/17/books-and-cheese/battersea-park_hud81b4a9bcba1c4b503967a1e2d4d6493_457172_800x0_resize_q75_box.jpg 800w
+    , /blog/2012/10/17/books-and-cheese/battersea-park_hud81b4a9bcba1c4b503967a1e2d4d6493_457172_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2012/10/17/books-and-cheese/battersea-park_hud81b4a9bcba1c4b503967a1e2d4d6493_457172_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2012/10/17/books-and-cheese/battersea-park_hud81b4a9bcba1c4b503967a1e2d4d6493_457172_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2012/10/17/books-and-cheese/battersea-park_hud81b4a9bcba1c4b503967a1e2d4d6493_457172_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2012/10/17/books-and-cheese/battersea-park_hud81b4a9bcba1c4b503967a1e2d4d6493_457172_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/10/17/books-and-cheese/battersea-park.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -443,22 +403,18 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/10/07/gym/friends_hub735659468ec7523181f590c1fe5257a_247381_500x0_resize_q75_box.jpg 500w
+    /blog/2012/10/07/gym/friends_hub735659468ec7523181f590c1fe5257a_247381_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2012/10/07/gym/friends_hub735659468ec7523181f590c1fe5257a_247381_800x0_resize_q75_box.jpg 800w
+    , /blog/2012/10/07/gym/friends_hub735659468ec7523181f590c1fe5257a_247381_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2012/10/07/gym/friends_hub735659468ec7523181f590c1fe5257a_247381_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2012/10/07/gym/friends_hub735659468ec7523181f590c1fe5257a_247381_1200x0_resize_q75_box.jpg 2.4x
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/10/07/gym/friends.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -484,18 +440,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/02/12/hmmmm-steak/steak_hu5dd620484ccb1187954e093d7de3ac97_60808_500x0_resize_q75_box.jpg 500w
+    /blog/2012/02/12/hmmmm-steak/steak_hu5dd620484ccb1187954e093d7de3ac97_60808_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/02/12/hmmmm-steak/steak.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -522,16 +474,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/01/01/masa-bristol-great-sushi-place/sushi1.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -559,16 +507,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2011/11/19/cooking-simple-but-hearty-food/food.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -618,24 +562,20 @@ White wine (optional)&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2011/07/10/recipe-for-smoked-salmon-tagliatelle/good-food_hu24c9f35555642b834aa8ece6852ec3f2_195565_500x0_resize_q75_box.jpg 500w
+    /blog/2011/07/10/recipe-for-smoked-salmon-tagliatelle/good-food_hu24c9f35555642b834aa8ece6852ec3f2_195565_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2011/07/10/recipe-for-smoked-salmon-tagliatelle/good-food_hu24c9f35555642b834aa8ece6852ec3f2_195565_800x0_resize_q75_box.jpg 800w
+    , /blog/2011/07/10/recipe-for-smoked-salmon-tagliatelle/good-food_hu24c9f35555642b834aa8ece6852ec3f2_195565_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2011/07/10/recipe-for-smoked-salmon-tagliatelle/good-food_hu24c9f35555642b834aa8ece6852ec3f2_195565_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2011/07/10/recipe-for-smoked-salmon-tagliatelle/good-food_hu24c9f35555642b834aa8ece6852ec3f2_195565_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2011/07/10/recipe-for-smoked-salmon-tagliatelle/good-food_hu24c9f35555642b834aa8ece6852ec3f2_195565_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2011/07/10/recipe-for-smoked-salmon-tagliatelle/good-food_hu24c9f35555642b834aa8ece6852ec3f2_195565_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2011/07/10/recipe-for-smoked-salmon-tagliatelle/good-food.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -668,24 +608,20 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/11/11/todays-diet/chick_hu9b4c33edf0866057ccc742489932b375_2757819_500x0_resize_q75_box.jpg 500w
+    /blog/2009/11/11/todays-diet/chick_hu9b4c33edf0866057ccc742489932b375_2757819_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2009/11/11/todays-diet/chick_hu9b4c33edf0866057ccc742489932b375_2757819_800x0_resize_q75_box.jpg 800w
+    , /blog/2009/11/11/todays-diet/chick_hu9b4c33edf0866057ccc742489932b375_2757819_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2009/11/11/todays-diet/chick_hu9b4c33edf0866057ccc742489932b375_2757819_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2009/11/11/todays-diet/chick_hu9b4c33edf0866057ccc742489932b375_2757819_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2009/11/11/todays-diet/chick_hu9b4c33edf0866057ccc742489932b375_2757819_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2009/11/11/todays-diet/chick_hu9b4c33edf0866057ccc742489932b375_2757819_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/11/11/todays-diet/chick.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -711,18 +647,14 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/11/10/calorie-counting-madness/swallow_hue0a5b5d7cd8d1cc9ae7ff947e7222d83_47309_500x0_resize_box_2.png 500w
+    /blog/2009/11/10/calorie-counting-madness/swallow_hue0a5b5d7cd8d1cc9ae7ff947e7222d83_47309_500x0_resize_box_2.png 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/11/10/calorie-counting-madness/swallow.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -748,16 +680,12 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/11/01/new-diet/diet.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 

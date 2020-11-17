@@ -25,18 +25,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/01/10/mass-renaming-restoring-usb-drives/rename_hucf967c33f389130ab619766a81118218_55726_500x0_resize_q75_box.jpg 500w
+    /blog/2013/01/10/mass-renaming-restoring-usb-drives/rename_hucf967c33f389130ab619766a81118218_55726_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/01/10/mass-renaming-restoring-usb-drives/rename.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -62,20 +58,16 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/07/24/time-to-put-my-powers-to-good-use/android_hua24372df13d1f35c655d56e61095072d_35052_500x0_resize_q75_box.jpg 500w
+    /blog/2010/07/24/time-to-put-my-powers-to-good-use/android_hua24372df13d1f35c655d56e61095072d_35052_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/07/24/time-to-put-my-powers-to-good-use/android_hua24372df13d1f35c655d56e61095072d_35052_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/07/24/time-to-put-my-powers-to-good-use/android_hua24372df13d1f35c655d56e61095072d_35052_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/07/24/time-to-put-my-powers-to-good-use/android.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -101,20 +93,16 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/04/28/one-day-till-ubuntu-goodness/lynx_hu541cf94978a1fd125331d7914c1ea041_83536_500x0_resize_q75_box.jpg 500w
+    /blog/2010/04/28/one-day-till-ubuntu-goodness/lynx_hu541cf94978a1fd125331d7914c1ea041_83536_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/04/28/one-day-till-ubuntu-goodness/lynx_hu541cf94978a1fd125331d7914c1ea041_83536_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/04/28/one-day-till-ubuntu-goodness/lynx_hu541cf94978a1fd125331d7914c1ea041_83536_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/04/28/one-day-till-ubuntu-goodness/lynx.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -140,16 +128,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/02/19/fully-back-on-64/flash.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -176,16 +160,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/01/24/checking-out-google-chrome-on-linux/chrome.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -212,18 +192,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/01/08/first-post-of-decade/alpha_hu4134429b33d8f8527d9cd25d27b4996f_76397_500x0_resize_q75_box.jpg 500w
+    /blog/2010/01/08/first-post-of-decade/alpha_hu4134429b33d8f8527d9cd25d27b4996f_76397_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/01/08/first-post-of-decade/alpha.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -249,16 +225,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/12/29/work-laptop-upgraded-to-karmic/koala.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -285,16 +257,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/10/10/beta-testing-karma/countdown.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -320,22 +288,18 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_500x0_resize_box_2.png 500w
+    /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_500x0_resize_box_2.png 1x
   
   
-    , /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_800x0_resize_box_2.png 800w
+    , /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_800x0_resize_box_2.png 1.6x
   
   
-    , /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_1200x0_resize_box_2.png 1200w
+    , /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_1200x0_resize_box_2.png 2.4x
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/08/12/why-64/firefox.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -373,20 +337,16 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/05/11/linux-to-rescue/tux_hu3dc9fde3465bc673c0828c4e34d0eb10_47900_500x0_resize_box_2.png 500w
+    /blog/2009/05/11/linux-to-rescue/tux_hu3dc9fde3465bc673c0828c4e34d0eb10_47900_500x0_resize_box_2.png 1x
   
   
-    , /blog/2009/05/11/linux-to-rescue/tux_hu3dc9fde3465bc673c0828c4e34d0eb10_47900_800x0_resize_box_2.png 800w
+    , /blog/2009/05/11/linux-to-rescue/tux_hu3dc9fde3465bc673c0828c4e34d0eb10_47900_800x0_resize_box_2.png 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/05/11/linux-to-rescue/tux.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -424,16 +384,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/04/21/2-days-to-go/free-geekuin.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 

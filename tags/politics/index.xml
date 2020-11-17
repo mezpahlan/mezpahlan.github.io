@@ -39,16 +39,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/05/05/election-night/vote-or-die.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -74,20 +70,16 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/05/03/lazy-bank-holidays/android_hu6912beeaa5b95b315a4bf0ad32c792ad_475978_500x0_resize_q75_box.jpg 500w
+    /blog/2010/05/03/lazy-bank-holidays/android_hu6912beeaa5b95b315a4bf0ad32c792ad_475978_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/05/03/lazy-bank-holidays/android_hu6912beeaa5b95b315a4bf0ad32c792ad_475978_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/05/03/lazy-bank-holidays/android_hu6912beeaa5b95b315a4bf0ad32c792ad_475978_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/05/03/lazy-bank-holidays/android.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -114,18 +106,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/04/26/what-have-i-been-doing/htc-desire_hu67bd93dc850d8e7de085c66570e12c2e_118419_500x0_resize_q75_box.jpg 500w
+    /blog/2010/04/26/what-have-i-been-doing/htc-desire_hu67bd93dc850d8e7de085c66570e12c2e_118419_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/04/26/what-have-i-been-doing/htc-desire.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -152,20 +140,16 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/04/07/digital-economy-bill/westminister_hueb578658875f889571a3241497ac0f7e_243767_500x0_resize_q75_box.jpg 500w
+    /blog/2010/04/07/digital-economy-bill/westminister_hueb578658875f889571a3241497ac0f7e_243767_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/04/07/digital-economy-bill/westminister_hueb578658875f889571a3241497ac0f7e_243767_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/04/07/digital-economy-bill/westminister_hueb578658875f889571a3241497ac0f7e_243767_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/04/07/digital-economy-bill/westminister.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 

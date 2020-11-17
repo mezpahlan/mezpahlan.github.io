@@ -25,16 +25,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/02/11/defend-castle-say-no-to-demolition-now/defend.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -60,16 +56,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/02/02/save-castle-update/castle.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -96,18 +88,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/01/22/save-castle/save-the-castle_hud8ad72c0fc471177ac3acad1c283d423_30289_500x0_resize_q75_box.jpg 500w
+    /blog/2012/01/22/save-castle/save-the-castle_hud8ad72c0fc471177ac3acad1c283d423_30289_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/01/22/save-castle/save-the-castle.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 

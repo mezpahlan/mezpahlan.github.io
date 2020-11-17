@@ -26,18 +26,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/03/24/lines-and-lines-and-lines-and-lines-and/edward-and-tubbs_hu2615e95bb206edbdbc963e657eaca1ae_45487_500x0_resize_q75_box.jpg 500w
+    /blog/2009/03/24/lines-and-lines-and-lines-and-lines-and/edward-and-tubbs_hu2615e95bb206edbdbc963e657eaca1ae_45487_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/03/24/lines-and-lines-and-lines-and-lines-and/edward-and-tubbs.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 

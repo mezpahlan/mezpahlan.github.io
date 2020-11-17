@@ -24,24 +24,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_500x0_resize_q75_box.jpg 500w
+    /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_800x0_resize_q75_box.jpg 800w
+    , /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2017/12/27/christmas-in-ireland/nativity.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt; 
     &lt;figcaption&gt;Demanding child keeps parents up throughout the night&lt;/figcaption&gt;
@@ -67,24 +63,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/06/18/wedding-day/wedding-day_hu07e6f807faf94d18b145200f2ffaa55f_313695_500x0_resize_q75_box.jpg 500w
+    /blog/2012/06/18/wedding-day/wedding-day_hu07e6f807faf94d18b145200f2ffaa55f_313695_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2012/06/18/wedding-day/wedding-day_hu07e6f807faf94d18b145200f2ffaa55f_313695_800x0_resize_q75_box.jpg 800w
+    , /blog/2012/06/18/wedding-day/wedding-day_hu07e6f807faf94d18b145200f2ffaa55f_313695_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2012/06/18/wedding-day/wedding-day_hu07e6f807faf94d18b145200f2ffaa55f_313695_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2012/06/18/wedding-day/wedding-day_hu07e6f807faf94d18b145200f2ffaa55f_313695_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2012/06/18/wedding-day/wedding-day_hu07e6f807faf94d18b145200f2ffaa55f_313695_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2012/06/18/wedding-day/wedding-day_hu07e6f807faf94d18b145200f2ffaa55f_313695_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/06/18/wedding-day/wedding-day.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -110,20 +102,16 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/06/13/right-im-off-to-ireland-for-wedding-and/off_hu72c896a1d332809c2311915c16818b29_64450_500x0_resize_q75_box.jpg 500w
+    /blog/2012/06/13/right-im-off-to-ireland-for-wedding-and/off_hu72c896a1d332809c2311915c16818b29_64450_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2012/06/13/right-im-off-to-ireland-for-wedding-and/off_hu72c896a1d332809c2311915c16818b29_64450_800x0_resize_q75_box.jpg 800w
+    , /blog/2012/06/13/right-im-off-to-ireland-for-wedding-and/off_hu72c896a1d332809c2311915c16818b29_64450_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/06/13/right-im-off-to-ireland-for-wedding-and/off.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -149,20 +137,16 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/04/15/dublin-trip/dublin1_hu896dbe6cfb0cd271df11b88c09f608a2_106945_500x0_resize_q75_box.jpg 500w
+    /blog/2012/04/15/dublin-trip/dublin1_hu896dbe6cfb0cd271df11b88c09f608a2_106945_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2012/04/15/dublin-trip/dublin1_hu896dbe6cfb0cd271df11b88c09f608a2_106945_800x0_resize_q75_box.jpg 800w
+    , /blog/2012/04/15/dublin-trip/dublin1_hu896dbe6cfb0cd271df11b88c09f608a2_106945_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/04/15/dublin-trip/dublin1.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -188,18 +172,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/04/08/easter-in-ireland/easter_hudf9327f8f5fd5e1e165edaac9adf40fa_85776_500x0_resize_q75_box.jpg 500w
+    /blog/2012/04/08/easter-in-ireland/easter_hudf9327f8f5fd5e1e165edaac9adf40fa_85776_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/04/08/easter-in-ireland/easter.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -229,16 +209,12 @@ See you all in the new year!&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2011/12/25/christmas-holidays/christmas.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 

@@ -40,18 +40,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2015/07/06/deconstructing-tweets/deconstructing_hu4bc902ea1200feb53c4479b815cc2f4a_659800_500x0_resize_box_2.png 500w
+    /blog/2015/07/06/deconstructing-tweets/deconstructing_hu4bc902ea1200feb53c4479b815cc2f4a_659800_500x0_resize_box_2.png 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2015/07/06/deconstructing-tweets/deconstructing.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -91,18 +87,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/09/27/cathas-seat-design-ideas/start_activity_hue1e8cf2a01a3a76ce62135d5da70be7c_39661_500x0_resize_box_2.png 500w
+    /blog/2013/09/27/cathas-seat-design-ideas/start_activity_hue1e8cf2a01a3a76ce62135d5da70be7c_39661_500x0_resize_box_2.png 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/09/27/cathas-seat-design-ideas/start_activity.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -128,18 +120,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/07/18/gits-everywhere/android-penguins_hua5d7e7d448ba025bab0118e0b7d3a396_241952_500x0_resize_q75_box.jpg 500w
+    /blog/2013/07/18/gits-everywhere/android-penguins_hua5d7e7d448ba025bab0118e0b7d3a396_241952_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/07/18/gits-everywhere/android-penguins.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -165,18 +153,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/01/10/mass-renaming-restoring-usb-drives/rename_hucf967c33f389130ab619766a81118218_55726_500x0_resize_q75_box.jpg 500w
+    /blog/2013/01/10/mass-renaming-restoring-usb-drives/rename_hucf967c33f389130ab619766a81118218_55726_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/01/10/mass-renaming-restoring-usb-drives/rename.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -203,18 +187,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2011/07/22/unit-testing/v-model_huad7a9589df50e882dfd16b3520a832d1_65372_500x0_resize_box_2.png 500w
+    /blog/2011/07/22/unit-testing/v-model_huad7a9589df50e882dfd16b3520a832d1_65372_500x0_resize_box_2.png 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2011/07/22/unit-testing/v-model.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -249,20 +229,16 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/07/31/update-on-droid-picture-project/big-picture_huaadc97d0b81ae0b6abca13ce43da0545_448774_500x0_resize_q75_box.jpg 500w
+    /blog/2010/07/31/update-on-droid-picture-project/big-picture_huaadc97d0b81ae0b6abca13ce43da0545_448774_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/07/31/update-on-droid-picture-project/big-picture_huaadc97d0b81ae0b6abca13ce43da0545_448774_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/07/31/update-on-droid-picture-project/big-picture_huaadc97d0b81ae0b6abca13ce43da0545_448774_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/07/31/update-on-droid-picture-project/big-picture.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -289,20 +265,16 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/04/07/digital-economy-bill/westminister_hueb578658875f889571a3241497ac0f7e_243767_500x0_resize_q75_box.jpg 500w
+    /blog/2010/04/07/digital-economy-bill/westminister_hueb578658875f889571a3241497ac0f7e_243767_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/04/07/digital-economy-bill/westminister_hueb578658875f889571a3241497ac0f7e_243767_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/04/07/digital-economy-bill/westminister_hueb578658875f889571a3241497ac0f7e_243767_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/04/07/digital-economy-bill/westminister.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -328,20 +300,16 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/02/07/better-flash-and-stuff/hanimd_hu88aeb191b0f3eaddaf3dacd2feda4c18_140910_500x0_resize_q75_box.jpg 500w
+    /blog/2010/02/07/better-flash-and-stuff/hanimd_hu88aeb191b0f3eaddaf3dacd2feda4c18_140910_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/02/07/better-flash-and-stuff/hanimd_hu88aeb191b0f3eaddaf3dacd2feda4c18_140910_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/02/07/better-flash-and-stuff/hanimd_hu88aeb191b0f3eaddaf3dacd2feda4c18_140910_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/02/07/better-flash-and-stuff/hanimd.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -367,16 +335,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/11/20/bash-command-craziness/basher.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 

@@ -24,24 +24,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/03/15/rugby-england-france/rugby-fans_hu1185bf260eee6389547f223b4587877c_623568_500x0_resize_q75_box.jpg 500w
+    /blog/2009/03/15/rugby-england-france/rugby-fans_hu1185bf260eee6389547f223b4587877c_623568_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2009/03/15/rugby-england-france/rugby-fans_hu1185bf260eee6389547f223b4587877c_623568_800x0_resize_q75_box.jpg 800w
+    , /blog/2009/03/15/rugby-england-france/rugby-fans_hu1185bf260eee6389547f223b4587877c_623568_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2009/03/15/rugby-england-france/rugby-fans_hu1185bf260eee6389547f223b4587877c_623568_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2009/03/15/rugby-england-france/rugby-fans_hu1185bf260eee6389547f223b4587877c_623568_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2009/03/15/rugby-england-france/rugby-fans_hu1185bf260eee6389547f223b4587877c_623568_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2009/03/15/rugby-england-france/rugby-fans_hu1185bf260eee6389547f223b4587877c_623568_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/03/15/rugby-england-france/rugby-fans.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 

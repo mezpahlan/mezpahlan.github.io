@@ -6,7 +6,40 @@
     <description>Recent content in android on Mez Says</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 24 Sep 2018 19:36:09 +0000</lastBuildDate><atom:link href="https://mezpahlan.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Nov 2020 22:14:41 +0000</lastBuildDate><atom:link href="https://mezpahlan.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Like to Test</title>
+      <link>https://mezpahlan.github.io/blog/2020/11/16/how-i-like-to-test/</link>
+      <pubDate>Mon, 16 Nov 2020 22:14:41 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2020/11/16/how-i-like-to-test/</guid>
+      <description>&lt;p&gt;I have enjoyed testing as much as I have enjoyed developing. Sometimes more. Sometimes less. Just as it is immensely satisfying when you watch something you have built run, or be used, by a user it is also immensely satisfying to watch those little green ticks appear in your test reports. Here&amp;rsquo;s how I like to test with a focus on Android.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+
+
+
+
+
+
+&lt;img 
+  
+  srcset=&#39;
+  
+    /blog/2020/11/16/how-i-like-to-test/test-pyramid_hu18843f7e979432ad89b1aabbe252a973_37803_500x0_resize_box_2.png 1x
+  
+  
+  
+  &#39;
+  src=&#34;https://mezpahlan.github.io/blog/2020/11/16/how-i-like-to-test/test-pyramid.png&#34; 
+  
+&gt; 
+
+    &lt;figcaption&gt;&lt;a href=&#34;https://developer.android.com/training/testing/fundamentals&#34;&gt;The (Android) Test Pyramid&lt;/a&gt; that is 100% centred I swear!&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
     <item>
       <title>Kotcha</title>
       <link>https://mezpahlan.github.io/blog/2018/09/24/kotcha/</link>
@@ -38,28 +71,24 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_500x0_resize_q75_box.jpg 500w
+    /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_800x0_resize_q75_box.jpg 800w
+    , /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2017/11/12/droidcon-london-2017/droids-landing.jpg&#34; 
   
-  alt=&#34;&#34;
-  
 &gt;
 
-    &lt;figcaption&gt;Left a bit.... right a bit&lt;/figcaption&gt;
+    &lt;figcaption&gt;Left a bit&amp;hellip;. right a bit&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
     </item>
     
@@ -96,18 +125,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/09/27/cathas-seat-design-ideas/start_activity_hue1e8cf2a01a3a76ce62135d5da70be7c_39661_500x0_resize_box_2.png 500w
+    /blog/2013/09/27/cathas-seat-design-ideas/start_activity_hue1e8cf2a01a3a76ce62135d5da70be7c_39661_500x0_resize_box_2.png 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/09/27/cathas-seat-design-ideas/start_activity.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -133,18 +158,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/07/18/gits-everywhere/android-penguins_hua5d7e7d448ba025bab0118e0b7d3a396_241952_500x0_resize_q75_box.jpg 500w
+    /blog/2013/07/18/gits-everywhere/android-penguins_hua5d7e7d448ba025bab0118e0b7d3a396_241952_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/07/18/gits-everywhere/android-penguins.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -170,16 +191,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/07/22/samsung-galaxy-s3/s3-thoughts.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -233,20 +250,16 @@ Stay tuned for some more blogs!&lt;/p&gt;</description>
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/07/31/update-on-droid-picture-project/big-picture_huaadc97d0b81ae0b6abca13ce43da0545_448774_500x0_resize_q75_box.jpg 500w
+    /blog/2010/07/31/update-on-droid-picture-project/big-picture_huaadc97d0b81ae0b6abca13ce43da0545_448774_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/07/31/update-on-droid-picture-project/big-picture_huaadc97d0b81ae0b6abca13ce43da0545_448774_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/07/31/update-on-droid-picture-project/big-picture_huaadc97d0b81ae0b6abca13ce43da0545_448774_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/07/31/update-on-droid-picture-project/big-picture.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -272,20 +285,16 @@ Stay tuned for some more blogs!&lt;/p&gt;</description>
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/07/24/time-to-put-my-powers-to-good-use/android_hua24372df13d1f35c655d56e61095072d_35052_500x0_resize_q75_box.jpg 500w
+    /blog/2010/07/24/time-to-put-my-powers-to-good-use/android_hua24372df13d1f35c655d56e61095072d_35052_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/07/24/time-to-put-my-powers-to-good-use/android_hua24372df13d1f35c655d56e61095072d_35052_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/07/24/time-to-put-my-powers-to-good-use/android_hua24372df13d1f35c655d56e61095072d_35052_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/07/24/time-to-put-my-powers-to-good-use/android.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -311,18 +320,14 @@ Stay tuned for some more blogs!&lt;/p&gt;</description>
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/06/08/not-much-been-going-down/nothing_hu524581f34551fd38a9120a1fa585e33b_94994_500x0_resize_q75_box.jpg 500w
+    /blog/2010/06/08/not-much-been-going-down/nothing_hu524581f34551fd38a9120a1fa585e33b_94994_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/06/08/not-much-been-going-down/nothing.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -349,18 +354,14 @@ Stay tuned for some more blogs!&lt;/p&gt;</description>
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/04/26/what-have-i-been-doing/htc-desire_hu67bd93dc850d8e7de085c66570e12c2e_118419_500x0_resize_q75_box.jpg 500w
+    /blog/2010/04/26/what-have-i-been-doing/htc-desire_hu67bd93dc850d8e7de085c66570e12c2e_118419_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/04/26/what-have-i-been-doing/htc-desire.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 

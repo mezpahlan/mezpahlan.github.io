@@ -24,18 +24,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2016/12/27/carrie/carrie_hubde57bbd9168028ccd22c87871eb163e_368306_500x0_resize_box_2.png 500w
+    /blog/2016/12/27/carrie/carrie_hubde57bbd9168028ccd22c87871eb163e_368306_500x0_resize_box_2.png 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2016/12/27/carrie/carrie.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 

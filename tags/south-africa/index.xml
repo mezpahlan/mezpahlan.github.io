@@ -46,18 +46,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/11/09/south-africa-days-four-to-six/penguins_hubfd3e30fdf07c284775641fdfdc2bad8_96208_500x0_resize_q75_box.jpg 500w
+    /blog/2012/11/09/south-africa-days-four-to-six/penguins_hubfd3e30fdf07c284775641fdfdc2bad8_96208_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/11/09/south-africa-days-four-to-six/penguins.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -94,16 +90,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/11/05/table-top-and-wine-tasting/table-wine.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -129,22 +121,18 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/10/22/countdown-to-south-africa/penguins_hu6a28d402c3324e77e02eb9745b9591f0_35726_500x0_resize_q75_box.jpg 500w
+    /blog/2012/10/22/countdown-to-south-africa/penguins_hu6a28d402c3324e77e02eb9745b9591f0_35726_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/10/22/countdown-to-south-africa/penguins.jpg&#34; 
   
-  alt=&#34;&#34;
-  
 &gt;
 
-    &lt;figcaption&gt;Penguins at Boulder&amp;#39;s Beach, South Africa&lt;/figcaption&gt;
+    &lt;figcaption&gt;Penguins at Boulder&amp;rsquo;s Beach, South Africa&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
     </item>
     

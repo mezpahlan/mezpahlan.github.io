@@ -25,22 +25,18 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2011/09/06/crazy-microwave/microwave_hu74d5085842343e26139389456661b7fc_232929_500x0_resize_q75_box.jpg 500w
+    /blog/2011/09/06/crazy-microwave/microwave_hu74d5085842343e26139389456661b7fc_232929_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2011/09/06/crazy-microwave/microwave_hu74d5085842343e26139389456661b7fc_232929_800x0_resize_q75_box.jpg 800w
+    , /blog/2011/09/06/crazy-microwave/microwave_hu74d5085842343e26139389456661b7fc_232929_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2011/09/06/crazy-microwave/microwave_hu74d5085842343e26139389456661b7fc_232929_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2011/09/06/crazy-microwave/microwave_hu74d5085842343e26139389456661b7fc_232929_1200x0_resize_q75_box.jpg 2.4x
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2011/09/06/crazy-microwave/microwave.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -67,18 +63,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2011/07/13/fffffffuuuuuuuuuuuu/rage_hu7292b8f98e7a0cfca575b38dd80920ac_196785_500x0_resize_box_2.png 500w
+    /blog/2011/07/13/fffffffuuuuuuuuuuuu/rage_hu7292b8f98e7a0cfca575b38dd80920ac_196785_500x0_resize_box_2.png 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2011/07/13/fffffffuuuuuuuuuuuu/rage.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -107,18 +99,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/03/18/wasted-at-work/wasted_hucd3ed2ebd5619647da7f5d0bc62ffcbc_68086_500x0_resize_q75_box.jpg 500w
+    /blog/2009/03/18/wasted-at-work/wasted_hucd3ed2ebd5619647da7f5d0bc62ffcbc_68086_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/03/18/wasted-at-work/wasted.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -143,20 +131,16 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/03/15/this-is-a-blog/porridge_hu809952ad6d0e64b2fb1f1ea144c4d3d3_127066_500x0_resize_q75_box.jpg 500w
+    /blog/2009/03/15/this-is-a-blog/porridge_hu809952ad6d0e64b2fb1f1ea144c4d3d3_127066_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2009/03/15/this-is-a-blog/porridge_hu809952ad6d0e64b2fb1f1ea144c4d3d3_127066_800x0_resize_q75_box.jpg 800w
+    , /blog/2009/03/15/this-is-a-blog/porridge_hu809952ad6d0e64b2fb1f1ea144c4d3d3_127066_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/03/15/this-is-a-blog/porridge.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 

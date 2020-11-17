@@ -25,18 +25,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/07/14/end-is-in-sight/angry-penguin_hu4bab7f98398242f71a2cf87579b6f99a_37652_500x0_resize_box_2.png 500w
+    /blog/2012/07/14/end-is-in-sight/angry-penguin_hu4bab7f98398242f71a2cf87579b6f99a_37652_500x0_resize_box_2.png 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/07/14/end-is-in-sight/angry-penguin.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -71,26 +67,22 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/03/16/some-phone-picz/smoke-me-a-kipper_hu2b109b323fc8c830620d72d1287833e8_226023_500x0_resize_q75_box.jpg 500w
+    /blog/2009/03/16/some-phone-picz/smoke-me-a-kipper_hu2b109b323fc8c830620d72d1287833e8_226023_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2009/03/16/some-phone-picz/smoke-me-a-kipper_hu2b109b323fc8c830620d72d1287833e8_226023_800x0_resize_q75_box.jpg 800w
+    , /blog/2009/03/16/some-phone-picz/smoke-me-a-kipper_hu2b109b323fc8c830620d72d1287833e8_226023_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2009/03/16/some-phone-picz/smoke-me-a-kipper_hu2b109b323fc8c830620d72d1287833e8_226023_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2009/03/16/some-phone-picz/smoke-me-a-kipper_hu2b109b323fc8c830620d72d1287833e8_226023_1200x0_resize_q75_box.jpg 2.4x
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/03/16/some-phone-picz/smoke-me-a-kipper.jpg&#34; 
   
-  alt=&#34;&#34;
-  
 &gt;
 
-    &lt;figcaption&gt;Smoke me a kipper, I&amp;#39;ll be back for breakfast&lt;/figcaption&gt;
+    &lt;figcaption&gt;Smoke me a kipper, I&amp;rsquo;ll be back for breakfast&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
     </item>
     

@@ -25,24 +25,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2017/01/29/snowboarding-meribel/meribel_hu5721e45cce5dd6401a3752a085874b66_3232618_500x0_resize_box_2.png 500w
+    /blog/2017/01/29/snowboarding-meribel/meribel_hu5721e45cce5dd6401a3752a085874b66_3232618_500x0_resize_box_2.png 1x
   
   
-    , /blog/2017/01/29/snowboarding-meribel/meribel_hu5721e45cce5dd6401a3752a085874b66_3232618_800x0_resize_box_2.png 800w
+    , /blog/2017/01/29/snowboarding-meribel/meribel_hu5721e45cce5dd6401a3752a085874b66_3232618_800x0_resize_box_2.png 1.6x
   
   
-    , /blog/2017/01/29/snowboarding-meribel/meribel_hu5721e45cce5dd6401a3752a085874b66_3232618_1200x0_resize_box_2.png 1200w
+    , /blog/2017/01/29/snowboarding-meribel/meribel_hu5721e45cce5dd6401a3752a085874b66_3232618_1200x0_resize_box_2.png 2.4x
   
   
-    , /blog/2017/01/29/snowboarding-meribel/meribel_hu5721e45cce5dd6401a3752a085874b66_3232618_1500x0_resize_box_2.png 1500w 
+    , /blog/2017/01/29/snowboarding-meribel/meribel_hu5721e45cce5dd6401a3752a085874b66_3232618_1500x0_resize_box_2.png 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2017/01/29/snowboarding-meribel/meribel.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -68,24 +64,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_500x0_resize_q75_box.jpg 500w
+    /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_800x0_resize_q75_box.jpg 800w
+    , /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/02/07/andorra-snow/andorra1.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -111,24 +103,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/03/05/snowboarding-tignes/tignes1_hu614ed7bb4aceb0999fedecf756d89376_1424653_500x0_resize_q75_box.jpg 500w
+    /blog/2012/03/05/snowboarding-tignes/tignes1_hu614ed7bb4aceb0999fedecf756d89376_1424653_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2012/03/05/snowboarding-tignes/tignes1_hu614ed7bb4aceb0999fedecf756d89376_1424653_800x0_resize_q75_box.jpg 800w
+    , /blog/2012/03/05/snowboarding-tignes/tignes1_hu614ed7bb4aceb0999fedecf756d89376_1424653_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2012/03/05/snowboarding-tignes/tignes1_hu614ed7bb4aceb0999fedecf756d89376_1424653_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2012/03/05/snowboarding-tignes/tignes1_hu614ed7bb4aceb0999fedecf756d89376_1424653_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2012/03/05/snowboarding-tignes/tignes1_hu614ed7bb4aceb0999fedecf756d89376_1424653_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2012/03/05/snowboarding-tignes/tignes1_hu614ed7bb4aceb0999fedecf756d89376_1424653_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/03/05/snowboarding-tignes/tignes1.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -164,24 +152,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/03/18/snowboarding/snowboarding_hud861b1f3320364dd69401052c94475da_4609812_500x0_resize_q75_box.jpg 500w
+    /blog/2010/03/18/snowboarding/snowboarding_hud861b1f3320364dd69401052c94475da_4609812_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/03/18/snowboarding/snowboarding_hud861b1f3320364dd69401052c94475da_4609812_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/03/18/snowboarding/snowboarding_hud861b1f3320364dd69401052c94475da_4609812_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2010/03/18/snowboarding/snowboarding_hud861b1f3320364dd69401052c94475da_4609812_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2010/03/18/snowboarding/snowboarding_hud861b1f3320364dd69401052c94475da_4609812_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2010/03/18/snowboarding/snowboarding_hud861b1f3320364dd69401052c94475da_4609812_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2010/03/18/snowboarding/snowboarding_hud861b1f3320364dd69401052c94475da_4609812_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/03/18/snowboarding/snowboarding.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 

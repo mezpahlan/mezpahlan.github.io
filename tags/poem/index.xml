@@ -39,24 +39,20 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/09/15/quick-poem/science_hu3f493b5bf5a99dc07835e70c3a7c3c75_454053_500x0_resize_q75_box.jpg 500w
+    /blog/2010/09/15/quick-poem/science_hu3f493b5bf5a99dc07835e70c3a7c3c75_454053_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/09/15/quick-poem/science_hu3f493b5bf5a99dc07835e70c3a7c3c75_454053_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/09/15/quick-poem/science_hu3f493b5bf5a99dc07835e70c3a7c3c75_454053_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2010/09/15/quick-poem/science_hu3f493b5bf5a99dc07835e70c3a7c3c75_454053_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2010/09/15/quick-poem/science_hu3f493b5bf5a99dc07835e70c3a7c3c75_454053_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2010/09/15/quick-poem/science_hu3f493b5bf5a99dc07835e70c3a7c3c75_454053_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2010/09/15/quick-poem/science_hu3f493b5bf5a99dc07835e70c3a7c3c75_454053_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/09/15/quick-poem/science.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 

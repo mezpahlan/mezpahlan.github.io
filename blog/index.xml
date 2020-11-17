@@ -6,7 +6,40 @@
     <description>Recent content in Blogs on Mez Says</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 15 Nov 2020 22:17:40 +0000</lastBuildDate><atom:link href="https://mezpahlan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Nov 2020 22:14:41 +0000</lastBuildDate><atom:link href="https://mezpahlan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Like to Test</title>
+      <link>https://mezpahlan.github.io/blog/2020/11/16/how-i-like-to-test/</link>
+      <pubDate>Mon, 16 Nov 2020 22:14:41 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2020/11/16/how-i-like-to-test/</guid>
+      <description>&lt;p&gt;I have enjoyed testing as much as I have enjoyed developing. Sometimes more. Sometimes less. Just as it is immensely satisfying when you watch something you have built run, or be used, by a user it is also immensely satisfying to watch those little green ticks appear in your test reports. Here&amp;rsquo;s how I like to test with a focus on Android.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+
+
+
+
+
+
+&lt;img 
+  
+  srcset=&#39;
+  
+    /blog/2020/11/16/how-i-like-to-test/test-pyramid_hu18843f7e979432ad89b1aabbe252a973_37803_500x0_resize_box_2.png 1x
+  
+  
+  
+  &#39;
+  src=&#34;https://mezpahlan.github.io/blog/2020/11/16/how-i-like-to-test/test-pyramid.png&#34; 
+  
+&gt; 
+
+    &lt;figcaption&gt;&lt;a href=&#34;https://developer.android.com/training/testing/fundamentals&#34;&gt;The (Android) Test Pyramid&lt;/a&gt; that is 100% centred I swear!&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
     <item>
       <title>Welcome Back</title>
       <link>https://mezpahlan.github.io/blog/2020/11/15/welcome-back/</link>
@@ -25,18 +58,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2020/11/15/welcome-back/dumuzid_hu1128bafbf1f4c47a6b27c0c4d13fdd33_131079_500x0_resize_q75_box.jpg 500w
+    /blog/2020/11/15/welcome-back/dumuzid_hu1128bafbf1f4c47a6b27c0c4d13fdd33_131079_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2020/11/15/welcome-back/dumuzid.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt; 
 
@@ -75,16 +104,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2018/01/07/postcards-from-the-edge/postcards.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -109,24 +134,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_500x0_resize_q75_box.jpg 500w
+    /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_800x0_resize_q75_box.jpg 800w
+    , /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2017/12/27/christmas-in-ireland/nativity.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt; 
     &lt;figcaption&gt;Demanding child keeps parents up throughout the night&lt;/figcaption&gt;
@@ -151,28 +172,24 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_500x0_resize_q75_box.jpg 500w
+    /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_800x0_resize_q75_box.jpg 800w
+    , /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2017/11/12/droidcon-london-2017/droids-landing.jpg&#34; 
   
-  alt=&#34;&#34;
-  
 &gt;
 
-    &lt;figcaption&gt;Left a bit.... right a bit&lt;/figcaption&gt;
+    &lt;figcaption&gt;Left a bit&amp;hellip;. right a bit&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
     </item>
     
@@ -193,22 +210,18 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2017/11/05/new-blog-design/doctor-jekyll-and-mister-hyde_hucca856b2a379e39a6627835bc30fda08_43303_500x0_resize_box_2.png 500w
+    /blog/2017/11/05/new-blog-design/doctor-jekyll-and-mister-hyde_hucca856b2a379e39a6627835bc30fda08_43303_500x0_resize_box_2.png 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2017/11/05/new-blog-design/doctor-jekyll-and-mister-hyde.png&#34; 
   
-  alt=&#34;&#34;
-  
 &gt;
 
-    &lt;figcaption&gt;Who&amp;#39;s a pretty boy?&lt;/figcaption&gt;
+    &lt;figcaption&gt;Who&amp;rsquo;s a pretty boy?&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;p&gt;Hello! I&amp;rsquo;ve been away a while but I&amp;rsquo;m back!&lt;/p&gt;</description>
     </item>
@@ -246,24 +259,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2017/02/19/under-the-hood-optimisations/under-the-hood_hu208ab67316efe313c6a2473dc1826e8a_1106015_500x0_resize_box_2.png 500w
+    /blog/2017/02/19/under-the-hood-optimisations/under-the-hood_hu208ab67316efe313c6a2473dc1826e8a_1106015_500x0_resize_box_2.png 1x
   
   
-    , /blog/2017/02/19/under-the-hood-optimisations/under-the-hood_hu208ab67316efe313c6a2473dc1826e8a_1106015_800x0_resize_box_2.png 800w
+    , /blog/2017/02/19/under-the-hood-optimisations/under-the-hood_hu208ab67316efe313c6a2473dc1826e8a_1106015_800x0_resize_box_2.png 1.6x
   
   
-    , /blog/2017/02/19/under-the-hood-optimisations/under-the-hood_hu208ab67316efe313c6a2473dc1826e8a_1106015_1200x0_resize_box_2.png 1200w
+    , /blog/2017/02/19/under-the-hood-optimisations/under-the-hood_hu208ab67316efe313c6a2473dc1826e8a_1106015_1200x0_resize_box_2.png 2.4x
   
   
-    , /blog/2017/02/19/under-the-hood-optimisations/under-the-hood_hu208ab67316efe313c6a2473dc1826e8a_1106015_1500x0_resize_box_2.png 1500w 
+    , /blog/2017/02/19/under-the-hood-optimisations/under-the-hood_hu208ab67316efe313c6a2473dc1826e8a_1106015_1500x0_resize_box_2.png 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2017/02/19/under-the-hood-optimisations/under-the-hood.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -289,24 +298,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2017/02/06/snacking/saucisson-whisky_huf7244afc2e51771dd03455e3a24497c5_4800062_500x0_resize_box_2.png 500w
+    /blog/2017/02/06/snacking/saucisson-whisky_huf7244afc2e51771dd03455e3a24497c5_4800062_500x0_resize_box_2.png 1x
   
   
-    , /blog/2017/02/06/snacking/saucisson-whisky_huf7244afc2e51771dd03455e3a24497c5_4800062_800x0_resize_box_2.png 800w
+    , /blog/2017/02/06/snacking/saucisson-whisky_huf7244afc2e51771dd03455e3a24497c5_4800062_800x0_resize_box_2.png 1.6x
   
   
-    , /blog/2017/02/06/snacking/saucisson-whisky_huf7244afc2e51771dd03455e3a24497c5_4800062_1200x0_resize_box_2.png 1200w
+    , /blog/2017/02/06/snacking/saucisson-whisky_huf7244afc2e51771dd03455e3a24497c5_4800062_1200x0_resize_box_2.png 2.4x
   
   
-    , /blog/2017/02/06/snacking/saucisson-whisky_huf7244afc2e51771dd03455e3a24497c5_4800062_1500x0_resize_box_2.png 1500w 
+    , /blog/2017/02/06/snacking/saucisson-whisky_huf7244afc2e51771dd03455e3a24497c5_4800062_1500x0_resize_box_2.png 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2017/02/06/snacking/saucisson-whisky.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -323,24 +328,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2017/02/06/snacking/orange-cake_hu76d2659a6cbebf6477e0a6af5880ff81_5998257_500x0_resize_box_2.png 500w
+    /blog/2017/02/06/snacking/orange-cake_hu76d2659a6cbebf6477e0a6af5880ff81_5998257_500x0_resize_box_2.png 1x
   
   
-    , /blog/2017/02/06/snacking/orange-cake_hu76d2659a6cbebf6477e0a6af5880ff81_5998257_800x0_resize_box_2.png 800w
+    , /blog/2017/02/06/snacking/orange-cake_hu76d2659a6cbebf6477e0a6af5880ff81_5998257_800x0_resize_box_2.png 1.6x
   
   
-    , /blog/2017/02/06/snacking/orange-cake_hu76d2659a6cbebf6477e0a6af5880ff81_5998257_1200x0_resize_box_2.png 1200w
+    , /blog/2017/02/06/snacking/orange-cake_hu76d2659a6cbebf6477e0a6af5880ff81_5998257_1200x0_resize_box_2.png 2.4x
   
   
-    , /blog/2017/02/06/snacking/orange-cake_hu76d2659a6cbebf6477e0a6af5880ff81_5998257_1500x0_resize_box_2.png 1500w 
+    , /blog/2017/02/06/snacking/orange-cake_hu76d2659a6cbebf6477e0a6af5880ff81_5998257_1500x0_resize_box_2.png 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2017/02/06/snacking/orange-cake.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -366,24 +367,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2017/01/29/snowboarding-meribel/meribel_hu5721e45cce5dd6401a3752a085874b66_3232618_500x0_resize_box_2.png 500w
+    /blog/2017/01/29/snowboarding-meribel/meribel_hu5721e45cce5dd6401a3752a085874b66_3232618_500x0_resize_box_2.png 1x
   
   
-    , /blog/2017/01/29/snowboarding-meribel/meribel_hu5721e45cce5dd6401a3752a085874b66_3232618_800x0_resize_box_2.png 800w
+    , /blog/2017/01/29/snowboarding-meribel/meribel_hu5721e45cce5dd6401a3752a085874b66_3232618_800x0_resize_box_2.png 1.6x
   
   
-    , /blog/2017/01/29/snowboarding-meribel/meribel_hu5721e45cce5dd6401a3752a085874b66_3232618_1200x0_resize_box_2.png 1200w
+    , /blog/2017/01/29/snowboarding-meribel/meribel_hu5721e45cce5dd6401a3752a085874b66_3232618_1200x0_resize_box_2.png 2.4x
   
   
-    , /blog/2017/01/29/snowboarding-meribel/meribel_hu5721e45cce5dd6401a3752a085874b66_3232618_1500x0_resize_box_2.png 1500w 
+    , /blog/2017/01/29/snowboarding-meribel/meribel_hu5721e45cce5dd6401a3752a085874b66_3232618_1500x0_resize_box_2.png 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2017/01/29/snowboarding-meribel/meribel.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -419,24 +416,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2016/12/31/end-of-the-year/bristol_hu7c518908c6ad1108b08c4eabf445fd68_25040086_500x0_resize_box_2.png 500w
+    /blog/2016/12/31/end-of-the-year/bristol_hu7c518908c6ad1108b08c4eabf445fd68_25040086_500x0_resize_box_2.png 1x
   
   
-    , /blog/2016/12/31/end-of-the-year/bristol_hu7c518908c6ad1108b08c4eabf445fd68_25040086_800x0_resize_box_2.png 800w
+    , /blog/2016/12/31/end-of-the-year/bristol_hu7c518908c6ad1108b08c4eabf445fd68_25040086_800x0_resize_box_2.png 1.6x
   
   
-    , /blog/2016/12/31/end-of-the-year/bristol_hu7c518908c6ad1108b08c4eabf445fd68_25040086_1200x0_resize_box_2.png 1200w
+    , /blog/2016/12/31/end-of-the-year/bristol_hu7c518908c6ad1108b08c4eabf445fd68_25040086_1200x0_resize_box_2.png 2.4x
   
   
-    , /blog/2016/12/31/end-of-the-year/bristol_hu7c518908c6ad1108b08c4eabf445fd68_25040086_1500x0_resize_box_2.png 1500w 
+    , /blog/2016/12/31/end-of-the-year/bristol_hu7c518908c6ad1108b08c4eabf445fd68_25040086_1500x0_resize_box_2.png 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2016/12/31/end-of-the-year/bristol.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -461,18 +454,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2016/12/27/carrie/carrie_hubde57bbd9168028ccd22c87871eb163e_368306_500x0_resize_box_2.png 500w
+    /blog/2016/12/27/carrie/carrie_hubde57bbd9168028ccd22c87871eb163e_368306_500x0_resize_box_2.png 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2016/12/27/carrie/carrie.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -498,16 +487,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2016/11/28/beep-beep-boop-i-am-a-robot/humans-c4.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -524,22 +509,18 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2016/11/28/beep-beep-boop-i-am-a-robot/westworld-hbo_hu868cdb13d5c472280b2f5c57391ad776_427104_500x0_resize_box_2.png 500w
+    /blog/2016/11/28/beep-beep-boop-i-am-a-robot/westworld-hbo_hu868cdb13d5c472280b2f5c57391ad776_427104_500x0_resize_box_2.png 1x
   
   
-    , /blog/2016/11/28/beep-beep-boop-i-am-a-robot/westworld-hbo_hu868cdb13d5c472280b2f5c57391ad776_427104_800x0_resize_box_2.png 800w
+    , /blog/2016/11/28/beep-beep-boop-i-am-a-robot/westworld-hbo_hu868cdb13d5c472280b2f5c57391ad776_427104_800x0_resize_box_2.png 1.6x
   
   
-    , /blog/2016/11/28/beep-beep-boop-i-am-a-robot/westworld-hbo_hu868cdb13d5c472280b2f5c57391ad776_427104_1200x0_resize_box_2.png 1200w
+    , /blog/2016/11/28/beep-beep-boop-i-am-a-robot/westworld-hbo_hu868cdb13d5c472280b2f5c57391ad776_427104_1200x0_resize_box_2.png 2.4x
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2016/11/28/beep-beep-boop-i-am-a-robot/westworld-hbo.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -565,16 +546,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2016/11/19/ups-and-downs/freedog.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -600,18 +577,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2015/07/06/deconstructing-tweets/deconstructing_hu4bc902ea1200feb53c4479b815cc2f4a_659800_500x0_resize_box_2.png 500w
+    /blog/2015/07/06/deconstructing-tweets/deconstructing_hu4bc902ea1200feb53c4479b815cc2f4a_659800_500x0_resize_box_2.png 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2015/07/06/deconstructing-tweets/deconstructing.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -652,24 +625,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2015/05/03/bathroom-all-done/bathroom_hu00b1d3fe4183127a4b01ccef183d26b5_235763_500x0_resize_q75_box.jpg 500w
+    /blog/2015/05/03/bathroom-all-done/bathroom_hu00b1d3fe4183127a4b01ccef183d26b5_235763_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2015/05/03/bathroom-all-done/bathroom_hu00b1d3fe4183127a4b01ccef183d26b5_235763_800x0_resize_q75_box.jpg 800w
+    , /blog/2015/05/03/bathroom-all-done/bathroom_hu00b1d3fe4183127a4b01ccef183d26b5_235763_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2015/05/03/bathroom-all-done/bathroom_hu00b1d3fe4183127a4b01ccef183d26b5_235763_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2015/05/03/bathroom-all-done/bathroom_hu00b1d3fe4183127a4b01ccef183d26b5_235763_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2015/05/03/bathroom-all-done/bathroom_hu00b1d3fe4183127a4b01ccef183d26b5_235763_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2015/05/03/bathroom-all-done/bathroom_hu00b1d3fe4183127a4b01ccef183d26b5_235763_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2015/05/03/bathroom-all-done/bathroom.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -695,24 +664,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2015/02/01/roasted-spicy-chicken-with-rice/chicken_hud8eb843c6682a1a1f8dfd60888db6000_203454_500x0_resize_q75_box.jpg 500w
+    /blog/2015/02/01/roasted-spicy-chicken-with-rice/chicken_hud8eb843c6682a1a1f8dfd60888db6000_203454_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2015/02/01/roasted-spicy-chicken-with-rice/chicken_hud8eb843c6682a1a1f8dfd60888db6000_203454_800x0_resize_q75_box.jpg 800w
+    , /blog/2015/02/01/roasted-spicy-chicken-with-rice/chicken_hud8eb843c6682a1a1f8dfd60888db6000_203454_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2015/02/01/roasted-spicy-chicken-with-rice/chicken_hud8eb843c6682a1a1f8dfd60888db6000_203454_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2015/02/01/roasted-spicy-chicken-with-rice/chicken_hud8eb843c6682a1a1f8dfd60888db6000_203454_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2015/02/01/roasted-spicy-chicken-with-rice/chicken_hud8eb843c6682a1a1f8dfd60888db6000_203454_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2015/02/01/roasted-spicy-chicken-with-rice/chicken_hud8eb843c6682a1a1f8dfd60888db6000_203454_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2015/02/01/roasted-spicy-chicken-with-rice/chicken.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -766,18 +731,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/09/27/cathas-seat-design-ideas/start_activity_hue1e8cf2a01a3a76ce62135d5da70be7c_39661_500x0_resize_box_2.png 500w
+    /blog/2013/09/27/cathas-seat-design-ideas/start_activity_hue1e8cf2a01a3a76ce62135d5da70be7c_39661_500x0_resize_box_2.png 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/09/27/cathas-seat-design-ideas/start_activity.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -803,24 +764,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/09/21/slow-cooked-beef-ragu/beef-ragu_hu4ca2e47236740eef681dceac64248e5d_255281_500x0_resize_q75_box.jpg 500w
+    /blog/2013/09/21/slow-cooked-beef-ragu/beef-ragu_hu4ca2e47236740eef681dceac64248e5d_255281_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2013/09/21/slow-cooked-beef-ragu/beef-ragu_hu4ca2e47236740eef681dceac64248e5d_255281_800x0_resize_q75_box.jpg 800w
+    , /blog/2013/09/21/slow-cooked-beef-ragu/beef-ragu_hu4ca2e47236740eef681dceac64248e5d_255281_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2013/09/21/slow-cooked-beef-ragu/beef-ragu_hu4ca2e47236740eef681dceac64248e5d_255281_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2013/09/21/slow-cooked-beef-ragu/beef-ragu_hu4ca2e47236740eef681dceac64248e5d_255281_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2013/09/21/slow-cooked-beef-ragu/beef-ragu_hu4ca2e47236740eef681dceac64248e5d_255281_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2013/09/21/slow-cooked-beef-ragu/beef-ragu_hu4ca2e47236740eef681dceac64248e5d_255281_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/09/21/slow-cooked-beef-ragu/beef-ragu.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -846,24 +803,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/09/07/chilli-garlic-olive-oil/chilli_huf6bf84f15f8aac7feab8f6d83f146d00_228384_500x0_resize_q75_box.jpg 500w
+    /blog/2013/09/07/chilli-garlic-olive-oil/chilli_huf6bf84f15f8aac7feab8f6d83f146d00_228384_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2013/09/07/chilli-garlic-olive-oil/chilli_huf6bf84f15f8aac7feab8f6d83f146d00_228384_800x0_resize_q75_box.jpg 800w
+    , /blog/2013/09/07/chilli-garlic-olive-oil/chilli_huf6bf84f15f8aac7feab8f6d83f146d00_228384_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2013/09/07/chilli-garlic-olive-oil/chilli_huf6bf84f15f8aac7feab8f6d83f146d00_228384_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2013/09/07/chilli-garlic-olive-oil/chilli_huf6bf84f15f8aac7feab8f6d83f146d00_228384_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2013/09/07/chilli-garlic-olive-oil/chilli_huf6bf84f15f8aac7feab8f6d83f146d00_228384_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2013/09/07/chilli-garlic-olive-oil/chilli_huf6bf84f15f8aac7feab8f6d83f146d00_228384_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/09/07/chilli-garlic-olive-oil/chilli.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -898,18 +851,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/07/18/gits-everywhere/android-penguins_hua5d7e7d448ba025bab0118e0b7d3a396_241952_500x0_resize_q75_box.jpg 500w
+    /blog/2013/07/18/gits-everywhere/android-penguins_hua5d7e7d448ba025bab0118e0b7d3a396_241952_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/07/18/gits-everywhere/android-penguins.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -935,24 +884,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/04/08/coffee-cake/coffee-cake_hubc5ba993c4cfd51165ed178003cb3428_38857_500x0_resize_q75_box.jpg 500w
+    /blog/2013/04/08/coffee-cake/coffee-cake_hubc5ba993c4cfd51165ed178003cb3428_38857_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2013/04/08/coffee-cake/coffee-cake_hubc5ba993c4cfd51165ed178003cb3428_38857_800x0_resize_q75_box.jpg 800w
+    , /blog/2013/04/08/coffee-cake/coffee-cake_hubc5ba993c4cfd51165ed178003cb3428_38857_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/04/08/coffee-cake/coffee-cake.jpg&#34; 
   
-  alt=&#34;&#34;
-  
 &gt;
 
-    &lt;figcaption&gt;Sorry about the blurry picture. It was so yummy we couldn&amp;#39;t wait to eat it!&lt;/figcaption&gt;
+    &lt;figcaption&gt;Sorry about the blurry picture. It was so yummy we couldn&amp;rsquo;t wait to eat it!&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
     </item>
     
@@ -974,24 +919,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/03/03/minty-lamb-roast/roast_hu78c56a4b3d24903ef5753b7c68db9866_305855_500x0_resize_q75_box.jpg 500w
+    /blog/2013/03/03/minty-lamb-roast/roast_hu78c56a4b3d24903ef5753b7c68db9866_305855_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2013/03/03/minty-lamb-roast/roast_hu78c56a4b3d24903ef5753b7c68db9866_305855_800x0_resize_q75_box.jpg 800w
+    , /blog/2013/03/03/minty-lamb-roast/roast_hu78c56a4b3d24903ef5753b7c68db9866_305855_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2013/03/03/minty-lamb-roast/roast_hu78c56a4b3d24903ef5753b7c68db9866_305855_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2013/03/03/minty-lamb-roast/roast_hu78c56a4b3d24903ef5753b7c68db9866_305855_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2013/03/03/minty-lamb-roast/roast_hu78c56a4b3d24903ef5753b7c68db9866_305855_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2013/03/03/minty-lamb-roast/roast_hu78c56a4b3d24903ef5753b7c68db9866_305855_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/03/03/minty-lamb-roast/roast.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1017,16 +958,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/02/24/lemon-drizzle-cake/lemon-cake.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1052,24 +989,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/02/16/mozzarella-bruschetta-with-courgette/food_hu61a0d282e044b2206518abaf1b59f886_295379_500x0_resize_q75_box.jpg 500w
+    /blog/2013/02/16/mozzarella-bruschetta-with-courgette/food_hu61a0d282e044b2206518abaf1b59f886_295379_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2013/02/16/mozzarella-bruschetta-with-courgette/food_hu61a0d282e044b2206518abaf1b59f886_295379_800x0_resize_q75_box.jpg 800w
+    , /blog/2013/02/16/mozzarella-bruschetta-with-courgette/food_hu61a0d282e044b2206518abaf1b59f886_295379_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2013/02/16/mozzarella-bruschetta-with-courgette/food_hu61a0d282e044b2206518abaf1b59f886_295379_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2013/02/16/mozzarella-bruschetta-with-courgette/food_hu61a0d282e044b2206518abaf1b59f886_295379_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2013/02/16/mozzarella-bruschetta-with-courgette/food_hu61a0d282e044b2206518abaf1b59f886_295379_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2013/02/16/mozzarella-bruschetta-with-courgette/food_hu61a0d282e044b2206518abaf1b59f886_295379_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/02/16/mozzarella-bruschetta-with-courgette/food.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1095,24 +1028,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_500x0_resize_q75_box.jpg 500w
+    /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_800x0_resize_q75_box.jpg 800w
+    , /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/02/07/andorra-snow/andorra1.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1147,18 +1076,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2013/01/10/mass-renaming-restoring-usb-drives/rename_hucf967c33f389130ab619766a81118218_55726_500x0_resize_q75_box.jpg 500w
+    /blog/2013/01/10/mass-renaming-restoring-usb-drives/rename_hucf967c33f389130ab619766a81118218_55726_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2013/01/10/mass-renaming-restoring-usb-drives/rename.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1205,18 +1130,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/11/09/south-africa-days-four-to-six/penguins_hubfd3e30fdf07c284775641fdfdc2bad8_96208_500x0_resize_q75_box.jpg 500w
+    /blog/2012/11/09/south-africa-days-four-to-six/penguins_hubfd3e30fdf07c284775641fdfdc2bad8_96208_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/11/09/south-africa-days-four-to-six/penguins.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1253,16 +1174,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/11/05/table-top-and-wine-tasting/table-wine.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1288,22 +1205,18 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/10/22/countdown-to-south-africa/penguins_hu6a28d402c3324e77e02eb9745b9591f0_35726_500x0_resize_q75_box.jpg 500w
+    /blog/2012/10/22/countdown-to-south-africa/penguins_hu6a28d402c3324e77e02eb9745b9591f0_35726_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/10/22/countdown-to-south-africa/penguins.jpg&#34; 
   
-  alt=&#34;&#34;
-  
 &gt;
 
-    &lt;figcaption&gt;Penguins at Boulder&amp;#39;s Beach, South Africa&lt;/figcaption&gt;
+    &lt;figcaption&gt;Penguins at Boulder&amp;rsquo;s Beach, South Africa&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
     </item>
     
@@ -1325,24 +1238,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/10/17/books-and-cheese/battersea-park_hud81b4a9bcba1c4b503967a1e2d4d6493_457172_500x0_resize_q75_box.jpg 500w
+    /blog/2012/10/17/books-and-cheese/battersea-park_hud81b4a9bcba1c4b503967a1e2d4d6493_457172_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2012/10/17/books-and-cheese/battersea-park_hud81b4a9bcba1c4b503967a1e2d4d6493_457172_800x0_resize_q75_box.jpg 800w
+    , /blog/2012/10/17/books-and-cheese/battersea-park_hud81b4a9bcba1c4b503967a1e2d4d6493_457172_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2012/10/17/books-and-cheese/battersea-park_hud81b4a9bcba1c4b503967a1e2d4d6493_457172_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2012/10/17/books-and-cheese/battersea-park_hud81b4a9bcba1c4b503967a1e2d4d6493_457172_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2012/10/17/books-and-cheese/battersea-park_hud81b4a9bcba1c4b503967a1e2d4d6493_457172_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2012/10/17/books-and-cheese/battersea-park_hud81b4a9bcba1c4b503967a1e2d4d6493_457172_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/10/17/books-and-cheese/battersea-park.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1368,22 +1277,18 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/10/07/gym/friends_hub735659468ec7523181f590c1fe5257a_247381_500x0_resize_q75_box.jpg 500w
+    /blog/2012/10/07/gym/friends_hub735659468ec7523181f590c1fe5257a_247381_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2012/10/07/gym/friends_hub735659468ec7523181f590c1fe5257a_247381_800x0_resize_q75_box.jpg 800w
+    , /blog/2012/10/07/gym/friends_hub735659468ec7523181f590c1fe5257a_247381_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2012/10/07/gym/friends_hub735659468ec7523181f590c1fe5257a_247381_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2012/10/07/gym/friends_hub735659468ec7523181f590c1fe5257a_247381_1200x0_resize_q75_box.jpg 2.4x
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/10/07/gym/friends.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1418,16 +1323,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/07/22/samsung-galaxy-s3/s3-thoughts.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1453,18 +1354,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/07/14/end-is-in-sight/angry-penguin_hu4bab7f98398242f71a2cf87579b6f99a_37652_500x0_resize_box_2.png 500w
+    /blog/2012/07/14/end-is-in-sight/angry-penguin_hu4bab7f98398242f71a2cf87579b6f99a_37652_500x0_resize_box_2.png 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/07/14/end-is-in-sight/angry-penguin.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1500,24 +1397,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/06/18/wedding-day/wedding-day_hu07e6f807faf94d18b145200f2ffaa55f_313695_500x0_resize_q75_box.jpg 500w
+    /blog/2012/06/18/wedding-day/wedding-day_hu07e6f807faf94d18b145200f2ffaa55f_313695_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2012/06/18/wedding-day/wedding-day_hu07e6f807faf94d18b145200f2ffaa55f_313695_800x0_resize_q75_box.jpg 800w
+    , /blog/2012/06/18/wedding-day/wedding-day_hu07e6f807faf94d18b145200f2ffaa55f_313695_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2012/06/18/wedding-day/wedding-day_hu07e6f807faf94d18b145200f2ffaa55f_313695_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2012/06/18/wedding-day/wedding-day_hu07e6f807faf94d18b145200f2ffaa55f_313695_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2012/06/18/wedding-day/wedding-day_hu07e6f807faf94d18b145200f2ffaa55f_313695_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2012/06/18/wedding-day/wedding-day_hu07e6f807faf94d18b145200f2ffaa55f_313695_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/06/18/wedding-day/wedding-day.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1543,20 +1436,16 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/06/13/right-im-off-to-ireland-for-wedding-and/off_hu72c896a1d332809c2311915c16818b29_64450_500x0_resize_q75_box.jpg 500w
+    /blog/2012/06/13/right-im-off-to-ireland-for-wedding-and/off_hu72c896a1d332809c2311915c16818b29_64450_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2012/06/13/right-im-off-to-ireland-for-wedding-and/off_hu72c896a1d332809c2311915c16818b29_64450_800x0_resize_q75_box.jpg 800w
+    , /blog/2012/06/13/right-im-off-to-ireland-for-wedding-and/off_hu72c896a1d332809c2311915c16818b29_64450_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/06/13/right-im-off-to-ireland-for-wedding-and/off.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1582,22 +1471,18 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/06/10/five-year-olds-and-weddings/wedding1_hu407ccd09db17ef476e7912154bc65035_140785_500x0_resize_q75_box.jpg 500w
+    /blog/2012/06/10/five-year-olds-and-weddings/wedding1_hu407ccd09db17ef476e7912154bc65035_140785_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2012/06/10/five-year-olds-and-weddings/wedding1_hu407ccd09db17ef476e7912154bc65035_140785_800x0_resize_q75_box.jpg 800w
+    , /blog/2012/06/10/five-year-olds-and-weddings/wedding1_hu407ccd09db17ef476e7912154bc65035_140785_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2012/06/10/five-year-olds-and-weddings/wedding1_hu407ccd09db17ef476e7912154bc65035_140785_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2012/06/10/five-year-olds-and-weddings/wedding1_hu407ccd09db17ef476e7912154bc65035_140785_1200x0_resize_q75_box.jpg 2.4x
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/06/10/five-year-olds-and-weddings/wedding1.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1632,28 +1517,24 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/06/04/jubilee/jubilee1_hue2aeeb666be9a1c8fa61d85f02576c9d_328167_500x0_resize_q75_box.jpg 500w
+    /blog/2012/06/04/jubilee/jubilee1_hue2aeeb666be9a1c8fa61d85f02576c9d_328167_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2012/06/04/jubilee/jubilee1_hue2aeeb666be9a1c8fa61d85f02576c9d_328167_800x0_resize_q75_box.jpg 800w
+    , /blog/2012/06/04/jubilee/jubilee1_hue2aeeb666be9a1c8fa61d85f02576c9d_328167_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2012/06/04/jubilee/jubilee1_hue2aeeb666be9a1c8fa61d85f02576c9d_328167_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2012/06/04/jubilee/jubilee1_hue2aeeb666be9a1c8fa61d85f02576c9d_328167_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2012/06/04/jubilee/jubilee1_hue2aeeb666be9a1c8fa61d85f02576c9d_328167_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2012/06/04/jubilee/jubilee1_hue2aeeb666be9a1c8fa61d85f02576c9d_328167_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/06/04/jubilee/jubilee1.jpg&#34; 
   
-  alt=&#34;&#34;
-  
 &gt;
 
-    &lt;figcaption&gt;Pimm&amp;#39;s O&amp;#39;Clock!&lt;/figcaption&gt;
+    &lt;figcaption&gt;Pimm&amp;rsquo;s O&amp;rsquo;Clock!&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
     </item>
     
@@ -1675,22 +1556,18 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/05/29/sean-visits-bristol-zoo/sean1_hu3ec56ba396a319f7adb8c3020822f88e_265815_500x0_resize_q75_box.jpg 500w
+    /blog/2012/05/29/sean-visits-bristol-zoo/sean1_hu3ec56ba396a319f7adb8c3020822f88e_265815_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2012/05/29/sean-visits-bristol-zoo/sean1_hu3ec56ba396a319f7adb8c3020822f88e_265815_800x0_resize_q75_box.jpg 800w
+    , /blog/2012/05/29/sean-visits-bristol-zoo/sean1_hu3ec56ba396a319f7adb8c3020822f88e_265815_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2012/05/29/sean-visits-bristol-zoo/sean1_hu3ec56ba396a319f7adb8c3020822f88e_265815_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2012/05/29/sean-visits-bristol-zoo/sean1_hu3ec56ba396a319f7adb8c3020822f88e_265815_1200x0_resize_q75_box.jpg 2.4x
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/05/29/sean-visits-bristol-zoo/sean1.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1716,16 +1593,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/05/07/fun-bank-holiday-in-bristol/bank-holiday.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1751,20 +1624,16 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/04/15/dublin-trip/dublin1_hu896dbe6cfb0cd271df11b88c09f608a2_106945_500x0_resize_q75_box.jpg 500w
+    /blog/2012/04/15/dublin-trip/dublin1_hu896dbe6cfb0cd271df11b88c09f608a2_106945_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2012/04/15/dublin-trip/dublin1_hu896dbe6cfb0cd271df11b88c09f608a2_106945_800x0_resize_q75_box.jpg 800w
+    , /blog/2012/04/15/dublin-trip/dublin1_hu896dbe6cfb0cd271df11b88c09f608a2_106945_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/04/15/dublin-trip/dublin1.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1790,18 +1659,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/04/08/easter-in-ireland/easter_hudf9327f8f5fd5e1e165edaac9adf40fa_85776_500x0_resize_q75_box.jpg 500w
+    /blog/2012/04/08/easter-in-ireland/easter_hudf9327f8f5fd5e1e165edaac9adf40fa_85776_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/04/08/easter-in-ireland/easter.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1827,24 +1692,20 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/03/05/snowboarding-tignes/tignes1_hu614ed7bb4aceb0999fedecf756d89376_1424653_500x0_resize_q75_box.jpg 500w
+    /blog/2012/03/05/snowboarding-tignes/tignes1_hu614ed7bb4aceb0999fedecf756d89376_1424653_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2012/03/05/snowboarding-tignes/tignes1_hu614ed7bb4aceb0999fedecf756d89376_1424653_800x0_resize_q75_box.jpg 800w
+    , /blog/2012/03/05/snowboarding-tignes/tignes1_hu614ed7bb4aceb0999fedecf756d89376_1424653_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2012/03/05/snowboarding-tignes/tignes1_hu614ed7bb4aceb0999fedecf756d89376_1424653_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2012/03/05/snowboarding-tignes/tignes1_hu614ed7bb4aceb0999fedecf756d89376_1424653_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2012/03/05/snowboarding-tignes/tignes1_hu614ed7bb4aceb0999fedecf756d89376_1424653_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2012/03/05/snowboarding-tignes/tignes1_hu614ed7bb4aceb0999fedecf756d89376_1424653_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/03/05/snowboarding-tignes/tignes1.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1870,18 +1731,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/02/12/hmmmm-steak/steak_hu5dd620484ccb1187954e093d7de3ac97_60808_500x0_resize_q75_box.jpg 500w
+    /blog/2012/02/12/hmmmm-steak/steak_hu5dd620484ccb1187954e093d7de3ac97_60808_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/02/12/hmmmm-steak/steak.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1907,16 +1764,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/02/11/defend-castle-say-no-to-demolition-now/defend.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1942,16 +1795,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/02/02/save-castle-update/castle.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -1978,18 +1827,14 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2012/01/22/save-castle/save-the-castle_hud8ad72c0fc471177ac3acad1c283d423_30289_500x0_resize_q75_box.jpg 500w
+    /blog/2012/01/22/save-castle/save-the-castle_hud8ad72c0fc471177ac3acad1c283d423_30289_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/01/22/save-castle/save-the-castle.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2015,16 +1860,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/01/07/afternoon-tea-and-ice-skating/skating1.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2051,16 +1892,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2012/01/01/masa-bristol-great-sushi-place/sushi1.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2090,16 +1927,12 @@ See you all in the new year!&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2011/12/25/christmas-holidays/christmas.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2127,16 +1960,12 @@ See you all in the new year!&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2011/11/19/cooking-simple-but-hearty-food/food.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2162,22 +1991,18 @@ See you all in the new year!&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2011/09/06/crazy-microwave/microwave_hu74d5085842343e26139389456661b7fc_232929_500x0_resize_q75_box.jpg 500w
+    /blog/2011/09/06/crazy-microwave/microwave_hu74d5085842343e26139389456661b7fc_232929_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2011/09/06/crazy-microwave/microwave_hu74d5085842343e26139389456661b7fc_232929_800x0_resize_q75_box.jpg 800w
+    , /blog/2011/09/06/crazy-microwave/microwave_hu74d5085842343e26139389456661b7fc_232929_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2011/09/06/crazy-microwave/microwave_hu74d5085842343e26139389456661b7fc_232929_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2011/09/06/crazy-microwave/microwave_hu74d5085842343e26139389456661b7fc_232929_1200x0_resize_q75_box.jpg 2.4x
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2011/09/06/crazy-microwave/microwave.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2203,18 +2028,14 @@ See you all in the new year!&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2011/09/04/im-with-you/josh_hu60f42d2e08153437ca95d261f587fe33_65516_500x0_resize_q75_box.jpg 500w
+    /blog/2011/09/04/im-with-you/josh_hu60f42d2e08153437ca95d261f587fe33_65516_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2011/09/04/im-with-you/josh.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2240,16 +2061,12 @@ See you all in the new year!&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2011/08/27/tariq-effect/evil-joe.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2275,16 +2092,12 @@ See you all in the new year!&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2011/07/29/wet-berlin/wet-berlin.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2310,16 +2123,12 @@ See you all in the new year!&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2011/07/27/off-to-berlin/berlin.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2346,18 +2155,14 @@ See you all in the new year!&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2011/07/22/unit-testing/v-model_huad7a9589df50e882dfd16b3520a832d1_65372_500x0_resize_box_2.png 500w
+    /blog/2011/07/22/unit-testing/v-model_huad7a9589df50e882dfd16b3520a832d1_65372_500x0_resize_box_2.png 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2011/07/22/unit-testing/v-model.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2383,16 +2188,12 @@ See you all in the new year!&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2011/07/19/new-blog-name/haters.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2418,18 +2219,14 @@ See you all in the new year!&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2011/07/17/music-in-rain/music_hu662edf3934eafad5a5aebdee1d48be47_67811_500x0_resize_q75_box.jpg 500w
+    /blog/2011/07/17/music-in-rain/music_hu662edf3934eafad5a5aebdee1d48be47_67811_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2011/07/17/music-in-rain/music.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2456,18 +2253,14 @@ See you all in the new year!&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2011/07/13/fffffffuuuuuuuuuuuu/rage_hu7292b8f98e7a0cfca575b38dd80920ac_196785_500x0_resize_box_2.png 500w
+    /blog/2011/07/13/fffffffuuuuuuuuuuuu/rage_hu7292b8f98e7a0cfca575b38dd80920ac_196785_500x0_resize_box_2.png 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2011/07/13/fffffffuuuuuuuuuuuu/rage.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2517,24 +2310,20 @@ White wine (optional)&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2011/07/10/recipe-for-smoked-salmon-tagliatelle/good-food_hu24c9f35555642b834aa8ece6852ec3f2_195565_500x0_resize_q75_box.jpg 500w
+    /blog/2011/07/10/recipe-for-smoked-salmon-tagliatelle/good-food_hu24c9f35555642b834aa8ece6852ec3f2_195565_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2011/07/10/recipe-for-smoked-salmon-tagliatelle/good-food_hu24c9f35555642b834aa8ece6852ec3f2_195565_800x0_resize_q75_box.jpg 800w
+    , /blog/2011/07/10/recipe-for-smoked-salmon-tagliatelle/good-food_hu24c9f35555642b834aa8ece6852ec3f2_195565_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2011/07/10/recipe-for-smoked-salmon-tagliatelle/good-food_hu24c9f35555642b834aa8ece6852ec3f2_195565_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2011/07/10/recipe-for-smoked-salmon-tagliatelle/good-food_hu24c9f35555642b834aa8ece6852ec3f2_195565_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2011/07/10/recipe-for-smoked-salmon-tagliatelle/good-food_hu24c9f35555642b834aa8ece6852ec3f2_195565_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2011/07/10/recipe-for-smoked-salmon-tagliatelle/good-food_hu24c9f35555642b834aa8ece6852ec3f2_195565_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2011/07/10/recipe-for-smoked-salmon-tagliatelle/good-food.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2607,16 +2396,12 @@ Stay tuned for some more blogs!&lt;/p&gt;</description>
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/12/12/december-quick-check-in/spotify.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2643,16 +2428,12 @@ Stay tuned for some more blogs!&lt;/p&gt;</description>
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/11/17/november-madness/moustaches.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2701,24 +2482,20 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/09/15/quick-poem/science_hu3f493b5bf5a99dc07835e70c3a7c3c75_454053_500x0_resize_q75_box.jpg 500w
+    /blog/2010/09/15/quick-poem/science_hu3f493b5bf5a99dc07835e70c3a7c3c75_454053_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/09/15/quick-poem/science_hu3f493b5bf5a99dc07835e70c3a7c3c75_454053_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/09/15/quick-poem/science_hu3f493b5bf5a99dc07835e70c3a7c3c75_454053_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2010/09/15/quick-poem/science_hu3f493b5bf5a99dc07835e70c3a7c3c75_454053_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2010/09/15/quick-poem/science_hu3f493b5bf5a99dc07835e70c3a7c3c75_454053_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2010/09/15/quick-poem/science_hu3f493b5bf5a99dc07835e70c3a7c3c75_454053_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2010/09/15/quick-poem/science_hu3f493b5bf5a99dc07835e70c3a7c3c75_454053_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/09/15/quick-poem/science.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2744,20 +2521,16 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/07/31/update-on-droid-picture-project/big-picture_huaadc97d0b81ae0b6abca13ce43da0545_448774_500x0_resize_q75_box.jpg 500w
+    /blog/2010/07/31/update-on-droid-picture-project/big-picture_huaadc97d0b81ae0b6abca13ce43da0545_448774_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/07/31/update-on-droid-picture-project/big-picture_huaadc97d0b81ae0b6abca13ce43da0545_448774_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/07/31/update-on-droid-picture-project/big-picture_huaadc97d0b81ae0b6abca13ce43da0545_448774_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/07/31/update-on-droid-picture-project/big-picture.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2783,20 +2556,16 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/07/24/time-to-put-my-powers-to-good-use/android_hua24372df13d1f35c655d56e61095072d_35052_500x0_resize_q75_box.jpg 500w
+    /blog/2010/07/24/time-to-put-my-powers-to-good-use/android_hua24372df13d1f35c655d56e61095072d_35052_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/07/24/time-to-put-my-powers-to-good-use/android_hua24372df13d1f35c655d56e61095072d_35052_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/07/24/time-to-put-my-powers-to-good-use/android_hua24372df13d1f35c655d56e61095072d_35052_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/07/24/time-to-put-my-powers-to-good-use/android.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2832,18 +2601,14 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/06/08/not-much-been-going-down/nothing_hu524581f34551fd38a9120a1fa585e33b_94994_500x0_resize_q75_box.jpg 500w
+    /blog/2010/06/08/not-much-been-going-down/nothing_hu524581f34551fd38a9120a1fa585e33b_94994_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/06/08/not-much-been-going-down/nothing.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2870,16 +2635,12 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/05/05/election-night/vote-or-die.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2905,24 +2666,20 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/05/04/ash/ash_hub4444e109e4fec48f30128e3a50b3918_1896656_500x0_resize_q75_box.jpg 500w
+    /blog/2010/05/04/ash/ash_hub4444e109e4fec48f30128e3a50b3918_1896656_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/05/04/ash/ash_hub4444e109e4fec48f30128e3a50b3918_1896656_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/05/04/ash/ash_hub4444e109e4fec48f30128e3a50b3918_1896656_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2010/05/04/ash/ash_hub4444e109e4fec48f30128e3a50b3918_1896656_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2010/05/04/ash/ash_hub4444e109e4fec48f30128e3a50b3918_1896656_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2010/05/04/ash/ash_hub4444e109e4fec48f30128e3a50b3918_1896656_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2010/05/04/ash/ash_hub4444e109e4fec48f30128e3a50b3918_1896656_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/05/04/ash/ash.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2948,20 +2705,16 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/05/03/lazy-bank-holidays/android_hu6912beeaa5b95b315a4bf0ad32c792ad_475978_500x0_resize_q75_box.jpg 500w
+    /blog/2010/05/03/lazy-bank-holidays/android_hu6912beeaa5b95b315a4bf0ad32c792ad_475978_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/05/03/lazy-bank-holidays/android_hu6912beeaa5b95b315a4bf0ad32c792ad_475978_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/05/03/lazy-bank-holidays/android_hu6912beeaa5b95b315a4bf0ad32c792ad_475978_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/05/03/lazy-bank-holidays/android.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -2987,20 +2740,16 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/04/28/one-day-till-ubuntu-goodness/lynx_hu541cf94978a1fd125331d7914c1ea041_83536_500x0_resize_q75_box.jpg 500w
+    /blog/2010/04/28/one-day-till-ubuntu-goodness/lynx_hu541cf94978a1fd125331d7914c1ea041_83536_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/04/28/one-day-till-ubuntu-goodness/lynx_hu541cf94978a1fd125331d7914c1ea041_83536_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/04/28/one-day-till-ubuntu-goodness/lynx_hu541cf94978a1fd125331d7914c1ea041_83536_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/04/28/one-day-till-ubuntu-goodness/lynx.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3027,18 +2776,14 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/04/26/what-have-i-been-doing/htc-desire_hu67bd93dc850d8e7de085c66570e12c2e_118419_500x0_resize_q75_box.jpg 500w
+    /blog/2010/04/26/what-have-i-been-doing/htc-desire_hu67bd93dc850d8e7de085c66570e12c2e_118419_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/04/26/what-have-i-been-doing/htc-desire.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3074,20 +2819,16 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/04/07/digital-economy-bill/westminister_hueb578658875f889571a3241497ac0f7e_243767_500x0_resize_q75_box.jpg 500w
+    /blog/2010/04/07/digital-economy-bill/westminister_hueb578658875f889571a3241497ac0f7e_243767_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/04/07/digital-economy-bill/westminister_hueb578658875f889571a3241497ac0f7e_243767_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/04/07/digital-economy-bill/westminister_hueb578658875f889571a3241497ac0f7e_243767_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/04/07/digital-economy-bill/westminister.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3113,24 +2854,20 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/03/18/snowboarding/snowboarding_hud861b1f3320364dd69401052c94475da_4609812_500x0_resize_q75_box.jpg 500w
+    /blog/2010/03/18/snowboarding/snowboarding_hud861b1f3320364dd69401052c94475da_4609812_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/03/18/snowboarding/snowboarding_hud861b1f3320364dd69401052c94475da_4609812_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/03/18/snowboarding/snowboarding_hud861b1f3320364dd69401052c94475da_4609812_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2010/03/18/snowboarding/snowboarding_hud861b1f3320364dd69401052c94475da_4609812_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2010/03/18/snowboarding/snowboarding_hud861b1f3320364dd69401052c94475da_4609812_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2010/03/18/snowboarding/snowboarding_hud861b1f3320364dd69401052c94475da_4609812_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2010/03/18/snowboarding/snowboarding_hud861b1f3320364dd69401052c94475da_4609812_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/03/18/snowboarding/snowboarding.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3156,16 +2893,12 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/03/17/where-is-sin-city-book-2/sin-city.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3191,16 +2924,12 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/02/19/fully-back-on-64/flash.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3227,22 +2956,18 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/02/12/b-photos-online/bw_hu2806ce27036c37e39f26b798f06294e7_335041_500x0_resize_q75_box.jpg 500w
+    /blog/2010/02/12/b-photos-online/bw_hu2806ce27036c37e39f26b798f06294e7_335041_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/02/12/b-photos-online/bw_hu2806ce27036c37e39f26b798f06294e7_335041_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/02/12/b-photos-online/bw_hu2806ce27036c37e39f26b798f06294e7_335041_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2010/02/12/b-photos-online/bw_hu2806ce27036c37e39f26b798f06294e7_335041_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2010/02/12/b-photos-online/bw_hu2806ce27036c37e39f26b798f06294e7_335041_1200x0_resize_q75_box.jpg 2.4x
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/02/12/b-photos-online/bw.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3268,24 +2993,20 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/02/08/photos-from-me/ilford_huceaf81c9bad194bb7e515e07f125eeb1_582513_500x0_resize_q75_box.jpg 500w
+    /blog/2010/02/08/photos-from-me/ilford_huceaf81c9bad194bb7e515e07f125eeb1_582513_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/02/08/photos-from-me/ilford_huceaf81c9bad194bb7e515e07f125eeb1_582513_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/02/08/photos-from-me/ilford_huceaf81c9bad194bb7e515e07f125eeb1_582513_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2010/02/08/photos-from-me/ilford_huceaf81c9bad194bb7e515e07f125eeb1_582513_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2010/02/08/photos-from-me/ilford_huceaf81c9bad194bb7e515e07f125eeb1_582513_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2010/02/08/photos-from-me/ilford_huceaf81c9bad194bb7e515e07f125eeb1_582513_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2010/02/08/photos-from-me/ilford_huceaf81c9bad194bb7e515e07f125eeb1_582513_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/02/08/photos-from-me/ilford.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3312,20 +3033,16 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/02/07/better-flash-and-stuff/hanimd_hu88aeb191b0f3eaddaf3dacd2feda4c18_140910_500x0_resize_q75_box.jpg 500w
+    /blog/2010/02/07/better-flash-and-stuff/hanimd_hu88aeb191b0f3eaddaf3dacd2feda4c18_140910_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2010/02/07/better-flash-and-stuff/hanimd_hu88aeb191b0f3eaddaf3dacd2feda4c18_140910_800x0_resize_q75_box.jpg 800w
+    , /blog/2010/02/07/better-flash-and-stuff/hanimd_hu88aeb191b0f3eaddaf3dacd2feda4c18_140910_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/02/07/better-flash-and-stuff/hanimd.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3361,16 +3078,12 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/01/24/checking-out-google-chrome-on-linux/chrome.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3397,18 +3110,14 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2010/01/08/first-post-of-decade/alpha_hu4134429b33d8f8527d9cd25d27b4996f_76397_500x0_resize_q75_box.jpg 500w
+    /blog/2010/01/08/first-post-of-decade/alpha_hu4134429b33d8f8527d9cd25d27b4996f_76397_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/01/08/first-post-of-decade/alpha.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3434,16 +3143,12 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/12/29/work-laptop-upgraded-to-karmic/koala.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3469,20 +3174,16 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/12/21/rage-against-machine-number-1/ratm_hue56eb9b8eb0e0d9bcdf951c832aeeca9_54250_500x0_resize_q75_box.jpg 500w
+    /blog/2009/12/21/rage-against-machine-number-1/ratm_hue56eb9b8eb0e0d9bcdf951c832aeeca9_54250_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2009/12/21/rage-against-machine-number-1/ratm_hue56eb9b8eb0e0d9bcdf951c832aeeca9_54250_800x0_resize_q75_box.jpg 800w
+    , /blog/2009/12/21/rage-against-machine-number-1/ratm_hue56eb9b8eb0e0d9bcdf951c832aeeca9_54250_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/12/21/rage-against-machine-number-1/ratm.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3508,16 +3209,12 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/11/20/bash-command-craziness/basher.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3561,24 +3258,20 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/11/11/todays-diet/chick_hu9b4c33edf0866057ccc742489932b375_2757819_500x0_resize_q75_box.jpg 500w
+    /blog/2009/11/11/todays-diet/chick_hu9b4c33edf0866057ccc742489932b375_2757819_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2009/11/11/todays-diet/chick_hu9b4c33edf0866057ccc742489932b375_2757819_800x0_resize_q75_box.jpg 800w
+    , /blog/2009/11/11/todays-diet/chick_hu9b4c33edf0866057ccc742489932b375_2757819_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2009/11/11/todays-diet/chick_hu9b4c33edf0866057ccc742489932b375_2757819_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2009/11/11/todays-diet/chick_hu9b4c33edf0866057ccc742489932b375_2757819_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2009/11/11/todays-diet/chick_hu9b4c33edf0866057ccc742489932b375_2757819_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2009/11/11/todays-diet/chick_hu9b4c33edf0866057ccc742489932b375_2757819_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/11/11/todays-diet/chick.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3604,18 +3297,14 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/11/10/calorie-counting-madness/swallow_hue0a5b5d7cd8d1cc9ae7ff947e7222d83_47309_500x0_resize_box_2.png 500w
+    /blog/2009/11/10/calorie-counting-madness/swallow_hue0a5b5d7cd8d1cc9ae7ff947e7222d83_47309_500x0_resize_box_2.png 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/11/10/calorie-counting-madness/swallow.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3641,16 +3330,12 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/11/01/new-diet/diet.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3677,16 +3362,12 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/10/25/in-thailand/thailand.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3713,16 +3394,12 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/10/10/beta-testing-karma/countdown.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3748,22 +3425,18 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_500x0_resize_box_2.png 500w
+    /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_500x0_resize_box_2.png 1x
   
   
-    , /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_800x0_resize_box_2.png 800w
+    , /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_800x0_resize_box_2.png 1.6x
   
   
-    , /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_1200x0_resize_box_2.png 1200w
+    , /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_1200x0_resize_box_2.png 2.4x
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/08/12/why-64/firefox.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3789,18 +3462,14 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/08/07/great-british-beer-festival/beer_hu5967efe739a87b16483b92a7528f9d97_266356_500x0_resize_q75_box.jpg 500w
+    /blog/2009/08/07/great-british-beer-festival/beer_hu5967efe739a87b16483b92a7528f9d97_266356_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/08/07/great-british-beer-festival/beer.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3826,24 +3495,20 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/08/03/staying-late-for-business/leica_hucbb74677e2e9a79d170c24f2c68c60f4_607343_500x0_resize_q75_box.jpg 500w
+    /blog/2009/08/03/staying-late-for-business/leica_hucbb74677e2e9a79d170c24f2c68c60f4_607343_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2009/08/03/staying-late-for-business/leica_hucbb74677e2e9a79d170c24f2c68c60f4_607343_800x0_resize_q75_box.jpg 800w
+    , /blog/2009/08/03/staying-late-for-business/leica_hucbb74677e2e9a79d170c24f2c68c60f4_607343_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2009/08/03/staying-late-for-business/leica_hucbb74677e2e9a79d170c24f2c68c60f4_607343_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2009/08/03/staying-late-for-business/leica_hucbb74677e2e9a79d170c24f2c68c60f4_607343_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2009/08/03/staying-late-for-business/leica_hucbb74677e2e9a79d170c24f2c68c60f4_607343_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2009/08/03/staying-late-for-business/leica_hucbb74677e2e9a79d170c24f2c68c60f4_607343_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/08/03/staying-late-for-business/leica.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3870,24 +3535,20 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/08/01/kensington-roof-gardens/roof_huc74836cd9009c9b65ffb728c172d5ea9_3581777_500x0_resize_q75_box.jpg 500w
+    /blog/2009/08/01/kensington-roof-gardens/roof_huc74836cd9009c9b65ffb728c172d5ea9_3581777_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2009/08/01/kensington-roof-gardens/roof_huc74836cd9009c9b65ffb728c172d5ea9_3581777_800x0_resize_q75_box.jpg 800w
+    , /blog/2009/08/01/kensington-roof-gardens/roof_huc74836cd9009c9b65ffb728c172d5ea9_3581777_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2009/08/01/kensington-roof-gardens/roof_huc74836cd9009c9b65ffb728c172d5ea9_3581777_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2009/08/01/kensington-roof-gardens/roof_huc74836cd9009c9b65ffb728c172d5ea9_3581777_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2009/08/01/kensington-roof-gardens/roof_huc74836cd9009c9b65ffb728c172d5ea9_3581777_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2009/08/01/kensington-roof-gardens/roof_huc74836cd9009c9b65ffb728c172d5ea9_3581777_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/08/01/kensington-roof-gardens/roof.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3913,16 +3574,12 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/07/30/life-beyond-measure/sidney.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3949,16 +3606,12 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/07/25/chasers-war-on-everything/chasers.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -3993,18 +3646,14 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/07/20/bruno/bruno_huba12031058c9539ad4db72399cc64753_222681_500x0_resize_q75_box.jpg 500w
+    /blog/2009/07/20/bruno/bruno_huba12031058c9539ad4db72399cc64753_222681_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/07/20/bruno/bruno.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -4068,16 +3717,12 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/05/31/overtime-shopping/xray.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -4124,24 +3769,20 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/05/21/specials-lost-my-phone/ska_hu5c26f3db99a03ef660cb4679abe09e78_20441_500x0_resize_box_2.png 500w
+    /blog/2009/05/21/specials-lost-my-phone/ska_hu5c26f3db99a03ef660cb4679abe09e78_20441_500x0_resize_box_2.png 1x
   
   
-    , /blog/2009/05/21/specials-lost-my-phone/ska_hu5c26f3db99a03ef660cb4679abe09e78_20441_800x0_resize_box_2.png 800w
+    , /blog/2009/05/21/specials-lost-my-phone/ska_hu5c26f3db99a03ef660cb4679abe09e78_20441_800x0_resize_box_2.png 1.6x
   
   
-    , /blog/2009/05/21/specials-lost-my-phone/ska_hu5c26f3db99a03ef660cb4679abe09e78_20441_1200x0_resize_box_2.png 1200w
+    , /blog/2009/05/21/specials-lost-my-phone/ska_hu5c26f3db99a03ef660cb4679abe09e78_20441_1200x0_resize_box_2.png 2.4x
   
   
-    , /blog/2009/05/21/specials-lost-my-phone/ska_hu5c26f3db99a03ef660cb4679abe09e78_20441_1500x0_resize_box_2.png 1500w 
+    , /blog/2009/05/21/specials-lost-my-phone/ska_hu5c26f3db99a03ef660cb4679abe09e78_20441_1500x0_resize_box_2.png 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/05/21/specials-lost-my-phone/ska.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -4169,20 +3810,16 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/05/11/linux-to-rescue/tux_hu3dc9fde3465bc673c0828c4e34d0eb10_47900_500x0_resize_box_2.png 500w
+    /blog/2009/05/11/linux-to-rescue/tux_hu3dc9fde3465bc673c0828c4e34d0eb10_47900_500x0_resize_box_2.png 1x
   
   
-    , /blog/2009/05/11/linux-to-rescue/tux_hu3dc9fde3465bc673c0828c4e34d0eb10_47900_800x0_resize_box_2.png 800w
+    , /blog/2009/05/11/linux-to-rescue/tux_hu3dc9fde3465bc673c0828c4e34d0eb10_47900_800x0_resize_box_2.png 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/05/11/linux-to-rescue/tux.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -4258,16 +3895,12 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/04/21/2-days-to-go/free-geekuin.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -4302,24 +3935,20 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/04/18/battle-of-the-year/battle-1_hu1dcf5f9d33003672d494198338fd800a_235915_500x0_resize_q75_box.jpg 500w
+    /blog/2009/04/18/battle-of-the-year/battle-1_hu1dcf5f9d33003672d494198338fd800a_235915_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2009/04/18/battle-of-the-year/battle-1_hu1dcf5f9d33003672d494198338fd800a_235915_800x0_resize_q75_box.jpg 800w
+    , /blog/2009/04/18/battle-of-the-year/battle-1_hu1dcf5f9d33003672d494198338fd800a_235915_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2009/04/18/battle-of-the-year/battle-1_hu1dcf5f9d33003672d494198338fd800a_235915_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2009/04/18/battle-of-the-year/battle-1_hu1dcf5f9d33003672d494198338fd800a_235915_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2009/04/18/battle-of-the-year/battle-1_hu1dcf5f9d33003672d494198338fd800a_235915_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2009/04/18/battle-of-the-year/battle-1_hu1dcf5f9d33003672d494198338fd800a_235915_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/04/18/battle-of-the-year/battle-1.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -4355,22 +3984,18 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/04/13/inbetweeners/friend_hu0622c122287fcb870324f6ea3a5131dc_61509_500x0_resize_q75_box.jpg 500w
+    /blog/2009/04/13/inbetweeners/friend_hu0622c122287fcb870324f6ea3a5131dc_61509_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2009/04/13/inbetweeners/friend_hu0622c122287fcb870324f6ea3a5131dc_61509_800x0_resize_q75_box.jpg 800w
+    , /blog/2009/04/13/inbetweeners/friend_hu0622c122287fcb870324f6ea3a5131dc_61509_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2009/04/13/inbetweeners/friend_hu0622c122287fcb870324f6ea3a5131dc_61509_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2009/04/13/inbetweeners/friend_hu0622c122287fcb870324f6ea3a5131dc_61509_1200x0_resize_q75_box.jpg 2.4x
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/04/13/inbetweeners/friend.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -4398,16 +4023,12 @@ Difference = 738 C&lt;/p&gt;
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/04/13/channel-4-catch-up-available-on-linux/catch-up.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -4472,18 +4093,14 @@ Jam session  </description>
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/03/27/stereophonics-at-albert-hall/stereophonics-3_huaa243968f2f8d7d0dc48523896809e4b_86549_500x0_resize_q75_box.jpg 500w
+    /blog/2009/03/27/stereophonics-at-albert-hall/stereophonics-3_huaa243968f2f8d7d0dc48523896809e4b_86549_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/03/27/stereophonics-at-albert-hall/stereophonics-3.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -4510,18 +4127,14 @@ Jam session  </description>
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/03/24/lines-and-lines-and-lines-and-lines-and/edward-and-tubbs_hu2615e95bb206edbdbc963e657eaca1ae_45487_500x0_resize_q75_box.jpg 500w
+    /blog/2009/03/24/lines-and-lines-and-lines-and-lines-and/edward-and-tubbs_hu2615e95bb206edbdbc963e657eaca1ae_45487_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/03/24/lines-and-lines-and-lines-and-lines-and/edward-and-tubbs.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -4546,16 +4159,12 @@ Jam session  </description>
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/03/22/friday-saturday-un-happies/sway.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -4594,18 +4203,14 @@ Jam session  </description>
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/03/18/wasted-at-work/wasted_hucd3ed2ebd5619647da7f5d0bc62ffcbc_68086_500x0_resize_q75_box.jpg 500w
+    /blog/2009/03/18/wasted-at-work/wasted_hucd3ed2ebd5619647da7f5d0bc62ffcbc_68086_500x0_resize_q75_box.jpg 1x
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/03/18/wasted-at-work/wasted.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -4640,26 +4245,22 @@ Jam session  </description>
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/03/16/some-phone-picz/smoke-me-a-kipper_hu2b109b323fc8c830620d72d1287833e8_226023_500x0_resize_q75_box.jpg 500w
+    /blog/2009/03/16/some-phone-picz/smoke-me-a-kipper_hu2b109b323fc8c830620d72d1287833e8_226023_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2009/03/16/some-phone-picz/smoke-me-a-kipper_hu2b109b323fc8c830620d72d1287833e8_226023_800x0_resize_q75_box.jpg 800w
+    , /blog/2009/03/16/some-phone-picz/smoke-me-a-kipper_hu2b109b323fc8c830620d72d1287833e8_226023_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2009/03/16/some-phone-picz/smoke-me-a-kipper_hu2b109b323fc8c830620d72d1287833e8_226023_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2009/03/16/some-phone-picz/smoke-me-a-kipper_hu2b109b323fc8c830620d72d1287833e8_226023_1200x0_resize_q75_box.jpg 2.4x
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/03/16/some-phone-picz/smoke-me-a-kipper.jpg&#34; 
   
-  alt=&#34;&#34;
-  
 &gt;
 
-    &lt;figcaption&gt;Smoke me a kipper, I&amp;#39;ll be back for breakfast&lt;/figcaption&gt;
+    &lt;figcaption&gt;Smoke me a kipper, I&amp;rsquo;ll be back for breakfast&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
     </item>
     
@@ -4680,20 +4281,16 @@ Jam session  </description>
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/03/15/this-is-a-blog/porridge_hu809952ad6d0e64b2fb1f1ea144c4d3d3_127066_500x0_resize_q75_box.jpg 500w
+    /blog/2009/03/15/this-is-a-blog/porridge_hu809952ad6d0e64b2fb1f1ea144c4d3d3_127066_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2009/03/15/this-is-a-blog/porridge_hu809952ad6d0e64b2fb1f1ea144c4d3d3_127066_800x0_resize_q75_box.jpg 800w
+    , /blog/2009/03/15/this-is-a-blog/porridge_hu809952ad6d0e64b2fb1f1ea144c4d3d3_127066_800x0_resize_q75_box.jpg 1.6x
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/03/15/this-is-a-blog/porridge.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -4729,24 +4326,20 @@ Jam session  </description>
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/03/15/rugby-england-france/rugby-fans_hu1185bf260eee6389547f223b4587877c_623568_500x0_resize_q75_box.jpg 500w
+    /blog/2009/03/15/rugby-england-france/rugby-fans_hu1185bf260eee6389547f223b4587877c_623568_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2009/03/15/rugby-england-france/rugby-fans_hu1185bf260eee6389547f223b4587877c_623568_800x0_resize_q75_box.jpg 800w
+    , /blog/2009/03/15/rugby-england-france/rugby-fans_hu1185bf260eee6389547f223b4587877c_623568_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2009/03/15/rugby-england-france/rugby-fans_hu1185bf260eee6389547f223b4587877c_623568_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2009/03/15/rugby-england-france/rugby-fans_hu1185bf260eee6389547f223b4587877c_623568_1200x0_resize_q75_box.jpg 2.4x
   
   
-    , /blog/2009/03/15/rugby-england-france/rugby-fans_hu1185bf260eee6389547f223b4587877c_623568_1500x0_resize_q75_box.jpg 1500w 
+    , /blog/2009/03/15/rugby-england-france/rugby-fans_hu1185bf260eee6389547f223b4587877c_623568_1500x0_resize_q75_box.jpg 3x 
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/03/15/rugby-england-france/rugby-fans.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 

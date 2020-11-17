@@ -25,16 +25,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2010/03/17/where-is-sin-city-book-2/sin-city.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 

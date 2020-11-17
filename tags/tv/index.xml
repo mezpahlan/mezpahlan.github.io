@@ -25,16 +25,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2016/11/28/beep-beep-boop-i-am-a-robot/humans-c4.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -51,22 +47,18 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2016/11/28/beep-beep-boop-i-am-a-robot/westworld-hbo_hu868cdb13d5c472280b2f5c57391ad776_427104_500x0_resize_box_2.png 500w
+    /blog/2016/11/28/beep-beep-boop-i-am-a-robot/westworld-hbo_hu868cdb13d5c472280b2f5c57391ad776_427104_500x0_resize_box_2.png 1x
   
   
-    , /blog/2016/11/28/beep-beep-boop-i-am-a-robot/westworld-hbo_hu868cdb13d5c472280b2f5c57391ad776_427104_800x0_resize_box_2.png 800w
+    , /blog/2016/11/28/beep-beep-boop-i-am-a-robot/westworld-hbo_hu868cdb13d5c472280b2f5c57391ad776_427104_800x0_resize_box_2.png 1.6x
   
   
-    , /blog/2016/11/28/beep-beep-boop-i-am-a-robot/westworld-hbo_hu868cdb13d5c472280b2f5c57391ad776_427104_1200x0_resize_box_2.png 1200w
+    , /blog/2016/11/28/beep-beep-boop-i-am-a-robot/westworld-hbo_hu868cdb13d5c472280b2f5c57391ad776_427104_1200x0_resize_box_2.png 2.4x
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2016/11/28/beep-beep-boop-i-am-a-robot/westworld-hbo.png&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -102,16 +94,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/07/25/chasers-war-on-everything/chasers.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -147,22 +135,18 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
-    /blog/2009/04/13/inbetweeners/friend_hu0622c122287fcb870324f6ea3a5131dc_61509_500x0_resize_q75_box.jpg 500w
+    /blog/2009/04/13/inbetweeners/friend_hu0622c122287fcb870324f6ea3a5131dc_61509_500x0_resize_q75_box.jpg 1x
   
   
-    , /blog/2009/04/13/inbetweeners/friend_hu0622c122287fcb870324f6ea3a5131dc_61509_800x0_resize_q75_box.jpg 800w
+    , /blog/2009/04/13/inbetweeners/friend_hu0622c122287fcb870324f6ea3a5131dc_61509_800x0_resize_q75_box.jpg 1.6x
   
   
-    , /blog/2009/04/13/inbetweeners/friend_hu0622c122287fcb870324f6ea3a5131dc_61509_1200x0_resize_q75_box.jpg 1200w
+    , /blog/2009/04/13/inbetweeners/friend_hu0622c122287fcb870324f6ea3a5131dc_61509_1200x0_resize_q75_box.jpg 2.4x
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/04/13/inbetweeners/friend.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
@@ -190,16 +174,12 @@
 
 &lt;img 
   
-  sizes=&#34;(min-width: 64em) 1500px, (min-width: 58em) 1200px, (min-width: 48em) 800px, (min-width: 38em) 500px, 500px&#34;
-  
   srcset=&#39;
   
   
   
   &#39;
   src=&#34;https://mezpahlan.github.io/blog/2009/04/13/channel-4-catch-up-available-on-linux/catch-up.jpg&#34; 
-  
-  alt=&#34;&#34;
   
 &gt;
 
