@@ -6,7 +6,41 @@
     <description>Recent content in Blogs on Mez Says</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 16 Nov 2020 22:14:41 +0000</lastBuildDate><atom:link href="https://mezpahlan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Nov 2020 16:35:23 +0000</lastBuildDate><atom:link href="https://mezpahlan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Izzy Wizzy Lets Get Bezier</title>
+      <link>https://mezpahlan.github.io/blog/2020/11/24/izzy-wizzy-lets-get-bezier/</link>
+      <pubDate>Tue, 24 Nov 2020 16:35:23 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2020/11/24/izzy-wizzy-lets-get-bezier/</guid>
+      <description>&lt;p&gt;This week I&amp;rsquo;ve been focussed on improving the biometric setup journey for the app that I work on. I&amp;rsquo;ve taken the opportunity to add a little bit of fun / delight into the setup process and learn more about &lt;a href=&#34;https://developer.android.com/guide/topics/graphics/drawable-animation#AnimVector&#34;&gt;Animated Vector Drawables&lt;/a&gt; in Android.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+
+
+
+
+
+
+&lt;img 
+  
+  srcset=&#39;
+  
+    /blog/2020/11/24/izzy-wizzy-lets-get-bezier/izzy-wizzy_hua492db747005d103eeac556b120922af_54549_500x0_resize_q75_box.jpg 1x
+  
+  
+  
+  &#39;
+  src=&#34;https://mezpahlan.github.io/blog/2020/11/24/izzy-wizzy-lets-get-bezier/izzy-wizzy.jpg&#34; 
+  
+&gt; 
+
+    &lt;figcaption&gt;Can we just take a moment and recognise how much of a bitch Soo was. Always spoiling Sooty and Sweep&amp;rsquo;s fun. Cow.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;This post aims to recap what I learned when working with Animated Vector Drawables (AVDs).&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>How I Like To Test</title>
       <link>https://mezpahlan.github.io/blog/2020/11/16/how-i-like-to-test/</link>

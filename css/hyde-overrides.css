@@ -107,3 +107,15 @@ figure figcaption {
 .pagination .page-item {
   margin-right: 1em;
 }
+
+video {
+  max-width: 50vw;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 48rem) {
+  video {
+    max-width: 25vw;
+  }
+}
