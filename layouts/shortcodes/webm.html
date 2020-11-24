@@ -1,0 +1,9 @@
+{{/* get file that matches the filename from the shortcode */}}
+{{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
+
+<video controls loop autoplay muted>
+    <source src="{{ $src.RelPermalink }}"
+            type="video/webm">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
