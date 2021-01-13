@@ -260,6 +260,12 @@ I haven't yet got around to doing this in our project but it is something that I
 
 My thought is that if we setup a Store to be from a Flowable Source Of Truth we may benefit from this behaviour. If anyone has done something similar I'd love to find out how it went. Even if it was with the Coroutines version of Store.
 
+# In Flight Debouncing Of Requests
+
+Thank you Elliot Long for pointing out another cool feature of Store. Suppose you have a screen with multiple points that each rely on the same data (sliced in a different way but) from the same repository. Add to this maybe a background operation that is making use of the same repository that just happens to be running. If you request N number of requests from Store does that mean you will need to fulfil N number of requests from your API?
+
+Luckily not! Store is clever enough to understand that, for an identically requested Key (remember from our mental model) a request is currently being fulfilled. It can use this to cancel the Fetcher for the requests that are identical and only process the first to arrive. Once that has completed it can fulfil the other requests from its caching mechanisms (either in memory or from the Source Of Truth). This is another way in which Store can help alleviate some concerns about how to perform something similar by hand. Best of all, you get this for free! There's no additional code you need to write / configure for this!
+
 # Final Note
 
 Whilst Store gives you a lot for free to help cache data and reduce calls on your backend it is not a catch all get out of jail free card. You will still have you spend time understanding network caching and how that might work with your backend team. Not all API calls need to go via Store. This will be highly specific to your app. An easy win would be if you have an expensive network API that fetches a lot of data and different _slices_ of that data are used in different areas. If this data is _essentially_ static for the lifetime that your app is in use I see that as a good indicator that Store can be used.
