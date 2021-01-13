@@ -6,7 +6,42 @@
     <description>Recent content in android on Mez Says</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 24 Nov 2020 16:35:23 +0000</lastBuildDate><atom:link href="https://mezpahlan.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Jan 2021 11:43:52 +0000</lastBuildDate><atom:link href="https://mezpahlan.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Store This</title>
+      <link>https://mezpahlan.github.io/blog/2021/01/13/store-this/</link>
+      <pubDate>Wed, 13 Jan 2021 11:43:52 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2021/01/13/store-this/</guid>
+      <description>&lt;figure &gt;
+    
+    
+
+
+
+
+
+
+&lt;img 
+  
+  srcset=&#39;
+  
+    /blog/2021/01/13/store-this/dodge-this_hu2c7fafafb25af561207ccd13ce18538b_49013_500x0_resize_q75_box.jpg 1x
+  
+  
+    , /blog/2021/01/13/store-this/dodge-this_hu2c7fafafb25af561207ccd13ce18538b_49013_800x0_resize_q75_box.jpg 1.6x
+  
+  
+  &#39;
+  src=&#34;https://mezpahlan.github.io/blog/2021/01/13/store-this/dodge-this.jpg&#34; 
+  
+&gt; 
+
+    &lt;figcaption&gt;Obviously I do not condone violence.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Hello and Happy New Year! What did you get up to for New Year&amp;rsquo;s? Lockdown you say? Well let&amp;rsquo;s blow all that away and get reading shall we? This post is about an Android library from Dropbox called &lt;a href=&#34;https://github.com/dropbox/Store&#34;&gt;Store&lt;/a&gt; (Store 4 to be precise). It facilitates the repository pattern, has been rebuilt from the ground up using Kotlin Coroutines, and is a great way to accelerate your app to becoming reactive. I&amp;rsquo;ve been using it for about a year in production during their alpha phase and now that it has recently gone stable I want to share a post of how we use it.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Izzy Wizzy Lets Get Bezier</title>
       <link>https://mezpahlan.github.io/blog/2020/11/24/izzy-wizzy-lets-get-bezier/</link>
