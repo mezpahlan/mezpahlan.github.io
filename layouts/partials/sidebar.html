@@ -18,7 +18,7 @@
 
     <nav id="sidebar-icon-links">
       {{ range .Site.Menus.main -}}
-      <a id="{{ .Name }}-link" class="icon" title="{{ .Name }}" aria-label="{{ .Name }}" href="{{ .URL }}">
+      <a rel="me" id="{{ .Name }}-link" class="icon" title="{{ .Name }}" aria-label="{{ .Name }}" href="{{ .URL }}">
         {{- partial "svg.html" .Name -}}
       </a>
       {{- end }}
