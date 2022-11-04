@@ -17,30 +17,30 @@
 &lt;figure &gt;
     
     
-
-
-
-
-
-
-&lt;img 
-  
-  srcset=&#39;
-  
-    /blog/2009/04/18/battle-of-the-year/battle-1_hu1dcf5f9d33003672d494198338fd800a_235915_500x0_resize_q75_box.jpg 1x
-  
-  
-    , /blog/2009/04/18/battle-of-the-year/battle-1_hu1dcf5f9d33003672d494198338fd800a_235915_800x0_resize_q75_box.jpg 1.6x
-  
-  
-    , /blog/2009/04/18/battle-of-the-year/battle-1_hu1dcf5f9d33003672d494198338fd800a_235915_1200x0_resize_q75_box.jpg 2.4x
-  
-  
-    , /blog/2009/04/18/battle-of-the-year/battle-1_hu1dcf5f9d33003672d494198338fd800a_235915_1500x0_resize_q75_box.jpg 3x 
-  &#39;
-  src=&#34;https://mezpahlan.github.io/blog/2009/04/18/battle-of-the-year/battle-1.jpg&#34; 
-  
-&gt;
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2009/04/18/battle-of-the-year/battle-1_hu1dcf5f9d33003672d494198338fd800a_235915_500x0_resize_q75_box.jpg 1x
+      
+      
+        , /blog/2009/04/18/battle-of-the-year/battle-1_hu1dcf5f9d33003672d494198338fd800a_235915_800x0_resize_q75_box.jpg 1.6x
+      
+      
+        , /blog/2009/04/18/battle-of-the-year/battle-1_hu1dcf5f9d33003672d494198338fd800a_235915_1200x0_resize_q75_box.jpg 2.4x
+      
+      
+        , /blog/2009/04/18/battle-of-the-year/battle-1_hu1dcf5f9d33003672d494198338fd800a_235915_1500x0_resize_q75_box.jpg 3x 
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2009/04/18/battle-of-the-year/battle-1.jpg&#34; 
+      
+    &gt;
 
     &lt;figcaption&gt;Battle of the year 1&lt;/figcaption&gt;
 &lt;/figure&gt;</description>

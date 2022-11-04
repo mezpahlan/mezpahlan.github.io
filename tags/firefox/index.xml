@@ -28,22 +28,22 @@
 &lt;figure &gt;
     
     
-
-
-
-
-
-
-&lt;img 
-  
-  srcset=&#39;
-  
-  
-  
-  &#39;
-  src=&#34;https://mezpahlan.github.io/blog/2010/01/24/checking-out-google-chrome-on-linux/chrome.jpg&#34; 
-  
-&gt;
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2010/01/24/checking-out-google-chrome-on-linux/chrome.jpg&#34; 
+      
+    &gt;
 
     &lt;figcaption&gt;Chrome&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
@@ -59,28 +59,28 @@
 &lt;figure &gt;
     
     
-
-
-
-
-
-
-&lt;img 
-  
-  srcset=&#39;
-  
-    /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_500x0_resize_box_2.png 1x
-  
-  
-    , /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_800x0_resize_box_2.png 1.6x
-  
-  
-    , /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_1200x0_resize_box_2.png 2.4x
-  
-  &#39;
-  src=&#34;https://mezpahlan.github.io/blog/2009/08/12/why-64/firefox.png&#34; 
-  
-&gt;
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_500x0_resize_box_3.png 1x
+      
+      
+        , /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_800x0_resize_box_3.png 1.6x
+      
+      
+        , /blog/2009/08/12/why-64/firefox_hua9c0b7883e1ab03733e3cb16b71b4e57_188745_1200x0_resize_box_3.png 2.4x
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2009/08/12/why-64/firefox.png&#34; 
+      
+    &gt;
 
     &lt;figcaption&gt;Firefox&lt;/figcaption&gt;
 &lt;/figure&gt;</description>

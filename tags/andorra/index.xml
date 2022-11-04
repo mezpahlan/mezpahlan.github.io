@@ -17,30 +17,30 @@
 &lt;figure &gt;
     
     
-
-
-
-
-
-
-&lt;img 
-  
-  srcset=&#39;
-  
-    /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_500x0_resize_q75_box.jpg 1x
-  
-  
-    , /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_800x0_resize_q75_box.jpg 1.6x
-  
-  
-    , /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_1200x0_resize_q75_box.jpg 2.4x
-  
-  
-    , /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_1500x0_resize_q75_box.jpg 3x 
-  &#39;
-  src=&#34;https://mezpahlan.github.io/blog/2013/02/07/andorra-snow/andorra1.jpg&#34; 
-  
-&gt;
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_500x0_resize_q75_box.jpg 1x
+      
+      
+        , /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_800x0_resize_q75_box.jpg 1.6x
+      
+      
+        , /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_1200x0_resize_q75_box.jpg 2.4x
+      
+      
+        , /blog/2013/02/07/andorra-snow/andorra1_hudc2baaf5ab81cee6d4fe9f7475f72a57_298806_1500x0_resize_q75_box.jpg 3x 
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2013/02/07/andorra-snow/andorra1.jpg&#34; 
+      
+    &gt;
 
     &lt;figcaption&gt;Andorra&lt;/figcaption&gt;
 &lt;/figure&gt;</description>

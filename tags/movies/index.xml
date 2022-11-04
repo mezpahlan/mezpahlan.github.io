@@ -36,24 +36,24 @@
 &lt;figure &gt;
     
     
-
-
-
-
-
-
-&lt;img 
-  
-  srcset=&#39;
-  
-    /blog/2009/07/20/bruno/bruno_huba12031058c9539ad4db72399cc64753_222681_500x0_resize_q75_box.jpg 1x
-  
-  
-  
-  &#39;
-  src=&#34;https://mezpahlan.github.io/blog/2009/07/20/bruno/bruno.jpg&#34; 
-  
-&gt;
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2009/07/20/bruno/bruno_huba12031058c9539ad4db72399cc64753_222681_500x0_resize_q75_box.jpg 1x
+      
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2009/07/20/bruno/bruno.jpg&#34; 
+      
+    &gt;
 
     &lt;figcaption&gt;Bruno&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
