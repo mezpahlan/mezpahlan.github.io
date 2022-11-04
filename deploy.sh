@@ -10,7 +10,7 @@ printf "\033[0;32mBuild the project...\033[0m\n"
 hugo
 
 # Go to public folder
-printf "\033[0;32mGo t public folder...\033[0m\n"
+printf "\033[0;32mGo to public folder...\033[0m\n"
 cd public
 
 # Add changes to git.
