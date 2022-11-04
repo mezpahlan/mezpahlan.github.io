@@ -16,7 +16,7 @@ $ git clone --recurse-submodules git@github.com:mezpahlan/mezpahlan.github.io.gi
 
 ## Draft
 
-To create a draft do the following:
+To create a draft do the following on the `main` branch:
 
 1. Run `$ hugo new blog/20YY/MM/DD/post-title` substituting the appropriate date characters.
 2. Edit your post.
