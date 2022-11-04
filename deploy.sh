@@ -31,7 +31,7 @@ git commit -m "$msg"
 
 # Push site.
 printf "\033[0;32mPush site...\033[0m\n"
-git push
+git push origin HEAD:gh-pages
 
 # Go to main folder.
 printf "\033[0;32mGo to main folder...\033[0m\n"
