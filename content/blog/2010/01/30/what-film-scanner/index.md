@@ -1,5 +1,6 @@
 +++
 author = "Mez Pahlan"
+categories = ["personal"]
 date = "2010-01-30T22:18:00Z"
 disqus_identifier = "fef8c487-4129-427b-831b-2b730ec65c24"
 tags = ["photography"]

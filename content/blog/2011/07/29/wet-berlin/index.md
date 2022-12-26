@@ -1,5 +1,6 @@
 +++
 author = "Mez Pahlan"
+categories = ["personal"]
 date = "2011-07-29T17:52:00Z"
 disqus_identifier = "c89d7ada-0985-41f9-aaaa-92a71677ef6c"
 tags = ["germany", "holidays"]

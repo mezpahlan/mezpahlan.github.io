@@ -1,5 +1,6 @@
 +++
 author = "Mez Pahlan"
+categories = ["personal"]
 date = "2010-02-19T23:34:00Z"
 disqus_identifier = "bf13ac6f-bcdf-4a33-be26-57f189c7270d"
 tags = ["ubuntu"]

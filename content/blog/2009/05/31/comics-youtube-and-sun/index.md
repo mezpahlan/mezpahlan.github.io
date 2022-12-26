@@ -1,5 +1,6 @@
 +++
 author = "Mez Pahlan"
+categories = ["personal"]
 date = "2009-05-31T00:26:00Z"
 disqus_identifier = "587b7dd1-7e53-4c29-9d1e-f7133ad373f4"
 tags = ["comics", "movies"]

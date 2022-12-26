@@ -1,5 +1,6 @@
 +++
 author = "Mez Pahlan"
+categories = ["personal"]
 date = "2010-04-26T20:58:00Z"
 disqus_identifier = "1266b72a-a604-41e6-9f09-e455be95594c"
 tags = ["android", "politics"]

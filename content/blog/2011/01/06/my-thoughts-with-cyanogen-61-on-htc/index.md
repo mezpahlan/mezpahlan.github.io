@@ -1,5 +1,6 @@
 +++
 author = "Mez Pahlan"
+categories = ["personal"]
 date = "2011-01-06T00:31:00Z"
 disqus_identifier = "ae5163c2-345e-4e71-a9da-5be2757636d7"
 tags = ["android"]

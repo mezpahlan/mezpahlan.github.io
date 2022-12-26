@@ -1,5 +1,6 @@
 +++
 author = "Mez Pahlan"
+categories = ["personal"]
 date = "2009-08-01T22:50:00Z"
 disqus_identifier = "3511f848-a5fa-4de7-b212-288e9b0395e1"
 tags = ["london"]

@@ -1,5 +1,6 @@
 +++
 author = "Mez Pahlan"
+categories = ["personal"]
 date = "2009-05-06T06:25:00Z"
 disqus_identifier = "b50af497-5db5-4f44-80ed-656bd5a815a3"
 tags = ["shopping"]

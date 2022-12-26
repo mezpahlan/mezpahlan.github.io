@@ -1,5 +1,6 @@
 +++
 author = "Mez Pahlan"
+categories = ["personal"]
 date = "2009-04-10T23:47:00Z"
 disqus_identifier = "25a4c6f2-680c-4ce7-bb01-b9040dc682fb"
 tags = ["bank holiday", "music", "ubuntu"]

@@ -1,5 +1,6 @@
 +++
 author = "Mez Pahlan"
+categories = ["personal"]
 date = "2012-02-11T10:17:00Z"
 disqus_identifier = "bbb1c409-c2a8-4afa-acf9-e14f30e34318"
 tags = ["london", "the castle"]

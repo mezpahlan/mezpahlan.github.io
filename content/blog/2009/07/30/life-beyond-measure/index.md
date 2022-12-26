@@ -1,5 +1,6 @@
 +++
 author = "Mez Pahlan"
+categories = ["personal"]
 date = "2009-07-30T21:41:00Z"
 disqus_identifier = "b1f90e7a-75e4-4ce0-966b-e1045a7074e9"
 tags = ["books"]

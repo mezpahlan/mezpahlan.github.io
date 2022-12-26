@@ -1,5 +1,6 @@
 +++
 author = "Mez Pahlan"
+categories = ["personal"]
 date = "2012-06-05T18:03:00Z"
 disqus_identifier = "9a4dd9da-348f-457c-b6cd-e42ace0a78d6"
 tags = ["south africa", "holidays"]

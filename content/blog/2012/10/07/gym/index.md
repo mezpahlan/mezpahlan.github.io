@@ -1,5 +1,6 @@
 +++
 author = "Mez Pahlan"
+categories = ["personal"]
 date = "2012-10-07T11:31:00Z"
 disqus_identifier = "33bc7967-e8b2-4765-82a8-26fbba5715df"
 tags = ["food"]

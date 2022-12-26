@@ -1,5 +1,6 @@
 +++
 author = "Mez Pahlan"
+categories = ["personal"]
 date = "2012-06-10T19:34:00Z"
 disqus_identifier = "93eb2602-abc5-4524-9bfe-fe8c61ab8c61"
 tags = ["bristol"]

@@ -1,5 +1,6 @@
 +++
 author = "Mez Pahlan"
+categories = ["personal"]
 date = "2012-05-07T14:06:00Z"
 disqus_identifier = "500fac2f-43d9-4818-95a3-0bfae2cddb3b"
 tags = ["bank holiday", "bristol"]

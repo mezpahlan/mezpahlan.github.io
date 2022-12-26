@@ -1,5 +1,6 @@
 +++
 author = "Mez Pahlan"
+categories = ["personal"]
 date = "2015-01-18T12:00:00Z"
 disqus_identifier = "178398f4-6098-487b-aa5f-d66ec1bb235f"
 tags = ["tv"]
