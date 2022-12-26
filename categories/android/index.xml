@@ -321,5 +321,16 @@
 &lt;/figure&gt;</description>
     </item>
     
+    <item>
+      <title>Developing for Android</title>
+      <link>https://mezpahlan.github.io/blog/2009/11/18/developing-for-android/</link>
+      <pubDate>Wed, 18 Nov 2009 20:19:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2009/11/18/developing-for-android/</guid>
+      <description>&lt;p&gt;I thought I&amp;rsquo;d develop an application for the Android Market.&lt;/p&gt;
+&lt;p&gt;I hear it is pretty similar to java which is something I&amp;rsquo;d like to learn. I&amp;rsquo;ll post my source if I make something that actually works!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://developer.android.com/index.html&#34;&gt;http://developer.android.com/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
