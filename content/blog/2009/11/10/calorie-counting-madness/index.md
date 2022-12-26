@@ -39,7 +39,8 @@ Fish = 200
 
 >"To lose 1lb a week, you need to eat 500 calories less than you use each day"
 
-Per day I need 2500 C, I eat (average) 715 C. Daaaaaaaaaaamn!! Except of Fridays 984 C plus undisclosed amounts for beer.
+Per day I need 2500 C, I eat (average) 715 C. Daaaaaaaaaaamn!! Except of Fridays 984 C plus undisclosed amounts for
+beer.
 
 So that would mean I'd loose 2 Kg a week if I kept this up?
 

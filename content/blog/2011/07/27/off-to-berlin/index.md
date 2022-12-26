@@ -16,4 +16,5 @@ I'm off to Berlin for the weekend for a good friend's stag do.
 
 <!--more-->
 
-I'll be leaving behind a trail of destruction wherever I go. Can't wait to try out my broken German... Ich mochte ein bier! 
+I'll be leaving behind a trail of destruction wherever I go. Can't wait to try out my broken German... Ich mochte ein
+bier! 

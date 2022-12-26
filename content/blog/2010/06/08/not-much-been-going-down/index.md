@@ -30,6 +30,7 @@ Enjoying myself
 
 Also I need to start thinking about opportunities elsewhere work wise.
 
-I'll say it... the android auto add words to the dictionary and then use them in sentences is very annoying. Especially when it misspells something.  Looking forward to a much better keyboard in the next release.
+I'll say it... the android auto add words to the dictionary and then use them in sentences is very annoying. Especially
+when it misspells something.  Looking forward to a much better keyboard in the next release.
 
 Posted via my Android

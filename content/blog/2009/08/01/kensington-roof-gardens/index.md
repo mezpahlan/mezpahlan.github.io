@@ -8,9 +8,11 @@ title = "Kensington Roof Gardens"
 
 +++
 
-Friday saw us visit the Kensington Roof Gardens for a friends birthday. Fantastic place as usual. I think we made the right call by getting completely wasted before we went in because drinks were fantastically expensive.
+Friday saw us visit the Kensington Roof Gardens for a friends birthday. Fantastic place as usual. I think we made the
+right call by getting completely wasted before we went in because drinks were fantastically expensive.
 
-I don't remember how we all got home such was the brilliance of the night. I'm a bit out of it today though, as you can probably tell.
+I don't remember how we all got home such was the brilliance of the night. I'm a bit out of it today though, as you can
+probably tell.
 
 {{< figure figcaption="Kensington Roof Gardens" >}}
     {{< img src="roof.jpg" >}}

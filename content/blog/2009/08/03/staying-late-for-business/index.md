@@ -16,9 +16,13 @@ Staying in hotels ain't all its cracked up to be.
 
 <!--more-->
 
-I'd like to think that I can work more efficiently from a hotel that is near your office location than having to do a monster commute home, but really I can't.  Sure I can stay in the office a bit longer and perhaps arrive earlier but its a lonely life. Nothing to do. Nothing to see. No one to talk to.
+I'd like to think that I can work more efficiently from a hotel that is near your office location than having to do a
+monster commute home, but really I can't.  Sure I can stay in the office a bit longer and perhaps arrive earlier but its
+a lonely life. Nothing to do. Nothing to see. No one to talk to.
 
-I suppose I should become even more efficient and start learning something else. A new skill perhaps. Damn! I want to get back into my photography. But I'm waiting for the price of that Leica to come down enough for me not to have to save over three years for one!
+I suppose I should become even more efficient and start learning something else. A new skill perhaps. Damn! I want to
+get back into my photography. But I'm waiting for the price of that Leica to come down enough for me not to have to save
+over three years for one!
 
 Well at least I have something to do here. Eat and surf the free internet. Mmmmmm free internet.
 

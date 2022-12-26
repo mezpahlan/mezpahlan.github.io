@@ -10,15 +10,18 @@ title = "Masa Bristol - A great sushi place"
 
 Happy New Year to all.
 
-To celebrate, I've just eaten some excellent sushi at [Masa](http://www.masajapaneserestaurant.com/) in Bristol. Really nice and cozy and some wonderful cooking too!
+To celebrate, I've just eaten some excellent sushi at [Masa](http://www.masajapaneserestaurant.com/) in Bristol. Really
+nice and cozy and some wonderful cooking too!
+
 {{< figure figcaption="Sushi" >}}
     {{< img src="sushi1.jpg" >}}
 {{< /figure >}}
 
 <!--more-->
 
-We had: snow crab dumplings, yellow tail and jalapeños sashimi, a bento box, tempura. We finished with a cheesecake (it is new year's day!) and drank traditional Japanese beverages: Whiskey and beer.
-I recommend it thoroughly if you are in the area.
+We had: snow crab dumplings, yellow tail and jalapeños sashimi, a bento box, tempura. We finished with a cheesecake (it
+is new year's day!) and drank traditional Japanese beverages: Whiskey and beer. I recommend it thoroughly if you are in
+the area.
 
 {{< figure figcaption="Sushi" >}}
     {{< img src="sushi2.jpg" >}}

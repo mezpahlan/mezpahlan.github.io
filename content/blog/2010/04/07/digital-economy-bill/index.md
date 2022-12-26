@@ -18,6 +18,7 @@ Read up on that.
 
 <!--more-->
 
-Whether the bill is worthy of law or not I don't like the idea that it is being rushed through without proper debate and consultation.
+Whether the bill is worthy of law or not I don't like the idea that it is being rushed through without proper debate and
+consultation.
 
 Oh wait, I live in the U.K. Business as usual.

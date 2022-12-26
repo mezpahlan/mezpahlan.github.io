@@ -8,7 +8,8 @@ title = "Lemon Drizzle Cake "
 
 +++
 
-Lemon drizzle cake is something that I have wanted to bake for a while but have never got around to doing. I'm glad that I gave it a go because it is one of the simplest things to make and very tasty!  
+Lemon drizzle cake is something that I have wanted to bake for a while but have never got around to doing. I'm glad that
+I gave it a go because it is one of the simplest things to make and very tasty!  
 
 {{< figure figcaption="Lemon drizzle cake" >}}
     {{< img src="lemon-cake.jpg" >}}
@@ -30,8 +31,15 @@ Here's what you need:
 
 And here's how you do it:
 
-In a large bowl mix up the caster sugar and butter until golden / yellow and fluffy. Add each of the eggs in and mix each thoroughly before adding the next. Add in the zest if one of the lemons, sift the flour and the almonds and mix in. Finally add in a pinch of salt and the milk until the mixture droops off the mixing spoon.  
+In a large bowl mix up the caster sugar and butter until golden / yellow and fluffy. Add each of the eggs in and mix
+each thoroughly before adding the next. Add in the zest if one of the lemons, sift the flour and the almonds and mix in.
+Finally add in a pinch of salt and the milk until the mixture droops off the mixing spoon.  
 
-Spoon in this mixture into a greased baking tray and put into an oven at 160 °C for about an hour. At the fifty minute mark check the cake by poking it with a skewer. The skewer should be able to be removed without any mixture sticking to it. Whilst the cake is cooking prepare the syrup by mixing the demerara sugar and the zest of the second lemon along with the juice of both of the lemons. When the cake is done cooking, remove and leave to cool for about an hour. Make knife incisions into the cake and pour the syrup into them and all of the top of the cake. This will cook whilst the cake cools.
+Spoon in this mixture into a greased baking tray and put into an oven at 160 °C for about an hour. At the fifty minute
+mark check the cake by poking it with a skewer. The skewer should be able to be removed without any mixture sticking to
+it. Whilst the cake is cooking prepare the syrup by mixing the demerara sugar and the zest of the second lemon along
+with the juice of both of the lemons. When the cake is done cooking, remove and leave to cool for about an hour. Make
+knife incisions into the cake and pour the syrup into them and all of the top of the cake. This will cook whilst the
+cake cools.
 
 Serve with a mug of tea and enjoy!

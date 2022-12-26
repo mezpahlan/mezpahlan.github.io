@@ -18,6 +18,7 @@ Band practice kicks off again with a trip back to Beit Hall at Imperial College.
 
 Sadly the weather is a tad inclement to say the least.
 
-Writing a new song today. Need to come up with some lyrics also need to finalise another and polish off a third. That's three songs. Add in a fourth from previous incarnations of the band and we might have enough to do an EP or something?
+Writing a new song today. Need to come up with some lyrics also need to finalise another and polish off a third. That's
+three songs. Add in a fourth from previous incarnations of the band and we might have enough to do an EP or something?
 
 Must think of lyrics though!

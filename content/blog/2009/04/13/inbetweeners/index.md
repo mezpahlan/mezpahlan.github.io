@@ -8,7 +8,8 @@ title = "The Inbetweeners"
 
 +++
 
-This programme is awesome! Kind of like Peep Show with 6th formers. Exactly how I remember school. Us fucking about swearing quite casually and laughing at each other getting into trouble and screwing up. Hahahaha!
+This programme is awesome! Kind of like Peep Show with 6th formers. Exactly how I remember school. Us fucking about
+swearing quite casually and laughing at each other getting into trouble and screwing up. Hahahaha!
 
 Season 2 on air now!
 

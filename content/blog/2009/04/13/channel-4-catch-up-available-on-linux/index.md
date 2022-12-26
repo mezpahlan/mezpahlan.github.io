@@ -10,7 +10,9 @@ title = "Channel 4 catch up available on Linux!!"
 
 OMG!!
 
-<a href="http://www.channel4.com/programmes/4od">4OD</a> is now available in streaming flash format!! Much like <a href="http://www.bbc.co.uk/iplayer/">BBC iPlayer</a>! This means a move away from crappy wmv formats and a step in the right direction for support for other OSs such as Linux and macs.
+<a href="http://www.channel4.com/programmes/4od">4OD</a> is now available in streaming flash format!! Much like <a
+href="http://www.bbc.co.uk/iplayer/">BBC iPlayer</a>! This means a move away from crappy wmv formats and a step in the
+right direction for support for other OSs such as Linux and macs.
 
 Go Channel 4!!
 

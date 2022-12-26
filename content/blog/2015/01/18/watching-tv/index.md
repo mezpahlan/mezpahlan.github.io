@@ -8,7 +8,8 @@ title = "Watching TV "
 
 +++
 
-I have become very addicted to streaming video and TV series in particular. [Netflix](https://www.netflix.com/) has been my go to choice for this. Although I also still enjoy *traditional* methods.
+I have become very addicted to streaming video and TV series in particular. [Netflix](https://www.netflix.com/) has been
+my go to choice for this. Although I also still enjoy *traditional* methods.
 
 <!--more-->
 

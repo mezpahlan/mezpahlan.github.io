@@ -10,7 +10,8 @@ title = "Cape Of Good Hope And Kirstenbosch Gardens "
 
 #### South Africa Day Three
 
-My last blog post aimed to be in the style of American Psycho. Reading it back to myself it sounds more like Alan Partridge. So I will try something different this time. I will write this on the style of Dr Seuss.
+My last blog post aimed to be in the style of American Psycho. Reading it back to myself it sounds more like Alan
+Partridge. So I will try something different this time. I will write this on the style of Dr Seuss.
 
 <!--more-->
 

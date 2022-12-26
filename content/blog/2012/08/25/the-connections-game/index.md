@@ -19,7 +19,8 @@ Played this about a month ago with my girlfriend. Good fun, especially with beer
 5. Player 1&nbsp; guesses the connection
 6. Rinse and repeat 
 
-Here's the final list that we came up with. See if you can guess the actual songs. (Some connections are stronger than others!)
+Here's the final list that we came up with. See if you can guess the actual songs. (Some connections are stronger than
+others!)
 
 
 * No Doubt

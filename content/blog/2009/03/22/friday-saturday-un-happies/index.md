@@ -22,6 +22,7 @@ Drinks stupid prices nothing under a fiver.
 
 Atmosphere....... abhorrent.
 
-I wasn't really in the mood for this. Who wants to move from squashed room to squashed room being shoved by assholes trying to impress other assholes?
+I wasn't really in the mood for this. Who wants to move from squashed room to squashed room being shoved by assholes
+trying to impress other assholes?
 
 Suffice it to say I left not an hour after arriving and fell asleep on the night bus past my home.

@@ -8,7 +8,8 @@ title = "Work laptop upgraded to Karmic"
 
 +++
 
-I upgraded my work laptop to the IBM Ubuntu reeeeeemix. I'm very impressed with the ease Ubuntu can be customised and how well that works with installations/ upgrades. Fantastic stuff.
+I upgraded my work laptop to the IBM Ubuntu reeeeeemix. I'm very impressed with the ease Ubuntu can be customised and
+how well that works with installations/ upgrades. Fantastic stuff.
 
 {{< figure figcaption="Karmix Koala" >}}
     {{< img src="koala.jpg" >}}

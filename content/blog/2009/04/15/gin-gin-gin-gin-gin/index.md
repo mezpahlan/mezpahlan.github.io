@@ -12,11 +12,15 @@ title = "Gin gin gin gin gin"
 
 <!--more-->
 
-I'm watching Hollyoaks at the moment, it's teetering along.... nothing major happening that is interesting me. That's why I'm streaming it and only listening to the audio.
+I'm watching Hollyoaks at the moment, it's teetering along.... nothing major happening that is interesting me. That's
+why I'm streaming it and only listening to the audio.
 
-I feel like doing a round of gin. No three rounds! No a whole bottle. Screw it I just want to get wasted on gin. Haven't done that in ages.
+I feel like doing a round of gin. No three rounds! No a whole bottle. Screw it I just want to get wasted on gin. Haven't
+done that in ages.
 
-Reminds me of a time I got so wasted on Malibu that I fell into a girls lap. Face first. Don't worry....... she didn't mind. I also proceeded to fall off a bass amp. Break my glasses onto my nose and lock myself in a toilet. Hahahaha those were the days!
+Reminds me of a time I got so wasted on Malibu that I fell into a girls lap. Face first. Don't worry....... she didn't
+mind. I also proceeded to fall off a bass amp. Break my glasses onto my nose and lock myself in a toilet. Hahahaha those
+were the days!
 
 {{< figure figcaption="Womans holy war" >}}
     {{< img src="womans-holy-war.jpg" >}}

@@ -25,6 +25,7 @@ Difference = 738 C
 
 <!--more-->
 
-Shit clearly I have to cut down on the dinner meals! I'll go for two meat portions tomorrow could possibly go up to 1000 C difference!
+Shit clearly I have to cut down on the dinner meals! I'll go for two meat portions tomorrow could possibly go up to 1000
+C difference!
 
 I did a pretty intense 15 minutes of exercise though. Weights and push ups and sit ups.
