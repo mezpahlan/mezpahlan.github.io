@@ -33,8 +33,6 @@ To deploy do the following:
 
 ## Still to do
 
-- [ ] Fix tags.
-    - `categories` seems to work `android` and `personal`.
 - [ ] Fix RSS feed.
 - [ ] Add portfolio section.
 - [ ] Custom CNAME.
