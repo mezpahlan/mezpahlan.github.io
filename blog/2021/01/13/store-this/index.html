@@ -3,7 +3,7 @@
 <head>
   <link href="https://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.105.0">
+  <meta name="generator" content="Hugo 0.109.0">
 
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -95,8 +95,8 @@
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    api.fetchMessages(client) <span style="color:#75715e">// Suppose this returns Single&lt;List&lt;Messages&gt;&gt;
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        .flattenAsFlowable { <span style="color:#66d9ef">it</span> }
 </span></span><span style="display:flex;"><span>        .count()
-</span></span><span style="display:flex;"><span>        .subscribeOn(Schedulers.io())
-</span></span><span style="display:flex;"><span>        .observeOn(AndroidSchedulers.mainThread())
+</span></span><span style="display:flex;"><span>        .subscribeOn(<span style="color:#a6e22e">Schedulers</span>.io())
+</span></span><span style="display:flex;"><span>        .observeOn(<span style="color:#a6e22e">AndroidSchedulers</span>.mainThread())
 </span></span><span style="display:flex;"><span>        .subscribeBy(
 </span></span><span style="display:flex;"><span>            onSuccess = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(unread = <span style="color:#66d9ef">it</span> &gt; <span style="color:#ae81ff">0L</span>) },
 </span></span><span style="display:flex;"><span>            onError = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(error = <span style="color:#66d9ef">true</span>) }
@@ -104,8 +104,8 @@
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">// On the second page we want to show the list of messages
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    api.fetchMessages(client) <span style="color:#75715e">// Suppose this returns Single&lt;List&lt;Messages&gt;&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        .subscribeOn(Schedulers.io())
-</span></span><span style="display:flex;"><span>        .observeOn(AndroidSchedulers.mainThread())
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        .subscribeOn(<span style="color:#a6e22e">Schedulers</span>.io())
+</span></span><span style="display:flex;"><span>        .observeOn(<span style="color:#a6e22e">AndroidSchedulers</span>.mainThread())
 </span></span><span style="display:flex;"><span>        .subscribeBy(
 </span></span><span style="display:flex;"><span>            onSuccess = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(list = <span style="color:#66d9ef">it</span>) },
 </span></span><span style="display:flex;"><span>            onError = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(error = <span style="color:#66d9ef">true</span>) }
@@ -116,8 +116,8 @@
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        .flattenAsFlowable { <span style="color:#66d9ef">it</span> }
 </span></span><span style="display:flex;"><span>        .filter { <span style="color:#66d9ef">it</span>.id <span style="color:#f92672">==</span> selectedId }
 </span></span><span style="display:flex;"><span>        .firstOrError()
-</span></span><span style="display:flex;"><span>        .subscribeOn(Schedulers.io())
-</span></span><span style="display:flex;"><span>        .observeOn(AndroidSchedulers.mainThread())
+</span></span><span style="display:flex;"><span>        .subscribeOn(<span style="color:#a6e22e">Schedulers</span>.io())
+</span></span><span style="display:flex;"><span>        .observeOn(<span style="color:#a6e22e">AndroidSchedulers</span>.mainThread())
 </span></span><span style="display:flex;"><span>        .subscribeBy(
 </span></span><span style="display:flex;"><span>            onSuccess = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(subject = <span style="color:#66d9ef">it</span>.title, body = <span style="color:#66d9ef">it</span>.message) },
 </span></span><span style="display:flex;"><span>            onError = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(error = <span style="color:#66d9ef">true</span>) }
@@ -126,8 +126,8 @@
 <p>The takeaway point here is that we&rsquo;ve already fetched the relevant information we need after the first page. Yet we go on to make two identical calls.</p>
 <h1 id="how-does-store-help-with-this">How Does Store Help With This?</h1>
 <p>In the simplest form Store gives you an in memory cache implementation. To take advantage of this you need to wrap your <code>api</code> fetching call in a <em>Store</em>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#66d9ef">val</span> repository = StoreBuilder.from&lt;Client, List&lt;Messages&gt;&gt;(
-</span></span><span style="display:flex;"><span>                        fetcher = Fetcher.ofSingle {  api.fetchMessages(client) }
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#66d9ef">val</span> repository = <span style="color:#a6e22e">StoreBuilder</span>.from&lt;Client, List&lt;Messages&gt;&gt;(
+</span></span><span style="display:flex;"><span>                        fetcher = <span style="color:#a6e22e">Fetcher</span>.ofSingle {  api.fetchMessages(client) }
 </span></span><span style="display:flex;"><span>                    )
 </span></span><span style="display:flex;"><span>                    .build()</span></span></code></pre></div>
 <p>Now your calls might look like this:</p>
@@ -135,8 +135,8 @@
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    repository.getSingle(client) <span style="color:#75715e">// The first invocation fills the cache from the network
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        .flattenAsFlowable { <span style="color:#66d9ef">it</span> }
 </span></span><span style="display:flex;"><span>        .count()
-</span></span><span style="display:flex;"><span>        .subscribeOn(Schedulers.io())
-</span></span><span style="display:flex;"><span>        .observeOn(AndroidSchedulers.mainThread())
+</span></span><span style="display:flex;"><span>        .subscribeOn(<span style="color:#a6e22e">Schedulers</span>.io())
+</span></span><span style="display:flex;"><span>        .observeOn(<span style="color:#a6e22e">AndroidSchedulers</span>.mainThread())
 </span></span><span style="display:flex;"><span>        .subscribeBy(
 </span></span><span style="display:flex;"><span>            onSuccess = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(unread = <span style="color:#66d9ef">it</span> &gt; <span style="color:#ae81ff">0L</span>) },
 </span></span><span style="display:flex;"><span>            onError = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(error = <span style="color:#66d9ef">true</span>) }
@@ -144,8 +144,8 @@
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">// On the second page we want to show the list of messages
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    repository.getSingle(client) <span style="color:#75715e">// The second invocation makes no network call (within the policy)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        .subscribeOn(Schedulers.io())
-</span></span><span style="display:flex;"><span>        .observeOn(AndroidSchedulers.mainThread())
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        .subscribeOn(<span style="color:#a6e22e">Schedulers</span>.io())
+</span></span><span style="display:flex;"><span>        .observeOn(<span style="color:#a6e22e">AndroidSchedulers</span>.mainThread())
 </span></span><span style="display:flex;"><span>        .subscribeBy(
 </span></span><span style="display:flex;"><span>            onSuccess = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(list = <span style="color:#66d9ef">it</span>) },
 </span></span><span style="display:flex;"><span>            onError = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(error = <span style="color:#66d9ef">true</span>) }
@@ -156,8 +156,8 @@
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        .flattenAsFlowable { <span style="color:#66d9ef">it</span> }
 </span></span><span style="display:flex;"><span>        .filter { <span style="color:#66d9ef">it</span>.id <span style="color:#f92672">==</span> selectedId }
 </span></span><span style="display:flex;"><span>        .firstOrError()
-</span></span><span style="display:flex;"><span>        .subscribeOn(Schedulers.io())
-</span></span><span style="display:flex;"><span>        .observeOn(AndroidSchedulers.mainThread())
+</span></span><span style="display:flex;"><span>        .subscribeOn(<span style="color:#a6e22e">Schedulers</span>.io())
+</span></span><span style="display:flex;"><span>        .observeOn(<span style="color:#a6e22e">AndroidSchedulers</span>.mainThread())
 </span></span><span style="display:flex;"><span>        .subscribeBy(
 </span></span><span style="display:flex;"><span>            onSuccess = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(subject = <span style="color:#66d9ef">it</span>.title, body = <span style="color:#66d9ef">it</span>.message) },
 </span></span><span style="display:flex;"><span>            onError = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(error = <span style="color:#66d9ef">true</span>) }
@@ -182,8 +182,8 @@
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">data</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Listeners</span>(<span style="color:#66d9ef">val</span> left: String, <span style="color:#66d9ef">val</span> centre: String, <span style="color:#66d9ef">val</span> right: String)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">data</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Track</span>(<span style="color:#66d9ef">val</span> name: String)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">val</span> repository = StoreBuilder.from&lt;Listeners, Track&gt;(
-</span></span><span style="display:flex;"><span>                        fetcher = Fetcher.ofSingle {  api.fetchMusic(<span style="color:#66d9ef">it</span>.left, <span style="color:#66d9ef">it</span>.centre, <span style="color:#66d9ef">it</span>.right) }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">val</span> repository = <span style="color:#a6e22e">StoreBuilder</span>.from&lt;Listeners, Track&gt;(
+</span></span><span style="display:flex;"><span>                        fetcher = <span style="color:#a6e22e">Fetcher</span>.ofSingle {  api.fetchMusic(<span style="color:#66d9ef">it</span>.left, <span style="color:#66d9ef">it</span>.centre, <span style="color:#66d9ef">it</span>.right) }
 </span></span><span style="display:flex;"><span>                    )
 </span></span><span style="display:flex;"><span>                    .build()
 </span></span><span style="display:flex;"><span>
@@ -194,9 +194,9 @@
 <p>Store has the concept of a <em>Fetcher</em>. That&rsquo;s pretty obvious as to what it does. It is typically a network API call but it doesn&rsquo;t have to be. It can be any Kotlin <a href="https://kotlinlang.org/docs/reference/coroutines/flow.html">Flow</a>. Here&rsquo;s where I am a bit hazy because I haven&rsquo;t used Coroutines a lot but these are <em>similar</em> to Flowables from the Reactive framework. The example above use extension functions to hide the fact that we are actually creating Kotlin Flows when defining our Fetchers.</p>
 <p>Store also has the concept of <em>Source Of Truth</em>. This is similar to the caching capability explained above but to a truly persistent source this time. In the Android world this might be <a href="https://developer.android.com/jetpack/androidx/releases/room">Room</a>, <a href="https://github.com/cashapp/sqldelight">SQLDelight</a>. But again, it doesn&rsquo;t have to be&hellip;&hellip; I&rsquo;d recommend it is though.</p>
 <p>What if, for example, we wanted to show our list of messaged but there was an outage in network. You&rsquo;ve driven under a tunnel (forget for a second that you&rsquo;re checking message whilst driving&hellip;. naughty naughty). If you&rsquo;ve previously fetched the data it would be better to at least show it in read only format rather than an error screen. Here&rsquo;s what you&rsquo;d have to do:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#66d9ef">val</span> repository = StoreBuilder.from&lt;Client, List&lt;Messages&gt;, List&lt;Messages&gt;&gt;(
-</span></span><span style="display:flex;"><span>                        fetcher = Fetcher.ofSingle {  api.fetchMessages(client) },
-</span></span><span style="display:flex;"><span>                        sourceOfTruth = SourceOfTruth.ofMaybe(
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#66d9ef">val</span> repository = <span style="color:#a6e22e">StoreBuilder</span>.from&lt;Client, List&lt;Messages&gt;, List&lt;Messages&gt;&gt;(
+</span></span><span style="display:flex;"><span>                        fetcher = <span style="color:#a6e22e">Fetcher</span>.ofSingle {  api.fetchMessages(client) },
+</span></span><span style="display:flex;"><span>                        sourceOfTruth = <span style="color:#a6e22e">SourceOfTruth</span>.ofMaybe(
 </span></span><span style="display:flex;"><span>                            reader = { key <span style="color:#f92672">-&gt;</span> db.read(key) },
 </span></span><span style="display:flex;"><span>                            write = { key, <span style="color:#66d9ef">value</span> <span style="color:#f92672">-&gt;</span> db.write(<span style="color:#66d9ef">value</span>) },
 </span></span><span style="display:flex;"><span>                            delete = { key <span style="color:#f92672">-&gt;</span> db.delete(key) },
@@ -212,8 +212,8 @@
 <p>I am still discovering the best way to do this so don&rsquo;t take this as any sort of best practice but my thought process for this was as follows. The Store is <em>essentially</em> a library for the repository pattern. Where would your repository code sit? As a dependency to your Presenter? As a dependency to your ViewModel? As a dependency to your UseCase (if you&rsquo;re Uncle Bob&rsquo;ing it). You&rsquo;ll see in the examples above that I create Stores using the Builder and assign it to a variable called <code>repository</code>. But <em>where</em> do I do this?</p>
 <p>I started out initially by creating the repositories within our UseCase for pure convinience like this:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UseCase</span>(<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">val</span> api: Api) : SingleUseCase&lt;Client, List&lt;Messages&gt;&gt; {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">val</span> repository = StoreBuilder.from&lt;Client, List&lt;Messages&gt;&gt;(
-</span></span><span style="display:flex;"><span>                        fetcher = Fetcher.ofSingle {  api.fetchMessages(client) }
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">val</span> repository = <span style="color:#a6e22e">StoreBuilder</span>.from&lt;Client, List&lt;Messages&gt;&gt;(
+</span></span><span style="display:flex;"><span>                        fetcher = <span style="color:#a6e22e">Fetcher</span>.ofSingle {  api.fetchMessages(client) }
 </span></span><span style="display:flex;"><span>                    )
 </span></span><span style="display:flex;"><span>                    .build()
 </span></span><span style="display:flex;"><span>
@@ -222,7 +222,7 @@
 </span></span><span style="display:flex;"><span>                        .flattenAsFlowable { <span style="color:#66d9ef">it</span> }
 </span></span><span style="display:flex;"><span>                        .filter { <span style="color:#66d9ef">it</span>.id <span style="color:#f92672">==</span> selectedId }
 </span></span><span style="display:flex;"><span>                        .firstOrError()
-</span></span><span style="display:flex;"><span>                        .subscribeOn(Schedulers.io()) 
+</span></span><span style="display:flex;"><span>                        .subscribeOn(<span style="color:#a6e22e">Schedulers</span>.io()) 
 </span></span><span style="display:flex;"><span>                        <span style="color:#75715e">// Note that we don&#39;t directly subscribe here we do that in a layer above.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        }
 </span></span><span style="display:flex;"><span>    }</span></span></code></pre></div>
@@ -239,9 +239,9 @@
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">val</span> db: DB
 </span></span><span style="display:flex;"><span>    ) : SingleUseCase&lt;Client, List&lt;Messages&gt;&gt; {
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">val</span> store <span style="color:#66d9ef">by</span> lazy {
-</span></span><span style="display:flex;"><span>            StoreBuilder.from&lt;Client, List&lt;Messages&gt;, List&lt;Messages&gt;&gt;(
-</span></span><span style="display:flex;"><span>                        fetcher = Fetcher.ofSingle {  api.fetchMessages(client) },
-</span></span><span style="display:flex;"><span>                        sourceOfTruth = SourceOfTruth.ofMaybe(
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">StoreBuilder</span>.from&lt;Client, List&lt;Messages&gt;, List&lt;Messages&gt;&gt;(
+</span></span><span style="display:flex;"><span>                        fetcher = <span style="color:#a6e22e">Fetcher</span>.ofSingle {  api.fetchMessages(client) },
+</span></span><span style="display:flex;"><span>                        sourceOfTruth = <span style="color:#a6e22e">SourceOfTruth</span>.ofMaybe(
 </span></span><span style="display:flex;"><span>                            reader = { key <span style="color:#f92672">-&gt;</span> db.read(key) },
 </span></span><span style="display:flex;"><span>                            write = { key, <span style="color:#66d9ef">value</span> <span style="color:#f92672">-&gt;</span> db.write(<span style="color:#66d9ef">value</span>) },
 </span></span><span style="display:flex;"><span>                            delete = { key <span style="color:#f92672">-&gt;</span> db.delete(key) },
@@ -265,7 +265,7 @@
 </span></span><span style="display:flex;"><span>                        .flattenAsFlowable { <span style="color:#66d9ef">it</span> }
 </span></span><span style="display:flex;"><span>                        .filter { <span style="color:#66d9ef">it</span>.id <span style="color:#f92672">==</span> selectedId }
 </span></span><span style="display:flex;"><span>                        .firstOrError()
-</span></span><span style="display:flex;"><span>                        .subscribeOn(Schedulers.io())
+</span></span><span style="display:flex;"><span>                        .subscribeOn(<span style="color:#a6e22e">Schedulers</span>.io())
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>    }</span></span></code></pre></div>
 <p>There are a few interesting things happening here. First the UseCase is no longer a Singleton. It doesn&rsquo;t need to be. Instead it simply depends on a Repository and doesn&rsquo;t know or care where the data is coming from. Secondly the Repository has been moved to its own object that is marked as a Singleton. This is less jarring than the first example and makes the responsibility of the two objects clearer. Lastly, the Store is built <em>lazily</em> using the Kotlin <code>by lazy</code> delegate. This ensures that we don&rsquo;t do extra work until we really have to i.e. when the UseCase executes the logic.</p>
