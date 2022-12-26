@@ -1,10 +1,10 @@
 {{ define "main" }}
     <h1>All {{ .Type }}</h1>
     <ul>
-      {{ range .Data.Pages }}
+      {{ range $.Site.Taxonomies.tags.ByCount }}
         <li>
-          <a href="{{ .Permalink }}">{{ .Title }}</a> - {{ len .Pages }}
+          <a href="/tags/{{ .Name }}"> {{ .Name }}</a> <small>({{ .Count }})</small>
         </li>
-      {{ end }}
-    </ul>
+      {{end}}
+      </ul>
 {{ end }}
