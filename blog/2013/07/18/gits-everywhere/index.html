@@ -62,7 +62,8 @@
     
     | <div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="android" class="svg-inline--fa fa-android fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M420.55,301.93a24,24,0,1,1,24-24,24,24,0,0,1-24,24m-265.1,0a24,24,0,1,1,24-24,24,24,0,0,1-24,24m273.7-144.48,47.94-83a10,10,0,1,0-17.27-10h0l-48.54,84.07a301.25,301.25,0,0,0-246.56,0L116.18,64.45a10,10,0,1,0-17.27,10h0l47.94,83C64.53,202.22,8.24,285.55,0,384H576c-8.24-98.45-64.54-181.78-146.85-226.55"></path></svg></div>
     
-</time><p>Another long break between blog posts. Mostly out of laziness but also because I am trying to learn and teach myself Android programming. Here&rsquo;s a short post about how I&rsquo;m getting along.</p>
+</time><p>Another long break between blog posts. Mostly out of laziness but also because I am trying to learn and teach myself
+Android programming. Here&rsquo;s a short post about how I&rsquo;m getting along.</p>
 <figure >
     
     
@@ -87,23 +88,38 @@
 
     <figcaption>Android Penguins</figcaption>
 </figure>
-<p>The first hurdle is to get all of your project tools set up and running correctly. This has vastly improved since the last time I tried it out. Now there is a single package (<a href="http://developer.android.com/sdk/index.html">ADT Bundle</a>) to install that provides you with a development IDE, the SDK and the Android Tools to get you going. You can find this on the revamped <a href="http://developer.android.com/">Android Development</a> website. There are also a bunch of tutorials that are very helpful which I suggest you look at and try to follow.</p>
-<p>Secondly have a separate tab constantly open to <a href="http://stackoverflow.com/questions/tagged/android">StackOverflow</a>. You&rsquo;ll thank me later.</p>
-<p>Lastly I signed up for <a href="https://github.com/">GitHub</a> access to share the code and get help from other programmers. Perhaps at a later date I will write how to set up Git with Eclipse (it&rsquo;s not that difficult, but it took me about four attempts).</p>
+<p>The first hurdle is to get all of your project tools set up and running correctly. This has vastly improved since the
+last time I tried it out. Now there is a single package (<a href="http://developer.android.com/sdk/index.html">ADT Bundle</a>) to
+install that provides you with a development IDE, the SDK and the Android Tools to get you going. You can find this on
+the revamped <a href="http://developer.android.com/">Android Development</a> website. There are also a bunch of tutorials that are
+very helpful which I suggest you look at and try to follow.</p>
+<p>Secondly have a separate tab constantly open to <a href="http://stackoverflow.com/questions/tagged/android">StackOverflow</a>.
+You&rsquo;ll thank me later.</p>
+<p>Lastly I signed up for <a href="https://github.com/">GitHub</a> access to share the code and get help from other programmers.
+Perhaps at a later date I will write how to set up Git with Eclipse (it&rsquo;s not that difficult, but it took me about four
+attempts).</p>
 <p>You can find my code on my <a href="https://github.com/mezpahlan">user page on GitHub</a>.</p>
-<p>The code for Sean&rsquo;s Penguins can be found <a href="https://github.com/mezpahlan/SeansPenguins">here</a>. It&rsquo;s all open source because my primary focus is learning and I also want to say that I am an open source project lead!</p>
-<p>The application is meant to be a simple image gallery. The source for the images is currently a penguin related <a href="http://www.cheezburger.com/">icanhascheezburger</a> search. This gets parsed by a rather brilliant library called <a href="http://jsoup.org/">JSoup</a> and displayed in a gallery which is scrollable. I use another library to help me out here called <a href="https://github.com/koush/UrlImageViewHelper">URLImageViewHelper</a>.</p>
-<p>Current problems are that it is mostly a hack job and not something I can truly call my own at the moment - I&rsquo;m using two libraries to do the clever stuff. I have a list of improvements I want to make too. Hopefully I will get around to them over the next few weeks.</p>
+<p>The code for Sean&rsquo;s Penguins can be found <a href="https://github.com/mezpahlan/SeansPenguins">here</a>. It&rsquo;s all open source
+because my primary focus is learning and I also want to say that I am an open source project lead!</p>
+<p>The application is meant to be a simple image gallery. The source for the images is currently a penguin related
+<a href="http://www.cheezburger.com/">icanhascheezburger</a> search. This gets parsed by a rather brilliant library called
+<a href="http://jsoup.org/">JSoup</a> and displayed in a gallery which is scrollable. I use another library to help me out here
+called <a href="https://github.com/koush/UrlImageViewHelper">URLImageViewHelper</a>.</p>
+<p>Current problems are that it is mostly a hack job and not something I can truly call my own at the moment - I&rsquo;m using
+two libraries to do the clever stuff. I have a list of improvements I want to make too. Hopefully I will get around to
+them over the next few weeks.</p>
 <ol>
 <li>Fix the layout - You&rsquo;ll notice that the title doesn&rsquo;t appear in the correct place.</li>
 <li>Make the images scalable with pinch to zoom affects.</li>
-<li>Swap out for a Google Image search instead - Get some exposure to using a proper API (JSON based) instead of scraping a web page.</li>
+<li>Swap out for a Google Image search instead - Get some exposure to using a proper API (JSON based) instead of scraping
+a web page.</li>
 <li>Allow more than 6 images - 6 is the number on each page of the website I&rsquo;m scraping from.</li>
 <li>Fix the application icons - They are low resolution and could be better.</li>
 <li>Have a start up image - To be displayed whilst the images are downloading in the background.</li>
 <li>Remove URLImageViewHelper dependency - Perhaps cache the images for performance so it is not always fetching.</li>
 <li>Implement a sharing menu - Using intents?</li>
-<li>Implement a proper application life cycle - At the moment I am at the mercy of the defaults and am probably leaking memory very badly.</li>
+<li>Implement a proper application life cycle - At the moment I am at the mercy of the defaults and am probably leaking
+memory very badly.</li>
 <li>Sign the application - For publishing to Google Play.</li>
 </ol>
 <p>Fun!</p>

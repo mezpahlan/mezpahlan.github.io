@@ -88,12 +88,25 @@
 
     <figcaption>Obviously I do not condone violence.</figcaption>
 </figure>
-<p>Hello and Happy New Year! What did you get up to for New Year&rsquo;s? Lockdown you say? Well let&rsquo;s blow all that away and get reading shall we? This post is about an Android library from Dropbox called <a href="https://github.com/dropbox/Store">Store</a> (Store 4 to be precise). It facilitates the repository pattern, has been rebuilt from the ground up using Kotlin Coroutines, and is a great way to accelerate your app to becoming reactive. I&rsquo;ve been using it for about a year in production during their alpha phase and now that it has recently gone stable I want to share a post of how we use it.</p>
-<p>I should start by saying that whilst I am totally in love with this library I don&rsquo;t use it with Kotlin <a href="https://kotlinlang.org/docs/reference/coroutines-overview.html">Coroutines</a>. Sadly I&rsquo;m still waiting for a chance to use Coroutines in a project and whilst I have nothing against them I am far more comfortable in <a href="http://reactivex.io/">RxJava</a>. So the rest of this post will be using examples that are written in RxJava. One of the reasons I like this library is that it provides Rx bindings (I think that&rsquo;s the right word) to take advantage of this library even if you are consuming this library from an RxJava project. In fact Store provides support for both RxJava 2 and RxJava 3. I&rsquo;m also a bit biased because I contributed the RxJava 3 module and added a few extension functions to the RxJava 2 module.</p>
+<p>Hello and Happy New Year! What did you get up to for New Year&rsquo;s? Lockdown you say? Well let&rsquo;s blow all that away and get
+reading shall we? This post is about an Android library from Dropbox called <a href="https://github.com/dropbox/Store">Store</a>
+(Store 4 to be precise). It facilitates the repository pattern, has been rebuilt from the ground up using Kotlin
+Coroutines, and is a great way to accelerate your app to becoming reactive. I&rsquo;ve been using it for about a year in
+production during their alpha phase and now that it has recently gone stable I want to share a post of how we use it.</p>
+<p>I should start by saying that whilst I am totally in love with this library I don&rsquo;t use it with Kotlin
+<a href="https://kotlinlang.org/docs/reference/coroutines-overview.html">Coroutines</a>. Sadly I&rsquo;m still waiting for a chance to
+use Coroutines in a project and whilst I have nothing against them I am far more comfortable in
+<a href="http://reactivex.io/">RxJava</a>. So the rest of this post will be using examples that are written in RxJava. One of the
+reasons I like this library is that it provides Rx bindings (I think that&rsquo;s the right word) to take advantage of this
+library even if you are consuming this library from an RxJava project. In fact Store provides support for both RxJava 2
+and RxJava 3. I&rsquo;m also a bit biased because I contributed the RxJava 3 module and added a few extension functions to the
+RxJava 2 module.</p>
 <h1 id="let-us-start-with-a-problem">Let Us Start With A Problem</h1>
-<p>Suppose you have an API that you call frequently on more than one page of your app. Say, for example, a list of messages for the user. The first call might end up merely showing the count of messages, whereas the second might display the list of messages, and finally the third might display some detail of a selected message.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#75715e">// Given this example data type
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">data</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Messages</span>(<span style="color:#66d9ef">val</span> id: Int, <span style="color:#66d9ef">val</span> title: String, <span style="color:#66d9ef">val</span> message: String)
+<p>Suppose you have an API that you call frequently on more than one page of your app. Say, for example, a list of messages
+for the user. The first call might end up merely showing the count of messages, whereas the second might display the
+list of messages, and finally the third might display some detail of a selected message.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span> <span style="color:#75715e">// Given this example data type data class Messages(val id: Int, val title: String, val
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    message: String)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">// On the first page we want to show a badge if we have messages
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    api.fetchMessages(client) <span style="color:#75715e">// Suppose this returns Single&lt;List&lt;Messages&gt;&gt;
@@ -126,24 +139,21 @@
 </span></span><span style="display:flex;"><span>            onSuccess = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(subject = <span style="color:#66d9ef">it</span>.title, body = <span style="color:#66d9ef">it</span>.message) },
 </span></span><span style="display:flex;"><span>            onError = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(error = <span style="color:#66d9ef">true</span>) }
 </span></span><span style="display:flex;"><span>        )</span></span></code></pre></div>
-<p>This is a rather contrived example but you get the idea. You might find yourself in a situation where you need to carry out the same operation a number of times for slightly different purposes. Sometimes that might be an expensive network operation.</p>
-<p>The takeaway point here is that we&rsquo;ve already fetched the relevant information we need after the first page. Yet we go on to make two identical calls.</p>
+<p>This is a rather contrived example but you get the idea. You might find yourself in a situation where you need to carry
+out the same operation a number of times for slightly different purposes. Sometimes that might be an expensive network
+operation.</p>
+<p>The takeaway point here is that we&rsquo;ve already fetched the relevant information we need after the first page. Yet we go
+on to make two identical calls.</p>
 <h1 id="how-does-store-help-with-this">How Does Store Help With This?</h1>
-<p>In the simplest form Store gives you an in memory cache implementation. To take advantage of this you need to wrap your <code>api</code> fetching call in a <em>Store</em>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#66d9ef">val</span> repository = <span style="color:#a6e22e">StoreBuilder</span>.from&lt;Client, List&lt;Messages&gt;&gt;(
-</span></span><span style="display:flex;"><span>                        fetcher = <span style="color:#a6e22e">Fetcher</span>.ofSingle {  api.fetchMessages(client) }
-</span></span><span style="display:flex;"><span>                    )
-</span></span><span style="display:flex;"><span>                    .build()</span></span></code></pre></div>
+<p>In the simplest form Store gives you an in memory cache implementation. To take advantage of this you need to wrap your
+<code>api</code> fetching call in a <em>Store</em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span> <span style="color:#66d9ef">val</span> repository = <span style="color:#a6e22e">StoreBuilder</span>.from&lt;Client, List&lt;Messages&gt;&gt;( fetcher = <span style="color:#a6e22e">Fetcher</span>.ofSingle {
+</span></span><span style="display:flex;"><span>    api.fetchMessages(client) } ) .build() </span></span></code></pre></div>
 <p>Now your calls might look like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#75715e">// On the first page we want to show a badge if we have messages
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    repository.getSingle(client) <span style="color:#75715e">// The first invocation fills the cache from the network
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        .flattenAsFlowable { <span style="color:#66d9ef">it</span> }
-</span></span><span style="display:flex;"><span>        .count()
-</span></span><span style="display:flex;"><span>        .subscribeOn(<span style="color:#a6e22e">Schedulers</span>.io())
-</span></span><span style="display:flex;"><span>        .observeOn(<span style="color:#a6e22e">AndroidSchedulers</span>.mainThread())
-</span></span><span style="display:flex;"><span>        .subscribeBy(
-</span></span><span style="display:flex;"><span>            onSuccess = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(unread = <span style="color:#66d9ef">it</span> &gt; <span style="color:#ae81ff">0L</span>) },
-</span></span><span style="display:flex;"><span>            onError = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(error = <span style="color:#66d9ef">true</span>) }
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span> <span style="color:#75715e">// On the first page we want to show a badge if we have messages repository.getSingle(client)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">// The first invocation fills the cache from the network .flattenAsFlowable { it } .count()
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    .subscribeOn(<span style="color:#a6e22e">Schedulers</span>.io()) .observeOn(<span style="color:#a6e22e">AndroidSchedulers</span>.mainThread()) .subscribeBy( onSuccess = { viewState.<span style="color:#66d9ef">value</span>
+</span></span><span style="display:flex;"><span>        = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(unread = <span style="color:#66d9ef">it</span> &gt; <span style="color:#ae81ff">0L</span>) }, onError = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(error = <span style="color:#66d9ef">true</span>) }
 </span></span><span style="display:flex;"><span>        )
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">// On the second page we want to show the list of messages
@@ -166,22 +176,35 @@
 </span></span><span style="display:flex;"><span>            onSuccess = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(subject = <span style="color:#66d9ef">it</span>.title, body = <span style="color:#66d9ef">it</span>.message) },
 </span></span><span style="display:flex;"><span>            onError = { viewState.<span style="color:#66d9ef">value</span> = viewState.<span style="color:#66d9ef">value</span><span style="color:#f92672">?.</span>copy(error = <span style="color:#66d9ef">true</span>) }
 </span></span><span style="display:flex;"><span>        )</span></span></code></pre></div>
-<p>Relatively simply you have eliminated two superfluous network calls. Of course you&rsquo;ll have to judge for yourself whether this is the best thing to do but the rule of thumb I use is this:</p>
+<p>Relatively simply you have eliminated two superfluous network calls. Of course you&rsquo;ll have to judge for yourself whether
+this is the best thing to do but the rule of thumb I use is this:</p>
 <blockquote>
-<p>Does the use of data or type of data <em>require</em> it to be fetched again between pages? For example a live price quote would not fit this usecase. If the data <em>freshness</em> is not a concern between pages then you can probably proceed.</p>
+<p>Does the use of data or type of data <em>require</em> it to be fetched again between pages? For example a live price quote
+would not fit this usecase. If the data <em>freshness</em> is not a concern between pages then you can probably proceed.</p>
 </blockquote>
-<p>For <em>how long</em> you want to cache this memory is also something you should consider by default Store will cache 100 unique items for 24 hours. If that doesn&rsquo;t work for you it can be customised.</p>
+<p>For <em>how long</em> you want to cache this memory is also something you should consider by default Store will cache 100
+unique items for 24 hours. If that doesn&rsquo;t work for you it can be customised.</p>
 <h1 id="a-mental-model">A Mental Model</h1>
-<p>At this point I think it is important to have a mental model of Store and how it works. Or at the very least a simplified analogy. Like any good cache Store can be thought of as a Map. It has some Keys and it has some Values. You might have the same Value between entries in your map, but you always have a unique Key. Thinking of Store like this helps me remove some of the complicated and fancy things it does like in-memory caching for rotation, disk caching for when users are offline, throttling of API calls when parallel requests are made for the same resource.</p>
+<p>At this point I think it is important to have a mental model of Store and how it works. Or at the very least a
+simplified analogy. Like any good cache Store can be thought of as a Map. It has some Keys and it has some Values. You
+might have the same Value between entries in your map, but you always have a unique Key. Thinking of Store like this
+helps me remove some of the complicated and fancy things it does like in-memory caching for rotation, disk caching for
+when users are offline, throttling of API calls when parallel requests are made for the same resource.</p>
 <p>It also helps make sense of the way in which you <em>query</em> your Stores. From the docs:</p>
 <blockquote>
-<p>Store uses generic keys as identifiers for data. A key can be any value object that properly implements toString(), equals() and hashCode(). When your Fetcher function is called, it will be passed a particular Key value. Similarly, the key will be used as a primary identifier within caches (Make sure to have a proper hashCode()!!).</p>
-<p>Note: We highly recommend using built-in types that implement equals and hashcode or Kotlin data classes for complex keys.</p>
+<p>Store uses generic keys as identifiers for data. A key can be any value object that properly implements toString(),
+equals() and hashCode(). When your Fetcher function is called, it will be passed a particular Key value. Similarly, the
+key will be used as a primary identifier within caches (Make sure to have a proper hashCode()!!).</p>
+<p>Note: We highly recommend using built-in types that implement equals and hashcode or Kotlin data classes for complex
+keys.</p>
 </blockquote>
-<p>If I ask Store for a resource, a Key, there&rsquo;s a guarantee that it can determine if it has already carried out this operation because the Key is either present or not present. Just like how a Map works. The slight shift in your thinking might be if you are used to passing multiple parameters to your API fetching operation. Instead pass a single data class that wraps these for the easiest migration path. The data class gives you the equality guarantees easily and so you may treat it as a value type. Kotlin FTW! Store FTW! Android FTW!</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#75715e">// Instead of
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    api.fetchMusic(<span style="color:#e6db74">&#34;Perry&#34;</span>, <span style="color:#e6db74">&#34;Xiola&#34;</span>, <span style="color:#e6db74">&#34;Casey&#34;</span>)
-</span></span><span style="display:flex;"><span>
+<p>If I ask Store for a resource, a Key, there&rsquo;s a guarantee that it can determine if it has already carried out this
+operation because the Key is either present or not present. Just like how a Map works. The slight shift in your thinking
+might be if you are used to passing multiple parameters to your API fetching operation. Instead pass a single data class
+that wraps these for the easiest migration path. The data class gives you the equality guarantees easily and so you may
+treat it as a value type. Kotlin FTW! Store FTW! Android FTW!</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span> <span style="color:#75715e">// Instead of api.fetchMusic(&#34;Perry&#34;, &#34;Xiola&#34;, &#34;Casey&#34;)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Do this
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">data</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Listeners</span>(<span style="color:#66d9ef">val</span> left: String, <span style="color:#66d9ef">val</span> centre: String, <span style="color:#66d9ef">val</span> right: String)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">data</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Track</span>(<span style="color:#66d9ef">val</span> name: String)
@@ -192,34 +215,50 @@
 </span></span><span style="display:flex;"><span>                    .build()
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    repository.getSingle(Listeners(<span style="color:#e6db74">&#34;Perry&#34;</span>, <span style="color:#e6db74">&#34;Xiola&#34;</span>, <span style="color:#e6db74">&#34;Casey&#34;</span>)) <span style="color:#75715e">// I&#39;ll leave you to guess what that comes out as</span></span></span></code></pre></div>
-<p>Now every request to the your Store&hellip;. to your Map&hellip;&hellip; has a unique key associated with it. If it doesn&rsquo;t exist it must be fetched. If it does exist return the already cached value (subject to policy of course).</p>
+<p>Now every request to the your Store&hellip;. to your Map&hellip;&hellip; has a unique key associated with it. If it doesn&rsquo;t exist it
+must be fetched. If it does exist return the already cached value (subject to policy of course).</p>
 <h1 id="offline">Offline</h1>
-<p>That&rsquo;s a lot of refactoring just for an in memory cache. I can do that myself. I know. I&rsquo;m sure we all have at some point! However whilst the above is the simplest way to use Store the way I&rsquo;m more exited about is how to enable offline support.</p>
-<p>Store has the concept of a <em>Fetcher</em>. That&rsquo;s pretty obvious as to what it does. It is typically a network API call but it doesn&rsquo;t have to be. It can be any Kotlin <a href="https://kotlinlang.org/docs/reference/coroutines/flow.html">Flow</a>. Here&rsquo;s where I am a bit hazy because I haven&rsquo;t used Coroutines a lot but these are <em>similar</em> to Flowables from the Reactive framework. The example above use extension functions to hide the fact that we are actually creating Kotlin Flows when defining our Fetchers.</p>
-<p>Store also has the concept of <em>Source Of Truth</em>. This is similar to the caching capability explained above but to a truly persistent source this time. In the Android world this might be <a href="https://developer.android.com/jetpack/androidx/releases/room">Room</a>, <a href="https://github.com/cashapp/sqldelight">SQLDelight</a>. But again, it doesn&rsquo;t have to be&hellip;&hellip; I&rsquo;d recommend it is though.</p>
-<p>What if, for example, we wanted to show our list of messaged but there was an outage in network. You&rsquo;ve driven under a tunnel (forget for a second that you&rsquo;re checking message whilst driving&hellip;. naughty naughty). If you&rsquo;ve previously fetched the data it would be better to at least show it in read only format rather than an error screen. Here&rsquo;s what you&rsquo;d have to do:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#66d9ef">val</span> repository = <span style="color:#a6e22e">StoreBuilder</span>.from&lt;Client, List&lt;Messages&gt;, List&lt;Messages&gt;&gt;(
-</span></span><span style="display:flex;"><span>                        fetcher = <span style="color:#a6e22e">Fetcher</span>.ofSingle {  api.fetchMessages(client) },
-</span></span><span style="display:flex;"><span>                        sourceOfTruth = <span style="color:#a6e22e">SourceOfTruth</span>.ofMaybe(
-</span></span><span style="display:flex;"><span>                            reader = { key <span style="color:#f92672">-&gt;</span> db.read(key) },
-</span></span><span style="display:flex;"><span>                            write = { key, <span style="color:#66d9ef">value</span> <span style="color:#f92672">-&gt;</span> db.write(<span style="color:#66d9ef">value</span>) },
-</span></span><span style="display:flex;"><span>                            delete = { key <span style="color:#f92672">-&gt;</span> db.delete(key) },
-</span></span><span style="display:flex;"><span>                            deleteAll = { key <span style="color:#f92672">-&gt;</span> db.deleteAll()) },
-</span></span><span style="display:flex;"><span>                        )
-</span></span><span style="display:flex;"><span>                    )
-</span></span><span style="display:flex;"><span>                    .build()</span></span></code></pre></div>
-<p>That&rsquo;s it! It&rsquo;s a small extension to what you already have and straight away you&rsquo;ve got a repository pattern with network and database with all the great additions that Store offers. <strong>This</strong> is why I really like this library. Once you&rsquo;ve got the in memory setup, you (pretty much) get a persistence setup for free. None of your consuming API code now needs to change.</p>
+<p>That&rsquo;s a lot of refactoring just for an in memory cache. I can do that myself. I know. I&rsquo;m sure we all have at some
+point! However whilst the above is the simplest way to use Store the way I&rsquo;m more exited about is how to enable offline
+support.</p>
+<p>Store has the concept of a <em>Fetcher</em>. That&rsquo;s pretty obvious as to what it does. It is typically a network API call but
+it doesn&rsquo;t have to be. It can be any Kotlin <a href="https://kotlinlang.org/docs/reference/coroutines/flow.html">Flow</a>. Here&rsquo;s
+where I am a bit hazy because I haven&rsquo;t used Coroutines a lot but these are <em>similar</em> to Flowables from the Reactive
+framework. The example above use extension functions to hide the fact that we are actually creating Kotlin Flows when
+defining our Fetchers.</p>
+<p>Store also has the concept of <em>Source Of Truth</em>. This is similar to the caching capability explained above but to a
+truly persistent source this time. In the Android world this might be
+<a href="https://developer.android.com/jetpack/androidx/releases/room">Room</a>,
+<a href="https://github.com/cashapp/sqldelight">SQLDelight</a>. But again, it doesn&rsquo;t have to be&hellip;&hellip; I&rsquo;d recommend it is though.</p>
+<p>What if, for example, we wanted to show our list of messaged but there was an outage in network. You&rsquo;ve driven under a
+tunnel (forget for a second that you&rsquo;re checking message whilst driving&hellip;. naughty naughty). If you&rsquo;ve previously
+fetched the data it would be better to at least show it in read only format rather than an error screen. Here&rsquo;s what
+you&rsquo;d have to do:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span> <span style="color:#66d9ef">val</span> repository = <span style="color:#a6e22e">StoreBuilder</span>.from&lt;Client, List&lt;Messages&gt;, List&lt;Messages&gt;&gt;( fetcher =
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">Fetcher</span>.ofSingle {  api.fetchMessages(client) }, sourceOfTruth = <span style="color:#a6e22e">SourceOfTruth</span>.ofMaybe( reader = { key <span style="color:#f92672">-&gt;</span>
+</span></span><span style="display:flex;"><span>                        db.read(key) }, write = { key, <span style="color:#66d9ef">value</span> <span style="color:#f92672">-&gt;</span> db.write(<span style="color:#66d9ef">value</span>) }, delete = { key <span style="color:#f92672">-&gt;</span> db.delete(key) },
+</span></span><span style="display:flex;"><span>                        deleteAll = { key <span style="color:#f92672">-&gt;</span> db.deleteAll()) }, ) ) .build() </span></span></code></pre></div>
+<p>That&rsquo;s it! It&rsquo;s a small extension to what you already have and straight away you&rsquo;ve got a repository pattern with
+network and database with all the great additions that Store offers. <strong>This</strong> is why I really like this library. Once
+you&rsquo;ve got the in memory setup, you (pretty much) get a persistence setup for free. None of your consuming API code now
+needs to change.</p>
 <h2 id="side-note-stale-while-revalidate">Side Note: Stale-While-Revalidate</h2>
-<p>There&rsquo;s two ways in which you can query Store. The first is what I&rsquo;ve used in these examples via the extension function <code>getSingle</code>. This retrieves a value from the Store if it is present, otherwise calls the Fetcher to populate the Store and only then return the value. The other way is <code>freshSingle</code> which skips the first check and <strong>always</strong> retrieves a fresh value from the Fetcher whilst refreshing your Store ready for the next time.</p>
-<p>Store offers these two mechanisms as a way to &ldquo;bust through&rdquo; the cache for pull to refresh usecases. But the more I think about <code>getSingle</code> the more I am reminded of the <a href="https://web.dev/stale-while-revalidate/">Stale-While-Revalidate</a> pattern from the web. Using <code>getSingle</code> and a custom cache policy you can achieve this <em>really</em> easily with Store. Neat!</p>
+<p>There&rsquo;s two ways in which you can query Store. The first is what I&rsquo;ve used in these examples via the extension function
+<code>getSingle</code>. This retrieves a value from the Store if it is present, otherwise calls the Fetcher to populate the Store
+and only then return the value. The other way is <code>freshSingle</code> which skips the first check and <strong>always</strong> retrieves a
+fresh value from the Fetcher whilst refreshing your Store ready for the next time.</p>
+<p>Store offers these two mechanisms as a way to &ldquo;bust through&rdquo; the cache for pull to refresh usecases. But the more I
+think about <code>getSingle</code> the more I am reminded of the <a href="https://web.dev/stale-while-revalidate/">Stale-While-Revalidate</a>
+pattern from the web. Using <code>getSingle</code> and a custom cache policy you can achieve this <em>really</em> easily with Store. Neat!</p>
 <h1 id="where-does-store-go-in-an-app">Where Does Store Go In An App?</h1>
-<p>I am still discovering the best way to do this so don&rsquo;t take this as any sort of best practice but my thought process for this was as follows. The Store is <em>essentially</em> a library for the repository pattern. Where would your repository code sit? As a dependency to your Presenter? As a dependency to your ViewModel? As a dependency to your UseCase (if you&rsquo;re Uncle Bob&rsquo;ing it). You&rsquo;ll see in the examples above that I create Stores using the Builder and assign it to a variable called <code>repository</code>. But <em>where</em> do I do this?</p>
+<p>I am still discovering the best way to do this so don&rsquo;t take this as any sort of best practice but my thought process
+for this was as follows. The Store is <em>essentially</em> a library for the repository pattern. Where would your repository
+code sit? As a dependency to your Presenter? As a dependency to your ViewModel? As a dependency to your UseCase (if
+you&rsquo;re Uncle Bob&rsquo;ing it). You&rsquo;ll see in the examples above that I create Stores using the Builder and assign it to a
+variable called <code>repository</code>. But <em>where</em> do I do this?</p>
 <p>I started out initially by creating the repositories within our UseCase for pure convinience like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UseCase</span>(<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">val</span> api: Api) : SingleUseCase&lt;Client, List&lt;Messages&gt;&gt; {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">val</span> repository = <span style="color:#a6e22e">StoreBuilder</span>.from&lt;Client, List&lt;Messages&gt;&gt;(
-</span></span><span style="display:flex;"><span>                        fetcher = <span style="color:#a6e22e">Fetcher</span>.ofSingle {  api.fetchMessages(client) }
-</span></span><span style="display:flex;"><span>                    )
-</span></span><span style="display:flex;"><span>                    .build()
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UseCase</span>(<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">val</span> api: Api) : SingleUseCase&lt;Client, List&lt;Messages&gt;&gt; { <span style="color:#66d9ef">val</span> repository =
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">StoreBuilder</span>.from&lt;Client, List&lt;Messages&gt;&gt;( fetcher = <span style="color:#a6e22e">Fetcher</span>.ofSingle {  api.fetchMessages(client) } ) .build()
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">override</span> <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">execute</span>(params: Client): Single&lt;List&lt;Messages&gt;&gt; {
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> repository.getSingle(client)
@@ -230,30 +269,20 @@
 </span></span><span style="display:flex;"><span>                        <span style="color:#75715e">// Note that we don&#39;t directly subscribe here we do that in a layer above.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        }
 </span></span><span style="display:flex;"><span>    }</span></span></code></pre></div>
-<p>Which <em>looks</em> like it might work but it actually doesn&rsquo;t because upon creation of the UseCase a brand new Store (a brand new repository) is created too. Therefore even when I made requests from the Store with <code>getSingle</code> I noticed the data was being fetched unnecessarily.</p>
-<p>The fix is fairly simple in that you need to treat your repositories as Singletons. After all&hellip;&hellip; what does it actually <em>mean</em> to have multiple versions of a repository that represents the same underlying data? It doesn&rsquo;t.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#a6e22e">@Singleton</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UseCase</span> <span style="color:#a6e22e">@Inject</span> <span style="color:#66d9ef">constructor</span>(<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">val</span> api: Api) : SingleUseCase&lt;Client, List&lt;Messages&gt;&gt; {
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">....</span>
-</span></span><span style="display:flex;"><span>    }</span></span></code></pre></div>
-<p>This works fairly well but as a slight improvement we now completely extract the Repository object so that our UseCase is not forced to be a Singleton.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span>    <span style="color:#a6e22e">@Singleton</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Repository</span> <span style="color:#a6e22e">@Inject</span> <span style="color:#66d9ef">constructor</span>(
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">val</span> api: Api,
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">val</span> db: DB
-</span></span><span style="display:flex;"><span>    ) : SingleUseCase&lt;Client, List&lt;Messages&gt;&gt; {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">val</span> store <span style="color:#66d9ef">by</span> lazy {
-</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">StoreBuilder</span>.from&lt;Client, List&lt;Messages&gt;, List&lt;Messages&gt;&gt;(
-</span></span><span style="display:flex;"><span>                        fetcher = <span style="color:#a6e22e">Fetcher</span>.ofSingle {  api.fetchMessages(client) },
-</span></span><span style="display:flex;"><span>                        sourceOfTruth = <span style="color:#a6e22e">SourceOfTruth</span>.ofMaybe(
-</span></span><span style="display:flex;"><span>                            reader = { key <span style="color:#f92672">-&gt;</span> db.read(key) },
-</span></span><span style="display:flex;"><span>                            write = { key, <span style="color:#66d9ef">value</span> <span style="color:#f92672">-&gt;</span> db.write(<span style="color:#66d9ef">value</span>) },
-</span></span><span style="display:flex;"><span>                            delete = { key <span style="color:#f92672">-&gt;</span> db.delete(key) },
-</span></span><span style="display:flex;"><span>                            deleteAll = { key <span style="color:#f92672">-&gt;</span> db.deleteAll()) },
-</span></span><span style="display:flex;"><span>                        )
-</span></span><span style="display:flex;"><span>                    )
-</span></span><span style="display:flex;"><span>                    .build()
-</span></span><span style="display:flex;"><span>        }
+<p>Which <em>looks</em> like it might work but it actually doesn&rsquo;t because upon creation of the UseCase a brand new Store (a brand
+new repository) is created too. Therefore even when I made requests from the Store with <code>getSingle</code> I noticed the data
+was being fetched unnecessarily.</p>
+<p>The fix is fairly simple in that you need to treat your repositories as Singletons. After all&hellip;&hellip; what does it
+actually <em>mean</em> to have multiple versions of a repository that represents the same underlying data? It doesn&rsquo;t.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span> <span style="color:#a6e22e">@Singleton</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">UseCase</span> <span style="color:#a6e22e">@Inject</span> <span style="color:#66d9ef">constructor</span>(<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">val</span> api: Api) : SingleUseCase&lt;Client,
+</span></span><span style="display:flex;"><span>    List&lt;Messages&gt;&gt; { <span style="color:#f92672">....</span> } </span></span></code></pre></div>
+<p>This works fairly well but as a slight improvement we now completely extract the Repository object so that our UseCase
+is not forced to be a Singleton.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-kotlin" data-lang="kotlin"><span style="display:flex;"><span> <span style="color:#a6e22e">@Singleton</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Repository</span> <span style="color:#a6e22e">@Inject</span> <span style="color:#66d9ef">constructor</span>( <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">val</span> api: Api, <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">val</span> db: DB ) :
+</span></span><span style="display:flex;"><span>    SingleUseCase&lt;Client, List&lt;Messages&gt;&gt; { <span style="color:#66d9ef">val</span> store <span style="color:#66d9ef">by</span> lazy { <span style="color:#a6e22e">StoreBuilder</span>.from&lt;Client, List&lt;Messages&gt;,
+</span></span><span style="display:flex;"><span>    List&lt;Messages&gt;&gt;( fetcher = <span style="color:#a6e22e">Fetcher</span>.ofSingle {  api.fetchMessages(client) }, sourceOfTruth = <span style="color:#a6e22e">SourceOfTruth</span>.ofMaybe(
+</span></span><span style="display:flex;"><span>        reader = { key <span style="color:#f92672">-&gt;</span> db.read(key) }, write = { key, <span style="color:#66d9ef">value</span> <span style="color:#f92672">-&gt;</span> db.write(<span style="color:#66d9ef">value</span>) }, delete = { key <span style="color:#f92672">-&gt;</span> db.delete(key) },
+</span></span><span style="display:flex;"><span>        deleteAll = { key <span style="color:#f92672">-&gt;</span> db.deleteAll()) }, ) ) .build() }
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>       <span style="color:#66d9ef">fun</span> <span style="color:#a6e22e">get</span>(): Store&lt;Client, List&lt;Messages&gt;&gt; = store
 </span></span><span style="display:flex;"><span>    }
@@ -272,15 +301,37 @@
 </span></span><span style="display:flex;"><span>                        .subscribeOn(<span style="color:#a6e22e">Schedulers</span>.io())
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>    }</span></span></code></pre></div>
-<p>There are a few interesting things happening here. First the UseCase is no longer a Singleton. It doesn&rsquo;t need to be. Instead it simply depends on a Repository and doesn&rsquo;t know or care where the data is coming from. Secondly the Repository has been moved to its own object that is marked as a Singleton. This is less jarring than the first example and makes the responsibility of the two objects clearer. Lastly, the Store is built <em>lazily</em> using the Kotlin <code>by lazy</code> delegate. This ensures that we don&rsquo;t do extra work until we really have to i.e. when the UseCase executes the logic.</p>
+<p>There are a few interesting things happening here. First the UseCase is no longer a Singleton. It doesn&rsquo;t need to be.
+Instead it simply depends on a Repository and doesn&rsquo;t know or care where the data is coming from. Secondly the
+Repository has been moved to its own object that is marked as a Singleton. This is less jarring than the first example
+and makes the responsibility of the two objects clearer. Lastly, the Store is built <em>lazily</em> using the Kotlin <code>by lazy</code>
+delegate. This ensures that we don&rsquo;t do extra work until we really have to i.e. when the UseCase executes the logic.</p>
 <h1 id="reactive-apps">Reactive Apps</h1>
-<p>I haven&rsquo;t yet got around to doing this in our project but it is something that I want to do in the near future. Making the UI react to changes in the underlying data is an interesting idea for me. My assumption here is that by using Room (or SQLDelight) you can very easily make your Source Of Truth reactive. <a href="https://medium.com/androiddevelopers/room-rxjava-acb0cd4f3757">Room has a RxJava binding library</a> that lets you observe changes to your database by having them be emitted as a <code>Flowable</code>.</p>
-<p>My thought is that if we setup a Store to be from a Flowable Source Of Truth we may benefit from this behaviour. If anyone has done something similar I&rsquo;d love to find out how it went. Even if it was with the Coroutines version of Store.</p>
+<p>I haven&rsquo;t yet got around to doing this in our project but it is something that I want to do in the near future. Making
+the UI react to changes in the underlying data is an interesting idea for me. My assumption here is that by using Room
+(or SQLDelight) you can very easily make your Source Of Truth reactive. <a href="https://medium.com/androiddevelopers/room-rxjava-acb0cd4f3757">Room has a RxJava binding
+library</a> that lets you observe changes to your database
+by having them be emitted as a <code>Flowable</code>.</p>
+<p>My thought is that if we setup a Store to be from a Flowable Source Of Truth we may benefit from this behaviour. If
+anyone has done something similar I&rsquo;d love to find out how it went. Even if it was with the Coroutines version of Store.</p>
 <h1 id="in-flight-debouncing-of-requests">In Flight Debouncing Of Requests</h1>
-<p>Thank you Elliot Long for pointing out another cool feature of Store. Suppose you have a screen with multiple points that each rely on the same data (sliced in a different way but) from the same repository. Add to this maybe a background operation that is making use of the same repository that just happens to be running. If you request N number of requests from Store does that mean you will need to fulfil N number of requests from your API?</p>
-<p>Luckily not! Store is clever enough to understand that, for an identically requested Key (remember from our mental model) a request is currently being fulfilled. It can use this to cancel the Fetcher for the requests that are identical and only process the first to arrive. Once that has completed it can fulfil the other requests from its caching mechanisms (either in memory or from the Source Of Truth). This is another way in which Store can help alleviate some concerns about how to perform something similar by hand. Best of all, you get this for free! There&rsquo;s no additional code you need to write / configure for this!</p>
+<p>Thank you Elliot Long for pointing out another cool feature of Store. Suppose you have a screen with multiple points
+that each rely on the same data (sliced in a different way but) from the same repository. Add to this maybe a background
+operation that is making use of the same repository that just happens to be running. If you request N number of requests
+from Store does that mean you will need to fulfil N number of requests from your API?</p>
+<p>Luckily not! Store is clever enough to understand that, for an identically requested Key (remember from our mental
+model) a request is currently being fulfilled. It can use this to cancel the Fetcher for the requests that are identical
+and only process the first to arrive. Once that has completed it can fulfil the other requests from its caching
+mechanisms (either in memory or from the Source Of Truth). This is another way in which Store can help alleviate some
+concerns about how to perform something similar by hand. Best of all, you get this for free! There&rsquo;s no additional code
+you need to write / configure for this!</p>
 <h1 id="final-note">Final Note</h1>
-<p>Whilst Store gives you a lot for free to help cache data and reduce calls on your backend it is not a catch all get out of jail free card. You will still have you spend time understanding network caching and how that might work with your backend team. Not all API calls need to go via Store. This will be highly specific to your app. An easy win would be if you have an expensive network API that fetches a lot of data and different <em>slices</em> of that data are used in different areas. If this data is <em>essentially</em> static for the lifetime that your app is in use I see that as a good indicator that Store can be used.</p>
+<p>Whilst Store gives you a lot for free to help cache data and reduce calls on your backend it is not a catch all get out
+of jail free card. You will still have you spend time understanding network caching and how that might work with your
+backend team. Not all API calls need to go via Store. This will be highly specific to your app. An easy win would be if
+you have an expensive network API that fetches a lot of data and different <em>slices</em> of that data are used in different
+areas. If this data is <em>essentially</em> static for the lifetime that your app is in use I see that as a good indicator that
+Store can be used.</p>
 </div>
 
 <h2>Comments</h2>

@@ -85,10 +85,25 @@
 
     <figcaption>Françoise Foliot, CC BY-SA 4.0, via Wikimedia Commons</figcaption>
 </figure>
-<p>It&rsquo;s been a long time. A long long long long long time. Well&hellip;.. <a href="/blog/2018/09/24/kotcha/">almost two years</a> to be precise. The short answer is &ldquo;work has been very busy&rdquo;. The longer answer is that I will aim to blog more in the future.</p>
-<p>Let&rsquo;s start with the blog redesign. I&rsquo;ve not gone crazy this time around. Most of the changes are in the underlying static page generator. The site is now powered by <a href="https://gohugo.io/">Hugo</a>. The main selling point here is that it is stupid fast. I mean blazing fast. Whilst porting the site from <a href="https://jekyllrb.com/">Jekyll</a> I had to build the site and make sure all the images and links worked multiple times. This often meant deleting all the resized images. If memory serves me correctly a full site rebuild would take about 2 minutes or so using Jekyll. I never had to wait longer than 8 seconds with Hugo. It&rsquo;s really good!</p>
-<p>The theme is also very similar. It&rsquo;s still a Hyde based theme but I&rsquo;ve tweaked it ever so slightly because the Hugo theme I am using is not as feature rich as the Jekyll one the old site was using. I am still in the process of finishing the port but as a minimal viable blogging site this is good enough for now.</p>
-<p>Having said that Hugo wasn&rsquo;t without it&rsquo;s difficulties. The documentation is not great. I was fortunate enough to have been battle tested with Jekyll enough to <em>sort of</em> know the lingo and the kind of questions I needed to type into Google to get this site working. The quick start in Hugo is great&hellip;&hellip;. but it&rsquo;s not really meant for porting a fully working site. Part of my issues in porting the site was that the old Jekyll based site used a different directory structure to the new Hugo one. Whilst everything <em>seemed</em> to render correctly I wanted to take the opportunity to simplify a lot of the up keep of the site. <em>One</em> of the reasons that I haven&rsquo;t posted anything in a while is that it was a lot of work to set everything up and start writing. I want a workflow that is easy so I can simply jot a few ideas down and before you know it I have a post! Hopefully this is it?</p>
+<p>It&rsquo;s been a long time. A long long long long long time. Well&hellip;.. <a href="/blog/2018/09/24/kotcha/">almost two years</a> to be precise. The short answer is &ldquo;work has been very busy&rdquo;. The longer answer is that I
+will aim to blog more in the future.</p>
+<p>Let&rsquo;s start with the blog redesign. I&rsquo;ve not gone crazy this time around. Most of the changes are in the underlying
+static page generator. The site is now powered by <a href="https://gohugo.io/">Hugo</a>. The main selling point here is that it is
+stupid fast. I mean blazing fast. Whilst porting the site from <a href="https://jekyllrb.com/">Jekyll</a> I had to build the site
+and make sure all the images and links worked multiple times. This often meant deleting all the resized images. If
+memory serves me correctly a full site rebuild would take about 2 minutes or so using Jekyll. I never had to wait longer
+than 8 seconds with Hugo. It&rsquo;s really good!</p>
+<p>The theme is also very similar. It&rsquo;s still a Hyde based theme but I&rsquo;ve tweaked it ever so slightly because the Hugo
+theme I am using is not as feature rich as the Jekyll one the old site was using. I am still in the process of finishing
+the port but as a minimal viable blogging site this is good enough for now.</p>
+<p>Having said that Hugo wasn&rsquo;t without it&rsquo;s difficulties. The documentation is not great. I was fortunate enough to have
+been battle tested with Jekyll enough to <em>sort of</em> know the lingo and the kind of questions I needed to type into Google
+to get this site working. The quick start in Hugo is great&hellip;&hellip;. but it&rsquo;s not really meant for porting a fully working
+site. Part of my issues in porting the site was that the old Jekyll based site used a different directory structure to
+the new Hugo one. Whilst everything <em>seemed</em> to render correctly I wanted to take the opportunity to simplify a lot of
+the up keep of the site. <em>One</em> of the reasons that I haven&rsquo;t posted anything in a while is that it was a lot of work to
+set everything up and start writing. I want a workflow that is easy so I can simply jot a few ideas down and before you
+know it I have a post! Hopefully this is it?</p>
 <p>My old directory structure in Jekyll looked something like this:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>posts/
 </span></span><span style="display:flex;"><span>      2009-01-01-my-first-post.md
@@ -115,14 +130,28 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">do</span> <span style="color:#f92672">[[</span> $i <span style="color:#f92672">=</span>~ <span style="color:#f92672">[</span>0-9<span style="color:#f92672">][</span>0-9<span style="color:#f92672">][</span>0-9<span style="color:#f92672">][</span>0-9<span style="color:#f92672">]</span>-<span style="color:#f92672">([</span>0-9<span style="color:#f92672">][</span>0-9<span style="color:#f92672">])</span>-<span style="color:#f92672">([</span>0-9<span style="color:#f92672">][</span>0-9<span style="color:#f92672">])</span>-<span style="color:#f92672">([</span>^.<span style="color:#f92672">]</span>*<span style="color:#f92672">)</span>.md <span style="color:#f92672">]]</span> ; 
 </span></span><span style="display:flex;"><span>    mkdir -p <span style="color:#e6db74">${</span>BASH_REMATCH[1]<span style="color:#e6db74">}</span>/<span style="color:#e6db74">${</span>BASH_REMATCH[2]<span style="color:#e6db74">}</span>/<span style="color:#e6db74">${</span>BASH_REMATCH[3]<span style="color:#e6db74">}</span> ; 
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">done</span></span></span></code></pre></div>
-<p>Apologies people with small screens this isn&rsquo;t going to be pretty. This is a &ldquo;simple&rdquo; regex that works in conjunction with a search in the current directory for all of the files ending in <code>.md</code>. From here I capture the <code>YYYY</code>, <code>MM</code>, and <code>DD</code> values from the file name and use them to create directories that didn&rsquo;t exist in the old structure. Note the <code>mkdir -p</code> command. This is tells Bash to create the parent directory if it does not exist. If it does exist then it doesn&rsquo;t overwrite anything which is precisely want we want here.</p>
-<p>My next problem was to do with images. If you are inquisitive enough you&rsquo;ll notice that the image served to your device depends on the capability of your device. I try and only server you the highest quality image that your device can comfortably display and not a large one that I might have. This saves you bandwidth. See <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images">Responsive Images</a> for details on how to achieve this. Thankfully there are some neat solutions to help with this even back when I was using Jekyll to generate the site. However with Hugo you&rsquo;ll notice that my images are now next to the posts themselves in the directory structure as opposed to in a separate unconnected directory. Again, one less thing for me to worry about long term but whilst porting I needed to trash the resized images from Jekyll days and let Hugo regenerate them again.</p>
+<p>Apologies people with small screens this isn&rsquo;t going to be pretty. This is a &ldquo;simple&rdquo; regex that works in conjunction
+with a search in the current directory for all of the files ending in <code>.md</code>. From here I capture the <code>YYYY</code>, <code>MM</code>, and
+<code>DD</code> values from the file name and use them to create directories that didn&rsquo;t exist in the old structure. Note the
+<code>mkdir -p</code> command. This is tells Bash to create the parent directory if it does not exist. If it does exist then it
+doesn&rsquo;t overwrite anything which is precisely want we want here.</p>
+<p>My next problem was to do with images. If you are inquisitive enough you&rsquo;ll notice that the image served to your device
+depends on the capability of your device. I try and only server you the highest quality image that your device can
+comfortably display and not a large one that I might have. This saves you bandwidth. See <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images">Responsive
+Images</a> for details on
+how to achieve this. Thankfully there are some neat solutions to help with this even back when I was using Jekyll to
+generate the site. However with Hugo you&rsquo;ll notice that my images are now next to the posts themselves in the directory
+structure as opposed to in a separate unconnected directory. Again, one less thing for me to worry about long term but
+whilst porting I needed to trash the resized images from Jekyll days and let Hugo regenerate them again.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>find . -type d -name <span style="color:#e6db74">&#39;resized&#39;</span> -execdir rm -rf <span style="color:#e6db74">&#39;{}&#39;</span> <span style="color:#ae81ff">\;</span></span></span></code></pre></div>
-<p>This command finds all directories (<code>-type d</code>) named <code>resized</code> (that&rsquo;s what Jekyll called them) and runs the command <code>rm -rf</code>. Which is a remove command. Simple! Now when the Hugo site is rebuilt it will create its own resized images. Lovely.</p>
-<p>Finally you&rsquo;ll notice that I used to have the title of the post in the filename in the old site but now they are named <code>index.md</code> because the directory contains the post name. That&rsquo;s another simple fix:</p>
+<p>This command finds all directories (<code>-type d</code>) named <code>resized</code> (that&rsquo;s what Jekyll called them) and runs the command <code>rm -rf</code>. Which is a remove command. Simple! Now when the Hugo site is rebuilt it will create its own resized images.
+Lovely.</p>
+<p>Finally you&rsquo;ll notice that I used to have the title of the post in the filename in the old site but now they are named
+<code>index.md</code> because the directory contains the post name. That&rsquo;s another simple fix:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>find . -type f -name <span style="color:#e6db74">&#34;*.md&#34;</span> -execdir rename <span style="color:#e6db74">&#39;s/.+\.md/index.md/&#39;</span> <span style="color:#e6db74">&#39;{}&#39;</span> <span style="color:#ae81ff">\;</span></span></span></code></pre></div>
 <p>This time we find all files (<code>-type f</code>) that have <code>md</code> as an extension and run a rename command. Phew!</p>
-<p>And that&rsquo;s mostly it. I had to mess around with the CSS a little to get it looking like it used to but that wasn&rsquo;t too difficult since the theme does most of the work and I&rsquo;m only tweaking it here and there.</p>
+<p>And that&rsquo;s mostly it. I had to mess around with the CSS a little to get it looking like it used to but that wasn&rsquo;t too
+difficult since the theme does most of the work and I&rsquo;m only tweaking it here and there.</p>
 <p>So hopefully now I can start blogging again more regularly on what I&rsquo;m up to? See you in five years!</p>
 <h1 id="credits">Credits</h1>
 <p>The following sites were inspirational in getting me moving when I saw no way out.</p>

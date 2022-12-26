@@ -83,13 +83,28 @@
 
     <figcaption>Pingus The Basher</figcaption>
 </figure>
-<p>I have a compilation album called <a href="http://www.fatwreck.com/record/detail/591">Short Music For Short People</a> that contains 100+ tracks. When I looked at the directory all these files were stored in I saw that most of the files were numbered 01, 02, 03, 15, 56, 89 etc to denote their track number. However the ones 100 and above were 100, 101, 102 etc. Being as anal as I am, I wanted all my files to have three digit file numbers e.g. 001, 015, 089, 100 etc. Simple right?</p>
+<p>I have a compilation album called <a href="http://www.fatwreck.com/record/detail/591">Short Music For Short People</a> that
+contains 100+ tracks. When I looked at the directory all these files were stored in I saw that most of the files were
+numbered 01, 02, 03, 15, 56, 89 etc to denote their track number. However the ones 100 and above were 100, 101, 102 etc.
+Being as anal as I am, I wanted all my files to have three digit file numbers e.g. 001, 015, 089, 100 etc. Simple right?</p>
 <p>Not really.</p>
-<p>To effectively pad all two digit file names with a leading 0 I finally came up with this command that I could run with one line from the bash shell:</p>
+<p>To effectively pad all two digit file names with a leading 0 I finally came up with this command that I could run with
+one line from the bash shell:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ls | grep <span style="color:#e6db74">&#34;^[0-9][0-9]\-&#34;</span> &gt; list ; <span style="color:#66d9ef">while</span> read i; <span style="color:#66d9ef">do</span> mv <span style="color:#e6db74">&#34;</span>$i<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;0</span>$i<span style="color:#e6db74">&#34;</span> ; <span style="color:#66d9ef">done</span> &lt; list ; rm list
 </span></span></code></pre></div><p>Let&rsquo;s look at this one bit at a time:</p>
-<p>The first section <code>ls | grep &quot;^[0-9][0-9]\-&quot; &gt; list</code> means list all files in the directory and pipe that output to a command called <strong>grep</strong>. grep takes this list and searches it line by line (not technically but it is easier to think of it doing so for the purpose of the explanation) and outputs only those lines that match <code>&quot;^[0-9][0-9]\-&quot;</code>. This is a <a href="http://en.wikipedia.org/wiki/Regular_expression">Regular Expression</a> that tells grep to only match items that start with (<code>^</code>) two digits of any number from 0-9 (<code>[0-9][0-9]</code>) and are followed by a dash (<code>\-</code>). The <em>followed by</em> bit is important because otherwise we would also match 100, 101, 015 etc because they too start with two digits at the beginning of the line. The only difference is they have another digit straight after. The \ simply denotes an <em>escape</em> character because I wasn&rsquo;t sure if grep would interpret - as a literal character or some special magic character like it does ^. This new list is saved to a file called list. <code>&gt; list</code></p>
-<p>Next we take the two digit list and cycle through it one by one and rename each filename in that list with a leading 0. <code>while read i; do mv &quot;$i&quot; &quot;0$i&quot; ; done &lt; list </code>. This really has to be read as one so I should explain it as one. The <code>while...done &lt; list</code> is a while loop that reads from the list file we created and goes through it one by one until it has read all the lines. It also creates a temporary variable <code>i</code> that later is referred to as <code>$i</code>. The <code>do mv &quot;$i&quot; &quot;0$i&quot;</code> pads each file in the list with a leading 0.</p>
+<p>The first section <code>ls | grep &quot;^[0-9][0-9]\-&quot; &gt; list</code> means list all files in the directory and pipe that output to a
+command called <strong>grep</strong>. grep takes this list and searches it line by line (not technically but it is easier to think of
+it doing so for the purpose of the explanation) and outputs only those lines that match <code>&quot;^[0-9][0-9]\-&quot;</code>. This is a
+<a href="http://en.wikipedia.org/wiki/Regular_expression">Regular Expression</a> that tells grep to only match items that start
+with (<code>^</code>) two digits of any number from 0-9 (<code>[0-9][0-9]</code>) and are followed by a dash (<code>\-</code>). The <em>followed by</em> bit is
+important because otherwise we would also match 100, 101, 015 etc because they too start with two digits at the
+beginning of the line. The only difference is they have another digit straight after. The \ simply denotes an <em>escape</em>
+character because I wasn&rsquo;t sure if grep would interpret - as a literal character or some special magic character like it
+does ^. This new list is saved to a file called list. <code>&gt; list</code></p>
+<p>Next we take the two digit list and cycle through it one by one and rename each filename in that list with a leading 0.
+<code>while read i; do mv &quot;$i&quot; &quot;0$i&quot; ; done &lt; list </code>. This really has to be read as one so I should explain it as one. The
+<code>while...done &lt; list</code> is a while loop that reads from the list file we created and goes through it one by one until it
+has read all the lines. It also creates a temporary variable <code>i</code> that later is referred to as <code>$i</code>. The <code>do mv &quot;$i&quot; &quot;0$i&quot;</code> pads each file in the list with a leading 0.</p>
 <p>Finally we have to remove the list file with <code>rm list</code>.</p>
 <p>All done!</p>
 </div>

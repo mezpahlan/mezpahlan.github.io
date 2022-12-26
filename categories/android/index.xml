@@ -39,7 +39,11 @@
 
     &lt;figcaption&gt;Obviously I do not condone violence.&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;Hello and Happy New Year! What did you get up to for New Year&amp;rsquo;s? Lockdown you say? Well let&amp;rsquo;s blow all that away and get reading shall we? This post is about an Android library from Dropbox called &lt;a href=&#34;https://github.com/dropbox/Store&#34;&gt;Store&lt;/a&gt; (Store 4 to be precise). It facilitates the repository pattern, has been rebuilt from the ground up using Kotlin Coroutines, and is a great way to accelerate your app to becoming reactive. I&amp;rsquo;ve been using it for about a year in production during their alpha phase and now that it has recently gone stable I want to share a post of how we use it.&lt;/p&gt;</description>
+&lt;p&gt;Hello and Happy New Year! What did you get up to for New Year&amp;rsquo;s? Lockdown you say? Well let&amp;rsquo;s blow all that away and get
+reading shall we? This post is about an Android library from Dropbox called &lt;a href=&#34;https://github.com/dropbox/Store&#34;&gt;Store&lt;/a&gt;
+(Store 4 to be precise). It facilitates the repository pattern, has been rebuilt from the ground up using Kotlin
+Coroutines, and is a great way to accelerate your app to becoming reactive. I&amp;rsquo;ve been using it for about a year in
+production during their alpha phase and now that it has recently gone stable I want to share a post of how we use it.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -48,7 +52,9 @@
       <pubDate>Tue, 24 Nov 2020 16:35:23 +0000</pubDate>
       
       <guid>https://mezpahlan.github.io/blog/2020/11/24/izzy-wizzy-lets-get-bezier/</guid>
-      <description>&lt;p&gt;This week I&amp;rsquo;ve been focussed on improving the biometric setup journey for the app that I work on. I&amp;rsquo;ve taken the opportunity to add a little bit of fun / delight into the setup process and learn more about &lt;a href=&#34;https://developer.android.com/guide/topics/graphics/drawable-animation#AnimVector&#34;&gt;Animated Vector Drawables&lt;/a&gt; in Android.&lt;/p&gt;
+      <description>&lt;p&gt;This week I&amp;rsquo;ve been focussed on improving the biometric setup journey for the app that I work on. I&amp;rsquo;ve taken the
+opportunity to add a little bit of fun / delight into the setup process and learn more about &lt;a href=&#34;https://developer.android.com/guide/topics/graphics/drawable-animation#AnimVector&#34;&gt;Animated Vector
+Drawables&lt;/a&gt; in Android.&lt;/p&gt;
 &lt;figure &gt;
     
     
@@ -82,7 +88,9 @@
       <pubDate>Mon, 16 Nov 2020 22:14:41 +0000</pubDate>
       
       <guid>https://mezpahlan.github.io/blog/2020/11/16/how-i-like-to-test/</guid>
-      <description>&lt;p&gt;I have enjoyed testing as much as I have enjoyed developing. Sometimes more. Sometimes less. Just as it is immensely satisfying when you watch something you have built run, or be used, by a user it is also immensely satisfying to watch those little green ticks appear in your test reports. Here&amp;rsquo;s how I like to test with a focus on Android.&lt;/p&gt;
+      <description>&lt;p&gt;I have enjoyed testing as much as I have enjoyed developing. Sometimes more. Sometimes less. Just as it is immensely
+satisfying when you watch something you have built run, or be used, by a user it is also immensely satisfying to watch
+those little green ticks appear in your test reports. Here&amp;rsquo;s how I like to test with a focus on Android.&lt;/p&gt;
 &lt;figure &gt;
     
     
@@ -115,7 +123,10 @@
       <pubDate>Mon, 24 Sep 2018 19:36:09 +0000</pubDate>
       
       <guid>https://mezpahlan.github.io/blog/2018/09/24/kotcha/</guid>
-      <description>&lt;p&gt;Well it has been a long time between posts but I promise it is for a good reason. I have been busy learning. Learning &lt;a href=&#34;https://kotlinlang.org/&#34;&gt;Kotlin&lt;/a&gt;. Kotlin is a replacement for Java and has gained massive popularity on the Android platform. It is compatible with Java down to the bytecode level meaning you can have a mixed project - some Java some Kotlin. Whilst this sounds like it would be a great way to slowly migrate a large project this comes with some gotchas.&lt;/p&gt;
+      <description>&lt;p&gt;Well it has been a long time between posts but I promise it is for a good reason. I have been busy learning. Learning
+&lt;a href=&#34;https://kotlinlang.org/&#34;&gt;Kotlin&lt;/a&gt;. Kotlin is a replacement for Java and has gained massive popularity on the Android
+platform. It is compatible with Java down to the bytecode level meaning you can have a mixed project - some Java some
+Kotlin. Whilst this sounds like it would be a great way to slowly migrate a large project this comes with some gotchas.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/MXm_2YOzuxo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -167,7 +178,10 @@
       <pubDate>Sun, 16 Apr 2017 12:26:14 +0000</pubDate>
       
       <guid>https://mezpahlan.github.io/blog/2017/04/16/making-a-scene/</guid>
-      <description>&lt;p&gt;For the past few weeks I&amp;rsquo;ve been taking a brief detour into the &lt;a href=&#34;https://developer.android.com/reference/android/support/transition/package-summary.html&#34;&gt;Transitions&lt;/a&gt; framework in Android. I&amp;rsquo;ve building a success screen that initially shows a full screen image and text and later transitions into a summary of your transaction.&lt;/p&gt;
+      <description>&lt;p&gt;For the past few weeks I&amp;rsquo;ve been taking a brief detour into the
+&lt;a href=&#34;https://developer.android.com/reference/android/support/transition/package-summary.html&#34;&gt;Transitions&lt;/a&gt; framework in
+Android. I&amp;rsquo;ve building a success screen that initially shows a full screen image and text and later transitions into a
+summary of your transaction.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/KZ5WGGNSVjw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -182,7 +196,9 @@
       <pubDate>Fri, 27 Sep 2013 11:06:00 +0000</pubDate>
       
       <guid>https://mezpahlan.github.io/blog/2013/09/27/cathas-seat-design-ideas/</guid>
-      <description>&lt;p&gt;A good friend of mine, &lt;a href=&#34;http://nickandscottgobiking.blogspot.co.uk/&#34;&gt;Nick&lt;/a&gt;, is organising the construction of a bicycle seat on route 18 of the Cycle Network to complete the work started by his mother, Catha. You can read more about it on the &lt;a href=&#34;http://www.cathas-seat.org/&#34;&gt;Catha&amp;rsquo;s Seat&lt;/a&gt; website.&lt;/p&gt;
+      <description>&lt;p&gt;A good friend of mine, &lt;a href=&#34;http://nickandscottgobiking.blogspot.co.uk/&#34;&gt;Nick&lt;/a&gt;, is organising the construction of a bicycle
+seat on route 18 of the Cycle Network to complete the work started by his mother, Catha. You can read more about it on
+the &lt;a href=&#34;http://www.cathas-seat.org/&#34;&gt;Catha&amp;rsquo;s Seat&lt;/a&gt; website.&lt;/p&gt;
 &lt;figure &gt;
     
     
@@ -215,7 +231,8 @@
       <pubDate>Thu, 18 Jul 2013 12:44:00 +0000</pubDate>
       
       <guid>https://mezpahlan.github.io/blog/2013/07/18/gits-everywhere/</guid>
-      <description>&lt;p&gt;Another long break between blog posts. Mostly out of laziness but also because I am trying to learn and teach myself Android programming. Here&amp;rsquo;s a short post about how I&amp;rsquo;m getting along.&lt;/p&gt;
+      <description>&lt;p&gt;Another long break between blog posts. Mostly out of laziness but also because I am trying to learn and teach myself
+Android programming. Here&amp;rsquo;s a short post about how I&amp;rsquo;m getting along.&lt;/p&gt;
 &lt;figure &gt;
     
     
@@ -257,7 +274,8 @@
       <pubDate>Sat, 31 Jul 2010 20:33:00 +0000</pubDate>
       
       <guid>https://mezpahlan.github.io/blog/2010/07/31/update-on-droid-picture-project/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s going well. I still can&amp;rsquo;t program for shit though. I need to learn how to make more effective use of the android documentation though.&lt;/p&gt;
+      <description>&lt;p&gt;It&amp;rsquo;s going well. I still can&amp;rsquo;t program for shit though. I need to learn how to make more effective use of the android
+documentation though.&lt;/p&gt;
 &lt;figure &gt;
     
     
@@ -328,7 +346,8 @@
       
       <guid>https://mezpahlan.github.io/blog/2009/11/18/developing-for-android/</guid>
       <description>&lt;p&gt;I thought I&amp;rsquo;d develop an application for the Android Market.&lt;/p&gt;
-&lt;p&gt;I hear it is pretty similar to java which is something I&amp;rsquo;d like to learn. I&amp;rsquo;ll post my source if I make something that actually works!&lt;/p&gt;
+&lt;p&gt;I hear it is pretty similar to java which is something I&amp;rsquo;d like to learn. I&amp;rsquo;ll post my source if I make something that
+actually works!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://developer.android.com/index.html&#34;&gt;http://developer.android.com/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     

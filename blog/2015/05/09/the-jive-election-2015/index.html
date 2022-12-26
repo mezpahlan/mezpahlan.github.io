@@ -60,14 +60,20 @@
     <div class="post">
   <h1>The Jive Election 2015</h1><time datetime="2015-05-09T16:49:00Z" class="post-date">Sat, May 9, 2015
     
-</time><p>Throughout March and April of 2015 I have been busy working on a pet project with my friend Ricky Shelton. The idea was simple. Make the politicians running in the 2015 UK General Election more electable by having them speak Jive.</p>
+</time><p>Throughout March and April of 2015 I have been busy working on a pet project with my friend Ricky Shelton. The idea was
+simple. Make the politicians running in the 2015 UK General Election more electable by having them speak Jive.</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/RrZlWw8Di10" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
-<p>We came up with the crazy idea at a very slow and depressing day at work one day last year. Ricky quickly mocked up some code that would listen to the candidate&rsquo;s Twitter feed, grab a Tweet and send it to a Jive Translation service. We had a few hours worth of giggles over at <a href="http://www.luketillo.com/jiveluke.html">Luke&rsquo;s Jive Translator</a> so decided to reuse his back end. The way his service works is by accepting a string of text and replacing predefined values with Jive values. The results are hilarious. So we thought why not automate it?</p>
-<p>Here is the former leader of the Labour Party, <a href="https://twitter.com/ed_miliband">Ed Miliband</a>, saying, &ldquo;Thanks&rdquo;, for a hard fought campaign.</p>
+<p>We came up with the crazy idea at a very slow and depressing day at work one day last year. Ricky quickly mocked up some
+code that would listen to the candidate&rsquo;s Twitter feed, grab a Tweet and send it to a Jive Translation service. We had a
+few hours worth of giggles over at <a href="http://www.luketillo.com/jiveluke.html">Luke&rsquo;s Jive Translator</a> so decided to reuse
+his back end. The way his service works is by accepting a string of text and replacing predefined values with Jive
+values. The results are hilarious. So we thought why not automate it?</p>
+<p>Here is the former leader of the Labour Party, <a href="https://twitter.com/ed_miliband">Ed Miliband</a>, saying, &ldquo;Thanks&rdquo;, for a
+hard fought campaign.</p>
 <figure >
     
     
@@ -219,9 +225,17 @@
 
     <figcaption>Nick Jivegg</figcaption>
 </figure>
-<p>At some point I will follow this up with a post on how we made this with some technical details. But if you want to check it out yourself it is on Github under my <a href="https://github.com/mezpahlan/jivecampaign">Jive Campaign</a> repository.</p>
-<p>There were some very interesting problems that we needed to solve. The worst of which (and an on going one) was that we were constantly breaking Twitter&rsquo;s 140 character rule since the Jive translator sends back a piece of text that we have no control over. Some times it fits, sometimes it does not. We also wanted, right from the start, not to translate hash tags, links, and user mentions but the solution to that turned out to be non trivial. Anyway, I&rsquo;ll get to that in a later blog post.</p>
-<p>To run the service I chose Red Hat&rsquo;s <a href="https://www.openshift.com/">Open Shift</a> platform as a Service. It is written in Java and makes extensive use of Yusuke Yamamoto&rsquo;s brilliant <a href="http://twitter4j.org/en/index.html">Twitter4J</a> library. At some point I&rsquo;ll also get around to writing unit tests and will use <a href="http://junit.org/">JUnit</a> and <a href="http://mockito.org/">Mockito</a> as my tools.</p>
+<p>At some point I will follow this up with a post on how we made this with some technical details. But if you want to
+check it out yourself it is on Github under my <a href="https://github.com/mezpahlan/jivecampaign">Jive Campaign</a> repository.</p>
+<p>There were some very interesting problems that we needed to solve. The worst of which (and an on going one) was that we
+were constantly breaking Twitter&rsquo;s 140 character rule since the Jive translator sends back a piece of text that we have
+no control over. Some times it fits, sometimes it does not. We also wanted, right from the start, not to translate hash
+tags, links, and user mentions but the solution to that turned out to be non trivial. Anyway, I&rsquo;ll get to that in a
+later blog post.</p>
+<p>To run the service I chose Red Hat&rsquo;s <a href="https://www.openshift.com/">Open Shift</a> platform as a Service. It is written in
+Java and makes extensive use of Yusuke Yamamoto&rsquo;s brilliant <a href="http://twitter4j.org/en/index.html">Twitter4J</a> library. At
+some point I&rsquo;ll also get around to writing unit tests and will use <a href="http://junit.org/">JUnit</a> and
+<a href="http://mockito.org/">Mockito</a> as my tools.</p>
 </div>
 
 <h2>Comments</h2>

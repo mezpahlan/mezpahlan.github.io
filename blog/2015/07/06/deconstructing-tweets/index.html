@@ -60,7 +60,10 @@
     <div class="post">
   <h1>Deconstructing Tweets</h1><time datetime="2015-07-06T19:25:00Z" class="post-date">Mon, Jul 6, 2015
     
-</time><p>As part of my personal project for Spring, and to coincide with the UK 2015 General Election, I decided to create some bots that mirrored the main party candidates and translated their tweets to Jive. They are still running so you can find them on Twitter: <a href="https://twitter.com/edjiveaband">Ed Jiveaband</a>, <a href="https://twitter.com/nickjivegg">Nick Jivegg</a>, <a href="https://twitter.com/davidjiveron">David Jiveron</a>.</p>
+</time><p>As part of my personal project for Spring, and to coincide with the UK 2015 General Election, I decided to create some
+bots that mirrored the main party candidates and translated their tweets to Jive. They are still running so you can find
+them on Twitter: <a href="https://twitter.com/edjiveaband">Ed Jiveaband</a>, <a href="https://twitter.com/nickjivegg">Nick Jivegg</a>, <a href="https://twitter.com/davidjiveron">David
+Jiveron</a>.</p>
 <figure >
     
     
@@ -85,12 +88,24 @@
 
     <figcaption>Deconstructing Tweets</figcaption>
 </figure>
-<p>One of the more interesting problems that I faced was how to prevent special Tweet Entities being erroneously translated by the Jive translator. You may be asking what is a Tweet Entity? Let me explain about them first and then go on to explain how I can tackle such a problem.</p>
+<p>One of the more interesting problems that I faced was how to prevent special Tweet Entities being erroneously translated
+by the Jive translator. You may be asking what is a Tweet Entity? Let me explain about them first and then go on to
+explain how I can tackle such a problem.</p>
 <h3 id="tweet-entities">Tweet Entities</h3>
-<p>Tweet Entities are special portions of your tweet that you can click. Depending on the entity your click may produce different results. One of the more common entities that you might know is the <a href="https://en.wikipedia.org/wiki/Hashtag">#hashtag</a>. Other entities are the URL link, the Media link, and the user @mention. It is clearly quite important that we don&rsquo;t translate these using the Jive translator service otherwise links may not work, #hashtags may be incorrect, and the wrong user may be @mentioned.</p>
+<p>Tweet Entities are special portions of your tweet that you can click. Depending on the entity your click may produce
+different results. One of the more common entities that you might know is the
+<a href="https://en.wikipedia.org/wiki/Hashtag">#hashtag</a>. Other entities are the URL link, the Media link, and the user
+@mention. It is clearly quite important that we don&rsquo;t translate these using the Jive translator service otherwise links
+may not work, #hashtags may be incorrect, and the wrong user may be @mentioned.</p>
 <h3 id="the-problem">The Problem</h3>
-<p>To start tackling this I needed to know how to break down a tweet into its constituent parts. I started with the assumption that this was possible and that the Twitter API would help with this. Sort of&hellip;..</p>
-<p>It turned out that Twitter didn&rsquo;t do all the work for me. What I did have access to is the <strong>start</strong> and <strong>end</strong> positions within the tweet string of where these entities are. Naively I thought that I could simply translate the whole string and replace each entity at their original start and end positions. Sadly I quickly realised that this couldn&rsquo;t be done. When we use the Jive translation service it returns a string that we cannot guarantee to be the same number of characters as the input. If we can&rsquo;t guarantee this then our assumption that we can simply splice the original start and end positions into the new translated string falls apart.</p>
+<p>To start tackling this I needed to know how to break down a tweet into its constituent parts. I started with the
+assumption that this was possible and that the Twitter API would help with this. Sort of&hellip;..</p>
+<p>It turned out that Twitter didn&rsquo;t do all the work for me. What I did have access to is the <strong>start</strong> and <strong>end</strong>
+positions within the tweet string of where these entities are. Naively I thought that I could simply translate the whole
+string and replace each entity at their original start and end positions. Sadly I quickly realised that this couldn&rsquo;t be
+done. When we use the Jive translation service it returns a string that we cannot guarantee to be the same number of
+characters as the input. If we can&rsquo;t guarantee this then our assumption that we can simply splice the original start and
+end positions into the new translated string falls apart.</p>
 <p>Here&rsquo;s an example:</p>
 <script type="application/javascript" src="https://gist.github.com/mezpahlan/fe0fab8739bcac54bde5.js"></script>
 
@@ -98,23 +113,36 @@
 <p>Suppose the translation service comes back with the following string.</p>
 <script type="application/javascript" src="https://gist.github.com/mezpahlan/a083576ba1c6fc0682d8.js"></script>
 
-<p>The translated string is, coincidently in this example, still 11 characters long. However the #hashtag has been erroneously translated losing the original meaning. Under our original assumption we could say that we would splice the old #hashtag into the translated string at the <em>original</em> <strong>start</strong> and <strong>end</strong> positions. Let&rsquo;s see what happens when we do that.</p>
+<p>The translated string is, coincidently in this example, still 11 characters long. However the #hashtag has been
+erroneously translated losing the original meaning. Under our original assumption we could say that we would splice the
+old #hashtag into the translated string at the <em>original</em> <strong>start</strong> and <strong>end</strong> positions. Let&rsquo;s see what happens when
+we do that.</p>
 <script type="application/javascript" src="https://gist.github.com/mezpahlan/270c20c920e78c06927f.js"></script>
 
 <p>Hmmm&hellip; not good!</p>
 <h3 id="the-solution">The Solution</h3>
-<p>I need to be able to understand where each entity starts and ends in order to translate only the parts of tweets that fall outside of these ranges. In order to do this I needed a way of creating an ordered collection of all the entities dynamically.</p>
+<p>I need to be able to understand where each entity starts and ends in order to translate only the parts of tweets that
+fall outside of these ranges. In order to do this I needed a way of creating an ordered collection of all the entities
+dynamically.</p>
 <script type="application/javascript" src="https://gist.github.com/mezpahlan/f7293a43582de1edff66.js"></script>
 
-<p>There is a few things happening in the above gist. First you&rsquo;ll notice that I create an empty List of what I call <em>EntitiesModel</em>. This is a custom model I use to store interesting information about the entities. In particular the <strong>start</strong> and <strong>end</strong> positions. Here is what it looks like (minus all the guff of getters and setters and the constructor).</p>
+<p>There is a few things happening in the above gist. First you&rsquo;ll notice that I create an empty List of what I call
+<em>EntitiesModel</em>. This is a custom model I use to store interesting information about the entities. In particular the
+<strong>start</strong> and <strong>end</strong> positions. Here is what it looks like (minus all the guff of getters and setters and the
+constructor).</p>
 <script type="application/javascript" src="https://gist.github.com/mezpahlan/ed796aa6246e63a91bd1.js"></script>
 
-<p>Notice that I&rsquo;ve implemented a comparable interface which allows me to sort the resulting list based on the start position of the entity. This becomes important because after I&rsquo;ve extracted all the entities into a List of Entities they might not be in order.</p>
+<p>Notice that I&rsquo;ve implemented a comparable interface which allows me to sort the resulting list based on the start
+position of the entity. This becomes important because after I&rsquo;ve extracted all the entities into a List of Entities
+they might not be in order.</p>
 <p>Putting it all together I have an ordered List of Entities. So now what?</p>
 <script type="application/javascript" src="https://gist.github.com/mezpahlan/d91ea8f585a154543565.js"></script>
 
-<p>The gist above shows how we can substring the original input string until we reach an element in the Entities list, translate this string, splice the original entity back into the correct place in the translated string, and repeat until the rest of the input string is translated skipping over and splicing back in each entity as we find it.</p>
-<p>Phew!! Finally. So that&rsquo;s how I tackle the Tweet Entity problem problem. Maybe next time I&rsquo;ll write about how I overcame the 140 Twitter character problem.</p>
+<p>The gist above shows how we can substring the original input string until we reach an element in the Entities list,
+translate this string, splice the original entity back into the correct place in the translated string, and repeat until
+the rest of the input string is translated skipping over and splicing back in each entity as we find it.</p>
+<p>Phew!! Finally. So that&rsquo;s how I tackle the Tweet Entity problem problem. Maybe next time I&rsquo;ll write about how I overcame
+the 140 Twitter character problem.</p>
 <figure >
     
     

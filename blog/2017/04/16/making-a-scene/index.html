@@ -62,15 +62,27 @@
     
     | <div class="icon"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="android" class="svg-inline--fa fa-android fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M420.55,301.93a24,24,0,1,1,24-24,24,24,0,0,1-24,24m-265.1,0a24,24,0,1,1,24-24,24,24,0,0,1-24,24m273.7-144.48,47.94-83a10,10,0,1,0-17.27-10h0l-48.54,84.07a301.25,301.25,0,0,0-246.56,0L116.18,64.45a10,10,0,1,0-17.27,10h0l47.94,83C64.53,202.22,8.24,285.55,0,384H576c-8.24-98.45-64.54-181.78-146.85-226.55"></path></svg></div>
     
-</time><p>For the past few weeks I&rsquo;ve been taking a brief detour into the <a href="https://developer.android.com/reference/android/support/transition/package-summary.html">Transitions</a> framework in Android. I&rsquo;ve building a success screen that initially shows a full screen image and text and later transitions into a summary of your transaction.</p>
+</time><p>For the past few weeks I&rsquo;ve been taking a brief detour into the
+<a href="https://developer.android.com/reference/android/support/transition/package-summary.html">Transitions</a> framework in
+Android. I&rsquo;ve building a success screen that initially shows a full screen image and text and later transitions into a
+summary of your transaction.</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/KZ5WGGNSVjw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 <p>This post documents some of the things I&rsquo;ve learned whilst working on this.</p>
-<p>Some of the transitions that are available on Android are amazingly nice and the default auto transitions are pleasing and useful for the vast majority of use cases. For finer grain control over the transitions you can make use of <a href="https://developer.android.com/reference/android/support/transition/TransitionSet.html">TransitionSets</a> to build up a set of Transitions that you can customise all you want. The Support Library does a very good job to bring these to earlier versions of Android however if you really want all the bells and whistles you need to specify a minimum API level of 21. If only we could all be so lucky!! For those of us that can&rsquo;t easily do that there is the fantastic <a href="https://github.com/andkulikov/transitions-everywhere">TransitionsEverywhere</a> library that brings a subset of the transitions down to APIs below 21. This gives you more than what the support library does but doesn&rsquo;t unlock the really neat Activity and Fragment Shared Element Transitions.</p>
-<p>For the transition in the video above I started off using the TransitionsEverywhere library but I think it is fair to say that you can achieve the same using just the Android Support Library.</p>
+<p>Some of the transitions that are available on Android are amazingly nice and the default auto transitions are pleasing
+and useful for the vast majority of use cases. For finer grain control over the transitions you can make use of
+<a href="https://developer.android.com/reference/android/support/transition/TransitionSet.html">TransitionSets</a> to build up a
+set of Transitions that you can customise all you want. The Support Library does a very good job to bring these to
+earlier versions of Android however if you really want all the bells and whistles you need to specify a minimum API
+level of 21. If only we could all be so lucky!! For those of us that can&rsquo;t easily do that there is the fantastic
+<a href="https://github.com/andkulikov/transitions-everywhere">TransitionsEverywhere</a> library that brings a subset of the
+transitions down to APIs below 21. This gives you more than what the support library does but doesn&rsquo;t unlock the really
+neat Activity and Fragment Shared Element Transitions.</p>
+<p>For the transition in the video above I started off using the TransitionsEverywhere library but I think it is fair to
+say that you can achieve the same using just the Android Support Library.</p>
 <p>So let&rsquo;s get into the code!</p>
 <p>The basic idea is as follows</p>
 <figure >
@@ -97,8 +109,12 @@
 
     <figcaption>Relationships in the transitions framework</figcaption>
 </figure>
-<p>You declare a starting scene (either declaratively or in code), an end scene (either declaratively or in code), a transition (either declaratively or in code), and finally tell a <a href="https://developer.android.com/reference/android/support/transition/TransitionManager.html">TransitionManager</a> to change between the scenes using the transition.</p>
-<p>The magic happens in a layout that contains a <code>scene_root</code> that in turn contains a placeholder for the scenes that swap in and out. Here&rsquo;s what the above looks like:</p>
+<p>You declare a starting scene (either declaratively or in code), an end scene (either declaratively or in code), a
+transition (either declaratively or in code), and finally tell a
+<a href="https://developer.android.com/reference/android/support/transition/TransitionManager.html">TransitionManager</a> to change
+between the scenes using the transition.</p>
+<p>The magic happens in a layout that contains a <code>scene_root</code> that in turn contains a placeholder for the scenes that swap
+in and out. Here&rsquo;s what the above looks like:</p>
 <script type="application/javascript" src="https://gist.github.com/mezpahlan/fd107cea98366f4704ba839966e17cd7.js"></script>
 
 <p>Notice that there is a view with an id called <code>scene_root</code> that includes, initially, the layout for <code>scene_a</code>.</p>
@@ -108,12 +124,21 @@
 <p>And for completeness here is the <code>hello_world</code> layout:</p>
 <script type="application/javascript" src="https://gist.github.com/mezpahlan/87efdac4f2f6d6182096860d2e2ad9ed.js"></script>
 
-<p>Further points to notice are the differences between Scene A and Scene B, chiefly the <code>hello_world</code> layout. Also notice that both Scene A and B have a top level layout with an id of <code>scene_container</code>. When the transition runs the TransitionManager calculates the start and end points represented by the two scene layouts and figures out what has changed and then uses an animation to animate the difference.</p>
-<p>Now that everything has been defined we need to tell Android to actually do something on an event. Here&rsquo;s what this looks like in Java code:</p>
+<p>Further points to notice are the differences between Scene A and Scene B, chiefly the <code>hello_world</code> layout. Also notice
+that both Scene A and B have a top level layout with an id of <code>scene_container</code>. When the transition runs the
+TransitionManager calculates the start and end points represented by the two scene layouts and figures out what has
+changed and then uses an animation to animate the difference.</p>
+<p>Now that everything has been defined we need to tell Android to actually do something on an event. Here&rsquo;s what this
+looks like in Java code:</p>
 <script type="application/javascript" src="https://gist.github.com/mezpahlan/82fa058430875af3928ef3d00fc01b49.js"></script>
 
-<p>In this file we can see that references to the scene layouts in Java code in a similar way that you find references to views with <code>findViewById</code>. Also we have a definition of what will happen when each Scene is entered. This includes some initialisation logic. Finally we tell Android to start with Scene A.</p>
-<p>That&rsquo;s it! It is very simple to define transitions in this way. As I pointed out earlier this isn&rsquo;t the only way that you can define transitions. You can also define transitions via XMLs or start and end positions via code depending on your needs. For now I will stick to defining transitions in the way I have described above as I typically want to define them in terms of start and end layouts rather than some dynamic logic at runtime.</p>
+<p>In this file we can see that references to the scene layouts in Java code in a similar way that you find references to
+views with <code>findViewById</code>. Also we have a definition of what will happen when each Scene is entered. This includes some
+initialisation logic. Finally we tell Android to start with Scene A.</p>
+<p>That&rsquo;s it! It is very simple to define transitions in this way. As I pointed out earlier this isn&rsquo;t the only way that
+you can define transitions. You can also define transitions via XMLs or start and end positions via code depending on
+your needs. For now I will stick to defining transitions in the way I have described above as I typically want to define
+them in terms of start and end layouts rather than some dynamic logic at runtime.</p>
 <p>Anyways, happy transitioning!</p>
 </div>
 
