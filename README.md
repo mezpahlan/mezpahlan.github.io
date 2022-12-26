@@ -4,11 +4,13 @@ About me website!
 
 This site is built using [Hugo](https://gohugo.io/) and hosted on Github Pages. 
 
-The theme is a port of the original Hyde Jekyll theme also called [Hyde](https://github.com/spf13/hyde/). However I have customised it ever so slightly.
+The theme is a port of the original Hyde Jekyll theme also called [Hyde](https://github.com/spf13/hyde/). However I have
+customised it ever so slightly.
 
 ## Cloning
 
-New computer? Keep in mind that this repo uses submodules (for the Hyde theme) so you will need to also clone that to the correct path. Luckily `git` can help us.
+New computer? Keep in mind that this repo uses submodules (for the Hyde theme) so you will need to also clone that to
+the correct path. Luckily `git` can help us.
 
 ```bash
 $ git clone --recurse-submodules git@github.com:mezpahlan/mezpahlan.github.io.git
@@ -34,5 +36,5 @@ To deploy do the following:
 - [ ] Fix tags.
     - `categories` seems to work `android` and `personal`.
 - [ ] Fix RSS feed.
-- [ ] Add porfolio section.
+- [ ] Add portfolio section.
 - [ ] Custom CNAME.
