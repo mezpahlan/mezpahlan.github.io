@@ -3,7 +3,7 @@ author = "Mez Pahlan"
 categories = ["personal"]
 date = "2015-01-25T17:13:00Z"
 disqus_identifier = "be12b5e8-1bac-41e4-ba63-0ba99236c2c3"
-tags = ["home"]
+tags = ["bristol"]
 title = "Shopping for a bathroom"
 
 +++

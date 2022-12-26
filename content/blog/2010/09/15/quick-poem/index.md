@@ -3,14 +3,15 @@ author = "Mez Pahlan"
 categories = ["personal"]
 date = "2010-09-15T22:35:00Z"
 disqus_identifier = "0265fc4a-76f4-44f9-abdb-b0ad3de54f61"
-tags = ["poem"]
+tags = ["fun"]
 title = "A quick poem"
 
 +++
 
 Really quick now:
 
-I was chatting to my friend over the email communicator and I typed out this poem whilst sitting on the tube. Looking back I think it is kinda cool.
+I was chatting to my friend over the email communicator and I typed out this poem whilst sitting on the tube. Looking
+back I think it is kinda cool.
 
 >Oddly shaped electrical thing,  
 >With all the wires 'n cables you bring.  

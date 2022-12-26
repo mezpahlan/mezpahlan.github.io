@@ -3,7 +3,7 @@ author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-06-13T13:20:00Z"
 disqus_identifier = "eebdef76-0c1c-454e-ae99-f4ab059844a2"
-tags = ["ireland", "holidays"]
+tags = ["holidays"]
 title = "I'm off"
 
 +++

@@ -3,7 +3,7 @@ author = "Mez Pahlan"
 categories = ["personal"]
 date = "2011-07-27T22:29:00Z"
 disqus_identifier = "b8d5c671-94bd-4e4d-99ce-8af81c084cdf"
-tags = ["germany", "holidays"]
+tags = ["holidays"]
 title = "Off to Berlin"
 
 +++

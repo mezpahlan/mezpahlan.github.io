@@ -3,7 +3,7 @@ author = "Mez Pahlan"
 categories = ["personal"]
 date = "2017-01-29T17:48:04Z"
 disqus_identifier = "3077aa98-58ae-45cf-9f48-0ef29848c96b"
-tags = ["snowboarding"]
+tags = ["holidays"]
 title = "Snowboarding Meribel"
 
 +++

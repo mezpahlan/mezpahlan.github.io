@@ -3,7 +3,7 @@ author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-04-08T16:58:00Z"
 disqus_identifier = "c997610c-9d99-45d9-8a43-32aecd6c9192"
-tags = ["ireland", "holidays"]
+tags = ["holidays"]
 title = "Easter in Ireland"
 
 +++

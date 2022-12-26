@@ -3,7 +3,7 @@ author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-11-19T00:00:00Z"
 disqus_identifier = "fa834c03-b251-4dfb-ba71-be27c2d78c0b"
-tags = ["south africa", "holidays"]
+tags = ["holidays"]
 title = "Kruger Park"
 
 +++

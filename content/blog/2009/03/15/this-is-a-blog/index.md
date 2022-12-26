@@ -3,7 +3,7 @@ author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-03-15T21:46:00Z"
 disqus_identifier = "208bc5b9-6b6a-47f3-889d-3d116e4231bd"
-tags = ["funny"]
+tags = ["fun"]
 title = "This is a blog"
 
 +++

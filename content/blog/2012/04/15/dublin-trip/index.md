@@ -3,7 +3,7 @@ author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-04-15T13:36:00Z"
 disqus_identifier = "95855012-d350-4db8-8771-db37bb21417d"
-tags = ["ireland", "holidays"]
+tags = ["holidays"]
 title = "Dublin trip"
 
 +++
