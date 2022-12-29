@@ -34,6 +34,5 @@ To deploy do the following:
 
 ## Still to do
 
-- [ ] Fix RSS feed.
 - [ ] Add portfolio section.
 - [ ] Custom CNAME.
