@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>
+    
+    
+      blog on Mez Says
+      
+    </title>
+    <link>https://mezpahlan.github.io/tags/blog/</link>
+    <description>Recent content 
+    
+      in blog  
+    on Mez Says
+    </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+    <language>en-gb</language>
+    
+    
+    
+    
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    
+    
+    <lastBuildDate>Sun, 05 Nov 2017 19:35:23 +0000</lastBuildDate>
+    <atom:link href="https://mezpahlan.github.io/tags/blog/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Blog Design</title>
+      <link>https://mezpahlan.github.io/blog/2017/11/05/new-blog-design/</link>
+      <pubDate>Sun, 05 Nov 2017 19:35:23 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2017/11/05/new-blog-design/</guid>
+      <description>&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2017/11/05/new-blog-design/doctor-jekyll-and-mister-hyde_hucca856b2a379e39a6627835bc30fda08_43303_500x0_resize_box_3.png 1x
+      
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2017/11/05/new-blog-design/doctor-jekyll-and-mister-hyde.png&#34; 
+      
+    &gt;
+
+    &lt;figcaption&gt;Who&amp;rsquo;s a pretty boy?&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Hello! I&amp;rsquo;ve been away a while but I&amp;rsquo;m back!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Under The Hood Optimisations</title>
+      <link>https://mezpahlan.github.io/blog/2017/02/19/under-the-hood-optimisations/</link>
+      <pubDate>Sun, 19 Feb 2017 19:02:17 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2017/02/19/under-the-hood-optimisations/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve spent the last few weeks wrestling with Ruby and making some site changes to my blog. It&amp;rsquo;s been enjoyable. I&amp;rsquo;ve
+learned more about Ruby and more about responsive images on the web. I still don&amp;rsquo;t like Ruby, but at least now I have
+made my peace with it.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2017/02/19/under-the-hood-optimisations/under-the-hood_hu208ab67316efe313c6a2473dc1826e8a_1106015_500x0_resize_box_3.png 1x
+      
+      
+        , /blog/2017/02/19/under-the-hood-optimisations/under-the-hood_hu208ab67316efe313c6a2473dc1826e8a_1106015_800x0_resize_box_3.png 1.6x
+      
+      
+        , /blog/2017/02/19/under-the-hood-optimisations/under-the-hood_hu208ab67316efe313c6a2473dc1826e8a_1106015_1200x0_resize_box_3.png 2.4x
+      
+      
+        , /blog/2017/02/19/under-the-hood-optimisations/under-the-hood_hu208ab67316efe313c6a2473dc1826e8a_1106015_1500x0_resize_box_3.png 3x 
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2017/02/19/under-the-hood-optimisations/under-the-hood.png&#34; 
+      
+    &gt;
+
+    &lt;figcaption&gt;Man looks under the hood of an old jeep from world war two&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>End Of The Year</title>
+      <link>https://mezpahlan.github.io/blog/2016/12/31/end-of-the-year/</link>
+      <pubDate>Sat, 31 Dec 2016 00:27:28 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2016/12/31/end-of-the-year/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s the end of the year and I fancy writing something about it! I had planned on writing about all the things that
+happened during the year. However I probably should have blogged more if that were the case. Instead I will focus on why
+I left my old job in the Autumn.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2016/12/31/end-of-the-year/bristol_hu7c518908c6ad1108b08c4eabf445fd68_25040086_500x0_resize_box_3.png 1x
+      
+      
+        , /blog/2016/12/31/end-of-the-year/bristol_hu7c518908c6ad1108b08c4eabf445fd68_25040086_800x0_resize_box_3.png 1.6x
+      
+      
+        , /blog/2016/12/31/end-of-the-year/bristol_hu7c518908c6ad1108b08c4eabf445fd68_25040086_1200x0_resize_box_3.png 2.4x
+      
+      
+        , /blog/2016/12/31/end-of-the-year/bristol_hu7c518908c6ad1108b08c4eabf445fd68_25040086_1500x0_resize_box_3.png 3x 
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2016/12/31/end-of-the-year/bristol.png&#34; 
+      
+    &gt;
+
+    &lt;figcaption&gt;Bristol Harbourside&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hello 2015!!</title>
+      <link>https://mezpahlan.github.io/blog/2015/01/04/hello-2015/</link>
+      <pubDate>Sun, 04 Jan 2015 14:55:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2015/01/04/hello-2015/</guid>
+      <description>&lt;p&gt;Hello 2015!!&lt;/p&gt;
+&lt;p&gt;I started off last year with a blog post and then got side tracked. And then throughout the year I got side tracked some
+more. And then, well&amp;hellip;&amp;hellip;&amp;hellip; I sort of was on a roll with getting side tracked and decided to not post any recipes,
+geeky updates, random blog thoughts for the entire year. Well we started a new year this week and I&amp;rsquo;d like to make
+amends!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>New blog name</title>
+      <link>https://mezpahlan.github.io/blog/2011/07/19/new-blog-name/</link>
+      <pubDate>Tue, 19 Jul 2011 19:12:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2011/07/19/new-blog-name/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m thinking about changing the name of my blog. Big move - maybe? But I&amp;rsquo;m pretty sure I can do that with the Blogger
+engine. I guess the only thing to worry about is updating people&amp;rsquo;s links. But no one reads this blog anyway so what&amp;rsquo;s
+the problem?&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2011/07/19/new-blog-name/haters.jpg&#34; 
+      
+    &gt;
+
+    &lt;figcaption&gt;Haters Gonna Hate&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Need to blog more</title>
+      <link>https://mezpahlan.github.io/blog/2011/02/13/need-to-blog-more/</link>
+      <pubDate>Sun, 13 Feb 2011 19:55:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2011/02/13/need-to-blog-more/</guid>
+      <description>&lt;p&gt;I need to blog more. And with an aim to do that I have downloaded the new Google Blogger client for Android.
+Stay tuned for some more blogs!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

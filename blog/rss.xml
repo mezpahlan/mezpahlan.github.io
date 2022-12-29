@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>
+    
+    
+      Blogs on Mez Says
+      
+    </title>
+    <link>https://mezpahlan.github.io/blog/</link>
+    <description>Recent content 
+    
+      in Blogs  
+    on Mez Says
+    </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+    <language>en-gb</language>
+    
+    
+    
+    
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    
+    
+    <lastBuildDate>Mon, 26 Dec 2022 12:02:01 +0000</lastBuildDate>
+    <atom:link href="https://mezpahlan.github.io/blog/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Happy Boxing Day</title>
+      <link>https://mezpahlan.github.io/blog/2022/12/26/happy-boxing-day/</link>
+      <pubDate>Mon, 26 Dec 2022 12:02:01 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2022/12/26/happy-boxing-day/</guid>
+      <description>&lt;p&gt;Today is Boxing Day! The day after Christmas. Usually a lazy day so why not write a blog post about what I have been
+doing this year.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2022/12/26/happy-boxing-day/boxingday.jpg&#34; 
+      
+    &gt;
+
+    &lt;figcaption&gt;The true meaning of Boxing Day&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Store This</title>
+      <link>https://mezpahlan.github.io/blog/2021/01/13/store-this/</link>
+      <pubDate>Wed, 13 Jan 2021 11:43:52 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2021/01/13/store-this/</guid>
+      <description>&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2021/01/13/store-this/dodge-this_hu2c7fafafb25af561207ccd13ce18538b_49013_500x0_resize_q75_box.jpg 1x
+      
+      
+        , /blog/2021/01/13/store-this/dodge-this_hu2c7fafafb25af561207ccd13ce18538b_49013_800x0_resize_q75_box.jpg 1.6x
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2021/01/13/store-this/dodge-this.jpg&#34; 
+      
+    &gt; 
+
+    &lt;figcaption&gt;Obviously I do not condone violence.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Hello and Happy New Year! What did you get up to for New Year&amp;rsquo;s? Lockdown you say? Well let&amp;rsquo;s blow all that away and get
+reading shall we? This post is about an Android library from Dropbox called &lt;a href=&#34;https://github.com/dropbox/Store&#34;&gt;Store&lt;/a&gt;
+(Store 4 to be precise). It facilitates the repository pattern, has been rebuilt from the ground up using Kotlin
+Coroutines, and is a great way to accelerate your app to becoming reactive. I&amp;rsquo;ve been using it for about a year in
+production during their alpha phase and now that it has recently gone stable I want to share a post of how we use it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Izzy Wizzy Lets Get Bezier</title>
+      <link>https://mezpahlan.github.io/blog/2020/11/24/izzy-wizzy-lets-get-bezier/</link>
+      <pubDate>Tue, 24 Nov 2020 16:35:23 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2020/11/24/izzy-wizzy-lets-get-bezier/</guid>
+      <description>&lt;p&gt;This week I&amp;rsquo;ve been focussed on improving the biometric setup journey for the app that I work on. I&amp;rsquo;ve taken the
+opportunity to add a little bit of fun / delight into the setup process and learn more about &lt;a href=&#34;https://developer.android.com/guide/topics/graphics/drawable-animation#AnimVector&#34;&gt;Animated Vector
+Drawables&lt;/a&gt; in Android.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2020/11/24/izzy-wizzy-lets-get-bezier/izzy-wizzy_hua492db747005d103eeac556b120922af_54549_500x0_resize_q75_box.jpg 1x
+      
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2020/11/24/izzy-wizzy-lets-get-bezier/izzy-wizzy.jpg&#34; 
+      
+    &gt; 
+
+    &lt;figcaption&gt;Can we just take a moment and recognise how much of a bitch Soo was. Always spoiling Sooty and Sweep&amp;rsquo;s fun. Cow.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;This post aims to recap what I learned when working with Animated Vector Drawables (AVDs).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How I Like To Test</title>
+      <link>https://mezpahlan.github.io/blog/2020/11/16/how-i-like-to-test/</link>
+      <pubDate>Mon, 16 Nov 2020 22:14:41 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2020/11/16/how-i-like-to-test/</guid>
+      <description>&lt;p&gt;I have enjoyed testing as much as I have enjoyed developing. Sometimes more. Sometimes less. Just as it is immensely
+satisfying when you watch something you have built run, or be used, by a user it is also immensely satisfying to watch
+those little green ticks appear in your test reports. Here&amp;rsquo;s how I like to test with a focus on Android.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2020/11/16/how-i-like-to-test/test-pyramid_hu18843f7e979432ad89b1aabbe252a973_37803_500x0_resize_box_3.png 1x
+      
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2020/11/16/how-i-like-to-test/test-pyramid.png&#34; 
+      
+    &gt; 
+
+    &lt;figcaption&gt;&lt;a href=&#34;https://developer.android.com/training/testing/fundamentals&#34;&gt;The (Android) Test Pyramid&lt;/a&gt; that is 100% centred I swear!&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Welcome Back</title>
+      <link>https://mezpahlan.github.io/blog/2020/11/15/welcome-back/</link>
+      <pubDate>Sun, 15 Nov 2020 22:17:40 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2020/11/15/welcome-back/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m back! With a slight redesign of the blog. Can you tell?&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2020/11/15/welcome-back/dumuzid_hu1128bafbf1f4c47a6b27c0c4d13fdd33_131079_500x0_resize_q75_box.jpg 1x
+      
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2020/11/15/welcome-back/dumuzid.jpg&#34; 
+      
+    &gt; 
+
+    &lt;figcaption&gt;Françoise Foliot, CC BY-SA 4.0, via Wikimedia Commons&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Kotcha</title>
+      <link>https://mezpahlan.github.io/blog/2018/09/24/kotcha/</link>
+      <pubDate>Mon, 24 Sep 2018 19:36:09 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2018/09/24/kotcha/</guid>
+      <description>&lt;p&gt;Well it has been a long time between posts but I promise it is for a good reason. I have been busy learning. Learning
+&lt;a href=&#34;https://kotlinlang.org/&#34;&gt;Kotlin&lt;/a&gt;. Kotlin is a replacement for Java and has gained massive popularity on the Android
+platform. It is compatible with Java down to the bytecode level meaning you can have a mixed project - some Java some
+Kotlin. Whilst this sounds like it would be a great way to slowly migrate a large project this comes with some gotchas.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/MXm_2YOzuxo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Postcards From The Edge</title>
+      <link>https://mezpahlan.github.io/blog/2018/01/07/postcards-from-the-edge/</link>
+      <pubDate>Sun, 07 Jan 2018 15:07:30 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2018/01/07/postcards-from-the-edge/</guid>
+      <description>&lt;p&gt;After a year long read I&amp;rsquo;ve finally finished Postcards From The Edge by Carrie Fisher.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2018/01/07/postcards-from-the-edge/postcards.jpg&#34; 
+      
+    &gt;
+
+    &lt;figcaption&gt;Postcards From The Edge - Carrie Fisher&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Christmas In Ireland</title>
+      <link>https://mezpahlan.github.io/blog/2017/12/27/christmas-in-ireland/</link>
+      <pubDate>Wed, 27 Dec 2017 18:22:50 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2017/12/27/christmas-in-ireland/</guid>
+      <description>&lt;p&gt;I usually flip flop between Ireland and the U.K. for Christmas holidays. This year is Ireland&amp;rsquo;s turn.&lt;/p&gt;
+&lt;figure &gt;
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;img 
+   
+   srcset=&#39;
+   
+     /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_500x0_resize_q75_box.jpg 1x
+   
+   
+     , /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_800x0_resize_q75_box.jpg 1.6x
+   
+   
+     , /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_1200x0_resize_q75_box.jpg 2.4x
+   
+   
+     , /blog/2017/12/27/christmas-in-ireland/nativity_huc920169f90a633515e0abf8e1d123e19_799620_1500x0_resize_q75_box.jpg 3x 
+   &#39;
+   src=&#34;https://mezpahlan.github.io/blog/2017/12/27/christmas-in-ireland/nativity.jpg&#34; 
+   
+ &gt; 
+    &lt;figcaption&gt;Demanding child keeps parents up throughout the night&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Droidcon London 2017</title>
+      <link>https://mezpahlan.github.io/blog/2017/11/12/droidcon-london-2017/</link>
+      <pubDate>Sun, 12 Nov 2017 18:57:05 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2017/11/12/droidcon-london-2017/</guid>
+      <description>&lt;p&gt;A little late but here is my write up on Droidcon London 2017!&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_500x0_resize_q75_box.jpg 1x
+      
+      
+        , /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_800x0_resize_q75_box.jpg 1.6x
+      
+      
+        , /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_1200x0_resize_q75_box.jpg 2.4x
+      
+      
+        , /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_1500x0_resize_q75_box.jpg 3x 
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2017/11/12/droidcon-london-2017/droids-landing.jpg&#34; 
+      
+    &gt;
+
+    &lt;figcaption&gt;Left a bit&amp;hellip;. right a bit&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>New Blog Design</title>
+      <link>https://mezpahlan.github.io/blog/2017/11/05/new-blog-design/</link>
+      <pubDate>Sun, 05 Nov 2017 19:35:23 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2017/11/05/new-blog-design/</guid>
+      <description>&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2017/11/05/new-blog-design/doctor-jekyll-and-mister-hyde_hucca856b2a379e39a6627835bc30fda08_43303_500x0_resize_box_3.png 1x
+      
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2017/11/05/new-blog-design/doctor-jekyll-and-mister-hyde.png&#34; 
+      
+    &gt;
+
+    &lt;figcaption&gt;Who&amp;rsquo;s a pretty boy?&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Hello! I&amp;rsquo;ve been away a while but I&amp;rsquo;m back!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

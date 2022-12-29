@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>
+    
+    
+      android on Mez Says
+      
+    </title>
+    <link>https://mezpahlan.github.io/categories/android/</link>
+    <description>Recent content 
+    
+      in android  
+    on Mez Says
+    </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+    <language>en-gb</language>
+    
+    
+    
+    
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    
+    
+    <lastBuildDate>Wed, 13 Jan 2021 11:43:52 +0000</lastBuildDate>
+    <atom:link href="https://mezpahlan.github.io/categories/android/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Store This</title>
+      <link>https://mezpahlan.github.io/blog/2021/01/13/store-this/</link>
+      <pubDate>Wed, 13 Jan 2021 11:43:52 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2021/01/13/store-this/</guid>
+      <description>&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2021/01/13/store-this/dodge-this_hu2c7fafafb25af561207ccd13ce18538b_49013_500x0_resize_q75_box.jpg 1x
+      
+      
+        , /blog/2021/01/13/store-this/dodge-this_hu2c7fafafb25af561207ccd13ce18538b_49013_800x0_resize_q75_box.jpg 1.6x
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2021/01/13/store-this/dodge-this.jpg&#34; 
+      
+    &gt; 
+
+    &lt;figcaption&gt;Obviously I do not condone violence.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Hello and Happy New Year! What did you get up to for New Year&amp;rsquo;s? Lockdown you say? Well let&amp;rsquo;s blow all that away and get
+reading shall we? This post is about an Android library from Dropbox called &lt;a href=&#34;https://github.com/dropbox/Store&#34;&gt;Store&lt;/a&gt;
+(Store 4 to be precise). It facilitates the repository pattern, has been rebuilt from the ground up using Kotlin
+Coroutines, and is a great way to accelerate your app to becoming reactive. I&amp;rsquo;ve been using it for about a year in
+production during their alpha phase and now that it has recently gone stable I want to share a post of how we use it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Izzy Wizzy Lets Get Bezier</title>
+      <link>https://mezpahlan.github.io/blog/2020/11/24/izzy-wizzy-lets-get-bezier/</link>
+      <pubDate>Tue, 24 Nov 2020 16:35:23 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2020/11/24/izzy-wizzy-lets-get-bezier/</guid>
+      <description>&lt;p&gt;This week I&amp;rsquo;ve been focussed on improving the biometric setup journey for the app that I work on. I&amp;rsquo;ve taken the
+opportunity to add a little bit of fun / delight into the setup process and learn more about &lt;a href=&#34;https://developer.android.com/guide/topics/graphics/drawable-animation#AnimVector&#34;&gt;Animated Vector
+Drawables&lt;/a&gt; in Android.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2020/11/24/izzy-wizzy-lets-get-bezier/izzy-wizzy_hua492db747005d103eeac556b120922af_54549_500x0_resize_q75_box.jpg 1x
+      
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2020/11/24/izzy-wizzy-lets-get-bezier/izzy-wizzy.jpg&#34; 
+      
+    &gt; 
+
+    &lt;figcaption&gt;Can we just take a moment and recognise how much of a bitch Soo was. Always spoiling Sooty and Sweep&amp;rsquo;s fun. Cow.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;This post aims to recap what I learned when working with Animated Vector Drawables (AVDs).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How I Like To Test</title>
+      <link>https://mezpahlan.github.io/blog/2020/11/16/how-i-like-to-test/</link>
+      <pubDate>Mon, 16 Nov 2020 22:14:41 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2020/11/16/how-i-like-to-test/</guid>
+      <description>&lt;p&gt;I have enjoyed testing as much as I have enjoyed developing. Sometimes more. Sometimes less. Just as it is immensely
+satisfying when you watch something you have built run, or be used, by a user it is also immensely satisfying to watch
+those little green ticks appear in your test reports. Here&amp;rsquo;s how I like to test with a focus on Android.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2020/11/16/how-i-like-to-test/test-pyramid_hu18843f7e979432ad89b1aabbe252a973_37803_500x0_resize_box_3.png 1x
+      
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2020/11/16/how-i-like-to-test/test-pyramid.png&#34; 
+      
+    &gt; 
+
+    &lt;figcaption&gt;&lt;a href=&#34;https://developer.android.com/training/testing/fundamentals&#34;&gt;The (Android) Test Pyramid&lt;/a&gt; that is 100% centred I swear!&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Kotcha</title>
+      <link>https://mezpahlan.github.io/blog/2018/09/24/kotcha/</link>
+      <pubDate>Mon, 24 Sep 2018 19:36:09 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2018/09/24/kotcha/</guid>
+      <description>&lt;p&gt;Well it has been a long time between posts but I promise it is for a good reason. I have been busy learning. Learning
+&lt;a href=&#34;https://kotlinlang.org/&#34;&gt;Kotlin&lt;/a&gt;. Kotlin is a replacement for Java and has gained massive popularity on the Android
+platform. It is compatible with Java down to the bytecode level meaning you can have a mixed project - some Java some
+Kotlin. Whilst this sounds like it would be a great way to slowly migrate a large project this comes with some gotchas.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/MXm_2YOzuxo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Droidcon London 2017</title>
+      <link>https://mezpahlan.github.io/blog/2017/11/12/droidcon-london-2017/</link>
+      <pubDate>Sun, 12 Nov 2017 18:57:05 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2017/11/12/droidcon-london-2017/</guid>
+      <description>&lt;p&gt;A little late but here is my write up on Droidcon London 2017!&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_500x0_resize_q75_box.jpg 1x
+      
+      
+        , /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_800x0_resize_q75_box.jpg 1.6x
+      
+      
+        , /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_1200x0_resize_q75_box.jpg 2.4x
+      
+      
+        , /blog/2017/11/12/droidcon-london-2017/droids-landing_hu242fea78dfde10635c904cbe33cbf971_689635_1500x0_resize_q75_box.jpg 3x 
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2017/11/12/droidcon-london-2017/droids-landing.jpg&#34; 
+      
+    &gt;
+
+    &lt;figcaption&gt;Left a bit&amp;hellip;. right a bit&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Making A Scene</title>
+      <link>https://mezpahlan.github.io/blog/2017/04/16/making-a-scene/</link>
+      <pubDate>Sun, 16 Apr 2017 12:26:14 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2017/04/16/making-a-scene/</guid>
+      <description>&lt;p&gt;For the past few weeks I&amp;rsquo;ve been taking a brief detour into the
+&lt;a href=&#34;https://developer.android.com/reference/android/support/transition/package-summary.html&#34;&gt;Transitions&lt;/a&gt; framework in
+Android. I&amp;rsquo;ve building a success screen that initially shows a full screen image and text and later transitions into a
+summary of your transaction.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/KZ5WGGNSVjw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This post documents some of the things I&amp;rsquo;ve learned whilst working on this.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Catha&#39;s Seat Design Ideas</title>
+      <link>https://mezpahlan.github.io/blog/2013/09/27/cathas-seat-design-ideas/</link>
+      <pubDate>Fri, 27 Sep 2013 11:06:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2013/09/27/cathas-seat-design-ideas/</guid>
+      <description>&lt;p&gt;A good friend of mine, &lt;a href=&#34;http://nickandscottgobiking.blogspot.co.uk/&#34;&gt;Nick&lt;/a&gt;, is organising the construction of a bicycle
+seat on route 18 of the Cycle Network to complete the work started by his mother, Catha. You can read more about it on
+the &lt;a href=&#34;http://www.cathas-seat.org/&#34;&gt;Catha&amp;rsquo;s Seat&lt;/a&gt; website.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2013/09/27/cathas-seat-design-ideas/start_activity_hue1e8cf2a01a3a76ce62135d5da70be7c_39661_500x0_resize_box_3.png 1x
+      
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2013/09/27/cathas-seat-design-ideas/start_activity.png&#34; 
+      
+    &gt;
+
+    &lt;figcaption&gt;Start Activity&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gits Everywhere</title>
+      <link>https://mezpahlan.github.io/blog/2013/07/18/gits-everywhere/</link>
+      <pubDate>Thu, 18 Jul 2013 12:44:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2013/07/18/gits-everywhere/</guid>
+      <description>&lt;p&gt;Another long break between blog posts. Mostly out of laziness but also because I am trying to learn and teach myself
+Android programming. Here&amp;rsquo;s a short post about how I&amp;rsquo;m getting along.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2013/07/18/gits-everywhere/android-penguins_hua5d7e7d448ba025bab0118e0b7d3a396_241952_500x0_resize_q75_box.jpg 1x
+      
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2013/07/18/gits-everywhere/android-penguins.jpg&#34; 
+      
+    &gt;
+
+    &lt;figcaption&gt;Android Penguins&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
+      <title>Update on the droid picture project</title>
+      <link>https://mezpahlan.github.io/blog/2010/09/27/update-on-droid-picture-project/</link>
+      <pubDate>Mon, 27 Sep 2010 23:40:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2010/09/27/update-on-droid-picture-project/</guid>
+      <description>&lt;p&gt;Hmm things not going well for the project.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Update on the droid picture project</title>
+      <link>https://mezpahlan.github.io/blog/2010/07/31/update-on-droid-picture-project/</link>
+      <pubDate>Sat, 31 Jul 2010 20:33:00 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2010/07/31/update-on-droid-picture-project/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s going well. I still can&amp;rsquo;t program for shit though. I need to learn how to make more effective use of the android
+documentation though.&lt;/p&gt;
+&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2010/07/31/update-on-droid-picture-project/big-picture_huaadc97d0b81ae0b6abca13ce43da0545_448774_500x0_resize_q75_box.jpg 1x
+      
+      
+        , /blog/2010/07/31/update-on-droid-picture-project/big-picture_huaadc97d0b81ae0b6abca13ce43da0545_448774_800x0_resize_q75_box.jpg 1.6x
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2010/07/31/update-on-droid-picture-project/big-picture.jpg&#34; 
+      
+    &gt;
+
+    &lt;figcaption&gt;Big Picture&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
