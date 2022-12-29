@@ -3,13 +3,18 @@ disablePathToLower = true
 languageCode = "en-gb"
 title = "Mez Says"
 theme = "hyde"
-Paginate = 7
+paginate = 7
 disqusShortname = "mezpahlan"
+copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
+rssLimit = 10
+
+[author]
+  name = 'Mez Pahlan'
 
 [params]
   description = "Android Developer based in Bristol, UK. Bits and bobs that I get up to."
 
-[Menus]
+[menus]
   main = [
       { Weight = 4, Name = "mastodon", URL = "https://androiddev.social/@mez" },
       { Weight = 5, Name = "twitter", URL = "https://twitter.com/mezpahlan" },
