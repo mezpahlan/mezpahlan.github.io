@@ -26,6 +26,9 @@
         {{- partial "svg.html" .Name -}}
       </a>
       {{- end }}
+      <a id="rss-link" class="icon" title="rss" aria-label="rss" href="{{ .Site.BaseURL }}rss">
+        {{- partial "svg.html" "rss" -}}
+      </a>
     </nav>
 
     <p>&copy; {{ now.Format "2006"}}. <a href="/LICENCE">CC-BY-SA-4.0 Licence</a></p>
