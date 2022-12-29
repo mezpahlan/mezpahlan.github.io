@@ -23,8 +23,42 @@
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     
     
-    <lastBuildDate>Sun, 15 Nov 2020 22:17:40 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Dec 2022 16:00:15 +0000</lastBuildDate>
     <atom:link href="https://mezpahlan.github.io/tags/fun/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastodon</title>
+      <link>https://mezpahlan.github.io/blog/2022/12/29/mastodon/</link>
+      <pubDate>Thu, 29 Dec 2022 16:00:15 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2022/12/29/mastodon/</guid>
+      <description>&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2022/12/29/mastodon/mastodon_huf2336d328b816ba7f6db9c2d71770e22_203835_500x0_resize_q75_box.jpg 1x
+      
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2022/12/29/mastodon/mastodon.jpg&#34; 
+      
+    &gt;
+
+    &lt;figcaption&gt;Surreal Mastodon&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;A few months ago I joined the nascent social network called &lt;a href=&#34;https://mastodon.social/about&#34;&gt;Mastodon&lt;/a&gt; and specifically an instance for Android Devs
+called &lt;a href=&#34;https://androiddev.social&#34;&gt;androiddev.social&lt;/a&gt;. You can find me here: &lt;a href=&#34;https://androiddev.social/@mez&#34;&gt;@mez@androiddev.social&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Welcome Back</title>
       <link>https://mezpahlan.github.io/blog/2020/11/15/welcome-back/</link>
@@ -298,40 +332,6 @@ You&amp;rsquo;re my oddly shaped electrical friend.&lt;/p&gt;
       <description>&lt;p&gt;I just bought a media centre with a 1TB HDD and an external dvd usb player today.&lt;/p&gt;
 &lt;p&gt;How could I not? It was reduced by a
 &lt;a href=&#34;http://www.amazon.co.uk/Popcorn-Hour-A110-1TB-Networked/dp/B001W81M0Q/ref=sr_1_2?ie=UTF8&amp;amp;s=electronics&amp;amp;qid=1241587685&amp;amp;sr=8-2&#34;&gt;penny&lt;/a&gt;!&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Lines and lines and lines and lines and lines and lines and lines and lines.....</title>
-      <link>https://mezpahlan.github.io/blog/2009/03/24/lines-and-lines-and-lines-and-lines-and/</link>
-      <pubDate>Tue, 24 Mar 2009 08:44:00 +0000</pubDate>
-      
-      <guid>https://mezpahlan.github.io/blog/2009/03/24/lines-and-lines-and-lines-and-lines-and/</guid>
-      <description>&lt;p&gt;I can&amp;rsquo;t find myself on Google Street View.&lt;/p&gt;
-&lt;p&gt;Shocking! I swear I saw the car whilst walking about.&lt;/p&gt;
-&lt;figure &gt;
-    
-    
-    
-    
-    
-    
-    
-    
-    &lt;img 
-      
-      srcset=&#39;
-      
-        /blog/2009/03/24/lines-and-lines-and-lines-and-lines-and/edward-and-tubbs_hu2615e95bb206edbdbc963e657eaca1ae_45487_500x0_resize_q75_box.jpg 1x
-      
-      
-      
-      &#39;
-      src=&#34;https://mezpahlan.github.io/blog/2009/03/24/lines-and-lines-and-lines-and-lines-and/edward-and-tubbs.jpg&#34; 
-      
-    &gt;
-
-    &lt;figcaption&gt;A local shop&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
     </item>
     
   </channel>

@@ -23,8 +23,42 @@
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     
     
-    <lastBuildDate>Mon, 26 Dec 2022 12:02:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Dec 2022 16:00:15 +0000</lastBuildDate>
     <atom:link href="https://mezpahlan.github.io/categories/personal/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastodon</title>
+      <link>https://mezpahlan.github.io/blog/2022/12/29/mastodon/</link>
+      <pubDate>Thu, 29 Dec 2022 16:00:15 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2022/12/29/mastodon/</guid>
+      <description>&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2022/12/29/mastodon/mastodon_huf2336d328b816ba7f6db9c2d71770e22_203835_500x0_resize_q75_box.jpg 1x
+      
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2022/12/29/mastodon/mastodon.jpg&#34; 
+      
+    &gt;
+
+    &lt;figcaption&gt;Surreal Mastodon&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;A few months ago I joined the nascent social network called &lt;a href=&#34;https://mastodon.social/about&#34;&gt;Mastodon&lt;/a&gt; and specifically an instance for Android Devs
+called &lt;a href=&#34;https://androiddev.social&#34;&gt;androiddev.social&lt;/a&gt;. You can find me here: &lt;a href=&#34;https://androiddev.social/@mez&#34;&gt;@mez@androiddev.social&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Happy Boxing Day</title>
       <link>https://mezpahlan.github.io/blog/2022/12/26/happy-boxing-day/</link>
@@ -348,47 +382,6 @@ made my peace with it.&lt;/p&gt;
       <guid>https://mezpahlan.github.io/blog/2017/01/08/my-review-of-the-film-silence/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;</description>
-    </item>
-    
-    <item>
-      <title>End Of The Year</title>
-      <link>https://mezpahlan.github.io/blog/2016/12/31/end-of-the-year/</link>
-      <pubDate>Sat, 31 Dec 2016 00:27:28 +0000</pubDate>
-      
-      <guid>https://mezpahlan.github.io/blog/2016/12/31/end-of-the-year/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s the end of the year and I fancy writing something about it! I had planned on writing about all the things that
-happened during the year. However I probably should have blogged more if that were the case. Instead I will focus on why
-I left my old job in the Autumn.&lt;/p&gt;
-&lt;figure &gt;
-    
-    
-    
-    
-    
-    
-    
-    
-    &lt;img 
-      
-      srcset=&#39;
-      
-        /blog/2016/12/31/end-of-the-year/bristol_hu7c518908c6ad1108b08c4eabf445fd68_25040086_500x0_resize_box_3.png 1x
-      
-      
-        , /blog/2016/12/31/end-of-the-year/bristol_hu7c518908c6ad1108b08c4eabf445fd68_25040086_800x0_resize_box_3.png 1.6x
-      
-      
-        , /blog/2016/12/31/end-of-the-year/bristol_hu7c518908c6ad1108b08c4eabf445fd68_25040086_1200x0_resize_box_3.png 2.4x
-      
-      
-        , /blog/2016/12/31/end-of-the-year/bristol_hu7c518908c6ad1108b08c4eabf445fd68_25040086_1500x0_resize_box_3.png 3x 
-      &#39;
-      src=&#34;https://mezpahlan.github.io/blog/2016/12/31/end-of-the-year/bristol.png&#34; 
-      
-    &gt;
-
-    &lt;figcaption&gt;Bristol Harbourside&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
     </item>
     
   </channel>

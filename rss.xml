@@ -20,8 +20,42 @@
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     
     
-    <lastBuildDate>Mon, 26 Dec 2022 12:02:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Dec 2022 16:00:15 +0000</lastBuildDate>
     <atom:link href="https://mezpahlan.github.io/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastodon</title>
+      <link>https://mezpahlan.github.io/blog/2022/12/29/mastodon/</link>
+      <pubDate>Thu, 29 Dec 2022 16:00:15 +0000</pubDate>
+      
+      <guid>https://mezpahlan.github.io/blog/2022/12/29/mastodon/</guid>
+      <description>&lt;figure &gt;
+    
+    
+    
+    
+    
+    
+    
+    
+    &lt;img 
+      
+      srcset=&#39;
+      
+        /blog/2022/12/29/mastodon/mastodon_huf2336d328b816ba7f6db9c2d71770e22_203835_500x0_resize_q75_box.jpg 1x
+      
+      
+      
+      &#39;
+      src=&#34;https://mezpahlan.github.io/blog/2022/12/29/mastodon/mastodon.jpg&#34; 
+      
+    &gt;
+
+    &lt;figcaption&gt;Surreal Mastodon&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;A few months ago I joined the nascent social network called &lt;a href=&#34;https://mastodon.social/about&#34;&gt;Mastodon&lt;/a&gt; and specifically an instance for Android Devs
+called &lt;a href=&#34;https://androiddev.social&#34;&gt;androiddev.social&lt;/a&gt;. You can find me here: &lt;a href=&#34;https://androiddev.social/@mez&#34;&gt;@mez@androiddev.social&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Happy Boxing Day</title>
       <link>https://mezpahlan.github.io/blog/2022/12/26/happy-boxing-day/</link>
@@ -318,39 +352,6 @@ Kotlin. Whilst this sounds like it would be a great way to slowly migrate a larg
 
     &lt;figcaption&gt;Left a bit&amp;hellip;. right a bit&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
-    </item>
-    
-    <item>
-      <title>New Blog Design</title>
-      <link>https://mezpahlan.github.io/blog/2017/11/05/new-blog-design/</link>
-      <pubDate>Sun, 05 Nov 2017 19:35:23 +0000</pubDate>
-      
-      <guid>https://mezpahlan.github.io/blog/2017/11/05/new-blog-design/</guid>
-      <description>&lt;figure &gt;
-    
-    
-    
-    
-    
-    
-    
-    
-    &lt;img 
-      
-      srcset=&#39;
-      
-        /blog/2017/11/05/new-blog-design/doctor-jekyll-and-mister-hyde_hucca856b2a379e39a6627835bc30fda08_43303_500x0_resize_box_3.png 1x
-      
-      
-      
-      &#39;
-      src=&#34;https://mezpahlan.github.io/blog/2017/11/05/new-blog-design/doctor-jekyll-and-mister-hyde.png&#34; 
-      
-    &gt;
-
-    &lt;figcaption&gt;Who&amp;rsquo;s a pretty boy?&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Hello! I&amp;rsquo;ve been away a while but I&amp;rsquo;m back!&lt;/p&gt;</description>
     </item>
     
   </channel>
