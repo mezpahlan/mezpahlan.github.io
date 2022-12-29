@@ -21,3 +21,8 @@ rssLimit = 10
       { Weight = 6, Name = "linkedin", URL = "https://www.linkedin.com/in/mezpahlan" },
       { Weight = 7, Name = "github", URL = "https://github.com/mezpahlan" }
   ]
+
+  [outputFormats]
+    [outputFormats.RSS]
+      mediatype = "application/rss"
+      baseName = "rss"
