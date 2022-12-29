@@ -5,11 +5,11 @@ title = "Mez Says"
 theme = "hyde"
 paginate = 7
 disqusShortname = "mezpahlan"
-copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 rssLimit = 10
 
 [author]
-  name = 'Mez Pahlan'
+  name = "Mez Pahlan"
 
 [params]
   description = "Android Developer based in Bristol, UK. Bits and bobs that I get up to."
