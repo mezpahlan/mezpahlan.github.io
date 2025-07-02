@@ -1,0 +1,30 @@
+baseURL = "https://mezpahlan.github.io/"
+disablePathToLower = true
+languageCode = "en-gb"
+title = "Mez Says"
+theme = "hyde"
+paginateSize = 7
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+rssLimit = 10
+
+[params]
+  description = "Android Developer based in Bristol, UK. Bits and bobs that I get up to."
+  [params.author]
+    name = "Mez Pahlan"
+
+[services]
+  [services.disqus]
+    shortname = "mezpahlan"
+
+[menus]
+  main = [
+      { Weight = 4, Name = "mastodon", URL = "https://androiddev.social/@mez" },
+      { Weight = 5, Name = "twitter", URL = "https://twitter.com/mezpahlan" },
+      { Weight = 6, Name = "linkedin", URL = "https://www.linkedin.com/in/mezpahlan" },
+      { Weight = 7, Name = "github", URL = "https://github.com/mezpahlan" }
+  ]
+
+  [outputFormats]
+    [outputFormats.RSS]
+      mediatype = "application/rss"
+      baseName = "rss"

@@ -1,0 +1,2 @@
+{{- $fname:=print "images/" . ".svg" -}}
+{{ readFile $fname | safeHTML }}

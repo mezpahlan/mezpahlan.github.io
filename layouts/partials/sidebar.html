@@ -1,0 +1,36 @@
+<aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="{{ .Site.BaseURL }}">
+        <h1>{{ .Site.Title }}</h1>
+      </a>
+      <p class="lead">
+        {{ with .Site.Params.Description }} {{.}} {{end}}
+      </p>
+    </div>
+
+    <nav id="sidebar-nav-links">
+      <a href="{{ .Site.BaseURL }}">Home</a>
+      Categories
+      <a href="{{ .Site.BaseURL }}categories/android">
+        Android &nbsp; {{- partial "svg.html" "android" -}}
+      </a>
+      <a href="{{ .Site.BaseURL }}categories/personal">Personal</a>
+      Everything
+      <a href="{{ .Site.BaseURL }}tags">Tags</a>
+    </nav>
+
+    <nav id="sidebar-icon-links">
+      {{ range .Site.Menus.main -}}
+      <a rel="me" id="{{ .Name }}-link" class="icon" title="{{ .Name }}" aria-label="{{ .Name }}" href="{{ .URL }}">
+        {{- partial "svg.html" .Name -}}
+      </a>
+      {{- end }}
+      <a id="rss-link" class="icon" title="rss" aria-label="rss" href="{{ .Site.BaseURL }}rss">
+        {{- partial "svg.html" "rss" -}}
+      </a>
+    </nav>
+
+    <p>&copy; {{ now.Format "2006"}}. <a href="/LICENCE">CC-BY-SA-4.0 Licence</a></p>
+  </div>
+</aside>

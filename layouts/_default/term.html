@@ -1,0 +1,10 @@
+{{ define "main" }}
+    <h1>All posts in the {{ .Title | upper }} {{ .Type | singularize }}</h1>
+    <ul>
+      {{ range .Data.Pages }}
+        <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Date | time.Format ":date_long" }}
+        </li>
+      {{ end }}
+    </ul>
+{{ end}}

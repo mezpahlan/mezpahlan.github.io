@@ -1,0 +1,12 @@
+{{ define "main" -}}
+<div class="post">
+  <h1>{{ .Title }}</h1>
+  {{- partial "post_time.html" . -}}
+  {{ .Content }}
+</div>
+
+{{ if .Site.Config.Services.Disqus.Shortname -}}
+<h2>Comments</h2>
+{{ template "_internal/disqus.html" . }}
+{{- end }}
+{{- end }}
