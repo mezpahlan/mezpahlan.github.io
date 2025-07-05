@@ -37,7 +37,6 @@ will be built.
 ## Still to do
 
 - [ ] Add portfolio section.
-- [ ] Tags, categories on sidebar is broken
 - [ ] Custom CNAME.
 - [ ] Remove gists. These are deprecated by Hugo so convert them all to markdown. Fewer script tags.
 - [ ] Check site.baseURL vs absURL usage.
