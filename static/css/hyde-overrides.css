@@ -11,7 +11,7 @@ body {
   overflow: hidden auto;
 }
 
-@media (min-width: 58rem) {
+@media (min-width: 48rem) {
   body {
     flex-direction: row;
     overflow-y: auto;
@@ -19,12 +19,25 @@ body {
 }
 
 .sidebar {
-  flex: 0 0 auto;
   padding: 2rem 1rem;
   color: rgba(255, 255, 255, .5);
   background-color: #202020;
   background-image: linear-gradient(to bottom, #323232, #202020);
   overflow-y: auto;
+}
+
+@media (max-width: 48rem) {
+  .sidebar {
+    width: 100%;
+    padding: 0rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  .content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 }
 
 .content {
@@ -53,13 +66,46 @@ a svg,
   color: #fff;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-size: 2.5rem;
   font-weight: normal;
+}
+
+@media (min-width: 48rem) {
+  .sidebar-about h1 {
+    font-size: 3rem;
+  }
+}
+
+.sidebar-about>.lead {
+  display: none;
+}
+
+@media (min-width: 48rem) {
+  .sidebar-about>.lead {
+    display: unset;
+  }
 }
 
 #sidebar-nav-links {
   display: flex;
-  flex-flow: column;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 48rem) {
+  #sidebar-nav-links {
+    flex-flow: column;
+  }
+}
+
+.sidebar-nav-label {
+  display: none;
+}
+
+@media (min-width: 48rem) {
+  .sidebar-nav-label {
+    display: unset;
+  }
 }
 
 #sidebar-nav-links a {
@@ -67,17 +113,12 @@ a svg,
 }
 
 #sidebar-icon-links {
+  display: flex;
   max-width: 100%;
   flex-flow: row wrap;
   justify-content: center;
   margin-top: 1rem;
-}
-
-@media (min-width: 58rem) {
-  #sidebar-icon-links {
-    margin-left: -0.25em;
-    justify-content: flex-start;
-  }
+  justify-content: space-evenly;
 }
 
 #copyright {

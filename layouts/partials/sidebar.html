@@ -10,13 +10,12 @@
     </div>
 
     <nav id="sidebar-nav-links">
-      <a href="{{ .Site.BaseURL }}">Home</a>
-      Categories
+      <div class="sidebar-nav-label">Categories</div>
       <a href="{{ .Site.BaseURL }}categories/android">
         Android &nbsp; {{- partial "svg.html" "android" -}}
       </a>
       <a href="{{ .Site.BaseURL }}categories/personal">Personal</a>
-      Everything
+      <div class="sidebar-nav-label">Everything else</div>
       <a href="{{ .Site.BaseURL }}tags">Tags</a>
     </nav>
 
