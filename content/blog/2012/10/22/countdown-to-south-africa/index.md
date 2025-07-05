@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-10-22T14:34:00Z"
-disqus_identifier = "aef6669d-8fad-4254-8f27-bd7791129ebf"
 tags = ["holidays"]
 title = "Countdown to South Africa "
 

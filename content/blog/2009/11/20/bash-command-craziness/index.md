@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-11-20T21:24:00Z"
-disqus_identifier = "3e58ed17-f398-464e-9e0f-6b4acef3199e"
 tags = ["programming"]
 title = "Bash command craziness!"
 

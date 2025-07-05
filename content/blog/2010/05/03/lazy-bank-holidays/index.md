@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2010-05-03T22:43:00Z"
-disqus_identifier = "41a5f5e3-967b-48bd-8388-5855957f84fa"
 tags = ["london", "books", "politics"]
 title = "Lazy bank holidays"
 

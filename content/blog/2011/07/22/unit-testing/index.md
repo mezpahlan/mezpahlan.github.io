@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2011-07-22T17:35:00Z"
-disqus_identifier = "955360ee-cf98-41d4-9713-de2f1215b5c7"
 tags = ["programming"]
 title = "Unit Testing"
 

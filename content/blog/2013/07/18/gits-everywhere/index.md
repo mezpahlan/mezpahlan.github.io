@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["android"]
 date = "2013-07-18T12:44:00Z"
-disqus_identifier = "17208ac4-ca15-4e9b-a883-a26842ab1547"
 tags = ["android"]
 title = "Gits Everywhere"
 

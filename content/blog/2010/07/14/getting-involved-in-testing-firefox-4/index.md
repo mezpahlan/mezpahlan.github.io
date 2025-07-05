@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2010-07-14T20:49:00Z"
-disqus_identifier = "31901603-8ec7-4e96-b98b-4f7ac9c3f007"
 tags = ["programming"]
 title = "Getting involved in testing Firefox 4"
 

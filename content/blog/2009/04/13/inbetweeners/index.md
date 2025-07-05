@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-04-13T16:21:00Z"
-disqus_identifier = "5d5204cc-3a28-42be-a570-3ea8477e998a"
 tags = ["tv"]
 title = "The Inbetweeners"
 

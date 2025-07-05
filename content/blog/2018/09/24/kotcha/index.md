@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["android"]
 date = "2018-09-24T19:36:09Z"
-disqus_identifier = "9b75ec8a-f8c7-49f7-9687-e4315b4e0d6a"
 tags = ["android"]
 title = "Kotcha"
 

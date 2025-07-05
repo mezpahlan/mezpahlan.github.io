@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-06-23T21:05:00Z"
-disqus_identifier = "f8bb6bfe-3534-4621-bfb2-e7d0650a7c0e"
 tags = ["unhappiness", "phones"]
 title = "Porting nightmare"
 

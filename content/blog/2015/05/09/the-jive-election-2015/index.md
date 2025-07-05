@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2015-05-09T16:49:00Z"
-disqus_identifier = "2ec4d7e1-30f6-461c-99cb-93fd4de0f4b2"
 tags = ["programming", "politics"]
 title = "The Jive Election 2015"
 

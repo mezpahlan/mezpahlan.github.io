@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2015-05-03T19:01:00Z"
-disqus_identifier = "eb36ff8d-ea52-4414-b615-3bcc6ee0003e"
 tags = ["bristol"]
 title = "Bathroom All Done"
 

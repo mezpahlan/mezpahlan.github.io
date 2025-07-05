@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2013-09-07T17:46:00Z"
-disqus_identifier = "3a1a85a7-e271-4eff-b52a-26e4d041f91b"
 tags = ["food"]
 title = "Chilli Garlic Olive Oil"
 

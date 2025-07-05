@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2010-01-30T22:18:00Z"
-disqus_identifier = "fef8c487-4129-427b-831b-2b730ec65c24"
 tags = ["photography"]
 title = "What film scanner"
 
@@ -19,4 +18,3 @@ But a quick fly through the internet and its forums reveals that EPSON might hav
 
 Anyways: I'm going to get one and see. I need to scan my 35mm and 120 film negatives because going to a shop is too
 expensive now. I don't want to purchase a flatbed scanner because I have no need to scan documents. Just film.
-

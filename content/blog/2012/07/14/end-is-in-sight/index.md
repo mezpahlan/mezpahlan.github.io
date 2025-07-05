@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-07-14T18:24:00Z"
-disqus_identifier = "3d62da0a-b9c3-4792-930f-c4e71d54b853"
 tags = ["phones"]
 title = "The end is in sight"
 

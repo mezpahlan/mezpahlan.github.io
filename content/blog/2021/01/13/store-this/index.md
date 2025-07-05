@@ -3,7 +3,6 @@ author = "Mez Pahlan"
 categories = ["android"]
 title = "Store This"
 date = "2021-01-13T11:43:52Z"
-disqus_identifier = "0d2f9812-fd7a-e687-af37-2e002cfcd91a"
 tags = ["android"]
 +++
 

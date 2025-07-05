@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2010-02-08T20:50:00Z"
-disqus_identifier = "04f24263-c241-4789-999d-ed2db082b435"
 tags = ["photography"]
 title = "Photos from me"
 

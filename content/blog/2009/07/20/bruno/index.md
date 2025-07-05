@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-07-20T22:20:00Z"
-disqus_identifier = "0ecd2d2e-8e5b-44f5-862b-ed24f14c8d47"
 tags = ["movies"]
 title = "Bruno"
 

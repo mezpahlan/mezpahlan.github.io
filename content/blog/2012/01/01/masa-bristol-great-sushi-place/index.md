@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-01-01T16:37:00Z"
-disqus_identifier = "bc219786-6ca3-4b4f-ae8e-ec8c52c822d3"
 tags = ["bristol", "food"]
 title = "Masa Bristol - A great sushi place"
 

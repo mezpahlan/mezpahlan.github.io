@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2013-03-03T18:24:00Z"
-disqus_identifier = "19ecb563-bf4f-439a-9c0d-09b85564bc8e"
 tags = ["food"]
 title = "Minty lamb roast"
 

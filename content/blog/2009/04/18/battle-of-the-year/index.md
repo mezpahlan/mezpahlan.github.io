@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-04-18T23:46:00Z"
-disqus_identifier = "0f948662-6efa-4628-b9a2-506a38623ab0"
 tags = ["london"]
 title = "Battle Of The Year"
 

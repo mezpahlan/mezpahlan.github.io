@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-08-12T22:16:00Z"
-disqus_identifier = "1c42df93-7f39-40c0-98d1-51e37f77402e"
 tags = ["ubuntu"]
 title = "Why 64?"
 

@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2015-02-01T14:32:00Z"
-disqus_identifier = "8660a788-307e-4954-a0e2-8bc8d0119101"
 tags = ["food"]
 title = "Roasted Spicy Chicken With Rice"
 

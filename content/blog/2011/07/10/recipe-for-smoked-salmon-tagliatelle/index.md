@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2011-07-10T18:48:00Z"
-disqus_identifier = "39d3bda8-8864-4ca8-bbe5-5ce6ec02333d"
 tags = ["food"]
 title = "Recipe for Smoked Salmon Tagliatelle"
 

@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2011-07-19T19:12:00Z"
-disqus_identifier = "2afde63c-e1c2-40c2-baa7-c3dddddabd7d"
 tags = ["blog"]
 title = "New blog name"
 

@@ -3,7 +3,6 @@ author = "Mez Pahlan"
 categories = ["personal"]
 title = "Welcome Back"
 date = "2020-11-15T22:17:40Z"
-disqus_identifier = "2c2dcaaa-24ce-06f0-96dc-baefb6802d5b"
 tags = ["fun"]
 +++
 

@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2010-03-18T22:35:00Z"
-disqus_identifier = "2e1cb52c-3da9-4912-a90f-733fae07c0b2"
 tags = ["holidays"]
 title = "Snowboarding"
 

@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-11-11T22:03:00Z"
-disqus_identifier = "39ccc78c-260a-4d51-9017-f542e9ceca72"
 tags = ["food"]
 title = "Today's diet"
 

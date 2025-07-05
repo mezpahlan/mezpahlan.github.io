@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2010-05-04T18:28:00Z"
-disqus_identifier = "6babe17d-a734-44c1-86e1-aa22881a9b85"
 tags = ["music"]
 title = "Ash"
 

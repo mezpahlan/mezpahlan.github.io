@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2010-11-17T10:04:00Z"
-disqus_identifier = "357bbfac-f5f1-4424-ba91-5dbe2cbfab42"
 tags = ["fun"]
 title = "November madness"
 

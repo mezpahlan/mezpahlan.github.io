@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-11-10T16:12:00Z"
-disqus_identifier = "4a3291fc-dd54-49f7-be9a-0e21553455d7"
 tags = ["food"]
 title = "Calorie counting madness"
 

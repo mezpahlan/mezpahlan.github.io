@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2010-02-07T18:00:00Z"
-disqus_identifier = "20b7ff3a-94a7-4df0-96f4-11a7eb6e8d59"
 tags = ["programming"]
 title = "Better flash and stuff..."
 

@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2016-11-19T17:32:29Z"
-disqus_identifier = "6d9701a2-d3ce-4f22-9ad3-c899b65f9d33"
 tags = ["fun"]
 title = "Ups And Downs"
 

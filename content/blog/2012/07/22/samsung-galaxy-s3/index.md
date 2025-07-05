@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-07-22T14:55:00Z"
-disqus_identifier = "fa3df521-ea60-48af-b8d7-1f4f7d6b9537"
 tags = ["android"]
 title = "Samsung Galaxy S3"
 

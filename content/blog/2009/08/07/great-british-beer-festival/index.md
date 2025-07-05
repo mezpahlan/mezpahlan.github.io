@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-08-07T10:38:00Z"
-disqus_identifier = "bedc12ce-7946-4eab-afac-940a191939c7"
 tags = ["london"]
 title = "Great British beer Festival"
 

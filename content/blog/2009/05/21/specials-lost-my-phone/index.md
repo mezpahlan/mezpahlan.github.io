@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-05-21T08:35:00Z"
-disqus_identifier = "5a73075f-aab9-41ee-bb35-5d556a48329d"
 tags = ["music"]
 title = "Specials lost my phone :("
 

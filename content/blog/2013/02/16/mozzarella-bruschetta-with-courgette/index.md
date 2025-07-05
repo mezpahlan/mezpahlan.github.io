@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2013-02-16T16:28:00Z"
-disqus_identifier = "4d0c9c02-f919-4112-8e26-19752851edbc"
 tags = ["food"]
 title = "Mozzarella bruschetta with courgette"
 

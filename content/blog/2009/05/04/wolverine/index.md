@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-05-04T13:55:00Z"
-disqus_identifier = "5e30cc33-5407-4769-834f-38c91795189d"
 tags = ["movies"]
 title = "Wolverine"
 

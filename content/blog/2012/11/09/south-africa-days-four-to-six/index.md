@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-11-09T16:20:00Z"
-disqus_identifier = "10d5df99-0654-46f9-95da-365bbabb7463"
 tags = ["holidays"]
 title = "South Africa Days Four To Six "
 

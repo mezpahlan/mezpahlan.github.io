@@ -3,7 +3,6 @@ author = "Mez Pahlan"
 categories = ["android"]
 title = "How I Like To Test"
 date = "2020-11-16T22:14:41Z"
-disqus_identifier = "4ddbbaf5-6abe-0574-1494-8c45f1846713"
 tags = ["android"]
 +++
 

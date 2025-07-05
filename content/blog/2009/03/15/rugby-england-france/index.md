@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-03-15T16:44:00Z"
-disqus_identifier = "4b938f91-4804-4bbc-9329-f8fa86ce813a"
 tags = ["fun"]
 title = "Rugby England France"
 

@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-08-03T20:18:00Z"
-disqus_identifier = "11115009-dd85-47b5-9ca3-1a31ba820001"
 tags = ["photography"]
 title = "Staying late for business"
 

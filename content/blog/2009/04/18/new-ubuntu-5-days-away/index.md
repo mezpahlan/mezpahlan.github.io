@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-04-18T23:56:00Z"
-disqus_identifier = "37ea26d7-29da-45c7-b870-f500c7161aee"
 tags = ["ubuntu"]
 title = "New Ubuntu 5 days away"
 

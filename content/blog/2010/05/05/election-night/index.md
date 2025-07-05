@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2010-05-05T19:36:00Z"
-disqus_identifier = "1ffc57e0-532a-4033-9e8f-fca2f33784ad"
 tags = ["politics"]
 title = "Election night"
 

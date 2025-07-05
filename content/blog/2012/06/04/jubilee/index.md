@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-06-04T14:27:00Z"
-disqus_identifier = "3c80af91-8930-4ea7-adae-05d7605139ed"
 tags = ["london"]
 title = "Jubilee"
 

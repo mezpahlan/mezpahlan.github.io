@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["android"]
 date = "2010-07-31T20:33:00Z"
-disqus_identifier = "eab6dd8e-3643-4809-94bc-882db78e5429"
 tags = ["programming", "android"]
 title = "Update on the droid picture project"
 

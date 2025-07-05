@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-11-17T17:39:00Z"
-disqus_identifier = "389a7c59-e59d-4ad8-b3e4-802925cb0d55"
 tags = ["holidays"]
 title = "Three Days South Africa"
 

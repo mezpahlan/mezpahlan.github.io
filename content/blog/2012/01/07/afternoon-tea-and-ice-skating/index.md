@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-01-07T19:08:00Z"
-disqus_identifier = "36c1f20b-e097-4dbf-a81d-1d2a97c79b7f"
 tags = ["london"]
 title = "Afternoon tea and ice skating"
 

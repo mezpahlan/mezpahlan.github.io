@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2017-12-27T18:22:50Z"
-disqus_identifier = "b4f6a300-306e-471f-938d-9748d06957b6"
 tags = ["holidays"]
 title = "Christmas In Ireland"
 

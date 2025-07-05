@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-04-28T23:11:00Z"
-disqus_identifier = "21161925-07dc-4571-ba48-ba012cc430b6"
 tags = ["london"]
 title = "Start of a crappy great week"
 

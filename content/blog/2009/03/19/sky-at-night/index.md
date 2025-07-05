@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-03-19T22:13:00Z"
-disqus_identifier = "4d6806de-465c-439d-8b8d-684f871d507e"
 tags = ["fun"]
 title = "Sky at night"
 

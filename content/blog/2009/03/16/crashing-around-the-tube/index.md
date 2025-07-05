@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-03-16T20:17:00Z"
-disqus_identifier = "b8794d9b-b885-4911-93e3-41049a59f3e7"
 tags = ["london"]
 title = "Crashing around the tube"
 

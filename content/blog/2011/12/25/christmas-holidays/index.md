@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2011-12-25T19:00:00Z"
-disqus_identifier = "75a8d5d5-6bc9-470f-97d7-77c2bbc2bfff"
 tags = ["holidays"]
 title = "Christmas holidays"
 

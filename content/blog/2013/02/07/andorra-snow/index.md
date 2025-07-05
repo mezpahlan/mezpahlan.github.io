@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2013-02-07T07:58:00Z"
-disqus_identifier = "79cc86ec-e029-4004-ada6-77400e9f378a"
 tags = ["holidays"]
 title = "Andorra snow"
 

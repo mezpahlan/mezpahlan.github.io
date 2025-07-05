@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2015-01-04T14:55:00Z"
-disqus_identifier = "921f3238-e22a-4e75-bc13-c0dbf28ba93f"
 tags = ["blog"]
 title = "Hello 2015!!"
 

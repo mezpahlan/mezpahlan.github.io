@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-10-10T22:37:00Z"
-disqus_identifier = "0b746b0d-53ec-47a5-a7ec-30b2c39fcd2f"
 tags = ["ubuntu"]
 title = "Beta testing karma"
 

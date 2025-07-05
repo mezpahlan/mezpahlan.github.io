@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-07-19T23:07:00Z"
-disqus_identifier = "a8902b74-c856-4cfb-a359-2661c4e49929"
 tags = ["movies"]
 title = "Public Enemy"
 

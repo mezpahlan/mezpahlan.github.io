@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["android"]
 date = "2017-04-16T12:26:14Z"
-disqus_identifier = "48f3730d-bcc4-42b3-a16d-4e4fb2d7b7ab"
 tags = ["android", "programming"]
 title = "Making A Scene"
 

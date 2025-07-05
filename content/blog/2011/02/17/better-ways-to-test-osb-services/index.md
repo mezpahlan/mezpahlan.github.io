@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2011-02-17T09:23:00Z"
-disqus_identifier = "242e17b9-e007-448e-a1d5-6c58c1ee9d89"
 tags = ["programming"]
 title = "Better ways to test OSB services"
 

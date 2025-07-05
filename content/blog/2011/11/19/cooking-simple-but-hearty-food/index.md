@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2011-11-19T15:25:00Z"
-disqus_identifier = "c60808fd-1b0d-402f-aec2-1144e007d87a"
 tags = ["food"]
 title = "Cooking simple but hearty food"
 

@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-05-11T18:19:00Z"
-disqus_identifier = "7cc7aa01-6b9b-48d3-9bb8-3cb61c9dc180"
 tags = ["ubuntu"]
 title = "Linux to the rescue"
 

@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-03-05T12:41:00Z"
-disqus_identifier = "054728ee-45ca-46a2-aec7-f8c6cd3b6d1b"
 tags = ["holidays"]
 title = "Snowboarding Tignes"
 

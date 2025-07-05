@@ -3,7 +3,6 @@ author = "Mez Pahlan"
 categories = ["android"]
 title = "Izzy Wizzy Lets Get Bezier"
 date = "2020-11-24T16:35:23Z"
-disqus_identifier = "457b0d21-e014-f9dc-f54a-39e87148372c"
 tags = ["android"]
 +++
 

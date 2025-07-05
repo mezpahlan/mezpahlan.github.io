@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2011-08-27T23:53:00Z"
-disqus_identifier = "91220520-71fe-4fda-957f-4d52ccd562df"
 tags = ["unhappiness"]
 title = "The Tariq Effect"
 

@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2017-02-06T22:01:55Z"
-disqus_identifier = "c8740a5f-c388-4878-90bf-69807ec09945"
 tags = ["food"]
 title = "Snacking"
 

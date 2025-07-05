@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-05-21T08:36:00Z"
-disqus_identifier = "dd34a237-b373-465f-af43-8a75371d26c5"
 tags = ["fun"]
 title = "Training in the wilderness"
 

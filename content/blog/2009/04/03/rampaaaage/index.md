@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-04-03T15:48:00Z"
-disqus_identifier = "d1fedf9e-63a5-48b3-9085-10aec8e3679a"
 tags = ["london"]
 title = "Rampaaaage"
 

@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2011-03-06T22:40:00Z"
-disqus_identifier = "a261caeb-1f97-4112-a3db-831903b3797c"
 tags = ["holidays"]
 title = "Snowboarding in Oslo"
 

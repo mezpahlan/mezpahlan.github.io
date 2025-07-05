@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["android"]
 date = "2017-11-12T18:57:05Z"
-disqus_identifier = "56df0996-6fb6-41ac-b62e-3e32b35a60a2"
 tags = ["android"]
 title = "Droidcon London 2017"
 

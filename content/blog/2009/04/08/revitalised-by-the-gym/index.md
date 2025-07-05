@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-04-08T22:37:00Z"
-disqus_identifier = "f185026f-8c72-47d0-a6fb-d885fd5aaa77"
 tags = ["ubuntu"]
 title = "Revitalised by the gym"
 

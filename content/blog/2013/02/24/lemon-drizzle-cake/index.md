@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2013-02-24T09:48:00Z"
-disqus_identifier = "fb0e20db-06c5-46db-ba0c-9db0e2032ff8"
 tags = ["food"]
 title = "Lemon Drizzle Cake "
 

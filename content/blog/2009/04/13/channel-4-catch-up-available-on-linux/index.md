@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-04-13T00:27:00Z"
-disqus_identifier = "4d20c5d8-d935-4852-b5b3-5071ed9768d4"
 tags = ["tv"]
 title = "Channel 4 catch up available on Linux!!"
 

@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-04-05T19:01:00Z"
-disqus_identifier = "2b5fc889-b819-46ad-9f7d-27b7132845e7"
 tags = ["music"]
 title = "Mad jamz"
 

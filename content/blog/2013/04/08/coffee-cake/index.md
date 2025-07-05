@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2013-04-08T15:20:00Z"
-disqus_identifier = "2117f79e-6895-4b95-bbe1-bc418c89ee22"
 tags = ["food"]
 title = "Coffee Cake"
 

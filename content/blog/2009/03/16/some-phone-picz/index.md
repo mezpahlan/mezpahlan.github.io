@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-03-16T08:29:00Z"
-disqus_identifier = "07d4a154-3125-45fe-9648-eb878674998b"
 tags = ["photography", "phones"]
 title = "Some phone pics"
 

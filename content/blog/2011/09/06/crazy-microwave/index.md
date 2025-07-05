@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2011-09-06T20:38:00Z"
-disqus_identifier = "65f4a840-e4db-45fd-a6a6-d8696170ef36"
 tags = ["fun"]
 title = "Crazy microwave"
 

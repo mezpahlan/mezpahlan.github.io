@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2011-09-04T14:01:00Z"
-disqus_identifier = "b39f85d8-5525-46f8-bdf3-673906cdb194"
 tags = ["music"]
 title = "I'm With You"
 

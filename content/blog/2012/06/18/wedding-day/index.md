@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-06-18T09:50:00Z"
-disqus_identifier = "c9a3beb9-12b7-4b81-ae7d-48d8debda070"
 tags = ["holidays"]
 title = "Wedding day"
 

@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2013-01-10T16:27:00Z"
-disqus_identifier = "a176a907-2b31-4d78-8cf5-43cb6f01f494"
 tags = ["programming", "ubuntu"]
 title = "Mass Renaming & Restoring USB Drives"
 

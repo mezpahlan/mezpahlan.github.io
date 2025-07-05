@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2017-02-19T19:02:17Z"
-disqus_identifier = "732af28b-5c55-4834-b598-d2914afe71fe"
 tags = ["blog"]
 title = "Under The Hood Optimisations"
 

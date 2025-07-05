@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2017-11-05T19:35:23Z"
-disqus_identifier = "227a338f-3699-44f4-81f7-9486ed9af0cb"
 tags = ["blog"]
 title = "New Blog Design"
 

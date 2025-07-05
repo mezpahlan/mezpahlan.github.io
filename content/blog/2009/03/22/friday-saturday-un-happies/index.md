@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-03-22T21:37:00Z"
-disqus_identifier = "d0c0e86b-42ed-4cc5-84e5-3b72d6a77e25"
 tags = ["unhappiness"]
 title = "Friday Saturday un happies"
 

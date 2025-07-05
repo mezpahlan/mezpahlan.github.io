@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2013-09-21T20:10:00Z"
-disqus_identifier = "d45ccf0c-2ae8-475d-a9a0-d0bb7f989b2a"
 tags = ["food"]
 title = "Slow Cooked Beef Ragu"
 

@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2017-01-08T14:30:36Z"
-disqus_identifier = "93cf3ed2-8b28-459b-8884-b9f77f961daf"
 tags = ["movies"]
 title = "My Review Of The Film Silence"
 

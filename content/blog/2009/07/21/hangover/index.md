@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-07-21T23:23:00Z"
-disqus_identifier = "b11a157a-5498-44ac-bb13-942f755d9e90"
 tags = ["movies"]
 title = "The Hangover"
 

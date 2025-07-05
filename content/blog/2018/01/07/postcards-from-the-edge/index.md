@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2018-01-07T15:07:30Z"
-disqus_identifier = "77f15bc3-00b9-485a-91c0-90f6b814292a"
 tags = ["books"]
 title = "Postcards From The Edge"
 

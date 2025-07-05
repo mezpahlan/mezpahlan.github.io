@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2010-01-08T18:16:00Z"
-disqus_identifier = "6df7a959-ce6a-4979-a845-62319a650d73"
 tags = ["ubuntu"]
 title = "First post of the decade!"
 

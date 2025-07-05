@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-07-17T09:07:00Z"
-disqus_identifier = "90995328-5066-4625-8de9-13d251b27f87"
 tags = ["music"]
 title = "Nine Inch Nails and Jane's Addiction"
 

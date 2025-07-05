@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-03-27T12:19:00Z"
-disqus_identifier = "9de3d995-c8ef-416f-8c0c-ed92e05637e5"
 tags = ["music"]
 title = "Stereophonics at the Albert Hall"
 

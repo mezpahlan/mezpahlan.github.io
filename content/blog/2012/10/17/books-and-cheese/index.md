@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-10-17T11:36:00Z"
-disqus_identifier = "94881f78-afb0-4081-9ca9-92ec506feb82"
 tags = ["books", "food"]
 title = "Books And Cheese"
 

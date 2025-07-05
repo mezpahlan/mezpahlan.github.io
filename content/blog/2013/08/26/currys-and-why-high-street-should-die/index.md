@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2013-08-26T20:23:00Z"
-disqus_identifier = "bc08225c-338d-44db-9b83-9d8a48314294"
 tags = ["unhappiness"]
 title = "Currys And Why The High Street Should Die "
 

@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2016-12-31T00:27:28Z"
-disqus_identifier = "566ac238-8834-49c4-a6ba-c3377de21519"
 tags = ["blog"]
 title = "End Of The Year"
 

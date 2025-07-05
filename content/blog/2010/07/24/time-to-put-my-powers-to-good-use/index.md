@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["android"]
 date = "2010-07-24T20:47:00Z"
-disqus_identifier = "6c804d07-f02c-4755-b007-4d53967a7738"
 tags = ["android", "ubuntu"]
 title = "Time to put my powers to good use"
 

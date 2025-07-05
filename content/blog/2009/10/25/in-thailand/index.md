@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-10-25T05:47:00Z"
-disqus_identifier = "ba0339b1-2bde-45fb-804e-ab67c395165a"
 tags = ["holidays"]
 title = "In Thailand"
 

@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2010-01-24T13:24:00Z"
-disqus_identifier = "fcb9953c-6250-4bea-afba-8f503d12746b"
 tags = ["ubuntu"]
 title = "Checking out google chrome on linux"
 

@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-11-05T21:10:00Z"
-disqus_identifier = "a48ee9c6-844f-44a2-b686-761da277b1a0"
 tags = ["holidays"]
 title = "Table Top And Wine Tasting"
 

@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2011-07-17T13:20:00Z"
-disqus_identifier = "4fd17563-d960-4881-8be0-a49e6f25453e"
 tags = ["music"]
 title = "Music in the rain"
 

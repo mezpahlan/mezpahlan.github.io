@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-06-17T22:19:00Z"
-disqus_identifier = "4342af69-0463-4ede-8794-25c278c56110"
 tags = ["unhappiness"]
 title = "Overworked and underpaid"
 

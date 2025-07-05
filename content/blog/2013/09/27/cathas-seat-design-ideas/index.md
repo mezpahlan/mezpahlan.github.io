@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["android"]
 date = "2013-09-27T11:06:00Z"
-disqus_identifier = "91b412ef-63ab-4dcc-8be2-73fb8cb2aad1"
 tags = ["programming", "android"]
 title = "Catha's Seat Design Ideas"
 

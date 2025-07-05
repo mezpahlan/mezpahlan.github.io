@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2015-07-06T19:25:00Z"
-disqus_identifier = "19dc824f-1a00-46b0-8670-a27d5cb304e7"
 tags = ["programming"]
 title = "Deconstructing Tweets"
 

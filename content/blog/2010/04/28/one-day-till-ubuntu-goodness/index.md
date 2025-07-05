@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2010-04-28T21:21:00Z"
-disqus_identifier = "a45411ea-5957-40d6-a191-696b5490fc8d"
 tags = ["ubuntu"]
 title = "One day till Ubuntu goodness!"
 

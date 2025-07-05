@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2010-04-07T22:52:00Z"
-disqus_identifier = "a00b161e-e543-4f8c-a1da-fd85030fa153"
 tags = ["programming", "politics"]
 title = "Digital economy bill"
 

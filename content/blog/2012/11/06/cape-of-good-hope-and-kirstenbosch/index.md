@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-11-06T18:46:00Z"
-disqus_identifier = "70f24e29-fe70-41f8-be34-647e648eb9d6"
 tags = ["holidays"]
 title = "Cape Of Good Hope And Kirstenbosch Gardens "
 

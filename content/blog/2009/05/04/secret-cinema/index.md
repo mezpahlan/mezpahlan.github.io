@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-05-04T12:53:00Z"
-disqus_identifier = "fbf018c9-096e-4730-b9ac-a8e348e9cce3"
 tags = ["movies"]
 title = "Secret Cinema"
 

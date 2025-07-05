@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2010-06-08T22:38:00Z"
-disqus_identifier = "7ae7989e-5a26-44a9-9fb4-2ae772e2b9e9"
 tags = ["music", "android"]
 title = "Not much been going down"
 

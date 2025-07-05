@@ -3,7 +3,6 @@ author = "Mez Pahlan"
 categories = ["personal"]
 title = "Happy Boxing Day"
 date = "2022-12-26T12:02:01Z"
-disqus_identifier = "f8dad1a6-591c-5800-19f4-7283f1b1ae1e"
 tags = ["holidays"]
 +++
 

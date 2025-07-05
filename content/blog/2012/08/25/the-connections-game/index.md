@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-08-25T17:11:00Z"
-disqus_identifier = "26d42a36-a956-4226-a595-0ff353269124"
 tags = ["music"]
 title = "The Connections Game"
 

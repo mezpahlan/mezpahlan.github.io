@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-04-15T22:39:00Z"
-disqus_identifier = "ff5cbc18-6e1c-46a0-ba15-c9e3b4faa3ef"
 tags = ["tv", "ubuntu"]
 title = "Gin gin gin gin gin"
 

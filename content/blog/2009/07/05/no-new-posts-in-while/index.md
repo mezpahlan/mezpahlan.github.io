@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-07-05T22:38:00Z"
-disqus_identifier = "edfc7321-2d83-4535-bbec-8581dbb0e39a"
 tags = ["comics", "music", "ubuntu"]
 title = "No new posts in a while"
 

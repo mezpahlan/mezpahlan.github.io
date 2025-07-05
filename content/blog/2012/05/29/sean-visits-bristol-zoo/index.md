@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-05-29T15:31:00Z"
-disqus_identifier = "7c32f841-680a-4920-920b-be14bd9ab4b9"
 tags = ["bristol"]
 title = "Sean Visits Bristol Zoo"
 

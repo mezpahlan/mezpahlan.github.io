@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-11-01T17:13:00Z"
-disqus_identifier = "797613d3-be2d-4c4b-846b-52df3e0dc112"
 tags = ["food"]
 title = "New diet"
 

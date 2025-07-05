@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2012-02-02T18:22:00Z"
-disqus_identifier = "7cb241f7-0002-43a2-9bd9-f6b69dba86af"
 tags = ["london"]
 title = "Save The Castle: Update"
 

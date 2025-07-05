@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2009-07-25T20:14:00Z"
-disqus_identifier = "1963754b-331f-47d9-badf-bd72a156b3a5"
 tags = ["tv"]
 title = "Chasers' War On Everything"
 

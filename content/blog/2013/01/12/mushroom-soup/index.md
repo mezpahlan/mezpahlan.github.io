@@ -2,7 +2,6 @@
 author = "Mez Pahlan"
 categories = ["personal"]
 date = "2013-01-12T17:42:00Z"
-disqus_identifier = "ff7dfd6b-24e4-4352-ba17-a13221a392c1"
 tags = ["food"]
 title = "Mushroom Soup"
 

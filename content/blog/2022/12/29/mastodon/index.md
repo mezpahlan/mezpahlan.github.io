@@ -3,7 +3,6 @@ author = "Mez Pahlan"
 categories = ["personal"]
 title = "Mastodon"
 date = "2022-12-29T16:00:15Z"
-disqus_identifier = "090ca147-e06d-5cbb-4e3c-24d292ec6f5a"
 tags = ["fun"]
 +++
 
