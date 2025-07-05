@@ -80,6 +80,10 @@ a svg,
   }
 }
 
+#copyright {
+  margin-top: 1em;
+}
+
 figure {
   display: flex;
   flex-direction: column;
