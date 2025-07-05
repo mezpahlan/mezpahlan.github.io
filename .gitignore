@@ -1,21 +1,10 @@
-# Compiled site
-public
+# Hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+hugo.exe
+hugo.darwin
+hugo.linux
+/.hugo_build.lock
 
-# Drafts
-_drafts
-
-# Optimised images pre site compilation
-assets/images/[0-9][0-9][0-9][0-9]/**/resized
-
-# Generated output
-resources/
-
-# Terminal guff
-.rake_tasks~
-
-# Bundler files
-_vendor
-.bundle
-
-# Hugo crap
-.hugo_build.lock
