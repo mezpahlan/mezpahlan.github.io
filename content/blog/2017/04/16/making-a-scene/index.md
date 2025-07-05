@@ -46,17 +46,97 @@ between the scenes using the transition.
 The magic happens in a layout that contains a `scene_root` that in turn contains a placeholder for the scenes that swap
 in and out. Here's what the above looks like:
 
-{{< gist mezpahlan fd107cea98366f4704ba839966e17cd7 >}}
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <FrameLayout
+        android:id="@+id/scene_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/scene_a"/>
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
+```
 
 Notice that there is a view with an id called `scene_root` that includes, initially, the layout for `scene_a`.
 
 Here's what Scenes A and B look like in code:
 
-{{< gist mezpahlan 03578c91e520676e1dec7be94099e461 >}}
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scene_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="0dp"
+        android:backgroundTint="@color/colorAccent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@android:color/white">
+
+    </android.support.v7.widget.Toolbar>
+
+    <include
+        android:id="@+id/hello_world"
+        layout="@layout/hello_world"/>
+
+</android.support.constraint.ConstraintLayout>
+```
 
 And for completeness here is the `hello_world` layout:
 
-{{< gist mezpahlan 87efdac4f2f6d6182096860d2e2ad9ed >}}
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_adb_black_24dp"
+        app:layout_constraintBottom_toTopOf="@+id/answer_text_view"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"/>
+
+    <TextView
+        android:id="@+id/answer_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:clickable="true"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"/>
+
+
+</android.support.constraint.ConstraintLayout>
+```
 
 Further points to notice are the differences between Scene A and Scene B, chiefly the `hello_world` layout. Also notice
 that both Scene A and B have a top level layout with an id of `scene_container`. When the transition runs the
@@ -66,7 +146,77 @@ changed and then uses an animation to animate the difference.
 Now that everything has been defined we need to tell Android to actually do something on an event. Here's what this
 looks like in Java code:
 
-{{< gist mezpahlan 82fa058430875af3928ef3d00fc01b49 >}}
+```java
+package uk.co.mezpahlan.sceneexample;
+
+import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.transition.Scene;
+import android.transition.TransitionManager;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
+
+public class MainActivity extends AppCompatActivity {
+
+    private Scene sceneA;
+    private Scene sceneB;
+    private ViewGroup sceneRoot;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        sceneRoot = (ViewGroup) findViewById(R.id.scene_root);
+        sceneA = Scene.getSceneForLayout(sceneRoot, R.layout.scene_a, this);
+        sceneB = Scene.getSceneForLayout(sceneRoot, R.layout.scene_b, this);
+
+        sceneA.setEnterAction(new Runnable() {
+            @Override
+            public void run() {
+                Window window = getWindow();
+                window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+                window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+                window.setStatusBarColor(ContextCompat.getColor(getApplicationContext(), R.color.colorAccent));
+                sceneA.getSceneRoot().findViewById(R.id.hello_world).postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        TransitionManager.go(sceneB);
+                    }
+                }, 2000L);
+
+            }
+        });
+
+        sceneB.setEnterAction(new Runnable() {
+            @Override
+            public void run() {
+                Window window = getWindow();
+                window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+                window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+                window.setStatusBarColor(ContextCompat.getColor(getApplicationContext(), R.color.colorPrimaryDark));
+
+                final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+                toolbar.setTitle("Well Done!");
+                setSupportActionBar(toolbar);
+
+                sceneB.getSceneRoot().findViewById(R.id.continue_button).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        TransitionManager.go(sceneA);
+                    }
+                });
+            }
+        });
+
+        sceneA.enter();
+    }
+}
+```
 
 In this file we can see that references to the scene layouts in Java code in a similar way that you find references to
 views with `findViewById`. Also we have a definition of what will happen when each Scene is entered. This includes some
