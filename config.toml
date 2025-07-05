@@ -15,9 +15,8 @@ rssLimit = 10
 [menus]
   main = [
       { Weight = 4, Name = "mastodon", URL = "https://androiddev.social/@mez" },
-      { Weight = 5, Name = "twitter", URL = "https://twitter.com/mezpahlan" },
-      { Weight = 6, Name = "linkedin", URL = "https://www.linkedin.com/in/mezpahlan" },
-      { Weight = 7, Name = "github", URL = "https://github.com/mezpahlan" }
+      { Weight = 5, Name = "linkedin", URL = "https://www.linkedin.com/in/mezpahlan" },
+      { Weight = 6, Name = "github", URL = "https://github.com/mezpahlan" }
   ]
 
   [outputFormats]
