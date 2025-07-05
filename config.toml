@@ -12,10 +12,6 @@ rssLimit = 10
   [params.author]
     name = "Mez Pahlan"
 
-[services]
-  [services.disqus]
-    shortname = "mezpahlan"
-
 [menus]
   main = [
       { Weight = 4, Name = "mastodon", URL = "https://androiddev.social/@mez" },
