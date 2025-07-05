@@ -40,7 +40,6 @@ will be built.
 - [ ] Custom CNAME.
 - [ ] Remove gists. These are deprecated by Hugo so convert them all to markdown. Fewer script tags.
 - [ ] Check site.baseURL vs absURL usage.
-- [ ] Remove Disqus
 - [ ] Remove image resizing options set a single sensible size
 - [ ] Remove as much non static stuff as possible
 - [ ] Remove Twitter
