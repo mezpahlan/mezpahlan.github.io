@@ -42,4 +42,3 @@ will be built.
 - [ ] Check site.baseURL vs absURL usage.
 - [ ] Remove image resizing options set a single sensible size
 - [ ] Remove as much non static stuff as possible
-- [ ] Remove Twitter
