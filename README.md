@@ -27,10 +27,12 @@ To create a draft do the following on the `main` branch:
 
 ## Deploy
 
-To deploy do the following:
+The site is automatically built and deployed using [Github Actions](/.github/workflows/hugo.yml). All _non draft_ pages
+will be built.
 
-1. Commit your changes in the `main` branch.
-2. Run `$ ./deploy.sh`.
+1. Once you are happy with your draft ensure the draft front matter is removed.
+2. Commit your changes.
+3. Push.
 
 ## Still to do
 
