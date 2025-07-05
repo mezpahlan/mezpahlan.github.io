@@ -13,7 +13,7 @@
       {{ range .Paginator.Pages }}
         <div class="post-item">
           <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            {{- partial "post_time.html" . -}}
           <p>{{ .Summary }}</p>
           <a href="{{ .RelPermalink }}" class="read-more">Read More &rarr;</a>
         </div>
