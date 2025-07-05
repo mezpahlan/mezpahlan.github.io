@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <article class="tag-term-page">
+    <header>
+      <h1>Posts tagged with "{{ .Title }}"</h1>
+      {{ with .Content }}
+        <div class="tag-description">
+          {{ . }}
+        </div>
+      {{ end }}
+    </header>
+
+    <section class="post-list">
+      {{ range .Paginator.Pages }}
+        <div class="post-item">
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+          <p>{{ .Summary }}</p>
+          <a href="{{ .RelPermalink }}" class="read-more">Read More &rarr;</a>
+        </div>
+      {{ end }}
+    </section>
+
+    {{ partial "pagination.html" . }}
+  </article>
+{{ end }}
