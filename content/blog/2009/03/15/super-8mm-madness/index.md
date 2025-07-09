@@ -6,7 +6,7 @@ tags = ["movies"]
 title = "Super 8mm Madness"
 
 +++
-{{< youtube "AL8RF98Oigk" >}}
+{{< youtube id="AL8RF98Oigk" loading=lazy >}}
 
 <!--more-->
 

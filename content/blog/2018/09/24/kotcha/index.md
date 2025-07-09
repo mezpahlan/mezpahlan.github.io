@@ -12,7 +12,7 @@ Well it has been a long time between posts but I promise it is for a good reason
 platform. It is compatible with Java down to the bytecode level meaning you can have a mixed project - some Java some
 Kotlin. Whilst this sounds like it would be a great way to slowly migrate a large project this comes with some gotchas.
 
-{{< youtube MXm_2YOzuxo >}}
+{{< youtube id=MXm_2YOzuxo loading=lazy >}}
 
 <!--more-->
 

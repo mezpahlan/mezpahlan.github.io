@@ -12,7 +12,7 @@ For the past few weeks I've been taking a brief detour into the
 Android. I've building a success screen that initially shows a full screen image and text and later transitions into a
 summary of your transaction.
 
-{{< youtube KZ5WGGNSVjw >}}
+{{< youtube id=KZ5WGGNSVjw loading=lazy >}}
 
 This post documents some of the things I've learned whilst working on this.
 <!--more-->

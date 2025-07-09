@@ -23,3 +23,8 @@ rssLimit = 10
     [outputFormats.RSS]
       mediatype = "application/rss"
       baseName = "rss"
+
+[privacy]
+  [privacy.youTube]
+    disable = false
+    privacyEnhanced = true

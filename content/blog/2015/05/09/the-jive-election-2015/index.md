@@ -10,7 +10,7 @@ title = "The Jive Election 2015"
 Throughout March and April of 2015 I have been busy working on a pet project with my friend Ricky Shelton. The idea was
 simple. Make the politicians running in the 2015 UK General Election more electable by having them speak Jive.
 
-{{< youtube "RrZlWw8Di10" >}}
+{{< youtube id="RrZlWw8Di10" loading=lazy >}}
 
 <!--more-->
 
