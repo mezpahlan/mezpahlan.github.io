@@ -1,29 +1,34 @@
 {{/* get file that matches the filename as specified as src="" in shortcode */}}
 {{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+{{ $scratch := newScratch }}
 
 {{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
-{{/* set the sizes attribute to (min-width: 58em) 1200px, 100vw unless overridden in shortcode */}}
-{{/* punish those that are not on a modern browser by providing the highest resolution image available.  */}}
+{{/* set the sizes attribute e.g. (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
+{{/* punish those that are not on a modern browser by providing the highest resolution image available. */}}
 
-<img 
-  {{ with .Get "sizes" }}
-  sizes='{{.}}'
+<img {{ with .Get "sizes" }} sizes='{{.}}' {{ else }}sizes="(min-width: 48em) 50vmin, 75vmin" {{ end }} srcset='
+  {{ if ge $src.Width "300" }}
+    {{ with ($src.Resize "300x webp").RelPermalink }}
+      {{ $scratch.Set "smallest" . }}
+      {{.}} 300w,
+    {{ end }}
   {{ end }}
-  srcset='
-  {{ if ge $src.Width "500" }}
-    {{ with ($src.Resize "500x").RelPermalink }}{{.}} 1x{{ end }}
-  {{ end }}
-  {{ if ge $src.Width "800" }}
-    {{ with ($src.Resize "800x").RelPermalink }}, {{.}} 1.6x{{ end }}
+  {{ if ge $src.Width "600" }}
+    {{ with ($src.Resize "600x webp").RelPermalink }}
+       {{ $scratch.Set "smallest" . }}
+      {{.}} 600w,
+    {{ end }}
   {{ end }}
   {{ if ge $src.Width "1200" }}
-    {{ with ($src.Resize "1200x").RelPermalink }}, {{.}} 2.4x{{ end }}
+    {{ with ($src.Resize "1200x webp").RelPermalink }}
+       {{ $scratch.Set "smallest" . }}
+      {{.}} 1200w,
+    {{ end }}
   {{ end }}
-  {{ if ge $src.Width "1500" }}
-    {{ with ($src.Resize "1500x").RelPermalink }}, {{.}} 3x {{ end }}
-  {{ end }}'
-  src="{{ $src.RelPermalink }}" 
-  {{ with .Get "alt" }}
-  alt="{{.}}"
-  {{ end }}
->
+  {{ if ge $src.Width "2000" }}
+    {{ with ($src.Resize "2000x webp").RelPermalink }}
+       {{ $scratch.Set "smallest" . }}
+       {{.}} 2000w,
+    {{ end }}
+  {{ end }}' src="{{ $scratch.Get "smallest" }}" {{ with .Get "alt" }} alt="{{.}}" {{ end }} decoding="async"
+  fetchpriority="low" />
