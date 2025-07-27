@@ -12,7 +12,7 @@ defaults:
     shell: bash
 
 jobs:
-  create-commit:
+  create-draft:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.147.9
