@@ -20,7 +20,7 @@ $ git clone --recurse-submodules git@github.com:mezpahlan/mezpahlan.github.io.gi
 
 To create a draft do the following on the `main` branch:
 
-1. Run `$ hugo new blog/20YY/MM/DD/post-title` substituting the appropriate date characters.
+1. Run `$ hugo new content/blog/20YY/MM/DD/post-title` substituting the appropriate date characters.
 2. Edit your post.
     - Hard wrap at 120 except Hugo shortcodes.
 3. Preview the site by running `$ hugo server --buildDrafts`.
