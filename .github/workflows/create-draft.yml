@@ -1,0 +1,56 @@
+name: Create Draft
+
+on:
+  workflow_dispatch:
+    inputs:
+      filename:
+        description: 'Name of the file to create'
+        required: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  create-commit:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.147.9
+      HUGO_ENVIRONMENT: production
+      TZ: Europe/London
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      
+      - name: Calculate date
+        id: calculate-date
+        run: |
+          echo "date=$(date +'%Y/%m/%d')" >> "$GITHUB_OUTPUT"
+
+      - name: Create blog path
+        id: calculate-path
+        run: |
+          echo "path=content/blog/${{ steps.calculate-date.outputs.date }}/${{ github.event.inputs.filename }}" >> "$GITHUB_OUTPUT"
+
+      - name: Create file
+        run: |
+          hugo new ${{ steps.calculate-path.outputs.path }}
+          
+      - name: Commit and push changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add ${{ steps.calculate-path.outputs.path }}
+          git commit -m "Add draft for ${{ github.event.inputs.filename }}"
+          git push
