@@ -41,7 +41,8 @@ jobs:
       - name: Create blog path
         id: calculate-path
         run: |
-          echo "path=content/blog/${{ steps.calculate-date.outputs.date }}/${{ github.event.inputs.filename }}" >> "$GITHUB_OUTPUT"
+          filename=$(echo '${{ github.event.inputs.filename }}' | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+          echo "path=content/blog/${{ steps.calculate-date.outputs.date }}/$filename" >> "$GITHUB_OUTPUT"
 
       - name: Create file
         run: |
