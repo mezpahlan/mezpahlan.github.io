@@ -8,7 +8,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 rssLimit = 10
 
 [params]
-  description = "Android Developer based in Bristol, UK. Bits and bobs that I get up to."
+  description = "Staff Engineer specialising in Android and Experimentation based in Bristol, UK."
   [params.author]
     name = "Mez Pahlan"
 
