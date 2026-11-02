@@ -1,6 +1,6 @@
 baseURL = "https://mezpahlan.github.io/"
 disablePathToLower = true
-languageCode = "en-gb"
+locale = "en-gb"
 title = "Mez Says"
 theme = "hyde"
 paginateSize = 7
